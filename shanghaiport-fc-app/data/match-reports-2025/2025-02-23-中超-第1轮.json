@@ -1,0 +1,502 @@
+{
+  "match_info": {
+    "match_id": "a67ccb3a",
+    "date": "2025-02-23",
+    "time": "19:35",
+    "competition": {
+      "name": "Chinese Football Association Super League",
+      "season": "2025",
+      "round": "Matchweek 1"
+    },
+    "venue": {
+      "name": "SAIC Motor Pudong Arena",
+      "attendance": 13922
+    },
+    "referee": {
+      "main": "Ai Kun",
+      "ar1": "Shi Xiang",
+      "ar2": "Xi Fei",
+      "fourth": "Zhen Wei",
+      "var": "Wang Wei",
+      "country": "China"
+    }
+  },
+  "teams": {
+    "home": {
+      "name": "Shanghai Port",
+      "full_name": "",
+      "score": 3,
+      "score_ht": 0,
+      "formation": "4-2-3-1",
+      "coach": "Kevin Muscat",
+      "captain": "Yan Junling",
+      "lineup": [
+        {
+          "number": "1",
+          "name": "Yan Junling",
+          "country": "Unknown"
+        },
+        {
+          "number": "3",
+          "name": "Tyias Browning",
+          "country": "Unknown"
+        },
+        {
+          "number": "6",
+          "name": "Xu Xin",
+          "country": "Unknown"
+        },
+        {
+          "number": "9",
+          "name": "Gustavo",
+          "country": "Unknown"
+        },
+        {
+          "number": "10",
+          "name": "Mateus Vital",
+          "country": "Unknown"
+        },
+        {
+          "number": "13",
+          "name": "Wei Zhen",
+          "country": "Unknown"
+        },
+        {
+          "number": "19",
+          "name": "Wang Zhen'ao",
+          "country": "Unknown"
+        },
+        {
+          "number": "22",
+          "name": "Jussa",
+          "country": "Unknown"
+        },
+        {
+          "number": "27",
+          "name": "Feng Jing",
+          "country": "Unknown"
+        },
+        {
+          "number": "32",
+          "name": "Li Shuai",
+          "country": "Unknown"
+        },
+        {
+          "number": "45",
+          "name": "Leo",
+          "country": "Unknown"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": "12",
+          "name": "Chen Wei",
+          "country": "Unknown"
+        },
+        {
+          "number": "25",
+          "name": "Du Jia",
+          "country": "Unknown"
+        },
+        {
+          "number": "53",
+          "name": "Li Zhiliang",
+          "country": "Unknown"
+        },
+        {
+          "number": "4",
+          "name": "Wang Shenchao",
+          "country": "Unknown"
+        },
+        {
+          "number": "5",
+          "name": "Zhang Linpeng",
+          "country": "Unknown"
+        },
+        {
+          "number": "11",
+          "name": "Lü Wenjun",
+          "country": "Unknown"
+        },
+        {
+          "number": "14",
+          "name": "Li Shenglong",
+          "country": "Unknown"
+        },
+        {
+          "number": "15",
+          "name": "Ming Tian",
+          "country": "Unknown"
+        },
+        {
+          "number": "18",
+          "name": "Feierding Aisikaer",
+          "country": "Unknown"
+        },
+        {
+          "number": "20",
+          "name": "Yang Shiyuan",
+          "country": "Unknown"
+        },
+        {
+          "number": "23",
+          "name": "Fu Huan",
+          "country": "Unknown"
+        },
+        {
+          "number": "36",
+          "name": "Abulahan Halike",
+          "country": "Unknown"
+        }
+      ],
+      "substitutions": []
+    },
+    "away": {
+      "name": "Shenzhen Peng City",
+      "full_name": "",
+      "score": 1,
+      "score_ht": 0,
+      "formation": "3-4-3",
+      "coach": "Christian Lattanzio",
+      "captain": "Jiang Zhipeng",
+      "lineup": [
+        {
+          "number": "14",
+          "name": "Zhao Shi",
+          "country": "Unknown"
+        },
+        {
+          "number": "2",
+          "name": "Zhang Wei",
+          "country": "Unknown"
+        },
+        {
+          "number": "4",
+          "name": "Jiang Zhipeng",
+          "country": "Unknown"
+        },
+        {
+          "number": "9",
+          "name": "Tiago",
+          "country": "Unknown"
+        },
+        {
+          "number": "11",
+          "name": "Edu Garcia",
+          "country": "Unknown"
+        },
+        {
+          "number": "12",
+          "name": "Zhang Xiaobin",
+          "country": "Unknown"
+        },
+        {
+          "number": "15",
+          "name": "Yu Rui",
+          "country": "Unknown"
+        },
+        {
+          "number": "23",
+          "name": "Yang Yiming",
+          "country": "Unknown"
+        },
+        {
+          "number": "27",
+          "name": "Baihelamu Abuduwaili",
+          "country": "Unknown"
+        },
+        {
+          "number": "28",
+          "name": "Zhang Yudong",
+          "country": "Unknown"
+        },
+        {
+          "number": "36",
+          "name": "Eden Karzev",
+          "country": "Unknown"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": "1",
+          "name": "Ji Jiabao",
+          "country": "Unknown"
+        },
+        {
+          "number": "13",
+          "name": "Peng Peng",
+          "country": "Unknown"
+        },
+        {
+          "number": "8",
+          "name": "Zhou Dadi",
+          "country": "Unknown"
+        },
+        {
+          "number": "10",
+          "name": "Manprit Sarkaria",
+          "country": "Unknown"
+        },
+        {
+          "number": "16",
+          "name": "Li Zhi",
+          "country": "Unknown"
+        },
+        {
+          "number": "19",
+          "name": "Matthew Orr",
+          "country": "Unknown"
+        },
+        {
+          "number": "22",
+          "name": "Zhang Yujie",
+          "country": "Unknown"
+        },
+        {
+          "number": "29",
+          "name": "Wang Jiao",
+          "country": "Unknown"
+        },
+        {
+          "number": "34",
+          "name": "Shahsat Hujahmat",
+          "country": "Unknown"
+        },
+        {
+          "number": "46",
+          "name": "Shen Huanming",
+          "country": "Unknown"
+        },
+        {
+          "number": "56",
+          "name": "Jiang Weiyi",
+          "country": "Unknown"
+        }
+      ],
+      "substitutions": []
+    }
+  },
+  "events": [
+    {
+      "minute": 3,
+      "minute_extra": 0,
+      "type": "goal",
+      "team": "home",
+      "player": "Jussa",
+      "player2": "",
+      "goal_type": "goal",
+      "player_out": "",
+      "description": "GOAL"
+    },
+    {
+      "minute": 27,
+      "minute_extra": 0,
+      "type": "yellow_card",
+      "team": "home",
+      "player": "Wang Zhen'ao",
+      "player2": "",
+      "goal_type": "",
+      "player_out": "",
+      "description": "YELLOW CARD"
+    },
+    {
+      "minute": 29,
+      "minute_extra": 0,
+      "type": "yellow_card",
+      "team": "away",
+      "player": "Tiago",
+      "player2": "",
+      "goal_type": "",
+      "player_out": "",
+      "description": "YELLOW CARD"
+    },
+    {
+      "minute": 55,
+      "minute_extra": 0,
+      "type": "substitution",
+      "team": "away",
+      "player": "Matthew Orr",
+      "player2": "",
+      "goal_type": "",
+      "player_out": "Baihelamu Abuduwaili",
+      "description": "SUBSTITUTION"
+    },
+    {
+      "minute": 62,
+      "minute_extra": 0,
+      "type": "goal",
+      "team": "home",
+      "player": "Gustavo",
+      "player2": "Xu Xin",
+      "goal_type": "goal",
+      "player_out": "",
+      "description": "GOAL"
+    },
+    {
+      "minute": 70,
+      "minute_extra": 0,
+      "type": "substitution",
+      "team": "away",
+      "player": "Zhang Yujie",
+      "player2": "",
+      "goal_type": "",
+      "player_out": "Zhang Wei",
+      "description": "SUBSTITUTION"
+    },
+    {
+      "minute": 71,
+      "minute_extra": 0,
+      "type": "substitution",
+      "team": "away",
+      "player": "Manprit Sarkaria",
+      "player2": "",
+      "goal_type": "",
+      "player_out": "Edu Garcia",
+      "description": "SUBSTITUTION"
+    },
+    {
+      "minute": 75,
+      "minute_extra": 0,
+      "type": "substitution",
+      "team": "home",
+      "player": "Ming Tian",
+      "player2": "",
+      "goal_type": "",
+      "player_out": "Feng Jing",
+      "description": "SUBSTITUTION"
+    },
+    {
+      "minute": 76,
+      "minute_extra": 0,
+      "type": "yellow_card",
+      "team": "away",
+      "player": "Zhang Xiaobin",
+      "player2": "",
+      "goal_type": "",
+      "player_out": "",
+      "description": "YELLOW CARD"
+    },
+    {
+      "minute": 80,
+      "minute_extra": 0,
+      "type": "goal",
+      "team": "away",
+      "player": "Matthew Orr",
+      "player2": "Manprit Sarkaria",
+      "goal_type": "goal",
+      "player_out": "",
+      "description": "GOAL"
+    },
+    {
+      "minute": 82,
+      "minute_extra": 0,
+      "type": "substitution",
+      "team": "home",
+      "player": "Wang Shenchao",
+      "player2": "",
+      "goal_type": "",
+      "player_out": "Wang Zhen'ao",
+      "description": "SUBSTITUTION"
+    },
+    {
+      "minute": 83,
+      "minute_extra": 0,
+      "type": "yellow_card",
+      "team": "away",
+      "player": "Jiang Zhipeng",
+      "player2": "",
+      "goal_type": "",
+      "player_out": "",
+      "description": "YELLOW CARD"
+    },
+    {
+      "minute": 86,
+      "minute_extra": 0,
+      "type": "yellow_card",
+      "team": "home",
+      "player": "Xu Xin",
+      "player2": "",
+      "goal_type": "",
+      "player_out": "",
+      "description": "YELLOW CARD"
+    },
+    {
+      "minute": 90,
+      "minute_extra": 1,
+      "type": "substitution",
+      "team": "home",
+      "player": "Feierding Aisikaer",
+      "player2": "",
+      "goal_type": "",
+      "player_out": "Xu Xin",
+      "description": "SUBSTITUTION"
+    },
+    {
+      "minute": 90,
+      "minute_extra": 9,
+      "type": "yellow_card",
+      "team": "home",
+      "player": "Wei Zhen",
+      "player2": "",
+      "goal_type": "",
+      "player_out": "",
+      "description": "YELLOW CARD"
+    }
+  ],
+  "statistics": {
+    "possession": {
+      "home": "56%",
+      "away": "44%"
+    },
+    "shots_on_target": {
+      "home": "7",
+      "away": "3"
+    },
+    "shots": {
+      "home": "16",
+      "away": "13"
+    },
+    "shots_accuracy": {
+      "home": "44%",
+      "away": "23%"
+    },
+    "saves": {
+      "home": "2 of 3-66%",
+      "away": "4 of 7-57%"
+    },
+    "fouls": {
+      "home": "14",
+      "away": "17"
+    },
+    "corners": {
+      "home": "5",
+      "away": "6"
+    },
+    "crosses": {
+      "home": "16",
+      "away": "26"
+    },
+    "interceptions": {
+      "home": "11",
+      "away": "4"
+    },
+    "offsides": {
+      "home": "3",
+      "away": "2"
+    },
+    "yellow_cards": {
+      "home": 3,
+      "away": 3
+    },
+    "red_cards": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  "metadata": {
+    "source": "FBref",
+    "url": "https://fbref.com/en/matches/a67ccb3a/Shanghai-Port-Shenzhen-Peng-City-February-23-2025-Chinese-Super-League",
+    "scraped_at": "2026-03-29T22:24:36",
+    "version": "9.3-final"
+  }
+}

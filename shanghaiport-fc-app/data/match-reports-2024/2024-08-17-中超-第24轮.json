@@ -1,0 +1,551 @@
+{
+  "match_info": {
+    "match_id": "65be7796",
+    "date": "2024-08-17",
+    "time": "18:00",
+    "competition": {
+      "name": "Chinese Football Association Super League",
+      "season": "2024",
+      "round": "Matchweek 24"
+    },
+    "venue": {
+      "name": "SAIC Motor Pudong Arena",
+      "attendance": 13078
+    },
+    "referee": {
+      "main": "Jing Wang",
+      "ar1": "Guo Jingtao",
+      "ar2": "",
+      "fourth": "Wenbin Zhu",
+      "var": "Zhen Wei",
+      "country": "China"
+    }
+  },
+  "teams": {
+    "home": {
+      "name": "Shanghai Port",
+      "full_name": "",
+      "score": 4,
+      "score_ht": 0,
+      "formation": "4-2-3-1",
+      "coach": "Kevin Muscat",
+      "captain": "Wang Shenchao",
+      "lineup": [
+        {
+          "number": "1",
+          "name": "Yan Junling",
+          "country": "Unknown"
+        },
+        {
+          "number": "3",
+          "name": "Tyias Browning",
+          "country": "Unknown"
+        },
+        {
+          "number": "4",
+          "name": "Wang Shenchao",
+          "country": "Unknown"
+        },
+        {
+          "number": "5",
+          "name": "Zhang Linpeng",
+          "country": "Unknown"
+        },
+        {
+          "number": "10",
+          "name": "Mateus Vital",
+          "country": "Unknown"
+        },
+        {
+          "number": "21",
+          "name": "Óscar Melendo",
+          "country": "Unknown"
+        },
+        {
+          "number": "22",
+          "name": "Jussa",
+          "country": "Unknown"
+        },
+        {
+          "number": "26",
+          "name": "Liu Ruofan",
+          "country": "Unknown"
+        },
+        {
+          "number": "30",
+          "name": "Gabriel Airton de Souza",
+          "country": "Unknown"
+        },
+        {
+          "number": "32",
+          "name": "Li Shuai",
+          "country": "Unknown"
+        },
+        {
+          "number": "45",
+          "name": "Leo",
+          "country": "Unknown"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": "12",
+          "name": "Chen Wei",
+          "country": "Unknown"
+        },
+        {
+          "number": "11",
+          "name": "Lü Wenjun",
+          "country": "Unknown"
+        },
+        {
+          "number": "13",
+          "name": "Wei Zhen",
+          "country": "Unknown"
+        },
+        {
+          "number": "14",
+          "name": "Li Shenglong",
+          "country": "Unknown"
+        },
+        {
+          "number": "15",
+          "name": "Ming Tian",
+          "country": "Unknown"
+        },
+        {
+          "number": "20",
+          "name": "Yang Shiyuan",
+          "country": "Unknown"
+        },
+        {
+          "number": "23",
+          "name": "Fu Huan",
+          "country": "Unknown"
+        },
+        {
+          "number": "29",
+          "name": "Alexander Jojo",
+          "country": "Unknown"
+        },
+        {
+          "number": "36",
+          "name": "Abulahan Halike",
+          "country": "Unknown"
+        },
+        {
+          "number": "40",
+          "name": "Wumitijiang Yusupu",
+          "country": "Unknown"
+        },
+        {
+          "number": "47",
+          "name": "Kuai Jiwen",
+          "country": "Unknown"
+        },
+        {
+          "number": "49",
+          "name": "Li Xinxiang",
+          "country": "Unknown"
+        }
+      ],
+      "substitutions": []
+    },
+    "away": {
+      "name": "Yunnan Yukun",
+      "full_name": "",
+      "score": 2,
+      "score_ht": 1,
+      "formation": "4-3-3",
+      "coach": "Jørn Andersen",
+      "captain": "Alexandru Ioniță",
+      "lineup": [
+        {
+          "number": "1",
+          "name": "Ma Zhen",
+          "country": "Unknown"
+        },
+        {
+          "number": "4",
+          "name": "Li Songyi",
+          "country": "Unknown"
+        },
+        {
+          "number": "5",
+          "name": "Dilimulati Maolaniyazi",
+          "country": "Unknown"
+        },
+        {
+          "number": "9",
+          "name": "Pedro",
+          "country": "Unknown"
+        },
+        {
+          "number": "10",
+          "name": "Alexandru Ioniță",
+          "country": "Unknown"
+        },
+        {
+          "number": "14",
+          "name": "Rui Filipe Cunha Correia",
+          "country": "Unknown"
+        },
+        {
+          "number": "22",
+          "name": "Tang Miao",
+          "country": "Unknown"
+        },
+        {
+          "number": "25",
+          "name": "Oscar Maritu",
+          "country": "Unknown"
+        },
+        {
+          "number": "26",
+          "name": "Zhang Chenliang",
+          "country": "Unknown"
+        },
+        {
+          "number": "27",
+          "name": "Han Zilong",
+          "country": "Unknown"
+        },
+        {
+          "number": "30",
+          "name": "John Hou Sæter",
+          "country": "Unknown"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": "24",
+          "name": "Yu Jianxian",
+          "country": "Unknown"
+        },
+        {
+          "number": "31",
+          "name": "Geng Xiaofeng",
+          "country": "Unknown"
+        },
+        {
+          "number": "2",
+          "name": "Chen Yuhao",
+          "country": "Unknown"
+        },
+        {
+          "number": "6",
+          "name": "Zhao Yuhao",
+          "country": "Unknown"
+        },
+        {
+          "number": "7",
+          "name": "Luo Jing",
+          "country": "Unknown"
+        },
+        {
+          "number": "8",
+          "name": "Ye Chugui",
+          "country": "Unknown"
+        },
+        {
+          "number": "16",
+          "name": "Xiangshuo Zhang",
+          "country": "Unknown"
+        },
+        {
+          "number": "17",
+          "name": "Xuelong Sun",
+          "country": "Unknown"
+        },
+        {
+          "number": "19",
+          "name": "Duan Dezhi",
+          "country": "Unknown"
+        },
+        {
+          "number": "20",
+          "name": "Zhang Yufeng",
+          "country": "Unknown"
+        },
+        {
+          "number": "23",
+          "name": "Yin Congyao",
+          "country": "Unknown"
+        },
+        {
+          "number": "29",
+          "name": "Yang He",
+          "country": "Unknown"
+        }
+      ],
+      "substitutions": []
+    }
+  },
+  "events": [
+    {
+      "minute": 29,
+      "minute_extra": 0,
+      "type": "goal",
+      "team": "home",
+      "player": "Leo",
+      "player2": "Liu Ruofan",
+      "goal_type": "penalty_goal",
+      "player_out": "",
+      "description": "GOAL"
+    },
+    {
+      "minute": 29,
+      "minute_extra": 0,
+      "type": "goal",
+      "team": "away",
+      "player": "Leo",
+      "player2": "Liu Ruofan",
+      "goal_type": "goal",
+      "player_out": "",
+      "description": "GOAL"
+    },
+    {
+      "minute": 37,
+      "minute_extra": 0,
+      "type": "goal",
+      "team": "home",
+      "player": "Oscar Maritu",
+      "player2": "John Hou Sæter",
+      "goal_type": "goal",
+      "player_out": "",
+      "description": "GOAL"
+    },
+    {
+      "minute": 46,
+      "minute_extra": 0,
+      "type": "substitution",
+      "team": "home",
+      "player": "Zhao Yuhao",
+      "player2": "",
+      "goal_type": "",
+      "player_out": "Han Zilong",
+      "description": "SUBSTITUTION"
+    },
+    {
+      "minute": 46,
+      "minute_extra": 0,
+      "type": "goal",
+      "team": "away",
+      "player": "Liu Ruofan",
+      "player2": "",
+      "goal_type": "goal",
+      "player_out": "",
+      "description": "GOAL"
+    },
+    {
+      "minute": 54,
+      "minute_extra": 0,
+      "type": "goal",
+      "team": "away",
+      "player": "Mateus Vital",
+      "player2": "",
+      "goal_type": "goal",
+      "player_out": "",
+      "description": "GOAL"
+    },
+    {
+      "minute": 57,
+      "minute_extra": 0,
+      "type": "goal",
+      "team": "away",
+      "player": "Liu Ruofan",
+      "player2": "Leo",
+      "goal_type": "goal",
+      "player_out": "",
+      "description": "GOAL"
+    },
+    {
+      "minute": 62,
+      "minute_extra": 0,
+      "type": "goal",
+      "team": "home",
+      "player": "Tang Miao",
+      "player2": "",
+      "goal_type": "goal",
+      "player_out": "",
+      "description": "GOAL"
+    },
+    {
+      "minute": 76,
+      "minute_extra": 0,
+      "type": "substitution",
+      "team": "home",
+      "player": "Duan Dezhi",
+      "player2": "",
+      "goal_type": "",
+      "player_out": "Li Songyi",
+      "description": "SUBSTITUTION"
+    },
+    {
+      "minute": 76,
+      "minute_extra": 0,
+      "type": "substitution",
+      "team": "home",
+      "player": "Zhang Yufeng",
+      "player2": "",
+      "goal_type": "",
+      "player_out": "Rui Filipe Cunha Correia",
+      "description": "SUBSTITUTION"
+    },
+    {
+      "minute": 76,
+      "minute_extra": 0,
+      "type": "substitution",
+      "team": "home",
+      "player": "Ye Chugui",
+      "player2": "",
+      "goal_type": "",
+      "player_out": "Alexandru Ioniță",
+      "description": "SUBSTITUTION"
+    },
+    {
+      "minute": 77,
+      "minute_extra": 0,
+      "type": "substitution",
+      "team": "away",
+      "player": "Fu Huan",
+      "player2": "",
+      "goal_type": "",
+      "player_out": "Wang Shenchao",
+      "description": "SUBSTITUTION"
+    },
+    {
+      "minute": 77,
+      "minute_extra": 0,
+      "type": "substitution",
+      "team": "away",
+      "player": "Li Xinxiang",
+      "player2": "",
+      "goal_type": "",
+      "player_out": "Liu Ruofan",
+      "description": "SUBSTITUTION"
+    },
+    {
+      "minute": 80,
+      "minute_extra": 0,
+      "type": "yellow_card",
+      "team": "away",
+      "player": "Mateus Vital",
+      "player2": "",
+      "goal_type": "",
+      "player_out": "",
+      "description": "YELLOW CARD"
+    },
+    {
+      "minute": 83,
+      "minute_extra": 0,
+      "type": "substitution",
+      "team": "away",
+      "player": "Kuai Jiwen",
+      "player2": "",
+      "goal_type": "",
+      "player_out": "Óscar Melendo",
+      "description": "SUBSTITUTION"
+    },
+    {
+      "minute": 85,
+      "minute_extra": 0,
+      "type": "yellow_card",
+      "team": "away",
+      "player": "Jussa",
+      "player2": "",
+      "goal_type": "",
+      "player_out": "",
+      "description": "YELLOW CARD"
+    },
+    {
+      "minute": 88,
+      "minute_extra": 0,
+      "type": "substitution",
+      "team": "home",
+      "player": "Luo Jing",
+      "player2": "",
+      "goal_type": "",
+      "player_out": "John Hou Sæter",
+      "description": "SUBSTITUTION"
+    },
+    {
+      "minute": 90,
+      "minute_extra": 2,
+      "type": "substitution",
+      "team": "away",
+      "player": "Wumitijiang Yusupu",
+      "player2": "",
+      "goal_type": "",
+      "player_out": "Zhang Linpeng",
+      "description": "SUBSTITUTION"
+    },
+    {
+      "minute": 90,
+      "minute_extra": 3,
+      "type": "substitution",
+      "team": "away",
+      "player": "Yang Shiyuan",
+      "player2": "",
+      "goal_type": "",
+      "player_out": "Jussa",
+      "description": "SUBSTITUTION"
+    }
+  ],
+  "statistics": {
+    "possession": {
+      "home": "63%",
+      "away": "37%"
+    },
+    "shots_on_target": {
+      "home": "11",
+      "away": "4"
+    },
+    "shots": {
+      "home": "29",
+      "away": "10"
+    },
+    "shots_accuracy": {
+      "home": "38%",
+      "away": "40%"
+    },
+    "saves": {
+      "home": "2 of 4-50%",
+      "away": "6 of 11-54%"
+    },
+    "fouls": {
+      "home": "13",
+      "away": "13"
+    },
+    "corners": {
+      "home": "5",
+      "away": "3"
+    },
+    "crosses": {
+      "home": "27",
+      "away": "14"
+    },
+    "interceptions": {
+      "home": "7",
+      "away": "10"
+    },
+    "offsides": {
+      "home": "1",
+      "away": "4"
+    },
+    "yellow_cards": {
+      "home": 0,
+      "away": 2
+    },
+    "red_cards": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  "metadata": {
+    "source": "FBref",
+    "url": "https://fbref.com/en/matches/65be7796/Shanghai-Shenhua-Shanghai-Port-August-17-2024-Chinese-Super-League",
+    "scraped_at": "2026-03-29T22:21:04",
+    "version": "9.5-event-only-penalty-fix"
+  }
+}

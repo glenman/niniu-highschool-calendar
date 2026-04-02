@@ -1,0 +1,584 @@
+{
+  "match": {
+    "id": 1,
+    "round": "第1轮",
+    "date": "2026-03-07",
+    "time": "19:35",
+    "homeTeam": "上海海港",
+    "awayTeam": "河南俱乐部",
+    "venue": "上汽浦东足球场",
+    "city": "上海",
+    "result": "1-2",
+    "status": "已结束",
+    "attendance": "未知",
+    "referee": "唐顺琪",
+    "weather": "未知"
+  },
+  "summary": "河南队客场2-1战胜上海海港，取得新赛季开门红。河南队开场闪电战取得优势，随后凭借高效反击和稳固防守顶住主队反扑。上海海港控球率64%但进攻效率低下，河南队防守反击战术执行成功。",
+  "highlights": [
+    {
+      "time": "1'",
+      "description": "河南队钟义浩闪电破门，开场1分钟即取得领先，0-1",
+      "type": "goal",
+      "team": "away",
+      "player": "钟义浩"
+    },
+    {
+      "time": "16'",
+      "description": "河南队伊戈·迈达纳接王上源助攻头球破门，0-2",
+      "type": "goal",
+      "team": "away",
+      "player": "伊戈·迈达纳",
+      "assist": "王上源"
+    },
+    {
+      "time": "45+4'",
+      "description": "上海海港加布里埃尔接杨希助攻扳回一球，1-2",
+      "type": "goal",
+      "team": "home",
+      "player": "加布里埃尔",
+      "assist": "杨希"
+    },
+    {
+      "time": "45+3'",
+      "description": "河南队黄瑞峰获得黄牌",
+      "type": "card",
+      "team": "away",
+      "player": "黄瑞峰",
+      "cardType": "yellow"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "name": "上海海港",
+      "formation": "4-2-3-1",
+      "manager": "凯文·穆斯卡特",
+      "captain": "颜骏凌",
+      "players": [
+        {
+          "number": 1,
+          "name": "颜骏凌",
+          "position": "门将",
+          "nationality": "中国",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0
+        },
+        {
+          "number": 22,
+          "name": "杨希",
+          "position": "右后卫",
+          "nationality": "中国",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "yellowCards": 0,
+          "redCards": 0
+        },
+        {
+          "number": 13,
+          "name": "魏震",
+          "position": "中后卫",
+          "nationality": "中国",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0
+        },
+        {
+          "number": 40,
+          "name": "吾米提江",
+          "position": "中后卫",
+          "nationality": "中国",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0
+        },
+        {
+          "number": 32,
+          "name": "李帅",
+          "position": "左后卫",
+          "nationality": "中国",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0
+        },
+        {
+          "number": 8,
+          "name": "让克劳德",
+          "position": "后腰",
+          "nationality": "多哥",
+          "minutes": 70,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0
+        },
+        {
+          "number": 38,
+          "name": "卢永涛",
+          "position": "后腰",
+          "nationality": "中国",
+          "minutes": 46,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0
+        },
+        {
+          "number": 10,
+          "name": "维塔尔",
+          "position": "前腰",
+          "nationality": "巴西",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0
+        },
+        {
+          "number": 11,
+          "name": "加布里埃尔",
+          "position": "前腰",
+          "nationality": "巴西",
+          "minutes": 70,
+          "goals": 1,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0
+        },
+        {
+          "number": 17,
+          "name": "安佩姆",
+          "position": "前腰",
+          "nationality": "加纳",
+          "minutes": 60,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0
+        },
+        {
+          "number": 33,
+          "name": "刘祝润",
+          "position": "前锋",
+          "nationality": "中国",
+          "minutes": 82,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0
+        }
+      ],
+      "substitutes": [
+        {
+          "number": 47,
+          "name": "蒯纪闻",
+          "position": "中场",
+          "substitutedAt": 46,
+          "substitutedFor": "卢永涛"
+        },
+        {
+          "number": 45,
+          "name": "莱昂纳多",
+          "position": "前锋",
+          "substitutedAt": 60,
+          "substitutedFor": "安佩姆"
+        },
+        {
+          "number": 7,
+          "name": "武磊",
+          "position": "前锋",
+          "substitutedAt": 70,
+          "substitutedFor": "加布里埃尔"
+        },
+        {
+          "number": 6,
+          "name": "张源",
+          "position": "中场",
+          "substitutedAt": 70,
+          "substitutedFor": "让克劳德"
+        },
+        {
+          "number": 49,
+          "name": "李新翔",
+          "position": "前锋",
+          "substitutedAt": 82,
+          "substitutedFor": "刘祝润"
+        }
+      ]
+    },
+    "away": {
+      "name": "河南俱乐部",
+      "formation": "4-3-3",
+      "manager": "丹尼尔·拉莫斯",
+      "captain": "王上源",
+      "players": [
+        {
+          "number": 18,
+          "name": "王国明",
+          "position": "门将",
+          "nationality": "中国",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0
+        },
+        {
+          "number": 4,
+          "name": "叶力江·西纳尔",
+          "position": "右后卫",
+          "nationality": "中国",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0
+        },
+        {
+          "number": 2,
+          "name": "伊戈·迈达纳",
+          "position": "中后卫",
+          "nationality": "巴西",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0
+        },
+        {
+          "number": 23,
+          "name": "卢卡斯·迈亚",
+          "position": "中后卫",
+          "nationality": "巴西",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0
+        },
+        {
+          "number": 22,
+          "name": "黄瑞峰",
+          "position": "左后卫",
+          "nationality": "中国",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 1,
+          "redCards": 0
+        },
+        {
+          "number": 6,
+          "name": "王上源",
+          "position": "中场",
+          "nationality": "中国",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "yellowCards": 0,
+          "redCards": 0
+        },
+        {
+          "number": 7,
+          "name": "钟义浩",
+          "position": "中场",
+          "nationality": "中国",
+          "minutes": 76,
+          "goals": 1,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0
+        },
+        {
+          "number": 21,
+          "name": "贺超",
+          "position": "中场",
+          "nationality": "中国",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0
+        },
+        {
+          "number": 9,
+          "name": "古斯塔沃",
+          "position": "前锋",
+          "nationality": "巴西",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0
+        },
+        {
+          "number": 10,
+          "name": "布鲁诺·纳萨里奥",
+          "position": "前锋",
+          "nationality": "巴西",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0
+        },
+        {
+          "number": 14,
+          "name": "乔迪·姆布拉",
+          "position": "前锋",
+          "nationality": "西班牙",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0
+        }
+      ],
+      "substitutes": [
+        {
+          "number": 11,
+          "name": "乃比江·莫合买提",
+          "position": "后卫",
+          "substitutedAt": 76,
+          "substitutedFor": "钟义浩"
+        },
+        {
+          "number": 13,
+          "name": "阿布都肉苏力·阿布都拉木",
+          "position": "中场",
+          "substitutedAt": 90,
+          "substitutedFor": "贺超"
+        },
+        {
+          "number": 15,
+          "name": "阿布都哈力克·哈力克",
+          "position": "中场",
+          "substitutedAt": 90,
+          "substitutedFor": "乔迪·姆布拉"
+        },
+        {
+          "number": 24,
+          "name": "尹聪耀",
+          "position": "前锋",
+          "substitutedAt": 90,
+          "substitutedFor": "古斯塔沃"
+        },
+        {
+          "number": 3,
+          "name": "奥利弗·格比格",
+          "position": "后卫",
+          "substitutedAt": 90,
+          "substitutedFor": "布鲁诺·纳萨里奥"
+        }
+      ]
+    }
+  },
+  "statistics": [
+    {
+      "name": "控球率",
+      "home": "64%",
+      "away": "36%"
+    },
+    {
+      "name": "射门",
+      "home": "22",
+      "away": "10"
+    },
+    {
+      "name": "射正",
+      "home": "6",
+      "away": "3"
+    },
+    {
+      "name": "射门准确率",
+      "home": "27%",
+      "away": "30%"
+    },
+    {
+      "name": "扑救",
+      "home": "1",
+      "away": "5"
+    },
+    {
+      "name": "扑救成功率",
+      "home": "33.3%",
+      "away": "83.3%"
+    },
+    {
+      "name": "犯规",
+      "home": "14",
+      "away": "10"
+    },
+    {
+      "name": "角球",
+      "home": "11",
+      "away": "6"
+    },
+    {
+      "name": "传中",
+      "home": "46",
+      "away": "14"
+    },
+    {
+      "name": "拦截",
+      "home": "8",
+      "away": "13"
+    },
+    {
+      "name": "越位",
+      "home": "1",
+      "away": "4"
+    },
+    {
+      "name": "黄牌",
+      "home": "0",
+      "away": "1"
+    },
+    {
+      "name": "红牌",
+      "home": "0",
+      "away": "0"
+    }
+  ],
+  "playerStats": {
+    "home": [
+      {
+        "player": "加布里埃尔",
+        "goals": 1,
+        "assists": 0,
+        "shots": 0,
+        "shotsOnTarget": 0,
+        "passes": 0,
+        "passAccuracy": "0%",
+        "dribbles": 0,
+        "dribbleSuccess": 0,
+        "foulsWon": 0,
+        "foulsCommitted": 0,
+        "yellowCards": 0,
+        "rating": 7.5
+      },
+      {
+        "player": "杨希",
+        "goals": 0,
+        "assists": 1,
+        "shots": 0,
+        "shotsOnTarget": 0,
+        "passes": 0,
+        "passAccuracy": "0%",
+        "dribbles": 0,
+        "dribbleSuccess": 0,
+        "foulsWon": 0,
+        "foulsCommitted": 0,
+        "yellowCards": 0,
+        "rating": 7.2
+      },
+      {
+        "player": "李帅",
+        "goals": 0,
+        "assists": 0,
+        "shots": 5,
+        "shotsOnTarget": 1,
+        "passes": 0,
+        "passAccuracy": "0%",
+        "dribbles": 0,
+        "dribbleSuccess": 0,
+        "foulsWon": 0,
+        "foulsCommitted": 0,
+        "yellowCards": 0,
+        "rating": 6.8
+      },
+      {
+        "player": "颜骏凌",
+        "goals": 0,
+        "assists": 0,
+        "shots": 0,
+        "shotsOnTarget": 0,
+        "passes": 0,
+        "passAccuracy": "0%",
+        "dribbles": 0,
+        "dribbleSuccess": 0,
+        "foulsWon": 0,
+        "foulsCommitted": 0,
+        "yellowCards": 0,
+        "rating": 6.0
+      }
+    ],
+    "away": [
+      {
+        "player": "钟义浩",
+        "goals": 1,
+        "assists": 0,
+        "shots": 0,
+        "shotsOnTarget": 0,
+        "passes": 0,
+        "passAccuracy": "0%",
+        "dribbles": 0,
+        "dribbleSuccess": 0,
+        "foulsWon": 0,
+        "foulsCommitted": 0,
+        "yellowCards": 0,
+        "rating": 8.0
+      },
+      {
+        "player": "伊戈·迈达纳",
+        "goals": 1,
+        "assists": 0,
+        "shots": 0,
+        "shotsOnTarget": 0,
+        "passes": 0,
+        "passAccuracy": "0%",
+        "dribbles": 0,
+        "dribbleSuccess": 0,
+        "foulsWon": 0,
+        "foulsCommitted": 0,
+        "yellowCards": 0,
+        "rating": 8.2
+      },
+      {
+        "player": "王上源",
+        "goals": 0,
+        "assists": 1,
+        "shots": 0,
+        "shotsOnTarget": 0,
+        "passes": 0,
+        "passAccuracy": "0%",
+        "dribbles": 0,
+        "dribbleSuccess": 0,
+        "foulsWon": 0,
+        "foulsCommitted": 0,
+        "yellowCards": 0,
+        "rating": 7.5
+      },
+      {
+        "player": "王国明",
+        "goals": 0,
+        "assists": 0,
+        "shots": 0,
+        "shotsOnTarget": 0,
+        "passes": 0,
+        "passAccuracy": "0%",
+        "dribbles": 0,
+        "dribbleSuccess": 0,
+        "foulsWon": 0,
+        "foulsCommitted": 0,
+        "yellowCards": 0,
+        "rating": 8.5
+      }
+    ]
+  },
+  "keyFactors": [
+    "河南队开场1分钟即取得领先，占据心理优势",
+    "河南门将王国明发挥神勇，扑救成功率83.3%",
+    "上海海港控球率64%但进攻效率低下",
+    "河南队防守反击战术执行成功"
+  ]
+}

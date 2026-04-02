@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>全球旅行险投保平台 | InsureMO</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 进度指示器 -->
+    <div class="progress-bar">
+        <div class="progress-step active" data-step="1">
+            <div class="step-number">1</div>
+            <div class="step-label">填写信息</div>
+        </div>
+        <div class="progress-step" data-step="2">
+            <div class="step-number">2</div>
+            <div class="step-label">选择方案</div>
+        </div>
+        <div class="progress-step" data-step="3">
+            <div class="step-number">3</div>
+            <div class="step-label">报价确认</div>
+        </div>
+        <div class="progress-step" data-step="4">
+            <div class="step-number">4</div>
+            <div class="step-label">支付投保</div>
+        </div>
+        <div class="progress-step" data-step="5">
+            <div class="step-number">5</div>
+            <div class="step-label">完成出单</div>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="logo">
+                <span class="logo-icon">✈️</span>
+                <h1>全球旅行险投保平台</h1>
+            </div>
+            <p class="subtitle">为您提供全方位的旅行保障</p>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Step 1: 填写投保信息 -->
+            <section id="step1" class="step active">
+                <h2>📝 填写投保信息</h2>
+                <form id="insuranceForm">
+                    <div class="form-section">
+                        <h3>保障期间</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="effectiveDate">生效日期 <span class="required">*</span></label>
+                                <input type="date" id="effectiveDate" name="EffectiveDate" required>
+                                <span class="error-message"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="expiryDate">失效日期 <span class="required">*</span></label>
+                                <input type="date" id="expiryDate" name="ExpiryDate" required>
+                                <span class="error-message"></span>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="travelType">旅行类型 <span class="required">*</span></label>
+                                <select id="travelType" name="TravelType" required>
+                                    <option value="">请选择</option>
+                                    <option value="1">单次旅行</option>
+                                    <option value="2">多次旅行</option>
+                                </select>
+                                <span class="error-message"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="tripType">行程类型 <span class="required">*</span></label>
+                                <select id="tripType" name="TripType" required>
+                                    <option value="">请选择</option>
+                                    <option value="1">商务</option>
+                                    <option value="2">休闲</option>
+                                    <option value="3">留学</option>
+                                </select>
+                                <span class="error-message"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-section">
+                        <h3>投保人信息</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="customerName">姓名 <span class="required">*</span></label>
+                                <input type="text" id="customerName" name="Customer.Name" required
+                                       placeholder="请输入投保人姓名">
+                                <span class="error-message"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="gender">性别 <span class="required">*</span></label>
+                                <select id="gender" name="Customer.Gender" required>
+                                    <option value="">请选择</option>
+                                    <option value="M">男</option>
+                                    <option value="F">女</option>
+                                </select>
+                                <span class="error-message"></span>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="dateOfBirth">出生日期 <span class="required">*</span></label>
+                                <input type="date" id="dateOfBirth" name="Customer.DateOfBirth" required>
+                                <span class="error-message"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="insuredAge">年龄 <span class="required">*</span></label>
+                                <input type="number" id="insuredAge" name="Travelers[0].InsuredAge"
+                                       required min="0" max="100" placeholder="年龄">
+                                <span class="error-message"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-actions">
+                        <button type="submit" class="btn-primary">下一步：选择方案 →</button>
+                    </div>
+                </form>
+            </section>
+
+            <!-- Step 2: 选择产品方案 -->
+            <section id="step2" class="step">
+                <h2>🎯 选择保障方案</h2>
+                <div id="plansContainer" class="plans-grid">
+                    <!-- 动态加载方案 -->
+                </div>
+                <div class="form-actions">
+                    <button type="button" class="btn-secondary" onclick="goToStep(1)">← 上一步</button>
+                    <button type="button" class="btn-primary" id="btnStep2Next" disabled>
+                        下一步：计算保费 →
+                    </button>
+                </div>
+            </section>
+
+            <!-- Step 3: 报价确认 -->
+            <section id="step3" class="step">
+                <h2>💰 报价确认</h2>
+                <div id="quotationSummary" class="quotation-summary">
+                    <!-- 动态加载报价信息 -->
+                </div>
+                <div class="form-actions">
+                    <button type="button" class="btn-secondary" onclick="goToStep(2)">← 上一步</button>
+                    <button type="button" class="btn-primary" onclick="confirmQuotation()">
+                        确认报价并投保 →
+                    </button>
+                </div>
+            </section>
+
+            <!-- Step 4: 支付投保 -->
+            <section id="step4" class="step">
+                <h2>💳 支付投保</h2>
+                <div class="payment-section">
+                    <div class="payment-info">
+                        <h3>支付信息</h3>
+                        <div id="paymentAmount" class="payment-amount">
+                            <!-- 显示支付金额 -->
+                        </div>
+                    </div>
+                    <div class="form-actions">
+                        <button type="button" class="btn-secondary" onclick="goToStep(3)">← 上一步</button>
+                        <button type="button" class="btn-primary" onclick="processPayment()">
+                            确认支付
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Step 5: 完成出单 -->
+            <section id="step5" class="step">
+                <div class="success-message">
+                    <div class="success-icon">✅</div>
+                    <h2>🎉 投保成功！</h2>
+                    <p>您的保单已成功签发</p>
+                    <div id="policyDetails" class="policy-details">
+                        <!-- 显示保单信息 -->
+                    </div>
+                    <div class="form-actions">
+                        <button type="button" class="btn-primary" onclick="startNew()">
+                            开始新的投保
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Loading Overlay -->
+        <div id="loadingOverlay" class="loading-overlay" style="display: none;">
+            <div class="spinner"></div>
+            <p>处理中，请稍候...</p>
+        </div>
+
+        <!-- Error Toast -->
+        <div id="errorToast" class="toast error">
+            <span class="toast-icon">❌</span>
+            <span class="toast-message"></span>
+        </div>
+
+        <!-- Success Toast -->
+        <div id="successToast" class="toast success">
+            <span class="toast-icon">✅</span>
+            <span class="toast-message"></span>
+        </div>
+    </div>
+
+    <script>
+        // 配置
+        const CONFIG = {
+            BASE_URL: 'https://portal-gw.insuremo.com/platform/api-orchestration-test',
+            AUTH_TOKEN: 'MOATbWg4aRISAep86MorzeBulKla18sq',
+            PRODUCT: {
+                CODE: 'TRVL01',
+                ID: 375604942,
+                NAME: 'Travel Insurance'
+            }
+        };
+
+        // 全局状态
+        let appState = {
+            currentStep: 1,
+            formData: {},
+            selectedPlan: null,
+            calculationResult: null,
+            proposalNo: null,
+            policyNo: null
+        };
+
+        // 页面加载完成后初始化
+        document.addEventListener('DOMContentLoaded', () => {
+            initializeApp();
+        });
+
+        function initializeApp() {
+            setDefaultDates();
+            const form = document.getElementById('insuranceForm');
+            form.addEventListener('submit', handleFormSubmit);
+            setupFormValidation();
+            console.log('✅ 应用初始化完成');
+        }
+
+        function setDefaultDates() {
+            const today = new Date();
+            const tomorrow = new Date(today);
+            tomorrow.setDate(tomorrow.getDate() + 1);
+            const nextWeek = new Date(tomorrow);
+            nextWeek.setDate(nextWeek.getDate() + 7);
+
+            document.getElementById('effectiveDate').value = formatDate(tomorrow);
+            document.getElementById('expiryDate').value = formatDate(nextWeek);
+
+            document.getElementById('dateOfBirth').addEventListener('change', (e) => {
+                const birthDate = new Date(e.target.value);
+                const age = calculateAge(birthDate);
+                document.getElementById('insuredAge').value = age;
+            });
+        }
+
+        function formatDate(date) {
+            return date.toISOString().split('T')[0];
+        }
+
+        function calculateAge(birthDate) {
+            const today = new Date();
+            let age = today.getFullYear() - birthDate.getFullYear();
+            const monthDiff = today.getMonth() - birthDate.getMonth();
+            if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birthDate.getDate())) {
+                age--;
+            }
+            return age;
+        }
+
+        function setupFormValidation() {
+            const inputs = document.querySelectorAll('input[required], select[required]');
+            inputs.forEach(input => {
+                input.addEventListener('blur', () => validateField(input));
+                input.addEventListener('input', () => {
+                    if (input.classList.contains('error')) {
+                        validateField(input);
+                    }
+                });
+            });
+        }
+
+        function validateField(field) {
+            const value = field.value.trim();
+            const errorSpan = field.parentElement.querySelector('.error-message');
+            field.classList.remove('error');
+            errorSpan.classList.remove('show');
+            errorSpan.textContent = '';
+
+            if (field.required && !value) {
+                showFieldError(field, errorSpan, '此字段为必填项');
+                return false;
+            }
+            return true;
+        }
+
+        function showFieldError(field, errorSpan, message) {
+            field.classList.add('error');
+            errorSpan.textContent = message;
+            errorSpan.classList.add('show');
+        }
+
+        async function handleFormSubmit(e) {
+            e.preventDefault();
+
+            const form = e.target;
+            const inputs = form.querySelectorAll('input[required], select[required]');
+            let isValid = true;
+
+            inputs.forEach(input => {
+                if (!validateField(input)) {
+                    isValid = false;
+                }
+            });
+
+            if (!isValid) {
+                showError('请填写所有必填项');
+                return;
+            }
+
+            collectFormData();
+            goToStep(2);
+            await loadPlans();
+        }
+
+        function collectFormData() {
+            const form = document.getElementById('insuranceForm');
+            const formData = new FormData(form);
+
+            appState.formData = {
+                EffectiveDate: formData.get('EffectiveDate'),
+                ExpiryDate: formData.get('ExpiryDate'),
+                TravelType: parseInt(formData.get('TravelType')),
+                TripType: parseInt(formData.get('TripType')),
+                TravelPolicyType: 'INDI',
+                Customer: {
+                    Name: formData.get('Customer.Name'),
+                    Gender: formData.get('Customer.Gender'),
+                    DateOfBirth: formData.get('Customer.DateOfBirth')
+                },
+                Travelers: [{
+                    Name: formData.get('Customer.Name'),
+                    InsuredAge: parseInt(formData.get('Travelers[0].InsuredAge')),
+                    Gender: formData.get('Customer.Gender')
+                }]
+            };
+
+            console.log('📝 表单数据:', appState.formData);
+        }
+
+        async function loadPlans() {
+            showLoading(true);
+
+            try {
+                console.log('🚀 开始加载产品方案...');
+                console.log('📦 Product ID:', CONFIG.PRODUCT.ID);
+
+                const url = `${CONFIG.BASE_URL}/v1/flow/EUDemoPlanList?productId=${CONFIG.PRODUCT.ID}`;
+                console.log('🌐 请求URL:', url);
+
+                const response = await fetch(url, {
+                    method: 'GET',
+                    headers: {
+                        'Authorization': `Bearer ${CONFIG.AUTH_TOKEN}`,
+                        'Content-Type': 'application/json'
+                    }
+                });
+
+                console.log('✅ 响应状态:', response.status);
+
+                if (!response.ok) {
+                    const errorText = await response.text();
+                    console.error('❌ 错误响应:', errorText);
+                    throw new Error(`HTTP ${response.status}: ${errorText}`);
+                }
+
+                const result = await response.json();
+                console.log('📦 API响应:', result);
+
+                if (!result.Success) {
+                    throw new Error(result.Error?.Message || 'API返回失败');
+                }
+
+                if (!result.Data || !result.Data.Plans || result.Data.Plans.length === 0) {
+                    throw new Error('未找到可用的保障方案');
+                }
+
+                renderPlans(result.Data.Plans);
+                showSuccess(`成功加载 ${result.Data.Plans.length} 个保障方案`);
+                console.log('✅ 方案加载完成');
+
+            } catch (error) {
+                console.error('❌ 加载方案失败:', error);
+                showError(`加载失败: ${error.message}`);
+
+                const container = document.getElementById('plansContainer');
+                container.innerHTML = `
+                    <div style="text-align: center; padding: 3rem; grid-column: 1 / -1;">
+                        <div style="font-size: 3rem; margin-bottom: 1rem;">⚠️</div>
+                        <h3 style="color: #ef4444;">无法加载保障方案</h3>
+                        <p style="color: #64748b; margin: 1rem 0;">${error.message}</p>
+                        <button class="btn-primary" onclick="loadPlans()" style="margin-top: 1rem;">
+                            🔄 重新加载
+                        </button>
+                    </div>
+                `;
+            } finally {
+                showLoading(false);
+            }
+        }
+
+        function renderPlans(plans) {
+            console.log('🎨 渲染方案，数量:', plans.length);
+
+            const container = document.getElementById('plansContainer');
+            container.innerHTML = '';
+
+            plans.forEach((plan, index) => {
+                console.log(`📋 渲染方案 ${index + 1}: ${plan.PlanName}`);
+                const card = createPlanCard(plan, index);
+                container.appendChild(card);
+            });
+
+            console.log('✅ 方案渲染完成');
+        }
+
+        function createPlanCard(plan, index) {
+            const card = document.createElement('div');
+            card.className = 'plan-card';
+            card.dataset.planCode = plan.PlanCode;
+
+            const coveragesHtml = plan.Coverages ? plan.Coverages.map(cov => `
+                <div class="coverage-item">
+                    <span class="coverage-name">${cov.ElementName || cov.Code}</span>
+                    <span class="coverage-amount">${formatCurrency(cov.SumInsured)}</span>
+                </div>
+            `).join('') : '';
+
+            card.innerHTML = `
+                <div class="plan-name">${plan.PlanName}</div>
+                <div class="plan-description">${plan.PlanDescription || '全面旅行保障'}</div>
+                <div class="plan-price">
+                    点击选择
+                </div>
+                <div class="coverages">
+                    <h4>保障内容</h4>
+                    ${coveragesHtml}
+                </div>
+            `;
+
+            card.addEventListener('click', () => selectPlan(plan, card));
+
+            return card;
+        }
+
+        function selectPlan(plan, cardElement) {
+            console.log('✅ 选择方案:', plan.PlanName);
+
+            document.querySelectorAll('.plan-card').forEach(card => {
+                card.classList.remove('selected');
+            });
+
+            cardElement.classList.add('selected');
+            appState.selectedPlan = plan;
+            document.getElementById('btnStep2Next').disabled = false;
+
+            console.log('✅ 方案已选择，可以点击下一步');
+        }
+
+        document.getElementById('btnStep2Next').addEventListener('click', async () => {
+            console.log('🖱️ 点击下一步按钮');
+            if (!appState.selectedPlan) {
+                showError('请先选择一个保障方案');
+                return;
+            }
+
+            await calculatePremium();
+        });
+
+        async function calculatePremium() {
+            if (!appState.selectedPlan) {
+                showError('请先选择一个方案');
+                return;
+            }
+
+            showLoading(true);
+
+            try {
+                console.log('💰 开始计算保费...');
+
+                const payload = {
+                    ...appState.formData,
+                    PlanCode: appState.selectedPlan.PlanCode
+                };
+
+                console.log('📤 保费计算请求:', payload);
+
+                const response = await fetch(`${CONFIG.BASE_URL}/v1/flow/EUDemoTRVL01Calculate`, {
+                    method: 'POST',
+                    headers: {
+                        'Authorization': `Bearer ${CONFIG.AUTH_TOKEN}`,
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(payload)
+                });
+
+                console.log('✅ 保费计算响应状态:', response.status);
+
+                if (!response.ok) {
+                    const errorText = await response.text();
+                    throw new Error(`HTTP ${response.status}: ${errorText}`);
+                }
+
+                const result = await response.json();
+                console.log('📦 保费计算结果:', result);
+
+                if (!result.Success) {
+                    throw new Error(result.Error?.Message || '计算失败');
+                }
+
+                appState.calculationResult = result.Data;
+                goToStep(3);
+                renderQuotation(result.Data);
+                showSuccess('保费计算成功');
+
+            } catch (error) {
+                console.error('❌ 保费计算失败:', error);
+                showError(`保费计算失败: ${error.message}`);
+            } finally {
+                showLoading(false);
+            }
+        }
+
+        function renderQuotation(data) {
+            const container = document.getElementById('quotationSummary');
+
+            const html = `
+                <h3>保险报价详情</h3>
+                <div class="summary-row">
+                    <span class="summary-label">产品名称</span>
+                    <span class="summary-value">${data.PlanName}</span>
+                </div>
+                <div class="summary-row">
+                    <span class="summary-label">保障期间</span>
+                    <span class="summary-value">${data.EffectiveDate} 至 ${data.ExpiryDate}</span>
+                </div>
+                <div class="summary-row">
+                    <span class="summary-label">投保人</span>
+                    <span class="summary-value">${data.Customer.Name}</span>
+                </div>
+                <div class="summary-row">
+                    <span class="summary-label">保费</span>
+                    <span class="summary-value">${formatCurrency(data.Premium, data.Currency)}</span>
+                </div>
+                <div class="summary-row">
+                    <span class="summary-label">税费</span>
+                    <span class="summary-value">${formatCurrency(data.Tax, data.Currency)}</span>
+                </div>
+                <div class="summary-row total">
+                    <span class="summary-label">应付总额</span>
+                    <span class="summary-value">${formatCurrency(data.TotalPremium, data.Currency)}</span>
+                </div>
+            `;
+
+            container.innerHTML = html;
+        }
+
+        async function confirmQuotation() {
+            showLoading(true);
+
+            try {
+                const savePayload = appState.calculationResult;
+
+                const saveResponse = await fetch(`${CONFIG.BASE_URL}/v1/flow/EUDemoTRVL01SaveProposal`, {
+                    method: 'POST',
+                    headers: {
+                        'Authorization': `Bearer ${CONFIG.AUTH_TOKEN}`,
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(savePayload)
+                });
+
+                if (!saveResponse.ok) throw new Error('保存提案失败');
+                const saveResult = await saveResponse.json();
+                appState.proposalNo = saveResult.Data.ProposalNo;
+
+                const bindResponse = await fetch(`${CONFIG.BASE_URL}/v1/flow/EUDemoTRVL01BindProposal`, {
+                    method: 'POST',
+                    headers: {
+                        'Authorization': `Bearer ${CONFIG.AUTH_TOKEN}`,
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ ProposalNo: appState.proposalNo })
+                });
+
+                if (!bindResponse.ok) throw new Error('绑定提案失败');
+
+                goToStep(4);
+                renderPaymentInfo();
+                showSuccess('报价已确认，请完成支付');
+
+            } catch (error) {
+                showError(`确认报价失败: ${error.message}`);
+            } finally {
+                showLoading(false);
+            }
+        }
+
+        function renderPaymentInfo() {
+            const container = document.getElementById('paymentAmount');
+            const data = appState.calculationResult;
+            container.innerHTML = formatCurrency(data.TotalPremium, data.Currency);
+        }
+
+        async function processPayment() {
+            showLoading(true);
+
+            try {
+                const paymentResponse = await fetch(`${CONFIG.BASE_URL}/v1/flow/EUDemoTRVL01PaymentCallback`, {
+                    method: 'POST',
+                    headers: {
+                        'Authorization': `Bearer ${CONFIG.AUTH_TOKEN}`,
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        ProposalNo: appState.proposalNo,
+                        PaymentStatus: 'SUCCESS',
+                        PaymentReference: `PAY${Date.now()}`
+                    })
+                });
+
+                if (!paymentResponse.ok) throw new Error('支付失败');
+                const paymentResult = await paymentResponse.json();
+                appState.policyNo = paymentResult.Data.PolicyNo;
+
+                goToStep(5);
+                renderPolicyDetails(paymentResult.Data);
+                showSuccess('支付成功，保单已签发！');
+
+            } catch (error) {
+                showError(`支付失败: ${error.message}`);
+            } finally {
+                showLoading(false);
+            }
+        }
+
+        function renderPolicyDetails(data) {
+            const container = document.getElementById('policyDetails');
+
+            const html = `
+                <div class="summary-row">
+                    <span class="summary-label">保单号码</span>
+                    <span class="summary-value">${data.PolicyNo}</span>
+                </div>
+                <div class="summary-row">
+                    <span class="summary-label">投保单号</span>
+                    <span class="summary-value">${data.ProposalNo}</span>
+                </div>
+                <div class="summary-row">
+                    <span class="summary-label">产品方案</span>
+                    <span class="summary-value">${data.PlanName}</span>
+                </div>
+                <div class="summary-row">
+                    <span class="summary-label">保障期间</span>
+                    <span class="summary-value">${data.EffectiveDate} 至 ${data.ExpiryDate}</span>
+                </div>
+                <div class="summary-row">
+                    <span class="summary-label">投保人</span>
+                    <span class="summary-value">${data.Customer.Name}</span>
+                </div>
+                <div class="summary-row">
+                    <span class="summary-label">保费</span>
+                    <span class="summary-value">${formatCurrency(data.TotalPremium, data.Currency)}</span>
+                </div>
+                <div class="summary-row">
+                    <span class="summary-label">保单状态</span>
+                    <span class="summary-value" style="color: var(--success-color);">已生效</span>
+                </div>
+            `;
+
+            container.innerHTML = html;
+        }
+
+        function startNew() {
+            appState = {
+                currentStep: 1,
+                formData: {},
+                selectedPlan: null,
+                calculationResult: null,
+                proposalNo: null,
+                policyNo: null
+            };
+
+            document.getElementById('insuranceForm').reset();
+            setDefaultDates();
+            goToStep(1);
+        }
+
+        function goToStep(stepNumber) {
+            document.querySelectorAll('.step').forEach(step => {
+                step.classList.remove('active');
+            });
+
+            document.getElementById(`step${stepNumber}`).classList.add('active');
+            updateProgressBar(stepNumber);
+            appState.currentStep = stepNumber;
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        function updateProgressBar(stepNumber) {
+            document.querySelectorAll('.progress-step').forEach((step, index) => {
+                const stepNum = index + 1;
+                if (stepNum < stepNumber) {
+                    step.classList.add('completed');
+                    step.classList.remove('active');
+                } else if (stepNum === stepNumber) {
+                    step.classList.add('active');
+                    step.classList.remove('completed');
+                } else {
+                    step.classList.remove('active', 'completed');
+                }
+            });
+        }
+
+        function formatCurrency(amount, currency = 'EUR') {
+            return new Intl.NumberFormat('zh-CN', {
+                style: 'currency',
+                currency: currency,
+                minimumFractionDigits: 0,
+                maximumFractionDigits: 0
+            }).format(amount);
+        }
+
+        function showLoading(show) {
+            const overlay = document.getElementById('loadingOverlay');
+            overlay.style.display = show ? 'flex' : 'none';
+        }
+
+        function showError(message) {
+            showToast(message, 'error');
+        }
+
+        function showSuccess(message) {
+            showToast(message, 'success');
+        }
+
+        function showToast(message, type = 'error') {
+            const toastId = type === 'error' ? 'errorToast' : 'successToast';
+            const toast = document.getElementById(toastId);
+            const messageSpan = toast.querySelector('.toast-message');
+
+            messageSpan.textContent = message;
+            toast.classList.add('show');
+
+            setTimeout(() => {
+                toast.classList.remove('show');
+            }, 3000);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API 连接测试</title>
+    <style>
+        body {
+            font-family: 'Courier New', monospace;
+            padding: 20px;
+            background: #1e1e1e;
+            color: #d4d4d4;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #4ec9b0;
+        }
+        .test-section {
+            background: #252526;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border-left: 3px solid #007acc;
+        }
+        .test-section.success {
+            border-left-color: #4ec9b0;
+        }
+        .test-section.error {
+            border-left-color: #f48771;
+        }
+        button {
+            background: #0e639c;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 14px;
+            margin: 5px;
+        }
+        button:hover {
+            background: #1177bb;
+        }
+        pre {
+            background: #1e1e1e;
+            padding: 10px;
+            border-radius: 3px;
+            overflow-x: auto;
+            font-size: 12px;
+        }
+        .status {
+            display: inline-block;
+            padding: 3px 8px;
+            border-radius: 3px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+        .status.success {
+            background: #4ec9b0;
+            color: #1e1e1e;
+        }
+        .status.error {
+            background: #f48771;
+            color: #1e1e1e;
+        }
+        .status.pending {
+            background: #dcdcaa;
+            color: #1e1e1e;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔍 InsureMO API 连接测试</h1>
+        
+        <div class="test-section">
+            <h3>配置信息</h3>
+            <pre id="configInfo"></pre>
+        </div>
+
+        <div>
+            <button onclick="testAllAPIs()">🚀 测试所有 API</button>
+            <button onclick="testProductList()">📦 测试产品列表</button>
+            <button onclick="testPlanList()">📋 测试方案列表</button>
+            <button onclick="testCalculate()">💰 测试保费计算</button>
+        </div>
+
+        <div id="testResults"></div>
+    </div>
+
+    <script>
+        const CONFIG = {
+            BASE_URL: 'https://portal-gw.insuremo.com/platform/api-orchestration-test',
+            AUTH_TOKEN: 'MOATbWg4aRISAep86MorzeBulKla18sq',
+            PRODUCT: {
+                CODE: 'TRVL01',
+                ID: 375604942,
+                NAME: 'Travel Insurance'
+            }
+        };
+
+        // 显示配置信息
+        document.getElementById('configInfo').textContent = JSON.stringify({
+            BaseURL: CONFIG.BASE_URL,
+            ProductID: CONFIG.PRODUCT.ID,
+            Token: CONFIG.AUTH_TOKEN.substring(0, 10) + '...'
+        }, null, 2);
+
+        async function callAPI(endpoint, method = 'GET', data = null) {
+            const url = `${CONFIG.BASE_URL}${endpoint}`;
+            
+            const options = {
+                method: method,
+                headers: {
+                    'Authorization': `Bearer ${CONFIG.AUTH_TOKEN}`,
+                    'Content-Type': 'application/json'
+                },
+                mode: 'cors'
+            };
+
+            if (data && (method === 'POST' || method === 'PUT')) {
+                options.body = JSON.stringify(data);
+            }
+
+            const response = await fetch(url, options);
+            
+            if (!response.ok) {
+                const errorText = await response.text();
+                throw new Error(`HTTP ${response.status}: ${errorText}`);
+            }
+
+            return await response.json();
+        }
+
+        function addTestResult(name, status, data = null, error = null) {
+            const container = document.getElementById('testResults');
+            const section = document.createElement('div');
+            section.className = `test-section ${status}`;
+
+            const statusBadge = `<span class="status ${status}">${status.toUpperCase()}</span>`;
+            
+            let content = `<h3>${statusBadge} ${name}</h3>`;
+            
+            if (error) {
+                content += `<pre style="color: #f48771;">Error: ${error.message}\n\nStack: ${error.stack}</pre>`;
+            }
+            
+            if (data) {
+                content += `<pre>${JSON.stringify(data, null, 2)}</pre>`;
+            }
+
+            section.innerHTML = content;
+            container.insertBefore(section, container.firstChild);
+        }
+
+        async function testProductList() {
+            try {
+                addTestResult('产品列表测试', 'pending');
+                const result = await callAPI('/v1/flow/EUDemoProductList');
+                
+                if (result.Success) {
+                    addTestResult('产品列表测试', 'success', {
+                        productCount: result.Data.Products.length,
+                        products: result.Data.Products.map(p => ({
+                            code: p.ProductCode,
+                            name: p.ProductName,
+                            id: p.ProductId
+                        }))
+                    });
+                } else {
+                    throw new Error(result.Error?.Message || 'API returned failure');
+                }
+            } catch (error) {
+                addTestResult('产品列表测试', 'error', null, error);
+            }
+        }
+
+        async function testPlanList() {
+            try {
+                addTestResult('方案列表测试', 'pending');
+                const result = await callAPI(`/v1/flow/EUDemoPlanList?productId=${CONFIG.PRODUCT.ID}`);
+                
+                if (result.Success) {
+                    addTestResult('方案列表测试', 'success', {
+                        productName: result.Data.ProductName,
+                        planCount: result.Data.Plans.length,
+                        plans: result.Data.Plans.map(p => ({
+                            code: p.PlanCode,
+                            name: p.PlanName,
+                            coverages: p.Coverages?.length || 0
+                        }))
+                    });
+                } else {
+                    throw new Error(result.Error?.Message || 'API returned failure');
+                }
+            } catch (error) {
+                addTestResult('方案列表测试', 'error', null, error);
+            }
+        }
+
+        async function testCalculate() {
+            try {
+                addTestResult('保费计算测试', 'pending');
+                
+                const testData = {
+                    ProductId: CONFIG.PRODUCT.ID,
+                    PlanCode: "TRVL0120200001",
+                    EffectiveDate: "2026-03-26",
+                    ExpiryDate: "2026-04-05",
+                    TravelType: 2,
+                    TripType: 2,
+                    Customer: {
+                        Name: "Test User",
+                        Gender: "M",
+                        DateOfBirth: "1990-01-01"
+                    },
+                    Travelers: [
+                        { InsuredAge: 30, Gender: "M", Name: "Test User" }
+                    ]
+                };
+
+                const result = await callAPI('/v1/flow/EUDemoTRVL01Calculate', 'POST', testData);
+                
+                if (result.Success) {
+                    addTestResult('保费计算测试', 'success', {
+                        planName: result.Data.PlanName,
+                        premium: result.Data.Premium,
+                        currency: result.Data.Currency,
+                        coverages: result.Data.Coverages.length
+                    });
+                } else {
+                    throw new Error(result.Error?.Message || 'API returned failure');
+                }
+            } catch (error) {
+                addTestResult('保费计算测试', 'error', null, error);
+            }
+        }
+
+        async function testAllAPIs() {
+            document.getElementById('testResults').innerHTML = '';
+            await testProductList();
+            await testPlanList();
+            await testCalculate();
+        }
+
+        // 页面加载时自动测试
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+                testAllAPIs();
+            }, 500);
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+======================================================================
+上海海港2023赛季完整数据抓取器 v9.4
+修复：点球进球正确识别为 penalty_goal
+======================================================================
+
+📋 共 30 场比赛
+
+[1/30] 2023-04-15
+      ❌ 错误: '<' not supported between instances of 'NoneType' and 'int'
+      ❌ 失败
+[2/30] 2023-04-22
+      ❌ 错误: '<' not supported between instances of 'NoneType' and 'int'
+      ❌ 失败
+[3/30] 2023-04-26
+      ❌ 错误: '<' not supported between instances of 'NoneType' and 'int'
+      ❌ 失败
+[4/30] 2023-04-30
+      ❌ 错误: '<' not supported between instances of 'NoneType' and 'int'
+      ❌ 失败
+[5/30] 2023-05-06
+      ❌ 错误: 'str' object has no attribute 'trim'
+      ❌ 失败
+[6/30] 2023-05-10
+      ❌ 错误: '<' not supported between instances of 'NoneType' and 'int'
+      ❌ 失败
+[7/30] 2023-05-14
+      ❌ 错误: '<' not supported between instances of 'NoneType' and 'int'
+      ❌ 失败
+[8/30] 2023-05-20
+      ❌ 错误: '<' not supported between instances of 'NoneType' and 'int'
+      ❌ 失败
+[9/30] 2023-05-24
+      ❌ 错误: '<' not supported between instances of 'NoneType' and 'int'
+      ❌ 失败
+[10/30] 2023-05-29
+      ❌ 错误: '<' not supported between instances of 'NoneType' and 'int'
+      ❌ 失败
+[11/30] 2023-06-03
+      ❌ 错误: '<' not supported between instances of 'NoneType' and 'int'
+      ❌ 失败
+[12/30] 2023-06-09
+      ❌ 错误: '<' not supported between instances of 'NoneType' and 'int'
+      ❌ 失败
+[13/30] 2023-06-29
+      ❌ 错误: '<' not supported between instances of 'NoneType' and 'int'
+      ❌ 失败
+[14/30] 2023-07-03
+      ❌ 错误: '<' not supported between instances of 'NoneType' and 'int'
+      ❌ 失败
+[15/30] 2023-07-08

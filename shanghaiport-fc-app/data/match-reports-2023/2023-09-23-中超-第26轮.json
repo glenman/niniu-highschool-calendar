@@ -1,0 +1,486 @@
+{
+  "match_info": {
+    "match_id": "7ce8379e",
+    "date": "2023-09-23",
+    "time": "20:00",
+    "competition": {
+      "name": "Chinese Football Association Super League",
+      "season": "2023",
+      "round": "Matchweek 26"
+    },
+    "venue": {
+      "name": "SAIC Motor Pudong Arena",
+      "attendance": 16323
+    },
+    "referee": {
+      "main": "Qi Xing",
+      "ar1": "Luo Zheng",
+      "ar2": "Yang Xin",
+      "fourth": "Zhang Chao",
+      "var": "Yi Huang",
+      "country": "China"
+    }
+  },
+  "teams": {
+    "home": {
+      "name": "Shanghai Port",
+      "full_name": "",
+      "score": 3,
+      "score_ht": 0,
+      "formation": "4-2-3-1",
+      "coach": "Kevin Muscat",
+      "captain": "Wang Shenchao",
+      "lineup": [
+        {
+          "number": "1",
+          "name": "Yan Junling",
+          "country": "Unknown"
+        },
+        {
+          "number": "3",
+          "name": "Tyias Browning",
+          "country": "Unknown"
+        },
+        {
+          "number": "4",
+          "name": "Wang Shenchao",
+          "country": "Unknown"
+        },
+        {
+          "number": "10",
+          "name": "Mateus Vital",
+          "country": "Unknown"
+        },
+        {
+          "number": "21",
+          "name": "Óscar Melendo",
+          "country": "Unknown"
+        },
+        {
+          "number": "22",
+          "name": "Jussa",
+          "country": "Unknown"
+        },
+        {
+          "number": "26",
+          "name": "Liu Ruofan",
+          "country": "Unknown"
+        },
+        {
+          "number": "30",
+          "name": "Gabriel Airton de Souza",
+          "country": "Unknown"
+        },
+        {
+          "number": "32",
+          "name": "Li Shuai",
+          "country": "Unknown"
+        },
+        {
+          "number": "40",
+          "name": "Wumitijiang Yusupu",
+          "country": "Unknown"
+        },
+        {
+          "number": "45",
+          "name": "Leo",
+          "country": "Unknown"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": "12",
+          "name": "Chen Wei",
+          "country": "Unknown"
+        },
+        {
+          "number": "5",
+          "name": "Zhang Linpeng",
+          "country": "Unknown"
+        },
+        {
+          "number": "11",
+          "name": "Lü Wenjun",
+          "country": "Unknown"
+        },
+        {
+          "number": "13",
+          "name": "Wei Zhen",
+          "country": "Unknown"
+        },
+        {
+          "number": "14",
+          "name": "Li Shenglong",
+          "country": "Unknown"
+        },
+        {
+          "number": "15",
+          "name": "Ming Tian",
+          "country": "Unknown"
+        },
+        {
+          "number": "20",
+          "name": "Yang Shiyuan",
+          "country": "Unknown"
+        },
+        {
+          "number": "23",
+          "name": "Fu Huan",
+          "country": "Unknown"
+        },
+        {
+          "number": "27",
+          "name": "Feng Jing",
+          "country": "Unknown"
+        },
+        {
+          "number": "36",
+          "name": "Abulahan Halike",
+          "country": "Unknown"
+        },
+        {
+          "number": "47",
+          "name": "Kuai Jiwen",
+          "country": "Unknown"
+        },
+        {
+          "number": "49",
+          "name": "Li Xinxiang",
+          "country": "Unknown"
+        }
+      ],
+      "substitutions": []
+    },
+    "away": {
+      "name": "Wuhan Three Towns",
+      "full_name": "",
+      "score": 2,
+      "score_ht": 1,
+      "formation": "4-4-2",
+      "coach": "Deng Zhuoxiang",
+      "captain": "Park Ji-soo",
+      "lineup": [
+        {
+          "number": "45",
+          "name": "Guo Jiayu",
+          "country": "Unknown"
+        },
+        {
+          "number": "2",
+          "name": "He Guan",
+          "country": "Unknown"
+        },
+        {
+          "number": "5",
+          "name": "Park Ji-soo",
+          "country": "Unknown"
+        },
+        {
+          "number": "6",
+          "name": "Long Wei",
+          "country": "Unknown"
+        },
+        {
+          "number": "7",
+          "name": "Gustavo Sauer",
+          "country": "Unknown"
+        },
+        {
+          "number": "10",
+          "name": "Darlan Mendes",
+          "country": "Unknown"
+        },
+        {
+          "number": "11",
+          "name": "Manuel Palacios",
+          "country": "Unknown"
+        },
+        {
+          "number": "12",
+          "name": "Liao Chengjian",
+          "country": "Unknown"
+        },
+        {
+          "number": "15",
+          "name": "Chen Zhechao",
+          "country": "Unknown"
+        },
+        {
+          "number": "25",
+          "name": "Deng Hanwen",
+          "country": "Unknown"
+        },
+        {
+          "number": "29",
+          "name": "Zheng Haoqian",
+          "country": "Unknown"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": "1",
+          "name": "Wei Minzhe",
+          "country": "Unknown"
+        },
+        {
+          "number": "14",
+          "name": "Shao Puliang",
+          "country": "Unknown"
+        },
+        {
+          "number": "8",
+          "name": "Wang Jinxian",
+          "country": "Unknown"
+        },
+        {
+          "number": "18",
+          "name": "Liu Yiming",
+          "country": "Unknown"
+        },
+        {
+          "number": "23",
+          "name": "Ren Hang",
+          "country": "Unknown"
+        },
+        {
+          "number": "28",
+          "name": "Wang Yi Denny",
+          "country": "Unknown"
+        },
+        {
+          "number": "30",
+          "name": "Zhong Jinbao",
+          "country": "Unknown"
+        },
+        {
+          "number": "43",
+          "name": "Zikrulla Memetimin",
+          "country": "Unknown"
+        },
+        {
+          "number": "58",
+          "name": "Ruan Jingwei",
+          "country": "Unknown"
+        },
+        {
+          "number": "61",
+          "name": "Kang Wang",
+          "country": "Unknown"
+        }
+      ],
+      "substitutions": []
+    }
+  },
+  "events": [
+    {
+      "minute": 32,
+      "minute_extra": 0,
+      "type": "yellow_card",
+      "team": "away",
+      "player": "Jussa",
+      "player2": "",
+      "goal_type": "",
+      "player_out": "",
+      "description": "YELLOW CARD"
+    },
+    {
+      "minute": 37,
+      "minute_extra": 0,
+      "type": "goal",
+      "team": "away",
+      "player": "Li Shuai",
+      "player2": "Liu Ruofan",
+      "goal_type": "goal",
+      "player_out": "",
+      "description": "GOAL"
+    },
+    {
+      "minute": 46,
+      "minute_extra": 0,
+      "type": "substitution",
+      "team": "home",
+      "player": "Wang Yi Denny",
+      "player2": "",
+      "goal_type": "",
+      "player_out": "Deng Hanwen",
+      "description": "SUBSTITUTION"
+    },
+    {
+      "minute": 57,
+      "minute_extra": 0,
+      "type": "substitution",
+      "team": "home",
+      "player": "Wang Jinxian",
+      "player2": "",
+      "goal_type": "",
+      "player_out": "Zheng Haoqian",
+      "description": "SUBSTITUTION"
+    },
+    {
+      "minute": 71,
+      "minute_extra": 0,
+      "type": "substitution",
+      "team": "home",
+      "player": "Ren Hang",
+      "player2": "",
+      "goal_type": "",
+      "player_out": "He Guan",
+      "description": "SUBSTITUTION"
+    },
+    {
+      "minute": 72,
+      "minute_extra": 0,
+      "type": "substitution",
+      "team": "home",
+      "player": "Kang Wang",
+      "player2": "",
+      "goal_type": "",
+      "player_out": "Chen Zhechao",
+      "description": "SUBSTITUTION"
+    },
+    {
+      "minute": 72,
+      "minute_extra": 0,
+      "type": "substitution",
+      "team": "home",
+      "player": "Zhong Jinbao",
+      "player2": "",
+      "goal_type": "",
+      "player_out": "Liao Chengjian",
+      "description": "SUBSTITUTION"
+    },
+    {
+      "minute": 77,
+      "minute_extra": 0,
+      "type": "goal",
+      "team": "home",
+      "player": "Zhong Jinbao",
+      "player2": "Manuel Palacios",
+      "goal_type": "goal",
+      "player_out": "",
+      "description": "GOAL"
+    },
+    {
+      "minute": 78,
+      "minute_extra": 0,
+      "type": "substitution",
+      "team": "away",
+      "player": "Li Xinxiang",
+      "player2": "",
+      "goal_type": "",
+      "player_out": "Liu Ruofan",
+      "description": "SUBSTITUTION"
+    },
+    {
+      "minute": 80,
+      "minute_extra": 0,
+      "type": "goal",
+      "team": "home",
+      "player": "Gustavo Sauer",
+      "player2": "Zhong Jinbao",
+      "goal_type": "goal",
+      "player_out": "",
+      "description": "GOAL"
+    },
+    {
+      "minute": 82,
+      "minute_extra": 0,
+      "type": "substitution",
+      "team": "away",
+      "player": "Kuai Jiwen",
+      "player2": "",
+      "goal_type": "",
+      "player_out": "Mateus Vital",
+      "description": "SUBSTITUTION"
+    },
+    {
+      "minute": 82,
+      "minute_extra": 0,
+      "type": "substitution",
+      "team": "away",
+      "player": "Fu Huan",
+      "player2": "",
+      "goal_type": "",
+      "player_out": "Wang Shenchao",
+      "description": "SUBSTITUTION"
+    },
+    {
+      "minute": 85,
+      "minute_extra": 0,
+      "type": "goal",
+      "team": "away",
+      "player": "Leo",
+      "player2": "Kuai Jiwen",
+      "goal_type": "goal",
+      "player_out": "",
+      "description": "GOAL"
+    },
+    {
+      "minute": 90,
+      "minute_extra": 7,
+      "type": "goal",
+      "team": "away",
+      "player": "Leo",
+      "player2": "Fu Huan",
+      "goal_type": "goal",
+      "player_out": "",
+      "description": "GOAL"
+    }
+  ],
+  "statistics": {
+    "possession": {
+      "home": "65%",
+      "away": "35%"
+    },
+    "shots_on_target": {
+      "home": "6",
+      "away": "4"
+    },
+    "shots": {
+      "home": "20",
+      "away": "12"
+    },
+    "shots_accuracy": {
+      "home": "30%",
+      "away": "33%"
+    },
+    "saves": {
+      "home": "2 of 4-50%",
+      "away": "3 of 6-50%"
+    },
+    "fouls": {
+      "home": "9",
+      "away": "14"
+    },
+    "corners": {
+      "home": "5",
+      "away": "6"
+    },
+    "crosses": {
+      "home": "29",
+      "away": "13"
+    },
+    "interceptions": {
+      "home": "6",
+      "away": "4"
+    },
+    "offsides": {
+      "home": "2",
+      "away": "2"
+    },
+    "yellow_cards": {
+      "home": 0,
+      "away": 1
+    },
+    "red_cards": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  "metadata": {
+    "source": "FBref",
+    "url": "https://fbref.com/en/matches/7ce8379e/Chengdu-Rongcheng-Shanghai-Port-September-23-2023-Chinese-Super-League",
+    "scraped_at": "2026-03-29T22:21:35",
+    "version": "9.5-event-only-penalty-fix"
+  }
+}

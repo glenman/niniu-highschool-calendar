@@ -1,0 +1,513 @@
+│
+◇  Config warnings ────────────────────────────────────────────────────────╮
+│                                                                          │
+│  - plugins.entries.feishu: plugin feishu: duplicate plugin id detected;  │
+│    later plugin may be overridden                                        │
+│    (/Users/glenman/.openclaw/extensions/feishu/index.ts)                 │
+│                                                                          │
+├──────────────────────────────────────────────────────────────────────────╯
+[plugins] feishu_doc: Registered feishu_doc, feishu_app_scopes
+[plugins] feishu_chat: Registered feishu_chat tool
+[plugins] feishu_wiki: Registered feishu_wiki tool
+[plugins] feishu_drive: Registered feishu_drive tool
+[plugins] feishu_bitable: Registered bitable tools
+- RootWebArea "Shanghai Port vs. Wuhan Three Towns Match Report – Friday March 1, 2024 | FBref.com"
+  - none
+    - generic
+      - generic
+        - none
+          - none
+        - none
+          - none
+        - none
+          - none
+          - none
+        - none
+          - none
+            - none
+            - none
+        - none
+        - none
+          - none
+      - generic
+        - banner
+          - list
+            - listitem
+              - link " Sports Reference ®"
+                - image
+                  - none
+                - StaticText " Sports Reference ®"
+                  - InlineTextBox " Sports Reference ®"
+            - listitem
+              - link "Baseball"
+                - StaticText "Baseball"
+                  - InlineTextBox "Baseball"
+            - listitem
+              - link "Football"
+                - StaticText "Football"
+                  - InlineTextBox "Football"
+              - StaticText " "
+                - InlineTextBox " "
+              - link "(college)"
+                - StaticText "(college)"
+                  - InlineTextBox "(college)"
+            - listitem
+              - link "Basketball"
+                - StaticText "Basketball"
+                  - InlineTextBox "Basketball"
+              - StaticText " "
+                - InlineTextBox " "
+              - link "(college)"
+                - StaticText "(college)"
+                  - InlineTextBox "(college)"
+            - listitem
+              - link "Hockey"
+                - StaticText "Hockey"
+                  - InlineTextBox "Hockey"
+            - listitem
+              - link "Soccer"
+                - StaticText "Soccer"
+                  - InlineTextBox "Soccer"
+            - listitem
+              - link "Blog"
+                - StaticText "Blog"
+                  - InlineTextBox "Blog"
+            - listitem
+              - link "Stathead ®"
+                - StaticText "Stathead ®"
+                  - InlineTextBox "Stathead ®"
+            - listitem
+              - link "Immaculate Footy ®"
+                - StaticText "Immaculate Footy ®"
+                  - InlineTextBox "Immaculate Footy ®"
+            - listitem
+              - link "Questions or Comments?"
+                - StaticText "Questions or Comments?"
+                  - InlineTextBox "Questions or Comments?"
+            - listitem
+              - link "Ad-Free Login"
+                - StaticText "Ad-Free Login"
+                  - InlineTextBox "Ad-Free Login"
+          - link "FBref.com "
+            - image "FBref.com "
+          - navigation "FBref.com sections"
+            - list
+              - listitem
+                - link "Players"
+                  - StaticText "Players"
+                    - InlineTextBox "Players"
+              - listitem
+                - link "Clubs"
+                  - StaticText "Clubs"
+                    - InlineTextBox "Clubs"
+                - none
+                  - none
+                    - none
+                      - none
+                      - none
+                      - none
+                    - none
+                      - none
+                      - none
+                      - none
+                    - none
+                      - none
+                      - none
+                      - none
+                    - none
+                      - none
+                      - none
+                      - none
+                - none
+                  - none
+                    - none
+                      - none
+                      - none
+                      - none
+                    - none
+                      - none
+                      - none
+                      - none
+                    - none
+                      - none
+                      - none
+                      - none
+                    - none
+                      - none
+                      - none
+                      - none
+                - none
+                  - none
+                    - none
+                      - none
+                      - none
+                      - none
+                    - none
+                      - none
+                      - none
+                      - none
+                    - none
+                      - none
+                      - none
+                      - none
+                    - none
+                      - none
+                      - none
+                      - none
+                - none
+                  - none
+                    - none
+                      - none
+                      - none
+                      - none
+                    - none
+                      - none
+                      - none
+                      - none
+                    - none
+                      - none
+                      - none
+                      - none
+                    - none
+                      - none
+                      - none
+                      - none
+                - none
+                  - none
+                    - none
+                      - none
+                      - none
+                      - none
+                    - none
+                      - none
+                      - none
+                      - none
+                    - none
+                      - none
+                      - none
+                      - none
+                    - none
+                      - none
+                      - none
+                      - none
+                - none
+                  - none
+                    - none
+                      - none
+                      - none
+                      - none
+                    - none
+                      - none
+                      - none
+                      - none
+                    - none
+                      - none
+                      - none
+                      - none
+                    - none
+                      - none
+                      - none
+                      - none
+                - none
+                  - none
+                    - none
+                      - none
+                      - none
+                      - none
+                    - none
+                      - none
+                      - none
+                      - none
+                    - none
+                      - none
+                      - none
+                      - none
+                    - none
+                      - none
+                      - none
+                      - none
+                - none
+                  - none
+                    - none
+                      - none
+                      - none
+                      - none
+                    - none
+                      - none
+                      - none
+                      - none
+                    - none
+                      - none
+                      - none
+                      - none
+                    - none
+                      - none
+                      - none
+                      - none
+                - none
+                  - none
+                    - none
+                      - none
+                      - none
+                      - none
+                    - none
+                      - none
+                      - none
+                      - none
+                    - none
+                      - none
+                      - none
+                      - none
+                    - none
+                      - none
+                      - none
+                      - none
+              - listitem
+                - link "Competitions"
+                  - StaticText "Competitions"
+                    - InlineTextBox "Competitions"
+              - listitem
+                - link "Matches 188"
+                  - StaticText "Matches"
+                    - InlineTextBox "Matches"
+                  - none
+                    - StaticText "188"
+                      - InlineTextBox "188"
+              - listitem
+                - link "Awards"
+                  - StaticText "Awards"
+                    - InlineTextBox "Awards"
+              - listitem
+                - link "Countries"
+                  - StaticText "Countries"
+                    - InlineTextBox "Countries"
+              - listitem
+                - link "Stathead"
+                  - StaticText "Stathead"
+                    - InlineTextBox "Stathead"
+              - listitem
+                - link "Mailing List"
+                  - StaticText "Mailing List"
+                    - InlineTextBox "Mailing List"
+              - listitem
+                - link "Full Site Menu Below ▼"
+                  - StaticText "Full Site Menu Below"
+                    - InlineTextBox "Full Site Menu Below"
+                  - generic
+                    - StaticText "▼"
+                      - InlineTextBox "▼"
+          - search "Site Search for players, teams and sections"
+            - generic
+              - generic
+                - generic
+                  - searchbox "Search suggestions based on user search input"
+                    - none
+                    - none
+                      - generic
+                  - searchbox "Enter a player, team or section name"
+                    - none
+                    - none
+                      - generic
+              - button "Search"
+                - StaticText "Search"
+                  - InlineTextBox "Search"
+        - generic
+          - none
+            - none
+              - generic
+                - none
+                  - none
+                    - generic
+                      - generic
+                        - generic
+                          - generic
+                            - generic
+                              - StaticText "Goal: S. Solans vs. SD, 17'"
+                                - InlineTextBox "Goal: S. Solans vs. SD, 17'"
+                            - generic
+                              - button "Close"
+                                - image
+                          - generic
+                            - generic
+                              - generic
+                                - none
+                                  - generic
+                                    - Video
+                                      - none
+                                      - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                  - none
+                                    - none
+                                      - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                    - none
+                                      - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                        - none
+                                - generic
+                                  - generic
+                                  - generic
+                                    - generic
+                                      - slider "Progress Bar" = "13"
+                                    - button "Pause"
+                                      - image
+                                    - button "Unmute"
+                                      - image
+                                    - none
+                                      - slider "Volume Bar" = "25"
+                                    - none
+                                    - button "-00:51"
+                                      - StaticText "-00:51"
+                                        - InlineTextBox "-00:51"
+                                    - button "Quality Selector"
+                                      - image
+                                    - button "Subtitles"
+                                      - image
+                                    - button "Enter Fullscreen"
+                                      - image
+                        - Iframe
+                        - Iframe
+        - main
+          - heading "Shanghai Port vs. Wuhan Three Towns Match Report – Friday March 1, 2024"
+            - StaticText "Shanghai Port vs. Wuhan Three Towns Match Report – Friday March 1, 2024"
+              - InlineTextBox "Shanghai Port vs. Wuhan Three Towns Match Report – Friday March 1, 2024"
+          - generic
+            - link "Chinese Football Association Super League"
+              - StaticText "Chinese Football Association Super League"
+                - InlineTextBox "Chinese Football Association Super League"
+            - StaticText " (Matchweek 1)"
+              - InlineTextBox " (Matchweek 1)"
+          - generic
+            - generic
+              - none
+                - generic
+                  - image "Shanghai Port Club Crest"
+                - strong
+                  - link "Shanghai Port"
+                    - StaticText "Shanghai Port"
+                      - InlineTextBox "Shanghai Port"
+              - generic
+                - generic
+                  - StaticText "3"
+                    - InlineTextBox "3"
+                  - generic
+                    - StaticText ":"
+                      - InlineTextBox ":"
+              - generic
+                - StaticText "1-0-0"
+                  - InlineTextBox "1-0-0"
+              - generic
+                - link "‹‹Prev Match"
+                  - none
+                    - StaticText "‹‹"
+                      - InlineTextBox "‹‹"
+                  - StaticText "Prev Match"
+                    - InlineTextBox "Prev Match"
+                - link "Next Match››"
+                  - StaticText "Next Match"
+                    - InlineTextBox "Next Match"
+                  - none
+                    - StaticText "››"
+                      - InlineTextBox "››"
+              - generic
+                - strong
+                  - StaticText "Manager"
+                    - InlineTextBox "Manager"

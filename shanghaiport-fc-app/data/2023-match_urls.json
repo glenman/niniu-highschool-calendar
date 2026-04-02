@@ -1,0 +1,129 @@
+{
+  "team": "Shanghai Port FC",
+  "season": 2023,
+  "competition": "All Competitions (Chinese Super League)",
+  "data_source": "fbref.com",
+  "last_updated": "2026-03-27",
+  "match_urls": [
+    {
+      "date": "2023-04-15",
+      "match_report_url": "https://fbref.com/en/matches/13f114b6/Wuhan-Three-Towns-Shanghai-Port-April-15-2023-Chinese-Super-League"
+    },
+    {
+      "date": "2023-04-22",
+      "match_report_url": "https://fbref.com/en/matches/eb7344b8/Shanghai-Port-Shenzhen-FC-April-22-2023-Chinese-Super-League"
+    },
+    {
+      "date": "2023-04-26",
+      "match_report_url": "https://fbref.com/en/matches/80a6a8cd/Cangzhou-Mighty-Lions-Shanghai-Port-April-26-2023-Chinese-Super-League"
+    },
+    {
+      "date": "2023-04-30",
+      "match_report_url": "https://fbref.com/en/matches/6588953d/Shanghai-Port-Shanghai-Shenhua-April-30-2023-Chinese-Super-League"
+    },
+    {
+      "date": "2023-05-06",
+      "match_report_url": "https://fbref.com/en/matches/db72ea8b/Tianjin-Jinmen-Tiger-Shanghai-Port-May-6-2023-Chinese-Super-League"
+    },
+    {
+      "date": "2023-05-10",
+      "match_report_url": "https://fbref.com/en/matches/b8b6f1ac/Shanghai-Port-Qingdao-Hainiu-May-10-2023-Chinese-Super-League"
+    },
+    {
+      "date": "2023-05-14",
+      "match_report_url": "https://fbref.com/en/matches/50a34b52/Zhejiang-Professional-Shanghai-Port-May-14-2023-Chinese-Super-League"
+    },
+    {
+      "date": "2023-05-20",
+      "match_report_url": "https://fbref.com/en/matches/c8d1ba4b/Meizhou-Hakka-Shanghai-Port-May-20-2023-Chinese-Super-League"
+    },
+    {
+      "date": "2023-05-24",
+      "match_report_url": "https://fbref.com/en/matches/b1cd1c4f/Shanghai-Port-Henan-May-24-2023-Chinese-Super-League"
+    },
+    {
+      "date": "2023-05-29",
+      "match_report_url": "https://fbref.com/en/matches/80092ace/Changchun-Yatai-Shanghai-Port-May-29-2023-Chinese-Super-League"
+    },
+    {
+      "date": "2023-06-03",
+      "match_report_url": "https://fbref.com/en/matches/2d39fef2/Shanghai-Port-Chengdu-Rongcheng-June-3-2023-Chinese-Super-League"
+    },
+    {
+      "date": "2023-06-09",
+      "match_report_url": "https://fbref.com/en/matches/a8191150/Shanghai-Port-Nantong-Zhiyun-June-9-2023-Chinese-Super-League"
+    },
+    {
+      "date": "2023-06-29",
+      "match_report_url": "https://fbref.com/en/matches/d27f27ca/Beijing-Guoan-Shanghai-Port-June-29-2023-Chinese-Super-League"
+    },
+    {
+      "date": "2023-07-03",
+      "match_report_url": "https://fbref.com/en/matches/977a91a2/Shandong-Taishan-Shanghai-Port-July-3-2023-Chinese-Super-League"
+    },
+    {
+      "date": "2023-07-08",
+      "match_report_url": "https://fbref.com/en/matches/462ffd99/Shanghai-Port-Dalian-Professional-July-8-2023-Chinese-Super-League"
+    },
+    {
+      "date": "2023-07-12",
+      "match_report_url": "https://fbref.com/en/matches/5e480274/Shanghai-Port-Wuhan-Three-Towns-July-12-2023-Chinese-Super-League"
+    },
+    {
+      "date": "2023-07-16",
+      "match_report_url": "https://fbref.com/en/matches/b1740fbf/Shenzhen-FC-Shanghai-Port-July-16-2023-Chinese-Super-League"
+    },
+    {
+      "date": "2023-07-21",
+      "match_report_url": "https://fbref.com/en/matches/ce732622/Shanghai-Port-Cangzhou-Mighty-Lions-July-21-2023-Chinese-Super-League"
+    },
+    {
+      "date": "2023-07-29",
+      "match_report_url": "https://fbref.com/en/matches/db112c70/Shanghai-Shenhua-Shanghai-Port-July-29-2023-Chinese-Super-League"
+    },
+    {
+      "date": "2023-08-03",
+      "match_report_url": "https://fbref.com/en/matches/c0a1f6bb/Shanghai-Port-Tianjin-Jinmen-Tiger-August-3-2023-Chinese-Super-League"
+    },
+    {
+      "date": "2023-08-08",
+      "match_report_url": "https://fbref.com/en/matches/0c6bbc3d/Qingdao-Hainiu-Shanghai-Port-August-8-2023-Chinese-Super-League"
+    },
+    {
+      "date": "2023-08-12",
+      "match_report_url": "https://fbref.com/en/matches/9f49581d/Shanghai-Port-Zhejiang-Professional-August-12-2023-Chinese-Super-League"
+    },
+    {
+      "date": "2023-08-18",
+      "match_report_url": "https://fbref.com/en/matches/81bd132d/Shanghai-Port-Meizhou-Hakka-August-18-2023-Chinese-Super-League"
+    },
+    {
+      "date": "2023-08-25",
+      "match_report_url": "https://fbref.com/en/matches/afa434e0/Henan-Shanghai-Port-August-25-2023-Chinese-Super-League"
+    },
+    {
+      "date": "2023-09-15",
+      "match_report_url": "https://fbref.com/en/matches/eb7db9c6/Shanghai-Port-Changchun-Yatai-September-15-2023-Chinese-Super-League"
+    },
+    {
+      "date": "2023-09-23",
+      "match_report_url": "https://fbref.com/en/matches/7ce8379e/Chengdu-Rongcheng-Shanghai-Port-September-23-2023-Chinese-Super-League"
+    },
+    {
+      "date": "2023-09-29",
+      "match_report_url": "https://fbref.com/en/matches/e4246bab/Nantong-Zhiyun-Shanghai-Port-September-29-2023-Chinese-Super-League"
+    },
+    {
+      "date": "2023-10-20",
+      "match_report_url": "https://fbref.com/en/matches/9f438b47/Shanghai-Port-Beijing-Guoan-October-20-2023-Chinese-Super-League"
+    },
+    {
+      "date": "2023-10-29",
+      "match_report_url": "https://fbref.com/en/matches/3565db39/Shanghai-Port-Shandong-Taishan-October-29-2023-Chinese-Super-League"
+    },
+    {
+      "date": "2023-11-04",
+      "match_report_url": "https://fbref.com/en/matches/3d783610/Dalian-Professional-Shanghai-Port-November-4-2023-Chinese-Super-League"
+    }
+  ]
+}

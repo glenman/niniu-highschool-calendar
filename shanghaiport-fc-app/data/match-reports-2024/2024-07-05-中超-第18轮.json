@@ -1,0 +1,531 @@
+{
+  "match_info": {
+    "match_id": "d2ce357e",
+    "date": "2024-07-05",
+    "time": "19:00",
+    "competition": {
+      "name": "Chinese Football Association Super League",
+      "season": "2024",
+      "round": "Matchweek 18"
+    },
+    "venue": {
+      "name": "SAIC Motor Pudong Arena",
+      "attendance": 22021
+    },
+    "referee": {
+      "main": "Shengyu Sun",
+      "ar1": "Sun Kai",
+      "ar2": "Wang Xihong",
+      "fourth": "Tao Wan",
+      "var": "Kai He",
+      "country": "China"
+    }
+  },
+  "teams": {
+    "home": {
+      "name": "Shanghai Port",
+      "full_name": "",
+      "score": 2,
+      "score_ht": 0,
+      "formation": "4-2-3-1",
+      "coach": "Kevin Muscat",
+      "captain": "Wang Shenchao",
+      "lineup": [
+        {
+          "number": "1",
+          "name": "Yan Junling",
+          "country": "Unknown"
+        },
+        {
+          "number": "3",
+          "name": "Tyias Browning",
+          "country": "Unknown"
+        },
+        {
+          "number": "4",
+          "name": "Wang Shenchao",
+          "country": "Unknown"
+        },
+        {
+          "number": "5",
+          "name": "Zhang Linpeng",
+          "country": "Unknown"
+        },
+        {
+          "number": "10",
+          "name": "Mateus Vital",
+          "country": "Unknown"
+        },
+        {
+          "number": "21",
+          "name": "Óscar Melendo",
+          "country": "Unknown"
+        },
+        {
+          "number": "22",
+          "name": "Jussa",
+          "country": "Unknown"
+        },
+        {
+          "number": "26",
+          "name": "Liu Ruofan",
+          "country": "Unknown"
+        },
+        {
+          "number": "30",
+          "name": "Gabriel Airton de Souza",
+          "country": "Unknown"
+        },
+        {
+          "number": "40",
+          "name": "Wumitijiang Yusupu",
+          "country": "Unknown"
+        },
+        {
+          "number": "45",
+          "name": "Leo",
+          "country": "Unknown"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": "12",
+          "name": "Chen Wei",
+          "country": "Unknown"
+        },
+        {
+          "number": "2",
+          "name": "Li Ang",
+          "country": "Unknown"
+        },
+        {
+          "number": "6",
+          "name": "Xu Xin",
+          "country": "Unknown"
+        },
+        {
+          "number": "11",
+          "name": "Lü Wenjun",
+          "country": "Unknown"
+        },
+        {
+          "number": "13",
+          "name": "Wei Zhen",
+          "country": "Unknown"
+        },
+        {
+          "number": "14",
+          "name": "Li Shenglong",
+          "country": "Unknown"
+        },
+        {
+          "number": "20",
+          "name": "Yang Shiyuan",
+          "country": "Unknown"
+        },
+        {
+          "number": "27",
+          "name": "Feng Jing",
+          "country": "Unknown"
+        },
+        {
+          "number": "29",
+          "name": "Alexander Jojo",
+          "country": "Unknown"
+        },
+        {
+          "number": "32",
+          "name": "Li Shuai",
+          "country": "Unknown"
+        },
+        {
+          "number": "47",
+          "name": "Kuai Jiwen",
+          "country": "Unknown"
+        },
+        {
+          "number": "49",
+          "name": "Li Xinxiang",
+          "country": "Unknown"
+        }
+      ],
+      "substitutions": []
+    },
+    "away": {
+      "name": "Qingdao West Coast",
+      "full_name": "",
+      "score": 2,
+      "score_ht": 1,
+      "formation": "4-2-3-1",
+      "coach": "Shao Jiayi",
+      "captain": "Riccieli",
+      "lineup": [
+        {
+          "number": "1",
+          "name": "Li Hao",
+          "country": "Unknown"
+        },
+        {
+          "number": "5",
+          "name": "Riccieli",
+          "country": "Unknown"
+        },
+        {
+          "number": "6",
+          "name": "Xu Bin",
+          "country": "Unknown"
+        },
+        {
+          "number": "9",
+          "name": "Abdul-Aziz Yakubu",
+          "country": "Unknown"
+        },
+        {
+          "number": "11",
+          "name": "Davidson da Luz Pereira",
+          "country": "Unknown"
+        },
+        {
+          "number": "15",
+          "name": "Wang Peng",
+          "country": "Unknown"
+        },
+        {
+          "number": "20",
+          "name": "He Longhai",
+          "country": "Unknown"
+        },
+        {
+          "number": "21",
+          "name": "Mutalifu Yimingkari",
+          "country": "Unknown"
+        },
+        {
+          "number": "22",
+          "name": "Yang Alex",
+          "country": "Unknown"
+        },
+        {
+          "number": "23",
+          "name": "Índio",
+          "country": "Unknown"
+        },
+        {
+          "number": "28",
+          "name": "Zhang Chengdong",
+          "country": "Unknown"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": "37",
+          "name": "Dong Hang",
+          "country": "Unknown"
+        },
+        {
+          "number": "8",
+          "name": "Zhang Xiuwei",
+          "country": "Unknown"
+        },
+        {
+          "number": "10",
+          "name": "Nelson",
+          "country": "Unknown"
+        },
+        {
+          "number": "13",
+          "name": "Song Haoyu",
+          "country": "Unknown"
+        },
+        {
+          "number": "17",
+          "name": "Chen Po-liang",
+          "country": "Unknown"
+        },
+        {
+          "number": "19",
+          "name": "Ding Haifeng",
+          "country": "Unknown"
+        },
+        {
+          "number": "24",
+          "name": "Duan Liuyu",
+          "country": "Unknown"
+        },
+        {
+          "number": "56",
+          "name": "Gao Di",
+          "country": "Unknown"
+        }
+      ],
+      "substitutions": []
+    }
+  },
+  "events": [
+    {
+      "minute": 23,
+      "minute_extra": 0,
+      "type": "yellow_card",
+      "team": "away",
+      "player": "Zhang Linpeng",
+      "player2": "",
+      "goal_type": "",
+      "player_out": "",
+      "description": "YELLOW CARD"
+    },
+    {
+      "minute": 38,
+      "minute_extra": 0,
+      "type": "yellow_card",
+      "team": "home",
+      "player": "Yang Alex",
+      "player2": "",
+      "goal_type": "",
+      "player_out": "",
+      "description": "YELLOW CARD"
+    },
+    {
+      "minute": 39,
+      "minute_extra": 0,
+      "type": "yellow_card",
+      "team": "away",
+      "player": "Leo",
+      "player2": "",
+      "goal_type": "",
+      "player_out": "",
+      "description": "YELLOW CARD"
+    },
+    {
+      "minute": 45,
+      "minute_extra": 11,
+      "type": "goal",
+      "team": "home",
+      "player": "Leo",
+      "player2": "Gabriel Airton de Souza",
+      "goal_type": "penalty_goal",
+      "player_out": "",
+      "description": "GOAL"
+    },
+    {
+      "minute": 45,
+      "minute_extra": 11,
+      "type": "goal",
+      "team": "away",
+      "player": "Leo",
+      "player2": "",
+      "goal_type": "goal",
+      "player_out": "",
+      "description": "GOAL"
+    },
+    {
+      "minute": 57,
+      "minute_extra": 0,
+      "type": "substitution",
+      "team": "home",
+      "player": "Nelson",
+      "player2": "",
+      "goal_type": "",
+      "player_out": "Mutalifu Yimingkari",
+      "description": "SUBSTITUTION"
+    },
+    {
+      "minute": 57,
+      "minute_extra": 0,
+      "type": "substitution",
+      "team": "home",
+      "player": "Duan Liuyu",
+      "player2": "",
+      "goal_type": "",
+      "player_out": "Zhang Chengdong",
+      "description": "SUBSTITUTION"
+    },
+    {
+      "minute": 60,
+      "minute_extra": 0,
+      "type": "goal",
+      "team": "home",
+      "player": "Nelson",
+      "player2": "Duan Liuyu",
+      "goal_type": "goal",
+      "player_out": "",
+      "description": "GOAL"
+    },
+    {
+      "minute": 62,
+      "minute_extra": 0,
+      "type": "goal",
+      "team": "away",
+      "player": "Gabriel Airton de Souza",
+      "player2": "",
+      "goal_type": "goal",
+      "player_out": "",
+      "description": "GOAL"
+    },
+    {
+      "minute": 67,
+      "minute_extra": 0,
+      "type": "substitution",
+      "team": "away",
+      "player": "Li Xinxiang",
+      "player2": "",
+      "goal_type": "",
+      "player_out": "Liu Ruofan",
+      "description": "SUBSTITUTION"
+    },
+    {
+      "minute": 72,
+      "minute_extra": 0,
+      "type": "substitution",
+      "team": "away",
+      "player": "Kuai Jiwen",
+      "player2": "",
+      "goal_type": "",
+      "player_out": "Óscar Melendo",
+      "description": "SUBSTITUTION"
+    },
+    {
+      "minute": 72,
+      "minute_extra": 0,
+      "type": "substitution",
+      "team": "away",
+      "player": "Li Shuai",
+      "player2": "",
+      "goal_type": "",
+      "player_out": "Wang Shenchao",
+      "description": "SUBSTITUTION"
+    },
+    {
+      "minute": 81,
+      "minute_extra": 0,
+      "type": "substitution",
+      "team": "home",
+      "player": "Gao Di",
+      "player2": "",
+      "goal_type": "",
+      "player_out": "Abdul-Aziz Yakubu",
+      "description": "SUBSTITUTION"
+    },
+    {
+      "minute": 81,
+      "minute_extra": 0,
+      "type": "substitution",
+      "team": "home",
+      "player": "Ding Haifeng",
+      "player2": "",
+      "goal_type": "",
+      "player_out": "He Longhai",
+      "description": "SUBSTITUTION"
+    },
+    {
+      "minute": 86,
+      "minute_extra": 0,
+      "type": "goal",
+      "team": "home",
+      "player": "Gao Di",
+      "player2": "Xu Bin",
+      "goal_type": "goal",
+      "player_out": "",
+      "description": "GOAL"
+    },
+    {
+      "minute": 88,
+      "minute_extra": 0,
+      "type": "substitution",
+      "team": "home",
+      "player": "Zhang Xiuwei",
+      "player2": "",
+      "goal_type": "",
+      "player_out": "Yang Alex",
+      "description": "SUBSTITUTION"
+    },
+    {
+      "minute": 89,
+      "minute_extra": 0,
+      "type": "substitution",
+      "team": "away",
+      "player": "Xu Xin",
+      "player2": "",
+      "goal_type": "",
+      "player_out": "Gabriel Airton de Souza",
+      "description": "SUBSTITUTION"
+    },
+    {
+      "minute": 89,
+      "minute_extra": 0,
+      "type": "substitution",
+      "team": "away",
+      "player": "Feng Jing",
+      "player2": "",
+      "goal_type": "",
+      "player_out": "Mateus Vital",
+      "description": "SUBSTITUTION"
+    },
+    {
+      "minute": 90,
+      "minute_extra": 11,
+      "type": "yellow_card",
+      "team": "home",
+      "player": "Ding Haifeng",
+      "player2": "",
+      "goal_type": "",
+      "player_out": "",
+      "description": "YELLOW CARD"
+    }
+  ],
+  "statistics": {
+    "possession": {
+      "home": "66%",
+      "away": "34%"
+    },
+    "shots_on_target": {
+      "home": "4",
+      "away": "3"
+    },
+    "shots": {
+      "home": "14",
+      "away": "11"
+    },
+    "shots_accuracy": {
+      "home": "29%",
+      "away": "27%"
+    },
+    "saves": {
+      "home": "1 of 3-33%",
+      "away": "2 of 4-50%"
+    },
+    "fouls": {
+      "home": "9",
+      "away": "17"
+    },
+    "corners": {
+      "home": "6",
+      "away": "2"
+    },
+    "crosses": {
+      "home": "23",
+      "away": "7"
+    },
+    "interceptions": {
+      "home": "11",
+      "away": "22"
+    },
+    "offsides": {
+      "home": "3",
+      "away": "2"
+    },
+    "yellow_cards": {
+      "home": 2,
+      "away": 2
+    },
+    "red_cards": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  "metadata": {
+    "source": "FBref",
+    "url": "https://fbref.com/en/matches/d2ce357e/Henan-Shanghai-Port-July-5-2024-Chinese-Super-League",
+    "scraped_at": "2026-03-29T22:19:38",
+    "version": "9.5-event-only-penalty-fix"
+  }
+}

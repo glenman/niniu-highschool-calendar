@@ -1,0 +1,69 @@
+{
+  "match_info": {
+    "match_id": "08602b83",
+    "date": "2024-03-01",
+    "time": "20:00",
+    "competition": {
+      "name": "Chinese Football Association Super League",
+      "season": "2024",
+      "round": "Matchweek 1"
+    },
+    "venue": {
+      "name": "SAIC Motor Pudong Arena",
+      "city": "Shanghai",
+      "attendance": 21713
+    },
+    "referee": {
+      "name": "待补充",
+      "country": "China"
+    }
+  },
+  "teams": {
+    "home": {
+      "name": "Shanghai Port",
+      "full_name": "上海海港足球俱乐部",
+      "score": 3,
+      "score_ht": 0,
+      "formation": "",
+      "coach": "Kevin Muscat",
+      "captain": "Oscar",
+      "lineup": [],
+      "substitutes": [],
+      "substitutions": []
+    },
+    "away": {
+      "name": "Wuhan Three Towns",
+      "full_name": "武汉三镇足球俱乐部",
+      "score": 1,
+      "score_ht": 0,
+      "formation": "",
+      "coach": "Ricardo Rodríguez",
+      "captain": "Liu Dianzuo",
+      "lineup": [],
+      "substitutes": [],
+      "substitutions": []
+    }
+  },
+  "events": [
+    {"minute": 20, "type": "goal", "team": "away", "player": "Wang Yi Denny", "description": ""},
+    {"minute": 33, "type": "goal", "team": "home", "player": "Wu Lei", "description": ""},
+    {"minute": 75, "type": "goal", "team": "home", "player": "Wu Lei", "description": ""},
+    {"minute": 90, "minute_extra": 2, "type": "goal", "team": "home", "player": "Wang Shenchao", "description": ""}
+  ],
+  "statistics": {
+    "possession": {"home": 67, "away": 33},
+    "shots": {"home": 21, "away": 9},
+    "shots_on_target": {"home": 8, "away": 5},
+    "saves": {"home": 4, "away": 5}
+  },
+  "player_stats": {
+    "home": [],
+    "away": []
+  },
+  "metadata": {
+    "source": "FBref",
+    "url": "https://fbref.com/en/matches/08602b83/Shanghai-Port-Wuhan-Three-Towns-March-1-2024-Chinese-Super-League",
+    "scraped_at": "2026-03-23T20:30:00",
+    "version": "1.0"
+  }
+}

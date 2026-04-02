@@ -1,0 +1,1495 @@
+================================================================================
+重复文件报告 - 2026-03-24 20:02:47
+================================================================================
+
+目录1: /Volumes/Media_Lib (glenwrt)
+目录2: /Volumes/Media_Lib-1 (glenhouse-pc)
+最小文件大小: 500.00 MB
+
+================================================================================
+摘要统计
+================================================================================
+目录1 (glenwrt) >= 500MB 文件数: 902
+目录2 (glenhouse-pc) >= 500MB 文件数: 755
+重复文件总数: 245
+  - 大小完全相同: 244
+  - 大小不同: 1
+完全重复文件总大小: 3.33 TB
+
+================================================================================
+大小完全相同的重复文件 (244 个)
+================================================================================
+
+--------------------------------------------------------------------------------
+文件名: 01.林黛玉别父进京都.A.Dream.in.Red.Mansions.1987.E01.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+大小: 1.45 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/01.林黛玉别父进京都.A.Dream.in.Red.Mansions.1987.E01.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/【4K修复】红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/01.林黛玉别父进京都.A.Dream.in.Red.Mansions.1987.E01.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+
+--------------------------------------------------------------------------------
+文件名: 02.宝黛钗初会荣庆堂.A.Dream.in.Red.Mansions.1987.E02.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+大小: 1018.26 MB
+glenwrt:      /Volumes/Media_Lib/TV-Series/红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/02.宝黛钗初会荣庆堂.A.Dream.in.Red.Mansions.1987.E02.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/【4K修复】红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/02.宝黛钗初会荣庆堂.A.Dream.in.Red.Mansions.1987.E02.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+
+--------------------------------------------------------------------------------
+文件名: 03.刘姥姥一进荣国府.A.Dream.in.Red.Mansions.1987.E03.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+大小: 1.13 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/03.刘姥姥一进荣国府.A.Dream.in.Red.Mansions.1987.E03.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/【4K修复】红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/03.刘姥姥一进荣国府.A.Dream.in.Red.Mansions.1987.E03.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+
+--------------------------------------------------------------------------------
+文件名: 04.探宝钗黛玉半含酸.A.Dream.in.Red.Mansions.1987.E04.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+大小: 1.27 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/04.探宝钗黛玉半含酸.A.Dream.in.Red.Mansions.1987.E04.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/【4K修复】红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/04.探宝钗黛玉半含酸.A.Dream.in.Red.Mansions.1987.E04.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+
+--------------------------------------------------------------------------------
+文件名: 05.王熙凤毒设相思局.A.Dream.in.Red.Mansions.1987.E05.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+大小: 1022.92 MB
+glenwrt:      /Volumes/Media_Lib/TV-Series/红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/05.王熙凤毒设相思局.A.Dream.in.Red.Mansions.1987.E05.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/【4K修复】红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/05.王熙凤毒设相思局.A.Dream.in.Red.Mansions.1987.E05.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+
+--------------------------------------------------------------------------------
+文件名: 06.王熙凤协理宁国府.A.Dream.in.Red.Mansions.1987.E06.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+大小: 1.69 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/06.王熙凤协理宁国府.A.Dream.in.Red.Mansions.1987.E06.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/【4K修复】红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/06.王熙凤协理宁国府.A.Dream.in.Red.Mansions.1987.E06.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+
+--------------------------------------------------------------------------------
+文件名: 07.大观园试才题对额.A.Dream.in.Red.Mansions.1987.E07.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+大小: 1.64 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/07.大观园试才题对额.A.Dream.in.Red.Mansions.1987.E07.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/【4K修复】红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/07.大观园试才题对额.A.Dream.in.Red.Mansions.1987.E07.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+
+--------------------------------------------------------------------------------
+文件名: 08.荣国府归省庆元宵.A.Dream.in.Red.Mansions.1987.E08.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+大小: 1.48 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/08.荣国府归省庆元宵.A.Dream.in.Red.Mansions.1987.E08.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/【4K修复】红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/08.荣国府归省庆元宵.A.Dream.in.Red.Mansions.1987.E08.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+
+--------------------------------------------------------------------------------
+文件名: 09.意绵绵静日玉生香.A.Dream.in.Red.Mansions.1987.E09.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+大小: 1.46 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/09.意绵绵静日玉生香.A.Dream.in.Red.Mansions.1987.E09.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/【4K修复】红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/09.意绵绵静日玉生香.A.Dream.in.Red.Mansions.1987.E09.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+
+--------------------------------------------------------------------------------
+文件名: 10.听曲文宝玉悟禅机.A.Dream.in.Red.Mansions.1987.E10.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+大小: 1.69 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/10.听曲文宝玉悟禅机.A.Dream.in.Red.Mansions.1987.E10.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/【4K修复】红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/10.听曲文宝玉悟禅机.A.Dream.in.Red.Mansions.1987.E10.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+
+--------------------------------------------------------------------------------
+文件名: 11.为争宠姐弟遭魔魇.A.Dream.in.Red.Mansions.1987.E11.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+大小: 1.43 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/11.为争宠姐弟遭魔魇.A.Dream.in.Red.Mansions.1987.E11.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/【4K修复】红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/11.为争宠姐弟遭魔魇.A.Dream.in.Red.Mansions.1987.E11.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+
+--------------------------------------------------------------------------------
+文件名: 12.埋香家飞燕泣残红.A.Dream.in.Red.Mansions.1987.E12.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+大小: 2.17 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/12.埋香家飞燕泣残红.A.Dream.in.Red.Mansions.1987.E12.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/【4K修复】红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/12.埋香家飞燕泣残红.A.Dream.in.Red.Mansions.1987.E12.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+
+--------------------------------------------------------------------------------
+文件名: 13.Hours.2016.2160p.UHD.Bluray.REMUX.DV.HEVC.TrueHD.7.1.Atmos-PTer.mkv
+大小: 78.93 GB
+glenwrt:      /Volumes/Media_Lib/Movies/13小时 Thirteen Hours/13.Hours.2016.2160p.UHD.Bluray.REMUX.DV.HEVC.TrueHD.7.1.Atmos-PTer.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/13.Hours.2016.2160p.UHD.Bluray.REMUX.DV.HEVC.TrueHD.7.1.Atmos-PTer.mkv
+
+--------------------------------------------------------------------------------
+文件名: 13.享福人福深还祷福.A.Dream.in.Red.Mansions.1987.E13.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+大小: 1.89 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/13.享福人福深还祷福.A.Dream.in.Red.Mansions.1987.E13.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/【4K修复】红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/13.享福人福深还祷福.A.Dream.in.Red.Mansions.1987.E13.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+
+--------------------------------------------------------------------------------
+文件名: 14.含耻辱情烈死金钏.A.Dream.in.Red.Mansions.1987.E14.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+大小: 2.07 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/14.含耻辱情烈死金钏.A.Dream.in.Red.Mansions.1987.E14.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/【4K修复】红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/14.含耻辱情烈死金钏.A.Dream.in.Red.Mansions.1987.E14.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+
+--------------------------------------------------------------------------------
+文件名: 15.弄唇舌宝玉遭笞挞.A.Dream.in.Red.Mansions.1987.E15.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+大小: 1.32 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/15.弄唇舌宝玉遭笞挞.A.Dream.in.Red.Mansions.1987.E15.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/【4K修复】红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/15.弄唇舌宝玉遭笞挞.A.Dream.in.Red.Mansions.1987.E15.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+
+--------------------------------------------------------------------------------
+文件名: 16.刘姥姥嬉游大观园.A.Dream.in.Red.Mansions.1987.E16.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+大小: 1.97 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/16.刘姥姥嬉游大观园.A.Dream.in.Red.Mansions.1987.E16.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/【4K修复】红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/16.刘姥姥嬉游大观园.A.Dream.in.Red.Mansions.1987.E16.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+
+--------------------------------------------------------------------------------
+文件名: 17.变生不测凤姐泼醋.A.Dream.in.Red.Mansions.1987.E17.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+大小: 2.07 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/17.变生不测凤姐泼醋.A.Dream.in.Red.Mansions.1987.E17.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/【4K修复】红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/17.变生不测凤姐泼醋.A.Dream.in.Red.Mansions.1987.E17.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+
+--------------------------------------------------------------------------------
+文件名: 18.鸳鸯女誓绝鸳鸯偶.A.Dream.in.Red.Mansions.1987.E18.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+大小: 2.23 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/18.鸳鸯女誓绝鸳鸯偶.A.Dream.in.Red.Mansions.1987.E18.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/【4K修复】红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/18.鸳鸯女誓绝鸳鸯偶.A.Dream.in.Red.Mansions.1987.E18.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+
+--------------------------------------------------------------------------------
+文件名: 19.琉璃世界白雪红梅.A.Dream.in.Red.Mansions.1987.E19.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+大小: 1.88 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/19.琉璃世界白雪红梅.A.Dream.in.Red.Mansions.1987.E19.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/【4K修复】红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/19.琉璃世界白雪红梅.A.Dream.in.Red.Mansions.1987.E19.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+
+--------------------------------------------------------------------------------
+文件名: 20.勇晴雯病补雀金裘.A.Dream.in.Red.Mansions.1987.E20.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+大小: 1.45 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/20.勇晴雯病补雀金裘.A.Dream.in.Red.Mansions.1987.E20.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/【4K修复】红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/20.勇晴雯病补雀金裘.A.Dream.in.Red.Mansions.1987.E20.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+
+--------------------------------------------------------------------------------
+文件名: 21.荣国府元宵开夜宴.A.Dream.in.Red.Mansions.1987.E21.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+大小: 2.20 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/21.荣国府元宵开夜宴.A.Dream.in.Red.Mansions.1987.E21.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/【4K修复】红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/21.荣国府元宵开夜宴.A.Dream.in.Red.Mansions.1987.E21.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+
+--------------------------------------------------------------------------------
+文件名: 22.判冤决狱平儿行权.A.Dream.in.Red.Mansions.1987.E22.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+大小: 1.64 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/22.判冤决狱平儿行权.A.Dream.in.Red.Mansions.1987.E22.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/【4K修复】红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/22.判冤决狱平儿行权.A.Dream.in.Red.Mansions.1987.E22.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+
+--------------------------------------------------------------------------------
+文件名: 23.慧紫娟情辞试忙玉.A.Dream.in.Red.Mansions.1987.E23.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+大小: 1.28 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/23.慧紫娟情辞试忙玉.A.Dream.in.Red.Mansions.1987.E23.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/【4K修复】红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/23.慧紫娟情辞试忙玉.A.Dream.in.Red.Mansions.1987.E23.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+
+--------------------------------------------------------------------------------
+文件名: 24.寿怡红群芳开夜宴.A.Dream.in.Red.Mansions.1987.E24.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+大小: 1.85 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/24.寿怡红群芳开夜宴.A.Dream.in.Red.Mansions.1987.E24.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/【4K修复】红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/24.寿怡红群芳开夜宴.A.Dream.in.Red.Mansions.1987.E24.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+
+--------------------------------------------------------------------------------
+文件名: 25.贾二舍偷娶尤二姨.A.Dream.in.Red.Mansions.1987.E25.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+大小: 2.37 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/25.贾二舍偷娶尤二姨.A.Dream.in.Red.Mansions.1987.E25.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/【4K修复】红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/25.贾二舍偷娶尤二姨.A.Dream.in.Red.Mansions.1987.E25.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+
+--------------------------------------------------------------------------------
+文件名: 26.酸凤姐大闹宁国府.A.Dream.in.Red.Mansions.1987.E26.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+大小: 2.27 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/26.酸凤姐大闹宁国府.A.Dream.in.Red.Mansions.1987.E26.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/【4K修复】红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/26.酸凤姐大闹宁国府.A.Dream.in.Red.Mansions.1987.E26.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+
+--------------------------------------------------------------------------------
+文件名: 27.嫌隙人有心生嫌隙.A.Dream.in.Red.Mansions.1987.E27.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+大小: 2.11 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/27.嫌隙人有心生嫌隙.A.Dream.in.Red.Mansions.1987.E27.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/【4K修复】红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/27.嫌隙人有心生嫌隙.A.Dream.in.Red.Mansions.1987.E27.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+
+--------------------------------------------------------------------------------
+文件名: 28.开夜宴异兆发悲音.A.Dream.in.Red.Mansions.1987.E28.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+大小: 1.84 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/28.开夜宴异兆发悲音.A.Dream.in.Red.Mansions.1987.E28.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/【4K修复】红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/28.开夜宴异兆发悲音.A.Dream.in.Red.Mansions.1987.E28.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+
+--------------------------------------------------------------------------------
+文件名: 29.痴公子杜撰芙蓉诔.A.Dream.in.Red.Mansions.1987.E29.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+大小: 1.32 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/29.痴公子杜撰芙蓉诔.A.Dream.in.Red.Mansions.1987.E29.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/【4K修复】红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/29.痴公子杜撰芙蓉诔.A.Dream.in.Red.Mansions.1987.E29.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+
+--------------------------------------------------------------------------------
+文件名: 30.大观园诸芳流散.A.Dream.in.Red.Mansions.1987.E30.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+大小: 1.66 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/30.大观园诸芳流散.A.Dream.in.Red.Mansions.1987.E30.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/【4K修复】红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/30.大观园诸芳流散.A.Dream.in.Red.Mansions.1987.E30.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+
+--------------------------------------------------------------------------------
+文件名: 31.家宅乱误窃通灵.A.Dream.in.Red.Mansions.1987.E31.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+大小: 1.73 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/31.家宅乱误窃通灵.A.Dream.in.Red.Mansions.1987.E31.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/【4K修复】红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/31.家宅乱误窃通灵.A.Dream.in.Red.Mansions.1987.E31.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+
+--------------------------------------------------------------------------------
+文件名: 32.伤离别探春远嫁.A.Dream.in.Red.Mansions.1987.E32.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+大小: 1.92 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/32.伤离别探春远嫁.A.Dream.in.Red.Mansions.1987.E32.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/【4K修复】红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/32.伤离别探春远嫁.A.Dream.in.Red.Mansions.1987.E32.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+
+--------------------------------------------------------------------------------
+文件名: 33.惊噩耗黛玉魂归.A.Dream.in.Red.Mansions.1987.E33.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+大小: 2.44 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/33.惊噩耗黛玉魂归.A.Dream.in.Red.Mansions.1987.E33.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/【4K修复】红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/33.惊噩耗黛玉魂归.A.Dream.in.Red.Mansions.1987.E33.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+
+--------------------------------------------------------------------------------
+文件名: 34.强英雄凤姐知命.A.Dream.in.Red.Mansions.1987.E34.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+大小: 1.42 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/34.强英雄凤姐知命.A.Dream.in.Red.Mansions.1987.E34.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/【4K修复】红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/34.强英雄凤姐知命.A.Dream.in.Red.Mansions.1987.E34.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+
+--------------------------------------------------------------------------------
+文件名: 35.大厦倾公府末路.A.Dream.in.Red.Mansions.1987.E35.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+大小: 1.42 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/35.大厦倾公府末路.A.Dream.in.Red.Mansions.1987.E35.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/【4K修复】红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/35.大厦倾公府末路.A.Dream.in.Red.Mansions.1987.E35.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+
+--------------------------------------------------------------------------------
+文件名: 36.白茫茫厚地高天.A.Dream.in.Red.Mansions.1987.E36.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+大小: 1.42 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/36.白茫茫厚地高天.A.Dream.in.Red.Mansions.1987.E36.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/【4K修复】红楼梦.A.Dream.in.Red.Mansions.1987.2160p.WEB-DL.H264.AAC-HDPTWeb/36.白茫茫厚地高天.A.Dream.in.Red.Mansions.1987.E36.2160p.WEB-DL.H264.AAC-HDPTWeb.mp4
+
+--------------------------------------------------------------------------------
+文件名: A.Perfect.Planet.S01E01.Volcano.2160p.UHD.BluRay.x265.HDR.TrueHD.Atmos.mUHD-FRDS.mkv
+大小: 11.55 GB
+glenwrt:      /Volumes/Media_Lib/Documentary/A.Perfect.Planet.2021.S01.UHD.BluRay.2160p.mUHD-FRDS/A.Perfect.Planet.S01E01.Volcano.2160p.UHD.BluRay.x265.HDR.TrueHD.Atmos.mUHD-FRDS.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/A.Perfect.Planet.2021.S01.UHD.BluRay.2160p.mUHD-FRDS/A.Perfect.Planet.S01E01.Volcano.2160p.UHD.BluRay.x265.HDR.TrueHD.Atmos.mUHD-FRDS.mkv
+
+--------------------------------------------------------------------------------
+文件名: A.Perfect.Planet.S01E02.The.Sun.2160p.UHD.BluRay.x265.HDR.TrueHD.Atmos.mUHD-FRDS.mkv
+大小: 12.23 GB
+glenwrt:      /Volumes/Media_Lib/Documentary/A.Perfect.Planet.2021.S01.UHD.BluRay.2160p.mUHD-FRDS/A.Perfect.Planet.S01E02.The.Sun.2160p.UHD.BluRay.x265.HDR.TrueHD.Atmos.mUHD-FRDS.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/A.Perfect.Planet.2021.S01.UHD.BluRay.2160p.mUHD-FRDS/A.Perfect.Planet.S01E02.The.Sun.2160p.UHD.BluRay.x265.HDR.TrueHD.Atmos.mUHD-FRDS.mkv
+
+--------------------------------------------------------------------------------
+文件名: A.Perfect.Planet.S01E03.Weather.2160p.UHD.BluRay.x265.HDR.TrueHD.Atmos.mUHD-FRDS.mkv
+大小: 11.61 GB
+glenwrt:      /Volumes/Media_Lib/Documentary/A.Perfect.Planet.2021.S01.UHD.BluRay.2160p.mUHD-FRDS/A.Perfect.Planet.S01E03.Weather.2160p.UHD.BluRay.x265.HDR.TrueHD.Atmos.mUHD-FRDS.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/A.Perfect.Planet.2021.S01.UHD.BluRay.2160p.mUHD-FRDS/A.Perfect.Planet.S01E03.Weather.2160p.UHD.BluRay.x265.HDR.TrueHD.Atmos.mUHD-FRDS.mkv
+
+--------------------------------------------------------------------------------
+文件名: A.Perfect.Planet.S01E04.Oceans.2160p.UHD.BluRay.x265.HDR.TrueHD.Atmos.mUHD-FRDS.mkv
+大小: 14.43 GB
+glenwrt:      /Volumes/Media_Lib/Documentary/A.Perfect.Planet.2021.S01.UHD.BluRay.2160p.mUHD-FRDS/A.Perfect.Planet.S01E04.Oceans.2160p.UHD.BluRay.x265.HDR.TrueHD.Atmos.mUHD-FRDS.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/A.Perfect.Planet.2021.S01.UHD.BluRay.2160p.mUHD-FRDS/A.Perfect.Planet.S01E04.Oceans.2160p.UHD.BluRay.x265.HDR.TrueHD.Atmos.mUHD-FRDS.mkv
+
+--------------------------------------------------------------------------------
+文件名: A.Perfect.Planet.S01E05.Humans.2160p.UHD.BluRay.x265.HDR.TrueHD.Atmos.mUHD-FRDS.mkv
+大小: 15.11 GB
+glenwrt:      /Volumes/Media_Lib/Documentary/A.Perfect.Planet.2021.S01.UHD.BluRay.2160p.mUHD-FRDS/A.Perfect.Planet.S01E05.Humans.2160p.UHD.BluRay.x265.HDR.TrueHD.Atmos.mUHD-FRDS.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/A.Perfect.Planet.2021.S01.UHD.BluRay.2160p.mUHD-FRDS/A.Perfect.Planet.S01E05.Humans.2160p.UHD.BluRay.x265.HDR.TrueHD.Atmos.mUHD-FRDS.mkv
+
+--------------------------------------------------------------------------------
+文件名: A.Perfect.Planet.S01SP.Make.A.Prefect.Planet.2160p.UHD.BluRay.x265.HDR.TrueHD.Atmos.mUHD-FRDS.mkv
+大小: 5.45 GB
+glenwrt:      /Volumes/Media_Lib/Documentary/A.Perfect.Planet.2021.S01.UHD.BluRay.2160p.mUHD-FRDS/A.Perfect.Planet.S01SP.Make.A.Prefect.Planet.2160p.UHD.BluRay.x265.HDR.TrueHD.Atmos.mUHD-FRDS.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/A.Perfect.Planet.2021.S01.UHD.BluRay.2160p.mUHD-FRDS/A.Perfect.Planet.S01SP.Make.A.Prefect.Planet.2160p.UHD.BluRay.x265.HDR.TrueHD.Atmos.mUHD-FRDS.mkv
+
+--------------------------------------------------------------------------------
+文件名: Adaptation.2002.UHD.BluRay.2160p.x265.10bit.DoVi.2Audio.mUHD-FRDS.mkv
+大小: 19.25 GB
+glenwrt:      /Volumes/Media_Lib/Movies/改编剧本.Adaptation.2002.UHD.BluRay.2160p.x265.10bit.DoVi.2Audio.mUHD-FRDS/Adaptation.2002.UHD.BluRay.2160p.x265.10bit.DoVi.2Audio.mUHD-FRDS.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/改编剧本.Adaptation.2002.UHD.BluRay.2160p.x265.10bit.DoVi.2Audio.mUHD-FRDS/Adaptation.2002.UHD.BluRay.2160p.x265.10bit.DoVi.2Audio.mUHD-FRDS.mkv
+
+--------------------------------------------------------------------------------
+文件名: Alita.Battle.Angel.2019.2160p.UHD.Bluray.TrueHD.Atmos.7.1.DoVi.HDR10+.x265-PTer.mkv
+大小: 21.49 GB
+glenwrt:      /Volumes/Media_Lib/Movies/阿丽塔 4K (2019)/Alita.Battle.Angel.2019.2160p.UHD.Bluray.TrueHD.Atmos.7.1.DoVi.HDR10+.x265-PTer.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/Alita.Battle.Angel.2019.2160p.UHD.Bluray.TrueHD.Atmos.7.1.DoVi.HDR10+.x265-PTer.mkv
+
+--------------------------------------------------------------------------------
+文件名: All.Quiet.on.the.Western.Front.2022.4K.HDR.2160p.WEBDL Ita Ger x265-NAHOM.mkv
+大小: 19.93 GB
+glenwrt:      /Volumes/Media_Lib/Movies/All.Quiet.on.the.Western.Front.2022.4K.HDR.2160p.WEBDL Ita Ger x265-NAHOM/All.Quiet.on.the.Western.Front.2022.4K.HDR.2160p.WEBDL Ita Ger x265-NAHOM.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/All.Quiet.on.the.Western.Front.2022.4K.HDR.2160p.WEBDL Ita Ger x265-NAHOM.mkv
+
+--------------------------------------------------------------------------------
+文件名: Apollo.11.2019.UHD.BluRay.2160p.10bit.HDR.DTS-HD.MA.5.1.x265-beAst.mkv
+大小: 26.61 GB
+glenwrt:      /Volumes/Media_Lib/Documentary/Apollo.11.2019.UHD.BluRay.2160p.10bit.HDR.DTS-HD.MA.5.1.x265-beAst/Apollo.11.2019.UHD.BluRay.2160p.10bit.HDR.DTS-HD.MA.5.1.x265-beAst.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/Apollo.11.2019.UHD.BluRay.2160p.10bit.HDR.DTS-HD.MA.5.1.x265-beAst/Apollo.11.2019.UHD.BluRay.2160p.10bit.HDR.DTS-HD.MA.5.1.x265-beAst.mkv
+
+--------------------------------------------------------------------------------
+文件名: Avatar.The.Way.of.Water.2022.2160p.WEB-DL.DoVi.HDR10.HEVC.Atmos.DDP5.1-HDH.mkv
+大小: 33.69 GB
+glenwrt:      /Volumes/Media_Lib/Movies/Avator.阿凡达/Avatar.The.Way.of.Water.2022.2160p.WEB-DL.DoVi.HDR10.HEVC.Atmos.DDP5.1-HDH/Avatar.The.Way.of.Water.2022.2160p.WEB-DL.DoVi.HDR10.HEVC.Atmos.DDP5.1-HDH.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/Avatar.The.Way.of.Water.2022.2160p.WEB-DL.DoVi.HDR10.HEVC.Atmos.DDP5.1-HDH/Avatar.The.Way.of.Water.2022.2160p.WEB-DL.DoVi.HDR10.HEVC.Atmos.DDP5.1-HDH.mkv
+
+--------------------------------------------------------------------------------
+文件名: BBC.Planet.Earth.III.2023.EP01.UHD.BluRay.2160p.2Audio.TrueHD.Atmos.7.1.x265.10bit.HDR-beAst.mkv
+大小: 9.81 GB
+glenwrt:      /Volumes/Media_Lib/Documentary/Planet Earth Episode III/BBC.Planet.Earth.III.2023.EP01.UHD.BluRay.2160p.2Audio.TrueHD.Atmos.7.1.x265.10bit.HDR-beAst.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/BBC.Planet.Earth.III.2023.EP01-EP08.UHD.BluRay.2160p.2Audio.TrueHD.Atmos.7.1.x265.10bit.HDR-beAst/BBC.Planet.Earth.III.2023.EP01.UHD.BluRay.2160p.2Audio.TrueHD.Atmos.7.1.x265.10bit.HDR-beAst.mkv
+
+--------------------------------------------------------------------------------
+文件名: BBC.Planet.Earth.III.2023.EP02.UHD.BluRay.2160p.2Audio.TrueHD.Atmos.7.1.x265.10bit.HDR-beAst.mkv
+大小: 11.14 GB
+glenwrt:      /Volumes/Media_Lib/Documentary/Planet Earth Episode III/BBC.Planet.Earth.III.2023.EP02.UHD.BluRay.2160p.2Audio.TrueHD.Atmos.7.1.x265.10bit.HDR-beAst.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/BBC.Planet.Earth.III.2023.EP01-EP08.UHD.BluRay.2160p.2Audio.TrueHD.Atmos.7.1.x265.10bit.HDR-beAst/BBC.Planet.Earth.III.2023.EP02.UHD.BluRay.2160p.2Audio.TrueHD.Atmos.7.1.x265.10bit.HDR-beAst.mkv
+
+--------------------------------------------------------------------------------
+文件名: BBC.Planet.Earth.III.2023.EP03.UHD.BluRay.2160p.2Audio.TrueHD.Atmos.7.1.x265.10bit.HDR-beAst.mkv
+大小: 9.76 GB
+glenwrt:      /Volumes/Media_Lib/Documentary/Planet Earth Episode III/BBC.Planet.Earth.III.2023.EP03.UHD.BluRay.2160p.2Audio.TrueHD.Atmos.7.1.x265.10bit.HDR-beAst.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/BBC.Planet.Earth.III.2023.EP01-EP08.UHD.BluRay.2160p.2Audio.TrueHD.Atmos.7.1.x265.10bit.HDR-beAst/BBC.Planet.Earth.III.2023.EP03.UHD.BluRay.2160p.2Audio.TrueHD.Atmos.7.1.x265.10bit.HDR-beAst.mkv
+
+--------------------------------------------------------------------------------
+文件名: BBC.Planet.Earth.III.2023.EP04.UHD.BluRay.2160p.2Audio.TrueHD.Atmos.7.1.x265.10bit.HDR-beAst.mkv
+大小: 11.79 GB
+glenwrt:      /Volumes/Media_Lib/Documentary/Planet Earth Episode III/BBC.Planet.Earth.III.2023.EP04.UHD.BluRay.2160p.2Audio.TrueHD.Atmos.7.1.x265.10bit.HDR-beAst.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/BBC.Planet.Earth.III.2023.EP01-EP08.UHD.BluRay.2160p.2Audio.TrueHD.Atmos.7.1.x265.10bit.HDR-beAst/BBC.Planet.Earth.III.2023.EP04.UHD.BluRay.2160p.2Audio.TrueHD.Atmos.7.1.x265.10bit.HDR-beAst.mkv
+
+--------------------------------------------------------------------------------
+文件名: BBC.Planet.Earth.III.2023.EP05.UHD.BluRay.2160p.2Audio.TrueHD.Atmos.7.1.x265.10bit.HDR-beAst.mkv
+大小: 10.94 GB
+glenwrt:      /Volumes/Media_Lib/Documentary/Planet Earth Episode III/BBC.Planet.Earth.III.2023.EP05.UHD.BluRay.2160p.2Audio.TrueHD.Atmos.7.1.x265.10bit.HDR-beAst.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/BBC.Planet.Earth.III.2023.EP01-EP08.UHD.BluRay.2160p.2Audio.TrueHD.Atmos.7.1.x265.10bit.HDR-beAst/BBC.Planet.Earth.III.2023.EP05.UHD.BluRay.2160p.2Audio.TrueHD.Atmos.7.1.x265.10bit.HDR-beAst.mkv
+
+--------------------------------------------------------------------------------
+文件名: BBC.Planet.Earth.III.2023.EP06.UHD.BluRay.2160p.2Audio.TrueHD.Atmos.7.1.x265.10bit.HDR-beAst.mkv
+大小: 8.25 GB
+glenwrt:      /Volumes/Media_Lib/Documentary/Planet Earth Episode III/BBC.Planet.Earth.III.2023.EP06.UHD.BluRay.2160p.2Audio.TrueHD.Atmos.7.1.x265.10bit.HDR-beAst.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/BBC.Planet.Earth.III.2023.EP01-EP08.UHD.BluRay.2160p.2Audio.TrueHD.Atmos.7.1.x265.10bit.HDR-beAst/BBC.Planet.Earth.III.2023.EP06.UHD.BluRay.2160p.2Audio.TrueHD.Atmos.7.1.x265.10bit.HDR-beAst.mkv
+
+--------------------------------------------------------------------------------
+文件名: BBC.Planet.Earth.III.2023.EP07.UHD.BluRay.2160p.2Audio.TrueHD.Atmos.7.1.x265.10bit.HDR-beAst.mkv
+大小: 10.47 GB
+glenwrt:      /Volumes/Media_Lib/Documentary/Planet Earth Episode III/BBC.Planet.Earth.III.2023.EP07.UHD.BluRay.2160p.2Audio.TrueHD.Atmos.7.1.x265.10bit.HDR-beAst.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/BBC.Planet.Earth.III.2023.EP01-EP08.UHD.BluRay.2160p.2Audio.TrueHD.Atmos.7.1.x265.10bit.HDR-beAst/BBC.Planet.Earth.III.2023.EP07.UHD.BluRay.2160p.2Audio.TrueHD.Atmos.7.1.x265.10bit.HDR-beAst.mkv
+
+--------------------------------------------------------------------------------
+文件名: BBC.Planet.Earth.III.2023.EP08.UHD.BluRay.2160p.2Audio.TrueHD.Atmos.7.1.x265.10bit.HDR-beAst.mkv
+大小: 10.60 GB
+glenwrt:      /Volumes/Media_Lib/Documentary/Planet Earth Episode III/BBC.Planet.Earth.III.2023.EP08.UHD.BluRay.2160p.2Audio.TrueHD.Atmos.7.1.x265.10bit.HDR-beAst.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/BBC.Planet.Earth.III.2023.EP01-EP08.UHD.BluRay.2160p.2Audio.TrueHD.Atmos.7.1.x265.10bit.HDR-beAst/BBC.Planet.Earth.III.2023.EP08.UHD.BluRay.2160p.2Audio.TrueHD.Atmos.7.1.x265.10bit.HDR-beAst.mkv
+
+--------------------------------------------------------------------------------
+文件名: Black Hawk Down 2001 Extended V2 UHD BluRay REMUX 2160p HEVC Atmos TrueHD7.1 4Audio-CHD.mkv
+大小: 70.81 GB
+glenwrt:      /Volumes/Media_Lib/Movies/Black Hawk Down 2001 Extended V2 UHD BluRay REMUX 2160p HEVC Atmos TrueHD7.1 4Audio-CHD/Black Hawk Down 2001 Extended V2 UHD BluRay REMUX 2160p HEVC Atmos TrueHD7.1 4Audio-CHD.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/Black Hawk Down 2001 Extended V2 UHD BluRay REMUX 2160p HEVC Atmos TrueHD7.1 4Audio-CHD/Black Hawk Down 2001 Extended V2 UHD BluRay REMUX 2160p HEVC Atmos TrueHD7.1 4Audio-CHD.mkv
+
+--------------------------------------------------------------------------------
+文件名: Blonde.2022.2160p.NF.WEBRip.DDP5.1.Atmos.x265-CMRG.mkv
+大小: 26.98 GB
+glenwrt:      /Volumes/Media_Lib/Movies/0-Latest Movies/Blonde.2022.2160p.NF.WEBRip.DDP5.1.Atmos.x265-CMRG/Blonde.2022.2160p.NF.WEBRip.DDP5.1.Atmos.x265-CMRG.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/Blonde.2022.2160p.NF.WEBRip.DDP5.1.Atmos.x265-CMRG/Blonde.2022.2160p.NF.WEBRip.DDP5.1.Atmos.x265-CMRG.mkv
+
+--------------------------------------------------------------------------------
+文件名: Bohemian.Rhapsody.2018.UHD.BluRay.2160p.2Audio.TrueHD(Atmos).7.1.HDR.10bit.x265-beAst.mkv
+大小: 24.74 GB
+glenwrt:      /Volumes/Media_Lib/Movies/Bohemian.Rhapsody.2018.UHD.BluRay.2160p.2Audio.TrueHD(Atmos).7.1.HDR.10bit.x265-beAst/Bohemian.Rhapsody.2018.UHD.BluRay.2160p.2Audio.TrueHD(Atmos).7.1.HDR.10bit.x265-beAst.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/Bohemian.Rhapsody.2018.UHD.BluRay.2160p.2Audio.TrueHD(Atmos).7.1.HDR.10bit.x265-beAst/Bohemian.Rhapsody.2018.UHD.BluRay.2160p.2Audio.TrueHD(Atmos).7.1.HDR.10bit.x265-beAst.mkv
+
+--------------------------------------------------------------------------------
+文件名: Casablanca.1942.Repack.UHD.BluRay.2160p.10bit.HDR.6Audio.DTS-HD.MA.2.0.x265-beAst.mkv
+大小: 33.44 GB
+glenwrt:      /Volumes/Media_Lib/Movies/Casablanca.1942.Repack.UHD.BluRay.2160p.10bit.HDR.6Audio.DTS-HD.MA.2.0.x265-beAst/Casablanca.1942.Repack.UHD.BluRay.2160p.10bit.HDR.6Audio.DTS-HD.MA.2.0.x265-beAst.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/Casablanca.1942.Repack.UHD.BluRay.2160p.10bit.HDR.6Audio.DTS-HD.MA.2.0.x265-beAst/Casablanca.1942.Repack.UHD.BluRay.2160p.10bit.HDR.6Audio.DTS-HD.MA.2.0.x265-beAst.mkv
+
+--------------------------------------------------------------------------------
+文件名: Contact.1997.1080p.BluRay.DTS.x264-HiDt.mkv
+大小: 13.08 GB
+glenwrt:      /Volumes/Media_Lib/Movies/Contact.1997.1080p.BluRay.DTS.x264-HiDt.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/Contact.1997.1080p.BluRay.DTS.x264-HiDt.mkv
+
+--------------------------------------------------------------------------------
+文件名: Crouching.Tiger.Hidden.Dragon.2000.UHD.BluRay.2160p.10bit.DoVi.2Audio.TrueHD(Atmos).7.1.x265-beAst.mkv
+大小: 42.08 GB
+glenwrt:      /Volumes/Media_Lib/Movies/Crouching.Tiger.Hidden.Dragon.2000.UHD.BluRay.2160p.10bit.DoVi.2Audio.TrueHD(Atmos).7.1.x265-beAst/Crouching.Tiger.Hidden.Dragon.2000.UHD.BluRay.2160p.10bit.DoVi.2Audio.TrueHD(Atmos).7.1.x265-beAst.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/Crouching.Tiger.Hidden.Dragon.2000.UHD.BluRay.2160p.10bit.DoVi.2Audio.TrueHD(Atmos).7.1.x265-beAst/Crouching.Tiger.Hidden.Dragon.2000.UHD.BluRay.2160p.10bit.DoVi.2Audio.TrueHD(Atmos).7.1.x265-beAst.mkv
+
+--------------------------------------------------------------------------------
+文件名: Dragon.Ball.Super.Super.Hero.2022.1080p.BluRay.REMUX.AVC.FLAC5.1-Kitsune.mkv
+大小: 16.04 GB
+glenwrt:      /Volumes/Media_Lib/Movies/0-Latest Movies/Dragon.Ball.Super.Super.Hero.2022.1080p.BluRay.REMUX.AVC.FLAC5.1-Kitsune.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/Dragon.Ball.Super.Super.Hero.2022.1080p.BluRay.REMUX.AVC.FLAC5.1-Kitsune.mkv
+
+--------------------------------------------------------------------------------
+文件名: Drishyam.2.2022.1080p.HINDI.AMZN.10bit.DDP.5.1.x265.mkv
+大小: 4.05 GB
+glenwrt:      /Volumes/Media_Lib/Movies/误杀瞒天记2.Drishyam.2.2022.1080p.HINDI.AMZN.10bit.DDP.5.1.x265/Drishyam.2.2022.1080p.HINDI.AMZN.10bit.DDP.5.1.x265.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/误杀瞒天记2.Drishyam.2.2022.1080p.HINDI.AMZN.10bit.DDP.5.1.x265/Drishyam.2.2022.1080p.HINDI.AMZN.10bit.DDP.5.1.x265.mkv
+
+--------------------------------------------------------------------------------
+文件名: Dune.2021.2160p.BluRay.x265.10bit.Atmos.TrueHD7.1-WiKi.mkv
+大小: 40.81 GB
+glenwrt:      /Volumes/Media_Lib/Movies/Dune.2021.2160p.BluRay.x265.10bit.Atmos.TrueHD7.1-WiKi/Dune.2021.2160p.BluRay.x265.10bit.Atmos.TrueHD7.1-WiKi.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/Dune.2021.2160p.BluRay.x265.10bit.Atmos.TrueHD7.1-WiKi/Dune.2021.2160p.BluRay.x265.10bit.Atmos.TrueHD7.1-WiKi.mkv
+
+--------------------------------------------------------------------------------
+文件名: Dunkirk.2017.UHD.BluRay.2160p.10bit.HDR.2Audio.DTS-HD.MA.5.1.x265-beAst.mkv
+大小: 26.90 GB
+glenwrt:      /Volumes/Media_Lib/Movies/0-克里斯托弗·诺兰导演合集/Dunkirk.2017.UHD.BluRay.2160p.10bit.HDR.2Audio.DTS-HD.MA.5.1.x265-beAst/Dunkirk.2017.UHD.BluRay.2160p.10bit.HDR.2Audio.DTS-HD.MA.5.1.x265-beAst.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/克里斯托弗·罗兰导演合集/Dunkirk.2017.UHD.BluRay.2160p.10bit.HDR.2Audio.DTS-HD.MA.5.1.x265-beAst/Dunkirk.2017.UHD.BluRay.2160p.10bit.HDR.2Audio.DTS-HD.MA.5.1.x265-beAst.mkv
+
+--------------------------------------------------------------------------------
+文件名: Elemental.2023.2160p.iTunes.WEB-DL.DDP.7.1.Atmos.DV.H.265-DreamHD.mkv
+大小: 18.45 GB
+glenwrt:      /Volumes/Media_Lib/Movies/0-Latest Movies/疯狂元素城[杜比视界版本][简繁英字幕].Elemental.2023.2160p.iTunes.WEB-DL.DDP.7.1.Atmos.DV.H.265-DreamHD/Elemental.2023.2160p.iTunes.WEB-DL.DDP.7.1.Atmos.DV.H.265-DreamHD.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/疯狂元素城[杜比视界版本][简繁英字幕].Elemental.2023.2160p.iTunes.WEB-DL.DDP.7.1.Atmos.DV.H.265-DreamHD/Elemental.2023.2160p.iTunes.WEB-DL.DDP.7.1.Atmos.DV.H.265-DreamHD.mkv
+
+--------------------------------------------------------------------------------
+文件名: Everything.Everywhere.All.at.Once.2022.2160p.BluRay.x265.10bit.Atmos.TrueHD7.1-WiKi.mkv
+大小: 22.06 GB
+glenwrt:      /Volumes/Media_Lib/Movies/Everything.Everywhere.All.at.Once.2022.2160p.BluRay.x265.10bit.Atmos.TrueHD7.1-WiKi/Everything.Everywhere.All.at.Once.2022.2160p.BluRay.x265.10bit.Atmos.TrueHD7.1-WiKi.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/Everything.Everywhere.All.at.Once.2022.2160p.BluRay.x265.10bit.Atmos.TrueHD7.1-WiKi/Everything.Everywhere.All.at.Once.2022.2160p.BluRay.x265.10bit.Atmos.TrueHD7.1-WiKi.mkv
+
+--------------------------------------------------------------------------------
+文件名: Following.1998.CC.Bluray.1080p.x265.10bit.MNHD-FRDS.mkv
+大小: 7.35 GB
+glenwrt:      /Volumes/Media_Lib/Movies/0-克里斯托弗·诺兰导演合集/Following.1998.CC.Bluray.1080p.x265.10bit.MNHD-FRDS/Following.1998.CC.Bluray.1080p.x265.10bit.MNHD-FRDS.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/克里斯托弗·罗兰导演合集/Following.1998.CC.Bluray.1080p.x265.10bit.MNHD-FRDS/Following.1998.CC.Bluray.1080p.x265.10bit.MNHD-FRDS.mkv
+
+--------------------------------------------------------------------------------
+文件名: Fury.2014.UHD.Blu-ray.2160p.10bit.HDR.2Audio.TrueHD(Atmos).7.1.x265-beAst.mkv
+大小: 34.70 GB
+glenwrt:      /Volumes/Media_Lib/Movies/Fury.2014.UHD.Blu-ray.2160p.10bit.HDR.2Audio.TrueHD(Atmos).7.1.x265-beAst/Fury.2014.UHD.Blu-ray.2160p.10bit.HDR.2Audio.TrueHD(Atmos).7.1.x265-beAst.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/Fury.2014.UHD.Blu-ray.2160p.10bit.HDR.2Audio.TrueHD(Atmos).7.1.x265-beAst/Fury.2014.UHD.Blu-ray.2160p.10bit.HDR.2Audio.TrueHD(Atmos).7.1.x265-beAst.mkv
+
+--------------------------------------------------------------------------------
+文件名: Gladiator.2000.EXTENDED.2160p.BluRay.REMUX.HEVC.DTS-X.7.1-FGT.mkv
+大小: 69.03 GB
+glenwrt:      /Volumes/Media_Lib/Movies/角斗士4K REMUX (2000)/Gladiator.2000.EXTENDED.2160p.BluRay.REMUX.HEVC.DTS-X.7.1-FGT.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/角斗士4K REMUX (2000)/Gladiator.2000.EXTENDED.2160p.BluRay.REMUX.HEVC.DTS-X.7.1-FGT.mkv
+
+--------------------------------------------------------------------------------
+文件名: Glass.Onion.A.Knives.Out.Mystery.2022.1080p.NF.WEB-DL.DDP5.1.Atmos.H.264-SMURF.mkv
+大小: 7.33 GB
+glenwrt:      /Volumes/Media_Lib/Movies/0-Latest Movies/Glass.Onion.A.Knives.Out.Mystery.2022.1080p.NF.WEBRip.DDP5.1.Atmos.x264-SMURF/Glass.Onion.A.Knives.Out.Mystery.2022.1080p.NF.WEB-DL.DDP5.1.Atmos.H.264-SMURF.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/Glass.Onion.A.Knives.Out.Mystery.2022.1080p.NF.WEBRip.DDP5.1.Atmos.x264-SMURF/Glass.Onion.A.Knives.Out.Mystery.2022.1080p.NF.WEB-DL.DDP5.1.Atmos.H.264-SMURF.mkv
+
+--------------------------------------------------------------------------------
+文件名: Gold.2016.BluRay.1080p.x265.10bit.DDP5.1.MNHD-FRDS.mkv
+大小: 6.64 GB
+glenwrt:      /Volumes/Media_Lib/Movies/金矿.Gold.2016.BluRay.1080p.x265.10bit.DDP5.1.MNHD-FRDS/Gold.2016.BluRay.1080p.x265.10bit.DDP5.1.MNHD-FRDS.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/金矿.Gold.2016.BluRay.1080p.x265.10bit.DDP5.1.MNHD-FRDS/Gold.2016.BluRay.1080p.x265.10bit.DDP5.1.MNHD-FRDS.mkv
+
+--------------------------------------------------------------------------------
+文件名: Gone.Girl.2014.BluRay.1080p.DTS-HD.MA.7.1.x265.10bit-BeiTai.mkv
+大小: 8.11 GB
+glenwrt:      /Volumes/Media_Lib/Movies/Gone.Girl.2014.BluRay.1080p.DTS-HD.MA.7.1.x265.10bit-BeiTai/Gone.Girl.2014.BluRay.1080p.DTS-HD.MA.7.1.x265.10bit-BeiTai.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/Gone.Girl.2014.BluRay.1080p.DTS-HD.MA.7.1.x265.10bit-BeiTai/Gone.Girl.2014.BluRay.1080p.DTS-HD.MA.7.1.x265.10bit-BeiTai.mkv
+
+--------------------------------------------------------------------------------
+文件名: Green.Book.2018.UHD.BluRay.2160p.TrueHD(Atmos).7.1.HDR.10bit.x265-beAst.mkv
+大小: 29.53 GB
+glenwrt:      /Volumes/Media_Lib/Movies/Green.Book.2018.UHD.BluRay.2160p.TrueHD(Atmos).7.1.HDR.10bit.x265-beAst/Green.Book.2018.UHD.BluRay.2160p.TrueHD(Atmos).7.1.HDR.10bit.x265-beAst.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/Green.Book.2018.UHD.BluRay.2160p.TrueHD(Atmos).7.1.HDR.10bit.x265-beAst/Green.Book.2018.UHD.BluRay.2160p.TrueHD(Atmos).7.1.HDR.10bit.x265-beAst.mkv
+
+--------------------------------------------------------------------------------
+文件名: Inception.2010.UHD.BluRay.2160p.10bit.HDR.2Audio.DTS-HD.MA.5.1.x265-beAst.mkv
+大小: 36.58 GB
+glenwrt:      /Volumes/Media_Lib/Movies/0-克里斯托弗·诺兰导演合集/Inception.2010.UHD.BluRay.2160p.10bit.HDR.2Audio.DTS-HD.MA.5.1.TrueHD.5.1.x265-beAst/Inception.2010.UHD.BluRay.2160p.10bit.HDR.2Audio.DTS-HD.MA.5.1.x265-beAst.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/克里斯托弗·罗兰导演合集/Inception.2010.UHD.BluRay.2160p.10bit.HDR.2Audio.DTS-HD.MA.5.1.TrueHD.5.1.x265-beAst/Inception.2010.UHD.BluRay.2160p.10bit.HDR.2Audio.DTS-HD.MA.5.1.x265-beAst.mkv
+
+--------------------------------------------------------------------------------
+文件名: Indiana.Jones.and.the.Dial.of.Destiny.2023.2160p.WEB-DL.DDP5.1.Atmos.DV.HDR.H.265-Thor@HDSky.mkv
+大小: 27.77 GB
+glenwrt:      /Volumes/Media_Lib/Movies/0-Latest Movies/Indiana.Jones.and.the.Dial.of.Destiny.2023.2160p.WEB-DL.DDP5.1.Atmos.DV.HDR.H.265-Thor@HDSky.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/Indiana.Jones.and.the.Dial.of.Destiny.2023.2160p.WEB-DL.DDP5.1.Atmos.DV.HDR.H.265-Thor@HDSky.mkv
+
+--------------------------------------------------------------------------------
+文件名: Ip.Man.1.2008.USA.UHD.Blu-ray.2160p.10bit.DoVi.3Audio.TrueHD(Atmos).7.1.x265-beAst.mkv
+大小: 31.60 GB
+glenwrt:      /Volumes/Media_Lib/Movies/Ip.Man.4-Movie.Collection.2008-2019.USA.UHD.Blu-ray.2160p.10bit.DoVi.3Audio.TrueHD(Atmos).7.1.x265-beAst/Ip.Man.1.2008.USA.UHD.Blu-ray.2160p.10bit.DoVi.3Audio.TrueHD(Atmos).7.1.x265-beAst.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/Ip.Man.4-Movie.Collection.2008-2019.USA.UHD.Blu-ray.2160p.10bit.DoVi.3Audio.TrueHD(Atmos).7.1.x265-beAst/Ip.Man.1.2008.USA.UHD.Blu-ray.2160p.10bit.DoVi.3Audio.TrueHD(Atmos).7.1.x265-beAst.mkv
+
+--------------------------------------------------------------------------------
+文件名: Ip.Man.2.2010.USA.UHD.Blu-ray.2160p.10bit.DoVi.3Audio.TrueHD(Atmos).7.1.x265-beAst.mkv
+大小: 35.83 GB
+glenwrt:      /Volumes/Media_Lib/Movies/Ip.Man.4-Movie.Collection.2008-2019.USA.UHD.Blu-ray.2160p.10bit.DoVi.3Audio.TrueHD(Atmos).7.1.x265-beAst/Ip.Man.2.2010.USA.UHD.Blu-ray.2160p.10bit.DoVi.3Audio.TrueHD(Atmos).7.1.x265-beAst.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/Ip.Man.4-Movie.Collection.2008-2019.USA.UHD.Blu-ray.2160p.10bit.DoVi.3Audio.TrueHD(Atmos).7.1.x265-beAst/Ip.Man.2.2010.USA.UHD.Blu-ray.2160p.10bit.DoVi.3Audio.TrueHD(Atmos).7.1.x265-beAst.mkv
+
+--------------------------------------------------------------------------------
+文件名: Ip.Man.3.2015.USA.UHD.Blu-ray.2160p.10bit.DoVi.3Audio.TrueHD(Atmos).7.1.x265-beAst.mkv
+大小: 18.32 GB
+glenwrt:      /Volumes/Media_Lib/Movies/Ip.Man.4-Movie.Collection.2008-2019.USA.UHD.Blu-ray.2160p.10bit.DoVi.3Audio.TrueHD(Atmos).7.1.x265-beAst/Ip.Man.3.2015.USA.UHD.Blu-ray.2160p.10bit.DoVi.3Audio.TrueHD(Atmos).7.1.x265-beAst.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/Ip.Man.4-Movie.Collection.2008-2019.USA.UHD.Blu-ray.2160p.10bit.DoVi.3Audio.TrueHD(Atmos).7.1.x265-beAst/Ip.Man.3.2015.USA.UHD.Blu-ray.2160p.10bit.DoVi.3Audio.TrueHD(Atmos).7.1.x265-beAst.mkv
+
+--------------------------------------------------------------------------------
+文件名: Ip.Man.4.The.Finale.2019.USA.UHD.Blu-ray.2160p.10bit.DoVi.3Audio.TrueHD(Atmos).7.1.x265-beAst.mkv
+大小: 17.47 GB
+glenwrt:      /Volumes/Media_Lib/Movies/Ip.Man.4-Movie.Collection.2008-2019.USA.UHD.Blu-ray.2160p.10bit.DoVi.3Audio.TrueHD(Atmos).7.1.x265-beAst/Ip.Man.4.The.Finale.2019.USA.UHD.Blu-ray.2160p.10bit.DoVi.3Audio.TrueHD(Atmos).7.1.x265-beAst.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/Ip.Man.4-Movie.Collection.2008-2019.USA.UHD.Blu-ray.2160p.10bit.DoVi.3Audio.TrueHD(Atmos).7.1.x265-beAst/Ip.Man.4.The.Finale.2019.USA.UHD.Blu-ray.2160p.10bit.DoVi.3Audio.TrueHD(Atmos).7.1.x265-beAst.mkv
+
+--------------------------------------------------------------------------------
+文件名: Jason.Bourne.2016.BluRay.2160p.x265.10bit.4Audio.mUHD-FRDS.mkv
+大小: 32.14 GB
+glenwrt:      /Volumes/Media_Lib/Movies/0-谍影重重合集/谍影重重5.Jason.Bourne.2016.BluRay.2160p.x265.10bit.4Audio.mUHD-FRDS/Jason.Bourne.2016.BluRay.2160p.x265.10bit.4Audio.mUHD-FRDS.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/谍影重重系列/谍影重重5.Jason.Bourne.2016.BluRay.2160p.x265.10bit.4Audio.mUHD-FRDS/Jason.Bourne.2016.BluRay.2160p.x265.10bit.4Audio.mUHD-FRDS.mkv
+
+--------------------------------------------------------------------------------
+文件名: John.Wick.2014.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos.mkv
+大小: 49.21 GB
+glenwrt:      /Volumes/Media_Lib/Movies/J 疾速追杀系列.John.Wick.Chapter（1-3）/John.Wick.2014.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/J 疾速追杀系列.John.Wick.Chapter（1-3）/John.Wick.2014.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos.mkv
+
+--------------------------------------------------------------------------------
+文件名: John.Wick.Chapter.2.2017.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos.mkv
+大小: 76.68 GB
+glenwrt:      /Volumes/Media_Lib/Movies/J 疾速追杀系列.John.Wick.Chapter（1-3）/John.Wick.Chapter.2.2017.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/J 疾速追杀系列.John.Wick.Chapter（1-3）/John.Wick.Chapter.2.2017.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos.mkv
+
+--------------------------------------------------------------------------------
+文件名: John.Wick.Chapter.3.Parabellum.2019.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos.mkv
+大小: 74.26 GB
+glenwrt:      /Volumes/Media_Lib/Movies/J 疾速追杀系列.John.Wick.Chapter（1-3）/John.Wick.Chapter.3.Parabellum.2019.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/J 疾速追杀系列.John.Wick.Chapter（1-3）/John.Wick.Chapter.3.Parabellum.2019.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos.mkv
+
+--------------------------------------------------------------------------------
+文件名: John.Wick.Chapter.4.2023.2160p.WEB-DL.HEVC.Atmos.DDP5.1-HDH.mkv
+大小: 25.10 GB
+glenwrt:      /Volumes/Media_Lib/Movies/J 疾速追杀系列.John.Wick.Chapter（1-3）/John.Wick.Chapter.4.2023.2160p.WEB-DL.HEVC.Atmos.DDP5.1-HDH/John.Wick.Chapter.4.2023.2160p.WEB-DL.HEVC.Atmos.DDP5.1-HDH.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/John.Wick.Chapter.4.2023.2160p.WEB-DL.HEVC.Atmos.DDP5.1-HDH/John.Wick.Chapter.4.2023.2160p.WEB-DL.HEVC.Atmos.DDP5.1-HDH.mkv
+
+--------------------------------------------------------------------------------
+文件名: Kingdom.of.Heaven.2005.UHD.BluRay.2160p.x265.DV.HDR.TrueHD.7.1.mUHD-FRDS.mkv
+大小: 34.42 GB
+glenwrt:      /Volumes/Media_Lib/Movies/天国王朝.Kingdom.of.Heaven.2005.UHD.BluRay.2160p.x265.DV.HDR.TrueHD.7.1.mUHD-FRDS/天国王朝.Kingdom.of.Heaven.2005.UHD.BluRay.2160p.x265.DV.HDR.TrueHD.7.1.mUHD-FRDS/Kingdom.of.Heaven.2005.UHD.BluRay.2160p.x265.DV.HDR.TrueHD.7.1.mUHD-FRDS.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/天国王朝.Kingdom.of.Heaven.2005.UHD.BluRay.2160p.x265.DV.HDR.TrueHD.7.1.mUHD-FRDS/天国王朝.Kingdom.of.Heaven.2005.UHD.BluRay.2160p.x265.DV.HDR.TrueHD.7.1.mUHD-FRDS/Kingdom.of.Heaven.2005.UHD.BluRay.2160p.x265.DV.HDR.TrueHD.7.1.mUHD-FRDS.mkv
+
+--------------------------------------------------------------------------------
+文件名: Lawrence.of.Arabia.1962.Repack.UHD.BluRay.Part.1.2160p.10bit.DoVi.3Audio.TrueHD(Atmos).7.1.x265-beAst.mkv
+大小: 35.16 GB
+glenwrt:      /Volumes/Media_Lib/Movies/Lawrence.of.Arabia.1962.Repack.UHD.BluRay.2160p.10bit.DoVi.3Audio.TrueHD(Atmos).7.1.x265-beAst/Lawrence.of.Arabia.1962.Repack.UHD.BluRay.Part.1.2160p.10bit.DoVi.3Audio.TrueHD(Atmos).7.1.x265-beAst.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/Lawrence.of.Arabia.1962.Repack.UHD.BluRay.2160p.10bit.DoVi.3Audio.TrueHD(Atmos).7.1.x265-beAst/Lawrence.of.Arabia.1962.Repack.UHD.BluRay.Part.1.2160p.10bit.DoVi.3Audio.TrueHD(Atmos).7.1.x265-beAst.mkv
+
+--------------------------------------------------------------------------------
+文件名: Lawrence.of.Arabia.1962.Repack.UHD.BluRay.Part.2.2160p.10bit.DoVi.3Audio.TrueHD(Atmos).7.1.x265-beAst.mkv
+大小: 23.07 GB
+glenwrt:      /Volumes/Media_Lib/Movies/Lawrence.of.Arabia.1962.Repack.UHD.BluRay.2160p.10bit.DoVi.3Audio.TrueHD(Atmos).7.1.x265-beAst/Lawrence.of.Arabia.1962.Repack.UHD.BluRay.Part.2.2160p.10bit.DoVi.3Audio.TrueHD(Atmos).7.1.x265-beAst.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/Lawrence.of.Arabia.1962.Repack.UHD.BluRay.2160p.10bit.DoVi.3Audio.TrueHD(Atmos).7.1.x265-beAst/Lawrence.of.Arabia.1962.Repack.UHD.BluRay.Part.2.2160p.10bit.DoVi.3Audio.TrueHD(Atmos).7.1.x265-beAst.mkv
+
+--------------------------------------------------------------------------------
+文件名: Logan.2017.BluRay.2160p.x265.10bit.HDR.4Audio.mUHD-FRDS.mkv
+大小: 19.46 GB
+glenwrt:      /Volumes/Media_Lib/Movies/0-X战警合集/金刚狼3.殊死一战.Logan.2017.BluRay.2160p.x265.10bit.HDR.4Audio.mUHD-FRDS/Logan.2017.BluRay.2160p.x265.10bit.HDR.4Audio.mUHD-FRDS.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/金刚狼3：殊死一战.Logan.2017.BluRay.2160p.x265.10bit.HDR.4Audio.mUHD-FRDS/Logan.2017.BluRay.2160p.x265.10bit.HDR.4Audio.mUHD-FRDS.mkv
+
+--------------------------------------------------------------------------------
+文件名: Love.Letter.1995.BluRay.1080p.3Audio.TrueHD.5.1.x264-beAst.mkv
+大小: 12.96 GB
+glenwrt:      /Volumes/Media_Lib/Movies/Love.Letter.1995.BluRay.1080p.3Audio.TrueHD.5.1.x264-beAst/Love.Letter.1995.BluRay.1080p.3Audio.TrueHD.5.1.x264-beAst.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/Love.Letter.1995.BluRay.1080p.3Audio.TrueHD.5.1.x264-beAst/Love.Letter.1995.BluRay.1080p.3Audio.TrueHD.5.1.x264-beAst.mkv
+
+--------------------------------------------------------------------------------
+文件名: Luca.2021.UHD.Blu-ray.2160p.10bit.HDR.4Audio.TrueHD(Atmos).7.1.x265-beAst.mkv
+大小: 25.21 GB
+glenwrt:      /Volumes/Media_Lib/Kid/Luca.2021.UHD.Blu-ray.2160p.10bit.HDR.4Audio.TrueHD(Atmos).7.1.x265-beAst/Luca.2021.UHD.Blu-ray.2160p.10bit.HDR.4Audio.TrueHD(Atmos).7.1.x265-beAst.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/Luca.2021.UHD.Blu-ray.2160p.10bit.HDR.4Audio.TrueHD(Atmos).7.1.x265-beAst/Luca.2021.UHD.Blu-ray.2160p.10bit.HDR.4Audio.TrueHD(Atmos).7.1.x265-beAst.mkv
+
+--------------------------------------------------------------------------------
+文件名: Memento.2000.BluRay.1080p.DTS-HD.MA5.1.x265.10bit-BeiTai.mkv
+大小: 11.09 GB
+glenwrt:      /Volumes/Media_Lib/Movies/0-克里斯托弗·诺兰导演合集/Memento.2000.BluRay.1080p.DTS-HD.MA5.1.x265.10bit-BeiTai/Memento.2000.BluRay.1080p.DTS-HD.MA5.1.x265.10bit-BeiTai.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/克里斯托弗·罗兰导演合集/Memento.2000.BluRay.1080p.DTS-HD.MA5.1.x265.10bit-BeiTai/Memento.2000.BluRay.1080p.DTS-HD.MA5.1.x265.10bit-BeiTai.mkv
+
+--------------------------------------------------------------------------------
+文件名: Mission.Impossible.1996.BluRay.2160p.H265.10bit.HDR.TrueHD.ZH-EN.CHS-ENG.BOBO.mkv
+大小: 16.59 GB
+glenwrt:      /Volumes/Media_Lib/Movies/0-碟中谍合集/Mission.Impossible.1996.BluRay.2160p.H265.10bit.HDR.TrueHD.ZH-EN.CHS-ENG.BOBO.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/碟中谍系列/Mission.Impossible.1996.BluRay.2160p.H265.10bit.HDR.TrueHD.ZH-EN.CHS-ENG.BOBO.mkv
+
+--------------------------------------------------------------------------------
+文件名: Mission.Impossible.Dead.Reckoning.Part.One.2023.V2.2160p.HQ.WEB-DL.H265.DDP5.1.2Audio-CHDWEB.mkv
+大小: 23.67 GB
+glenwrt:      /Volumes/Media_Lib/Movies/0-Latest Movies/碟中谍7：致命清算（上）.Mission.Impossible.Dead.Reckoning.Part.One.2023.V2.2160p.HQ.WEB-DL.H265.DDP5.1.2Audio-CHDWEB/Mission.Impossible.Dead.Reckoning.Part.One.2023.V2.2160p.HQ.WEB-DL.H265.DDP5.1.2Audio-CHDWEB.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/碟中谍7：致命清算（上）.Mission.Impossible.Dead.Reckoning.Part.One.2023.V2.2160p.HQ.WEB-DL.H265.DDP5.1.2Audio-CHDWEB/Mission.Impossible.Dead.Reckoning.Part.One.2023.V2.2160p.HQ.WEB-DL.H265.DDP5.1.2Audio-CHDWEB.mkv
+
+--------------------------------------------------------------------------------
+文件名: Mission.Impossible.Fallout .2018.BluRay.2160p.H265.10bit.HDR.TrueHD.ZH-EN.CHS-ENG.BOBO.mkv
+大小: 19.13 GB
+glenwrt:      /Volumes/Media_Lib/Movies/0-碟中谍合集/Mission.Impossible.Fallout .2018.BluRay.2160p.H265.10bit.HDR.TrueHD.ZH-EN.CHS-ENG.BOBO.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/碟中谍系列/Mission.Impossible.Fallout .2018.BluRay.2160p.H265.10bit.HDR.TrueHD.ZH-EN.CHS-ENG.BOBO.mkv
+
+--------------------------------------------------------------------------------
+文件名: Mission.Impossible.II.2000.BluRay.2160p.H265.10bit.HDR.TrueHD.ZH-EN.CHS-ENG.BOBO.mkv
+大小: 17.86 GB
+glenwrt:      /Volumes/Media_Lib/Movies/0-碟中谍合集/Mission.Impossible.II.2000.BluRay.2160p.H265.10bit.HDR.TrueHD.ZH-EN.CHS-ENG.BOBO.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/碟中谍系列/Mission.Impossible.II.2000.BluRay.2160p.H265.10bit.HDR.TrueHD.ZH-EN.CHS-ENG.BOBO.mkv
+
+--------------------------------------------------------------------------------
+文件名: Mission.Impossible.III.2006.BluRay.2160p.H265.10bit.HDR.TrueHD.ZH-EN.CHS-ENG.BOBO.mkv
+大小: 14.34 GB
+glenwrt:      /Volumes/Media_Lib/Movies/0-碟中谍合集/Mission.Impossible.III.2006.BluRay.2160p.H265.10bit.HDR.TrueHD.ZH-EN.CHS-ENG.BOBO.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/碟中谍系列/Mission.Impossible.III.2006.BluRay.2160p.H265.10bit.HDR.TrueHD.ZH-EN.CHS-ENG.BOBO.mkv
+
+--------------------------------------------------------------------------------
+文件名: Mission.Impossible.IV.Ghost.Protocol.2011.BluRay.2160p.H265.10bit.HDR.TrueHD.ZH-EN.CHS-ENG.BOBO.mkv
+大小: 17.18 GB
+glenwrt:      /Volumes/Media_Lib/Movies/0-碟中谍合集/Mission.Impossible.IV.Ghost.Protocol.2011.BluRay.2160p.H265.10bit.HDR.TrueHD.ZH-EN.CHS-ENG.BOBO.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/碟中谍系列/Mission.Impossible.IV.Ghost.Protocol.2011.BluRay.2160p.H265.10bit.HDR.TrueHD.ZH-EN.CHS-ENG.BOBO.mkv
+
+--------------------------------------------------------------------------------
+文件名: Mission.Impossible.V.Rogue.Nation.2015.BluRay.2160p.H265.10bit.HDR.TrueHD.ZH-EN.CHS-ENG.BOBO.mkv
+大小: 18.07 GB
+glenwrt:      /Volumes/Media_Lib/Movies/0-碟中谍合集/Mission.Impossible.V.Rogue.Nation.2015.BluRay.2160p.H265.10bit.HDR.TrueHD.ZH-EN.CHS-ENG.BOBO.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/碟中谍系列/Mission.Impossible.V.Rogue.Nation.2015.BluRay.2160p.H265.10bit.HDR.TrueHD.ZH-EN.CHS-ENG.BOBO.mkv
+
+--------------------------------------------------------------------------------
+文件名: Napoleon.2023.2160p.iT.WEB-DL.DDP5.1.Atmos.HDR.H.265-HHWEB.mkv
+大小: 20.49 GB
+glenwrt:      /Volumes/Media_Lib/Movies/0-Latest Movies/Napoleon.2023.2160p.iT.WEB-DL.DDP5.1.Atmos.HDR.H.265-HHWEB/Napoleon.2023.2160p.iT.WEB-DL.DDP5.1.Atmos.HDR.H.265-HHWEB.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/Napoleon.2023.2160p.iT.WEB-DL.DDP5.1.Atmos.HDR.H.265-HHWEB/Napoleon.2023.2160p.iT.WEB-DL.DDP5.1.Atmos.HDR.H.265-HHWEB.mkv
+
+--------------------------------------------------------------------------------
+文件名: Oppenheimer.2023.2160p.UHD.BluRay.HEVC.HDR.HLG.10Bit.DTS-HD.MA.5.1-R&H.mkv
+大小: 45.01 GB
+glenwrt:      /Volumes/Media_Lib/Movies/0-Latest Movies/Oppenheimer.2023.2160p.UHD.BluRay.HEVC.HDR.HLG.10Bit.DTS-HD.MA.5.1-R&H.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/Oppenheimer.2023.2160p.UHD.BluRay.HEVC.HDR.HLG.10Bit.DTS-HD.MA.5.1-R&H.mkv
+
+--------------------------------------------------------------------------------
+文件名: Oppenheimer.2023.Repack.IMAX.UHD.BluRay.2160p.10bit.DoVi.2Audio.DTS-HD.MA.5.1.x265-beAst.mkv
+大小: 32.06 GB
+glenwrt:      /Volumes/Media_Lib/Movies/0-Latest Movies/Oppenheimer.2023.Repack.IMAX.UHD.BluRay.2160p.10bit.DoVi.2Audio.DTS-HD.MA.5.1.x265-beAst/Oppenheimer.2023.Repack.IMAX.UHD.BluRay.2160p.10bit.DoVi.2Audio.DTS-HD.MA.5.1.x265-beAst.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/Oppenheimer.2023.Repack.IMAX.UHD.BluRay.2160p.10bit.DoVi.2Audio.DTS-HD.MA.5.1.x265-beAst/Oppenheimer.2023.Repack.IMAX.UHD.BluRay.2160p.10bit.DoVi.2Audio.DTS-HD.MA.5.1.x265-beAst.mkv
+
+--------------------------------------------------------------------------------
+文件名: Our.Planet.2019.S02E01.Chapter.1.World.on.the.Move.2160p.NF.WEB-DL.DDP5.1.Atmos.DV.HDR.H.265-FLUX.mkv
+大小: 6.55 GB
+glenwrt:      /Volumes/Media_Lib/Documentary/Our.Planet.2019.S02.2160p.NF.WEB-DL.DDP5.1.Atmos.DV.HDR.H.265-FLUX/Our.Planet.2019.S02E01.Chapter.1.World.on.the.Move.2160p.NF.WEB-DL.DDP5.1.Atmos.DV.HDR.H.265-FLUX.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/Our.Planet.2019.S02.2160p.NF.WEB-DL.DDP5.1.Atmos.DV.HDR.H.265-FLUX/Our.Planet.2019.S02E01.Chapter.1.World.on.the.Move.2160p.NF.WEB-DL.DDP5.1.Atmos.DV.HDR.H.265-FLUX.mkv
+
+--------------------------------------------------------------------------------
+文件名: Our.Planet.2019.S02E02.Chapter.2.Following.the.Sun.2160p.NF.WEB-DL.DDP5.1.Atmos.DV.HDR.H.265-FLUX.mkv
+大小: 4.52 GB
+glenwrt:      /Volumes/Media_Lib/Documentary/Our.Planet.2019.S02.2160p.NF.WEB-DL.DDP5.1.Atmos.DV.HDR.H.265-FLUX/Our.Planet.2019.S02E02.Chapter.2.Following.the.Sun.2160p.NF.WEB-DL.DDP5.1.Atmos.DV.HDR.H.265-FLUX.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/Our.Planet.2019.S02.2160p.NF.WEB-DL.DDP5.1.Atmos.DV.HDR.H.265-FLUX/Our.Planet.2019.S02E02.Chapter.2.Following.the.Sun.2160p.NF.WEB-DL.DDP5.1.Atmos.DV.HDR.H.265-FLUX.mkv
+
+--------------------------------------------------------------------------------
+文件名: Our.Planet.2019.S02E03.Chapter.3.The.Next.Generation.2160p.NF.WEB-DL.DDP5.1.Atmos.DV.HDR.H.265-FLUX.mkv
+大小: 6.85 GB
+glenwrt:      /Volumes/Media_Lib/Documentary/Our.Planet.2019.S02.2160p.NF.WEB-DL.DDP5.1.Atmos.DV.HDR.H.265-FLUX/Our.Planet.2019.S02E03.Chapter.3.The.Next.Generation.2160p.NF.WEB-DL.DDP5.1.Atmos.DV.HDR.H.265-FLUX.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/Our.Planet.2019.S02.2160p.NF.WEB-DL.DDP5.1.Atmos.DV.HDR.H.265-FLUX/Our.Planet.2019.S02E03.Chapter.3.The.Next.Generation.2160p.NF.WEB-DL.DDP5.1.Atmos.DV.HDR.H.265-FLUX.mkv
+
+--------------------------------------------------------------------------------
+文件名: Our.Planet.2019.S02E04.Chapter.4.Freedom.to.Roam.2160p.NF.WEB-DL.DDP5.1.Atmos.DV.HDR.H.265-FLUX.mkv
+大小: 6.88 GB
+glenwrt:      /Volumes/Media_Lib/Documentary/Our.Planet.2019.S02.2160p.NF.WEB-DL.DDP5.1.Atmos.DV.HDR.H.265-FLUX/Our.Planet.2019.S02E04.Chapter.4.Freedom.to.Roam.2160p.NF.WEB-DL.DDP5.1.Atmos.DV.HDR.H.265-FLUX.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/Our.Planet.2019.S02.2160p.NF.WEB-DL.DDP5.1.Atmos.DV.HDR.H.265-FLUX/Our.Planet.2019.S02E04.Chapter.4.Freedom.to.Roam.2160p.NF.WEB-DL.DDP5.1.Atmos.DV.HDR.H.265-FLUX.mkv
+
+--------------------------------------------------------------------------------
+文件名: Parasite.2019.2160p.BluRay.x265.10bit.Atmos.TrueHD7.1-WiKi.mkv
+大小: 25.74 GB
+glenwrt:      /Volumes/Media_Lib/Movies/Parasite.2019.2160p.BluRay.x265.10bit.Atmos.TrueHD7.1-WiKi/Parasite.2019.2160p.BluRay.x265.10bit.Atmos.TrueHD7.1-WiKi.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/Parasite.2019.2160p.BluRay.x265.10bit.Atmos.TrueHD7.1-WiKi/Parasite.2019.2160p.BluRay.x265.10bit.Atmos.TrueHD7.1-WiKi.mkv
+
+--------------------------------------------------------------------------------
+文件名: Pinocchio.2022.DV.2160p.WEB.h265-KOGi.mkv
+大小: 12.65 GB
+glenwrt:      /Volumes/Media_Lib/Kid/Pinocchio.2022.2160p.DSNP.WEB-DL.DDP5.1.Atmos.DV.MKV.x265-KOGi/Pinocchio.2022.DV.2160p.WEB.h265-KOGi.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/Pinocchio.2022.2160p.DSNP.WEB-DL.DDP5.1.Atmos.DV.MKV.x265-KOGi/Pinocchio.2022.DV.2160p.WEB.h265-KOGi.mkv
+
+--------------------------------------------------------------------------------
+文件名: Poor.Things.2023.V2.2160p.iT.WEB-DL.H265.DV.DDP5.1.Atmos-ADWeb.mkv
+大小: 25.09 GB
+glenwrt:      /Volumes/Media_Lib/Movies/0-Latest Movies/Poor.Things.2023.V2.2160p.iT.WEB-DL.H265.DV.DDP5.1.Atmos-ADWeb/Poor.Things.2023.V2.2160p.iT.WEB-DL.H265.DV.DDP5.1.Atmos-ADWeb.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/Poor.Things.2023.V2.2160p.iT.WEB-DL.H265.DV.DDP5.1.Atmos-ADWeb/Poor.Things.2023.V2.2160p.iT.WEB-DL.H265.DV.DDP5.1.Atmos-ADWeb.mkv
+
+--------------------------------------------------------------------------------
+文件名: Predestination.2014.1080p.BluRay.REMUX.AVC.DTS-HD.MA.5.1-RARBG.mkv
+大小: 18.92 GB
+glenwrt:      /Volumes/Media_Lib/Movies/Predestination.2014.1080p.BluRay.REMUX.AVC.DTS-HD.MA.5.1-RARBG/Predestination.2014.1080p.BluRay.REMUX.AVC.DTS-HD.MA.5.1-RARBG.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/Predestination.2014.1080p.BluRay.REMUX.AVC.DTS-HD.MA.5.1-RARBG/Predestination.2014.1080p.BluRay.REMUX.AVC.DTS-HD.MA.5.1-RARBG.mkv
+
+--------------------------------------------------------------------------------
+文件名: Pulp.Fiction.1994.2160p.HDR.UHD.BluRay.DTS-HD.MA.5.1.x265-10bit-HDS.mkv
+大小: 28.35 GB
+glenwrt:      /Volumes/Media_Lib/Movies/Pulp.Fiction.1994.2160p.HDR.UHD.BluRay.DTS-HD.MA.5.1.x265-10bit-HDS/Pulp.Fiction.1994.2160p.HDR.UHD.BluRay.DTS-HD.MA.5.1.x265-10bit-HDS.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/Pulp.Fiction.1994.2160p.HDR.UHD.BluRay.DTS-HD.MA.5.1.x265-10bit-HDS/Pulp.Fiction.1994.2160p.HDR.UHD.BluRay.DTS-HD.MA.5.1.x265-10bit-HDS.mkv
+
+--------------------------------------------------------------------------------
+文件名: Puss.in.Boots.The.Last.Wish.2022.2160p.MA.WEB-DL.DDP5.1.Atmos.DV.H.265-CMRG.mkv
+大小: 18.05 GB
+glenwrt:      /Volumes/Media_Lib/Kid/Puss.in.Boots.The.Last.Wish.2022.2160p.MA.WEB-DL.DDP5.1.Atmos.DV.MKV.x265-CM/Puss.in.Boots.The.Last.Wish.2022.2160p.MA.WEB-DL.DDP5.1.Atmos.DV.H.265-CMRG.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/Puss.in.Boots.The.Last.Wish.2022.2160p.MA.WEB-DL.DDP5.1.Atmos.DV.MKV.x265-CM/Puss.in.Boots.The.Last.Wish.2022.2160p.MA.WEB-DL.DDP5.1.Atmos.DV.H.265-CMRG.mkv
+
+--------------------------------------------------------------------------------
+文件名: Ready.Player.One.2018.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT.mkv
+大小: 78.22 GB
+glenwrt:      /Volumes/Media_Lib/Movies/头号玩家 4K REMUX （蓝光原盘）/Ready.Player.One.2018.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT/Ready.Player.One.2018.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/头号玩家 4K REMUX （蓝光原盘）/Ready.Player.One.2018.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT/Ready.Player.One.2018.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT.mkv
+
+--------------------------------------------------------------------------------
+文件名: Red.Cliff.Part.1.2008.BluRay.Remux.1080p.DTS-HD.MA.7.1-HDH.mkv
+大小: 26.73 GB
+glenwrt:      /Volumes/Media_Lib/Movies/Red.Cliff.2008-2009.BluRay.Remux.1080p.DTS-HD.MA.7.1-HDH/Red.Cliff.Part.1.2008.BluRay.Remux.1080p.DTS-HD.MA.7.1-HDH/Red.Cliff.Part.1.2008.BluRay.Remux.1080p.DTS-HD.MA.7.1-HDH.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/Red.Cliff.2008-2009.BluRay.Remux.1080p.DTS-HD.MA.7.1-HDH/Red.Cliff.Part.1.2008.BluRay.Remux.1080p.DTS-HD.MA.7.1-HDH/Red.Cliff.Part.1.2008.BluRay.Remux.1080p.DTS-HD.MA.7.1-HDH.mkv
+
+--------------------------------------------------------------------------------
+文件名: Red.Cliff.Part.2.2009.BluRay.Remux.1080p.DTS-HD.MA.7.1-HDH.mkv
+大小: 27.60 GB
+glenwrt:      /Volumes/Media_Lib/Movies/Red.Cliff.2008-2009.BluRay.Remux.1080p.DTS-HD.MA.7.1-HDH/Red.Cliff.Part.2.2009.BluRay.Remux.1080p.DTS-HD.MA.7.1-HDH/Red.Cliff.Part.2.2009.BluRay.Remux.1080p.DTS-HD.MA.7.1-HDH.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/Red.Cliff.2008-2009.BluRay.Remux.1080p.DTS-HD.MA.7.1-HDH/Red.Cliff.Part.2.2009.BluRay.Remux.1080p.DTS-HD.MA.7.1-HDH/Red.Cliff.Part.2.2009.BluRay.Remux.1080p.DTS-HD.MA.7.1-HDH.mkv
+
+--------------------------------------------------------------------------------
+文件名: Reservoir.Dogs.1992.2160p.UHD.BluRay.Remux.HEVC.DV.TrueHD.5.1-ADE.mkv
+大小: 52.77 GB
+glenwrt:      /Volumes/Media_Lib/Movies/Reservoir.Dogs.1992.2160p.UHD.BluRay.Remux.HEVC.DV.TrueHD.5.1-ADE/Reservoir.Dogs.1992.2160p.UHD.BluRay.Remux.HEVC.DV.TrueHD.5.1-ADE.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/Reservoir.Dogs.1992.2160p.UHD.BluRay.Remux.HEVC.DV.TrueHD.5.1-ADE/Reservoir.Dogs.1992.2160p.UHD.BluRay.Remux.HEVC.DV.TrueHD.5.1-ADE.mkv
+
+--------------------------------------------------------------------------------
+文件名: Roman.Holiday.1953.2160p.UHD.Bluray.TrueHD.2.0.DoVi.HDR10.x265-PTer.mkv
+大小: 24.86 GB
+glenwrt:      /Volumes/Media_Lib/Movies/0-Latest Movies/Roman.Holiday.1953.2160p.UHD.Bluray.TrueHD.2.0.DoVi.HDR10.x265-PTer.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/Roman.Holiday.1953.2160p.UHD.Bluray.TrueHD.2.0.DoVi.HDR10.x265-PTer.mkv
+
+--------------------------------------------------------------------------------
+文件名: Searching.2018.BluRay.1080p.DTS.x264-CHD.mkv
+大小: 7.68 GB
+glenwrt:      /Volumes/Media_Lib/Movies/Searching.2018.BluRay.1080p.DTS.x264-CHD/Searching.2018.BluRay.1080p.DTS.x264-CHD.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/Searching.2018.BluRay.1080p.DTS.x264-CHD/Searching.2018.BluRay.1080p.DTS.x264-CHD.mkv
+
+--------------------------------------------------------------------------------
+文件名: Shi.Fu.AKA.The.Final.Master.2015.1080p.BluRay.DDP5.1.x264-PTer.mkv
+大小: 9.33 GB
+glenwrt:      /Volumes/Media_Lib/Movies/0-Latest Movies/Shi.Fu.AKA.The.Final.Master.2015.1080p.BluRay.DDP5.1.x264-PTer.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/Shi.Fu.AKA.The.Final.Master.2015.1080p.BluRay.DDP5.1.x264-PTer.mkv
+
+--------------------------------------------------------------------------------
+文件名: Spider-Man.Across.The.Spider-Verse.2023.BluRay.1080p.3Audio.DTS-HD.MA5.1.x265.10bit-BeiTai.mkv
+大小: 13.25 GB
+glenwrt:      /Volumes/Media_Lib/Movies/Spider-Man.Across.The.Spider-Verse.2023.BluRay.1080p.3Audio.DTS-HD.MA5.1.x265.10bit-BeiTai/Spider-Man.Across.The.Spider-Verse.2023.BluRay.1080p.3Audio.DTS-HD.MA5.1.x265.10bit-BeiTai.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/Spider-Man.Across.The.Spider-Verse.2023.BluRay.1080p.3Audio.DTS-HD.MA5.1.x265.10bit-BeiTai/Spider-Man.Across.The.Spider-Verse.2023.BluRay.1080p.3Audio.DTS-HD.MA5.1.x265.10bit-BeiTai.mkv
+
+--------------------------------------------------------------------------------
+文件名: Tar.2022.UHD.Blu-ray.2160p.10bit.HDR.TrueHD(Atmos).7.1.x265-beAst.mkv
+大小: 16.96 GB
+glenwrt:      /Volumes/Media_Lib/Movies/Tar.2022.UHD.Blu-ray.2160p.10bit.HDR.TrueHD(Atmos).7.1.x265-beAst/Tar.2022.UHD.Blu-ray.2160p.10bit.HDR.TrueHD(Atmos).7.1.x265-beAst.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/Tar.2022.UHD.Blu-ray.2160p.10bit.HDR.TrueHD(Atmos).7.1.x265-beAst/Tar.2022.UHD.Blu-ray.2160p.10bit.HDR.TrueHD(Atmos).7.1.x265-beAst.mkv
+
+--------------------------------------------------------------------------------
+文件名: Tenet.2020.IMAX.UHD.BluRay.2160p.10bit.HDR.2Audio.DTS-HD.MA.5.1.x265-beAst.mkv
+大小: 30.08 GB
+glenwrt:      /Volumes/Media_Lib/Movies/0-克里斯托弗·诺兰导演合集/Tenet.2020.IMAX.UHD.BluRay.2160p.10bit.HDR.2Audio.DTS-HD.MA.5.1.x265-beAst/Tenet.2020.IMAX.UHD.BluRay.2160p.10bit.HDR.2Audio.DTS-HD.MA.5.1.x265-beAst.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/克里斯托弗·罗兰导演合集/Tenet.2020.IMAX.UHD.BluRay.2160p.10bit.HDR.2Audio.DTS-HD.MA.5.1.x265-beAst/Tenet.2020.IMAX.UHD.BluRay.2160p.10bit.HDR.2Audio.DTS-HD.MA.5.1.x265-beAst.mkv
+
+--------------------------------------------------------------------------------
+文件名: The Banshees of Inisherin 2022 MA Hybrid 2160p WEB-DL DV HEVC DTS-HD MA 5.1.mkv
+大小: 22.65 GB
+glenwrt:      /Volumes/Media_Lib/Movies/The.Banshees.Of.Inisherin.2022.2160p.MA.WEB-DL.x265.10bit.HDR.DTS-HD.MA.5.1-FLUX/The Banshees of Inisherin 2022 MA Hybrid 2160p WEB-DL DV HEVC DTS-HD MA 5.1.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/The.Banshees.Of.Inisherin.2022.2160p.MA.WEB-DL.x265.10bit.HDR.DTS-HD.MA.5.1-FLUX/The Banshees of Inisherin 2022 MA Hybrid 2160p WEB-DL DV HEVC DTS-HD MA 5.1.mkv
+
+--------------------------------------------------------------------------------
+文件名: The.Bourne.Identity.2002.BluRay.2160p.x265.10bit.4Audio.mUHD-FRDS.mkv
+大小: 17.19 GB
+glenwrt:      /Volumes/Media_Lib/Movies/0-谍影重重合集/谍影重重.The.Bourne.Identity.2002.BluRay.2160p.x265.10bit.4Audio.mUHD-FRDS/The.Bourne.Identity.2002.BluRay.2160p.x265.10bit.4Audio.mUHD-FRDS.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/谍影重重系列/谍影重重.The.Bourne.Identity.2002.BluRay.2160p.x265.10bit.4Audio.mUHD-FRDS/The.Bourne.Identity.2002.BluRay.2160p.x265.10bit.4Audio.mUHD-FRDS.mkv
+
+--------------------------------------------------------------------------------
+文件名: The.Bourne.Legacy.2012.BluRay.2160p.x265.10bit.4Audio.mUHD-FRDS.mkv
+大小: 32.65 GB
+glenwrt:      /Volumes/Media_Lib/Movies/0-谍影重重合集/谍影重重4.The.Bourne.Legacy.2012.BluRay.2160p.x265.10bit.4Audio.mUHD-FRDS/The.Bourne.Legacy.2012.BluRay.2160p.x265.10bit.4Audio.mUHD-FRDS.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/谍影重重系列/谍影重重4.The.Bourne.Legacy.2012.BluRay.2160p.x265.10bit.4Audio.mUHD-FRDS/The.Bourne.Legacy.2012.BluRay.2160p.x265.10bit.4Audio.mUHD-FRDS.mkv
+
+--------------------------------------------------------------------------------
+文件名: The.Bourne.Supremacy.2004.BluRay.2160p.x265.10bit.4Audio.mUHD-FRDS.mkv
+大小: 28.25 GB
+glenwrt:      /Volumes/Media_Lib/Movies/0-谍影重重合集/谍影重重2.The.Bourne.Supremacy.2004.BluRay.2160p.x265.10bit.4Audio.mUHD-FRDS/The.Bourne.Supremacy.2004.BluRay.2160p.x265.10bit.4Audio.mUHD-FRDS.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/谍影重重系列/谍影重重2.The.Bourne.Supremacy.2004.BluRay.2160p.x265.10bit.4Audio.mUHD-FRDS/The.Bourne.Supremacy.2004.BluRay.2160p.x265.10bit.4Audio.mUHD-FRDS.mkv
+
+--------------------------------------------------------------------------------
+文件名: The.Bourne.Ultimatum.2007.BluRay.2160p.x265.10bit.4Audio.mUHD-FRDS.mkv
+大小: 25.77 GB
+glenwrt:      /Volumes/Media_Lib/Movies/0-谍影重重合集/谍影重重3.The.Bourne.Ultimatum.2007.BluRay.2160p.x265.10bit.4Audio.mUHD-FRDS/The.Bourne.Ultimatum.2007.BluRay.2160p.x265.10bit.4Audio.mUHD-FRDS.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/谍影重重系列/谍影重重3.The.Bourne.Ultimatum.2007.BluRay.2160p.x265.10bit.4Audio.mUHD-FRDS/The.Bourne.Ultimatum.2007.BluRay.2160p.x265.10bit.4Audio.mUHD-FRDS.mkv
+
+--------------------------------------------------------------------------------
+文件名: The.Devils.Double.2011.1080p.BluRay.x264.DTS-FGT.mkv
+大小: 7.62 GB
+glenwrt:      /Volumes/Media_Lib/Movies/The.Devils.Double.2011.1080p.BluRay.x264.DTS-FGT/The.Devils.Double.2011.1080p.BluRay.x264.DTS-FGT.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/The.Devils.Double.2011.1080p.BluRay.x264.DTS-FGT/The.Devils.Double.2011.1080p.BluRay.x264.DTS-FGT.mkv
+
+--------------------------------------------------------------------------------
+文件名: The.Eight.Hundred.2020.BluRay.1080p.DTS-HD.MA.5.1.x265.10bit-BeiTai.mkv
+大小: 10.88 GB
+glenwrt:      /Volumes/Media_Lib/Movies/The.Eight.Hundred.2020.BluRay.1080p.DTS-HD.MA.5.1.x265.10bit-BeiTai/The.Eight.Hundred.2020.BluRay.1080p.DTS-HD.MA.5.1.x265.10bit-BeiTai.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/The.Eight.Hundred.2020.BluRay.1080p.DTS-HD.MA.5.1.x265.10bit-BeiTai/The.Eight.Hundred.2020.BluRay.1080p.DTS-HD.MA.5.1.x265.10bit-BeiTai.mkv
+
+--------------------------------------------------------------------------------
+文件名: The.Equalizer.3.2023.2160p.MA.WEB-DL.DDP5.1.DV.HDR.H.265-FLUX.mkv
+大小: 18.91 GB
+glenwrt:      /Volumes/Media_Lib/Movies/0-Latest Movies/The.Equalizer.3.2023.2160p.MA.WEB-DL.DDP5.1.DV.HDR.H.265-FLUX.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/The.Equalizer.3.2023.2160p.MA.WEB-DL.DDP5.1.DV.HDR.H.265-FLUX.mkv
+
+--------------------------------------------------------------------------------
+文件名: The.Fabelmans.2022.UHD.BluRay.2160p.TrueHD.Atmos.7.1.x265.10bit.HDR-BeiTai.mkv
+大小: 25.07 GB
+glenwrt:      /Volumes/Media_Lib/Movies/The.Fabelmans.2022.UHD.BluRay.2160p.TrueHD.Atmos.7.1.x265.10bit.HDR-BeiTai/The.Fabelmans.2022.UHD.BluRay.2160p.TrueHD.Atmos.7.1.x265.10bit.HDR-BeiTai.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/The.Fabelmans.2022.UHD.BluRay.2160p.TrueHD.Atmos.7.1.x265.10bit.HDR-BeiTai/The.Fabelmans.2022.UHD.BluRay.2160p.TrueHD.Atmos.7.1.x265.10bit.HDR-BeiTai.mkv
+
+--------------------------------------------------------------------------------
+文件名: The.Father.2020.2160p.AMZN.WEB-DL.DDP5.1.HDR.HEVC-CMRG.mkv
+大小: 10.29 GB
+glenwrt:      /Volumes/Media_Lib/Movies/困在时间里的父亲/The.Father.2020.2160p.AMZN.WEB-DL.DDP5.1.HDR.HEVC-CMRG.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/The.Father.2020.2160p.AMZN.WEB-DL.DDP5.1.HDR.HEVC-CMRG.mkv
+
+--------------------------------------------------------------------------------
+文件名: The.First.Slam.Dunk.2022.2160p.UHD.BluRay.TrueHD.Atmos.7.1.DoVi.x265-PuTao.mkv
+大小: 25.59 GB
+glenwrt:      /Volumes/Media_Lib/Movies/0-Latest Movies/The.First.Slam.Dunk.2022.2160p.UHD.BluRay.TrueHD.Atmos.7.1.DoVi.x265-PuTao/The.First.Slam.Dunk.2022.2160p.UHD.BluRay.TrueHD.Atmos.7.1.DoVi.x265-PuTao.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/The.First.Slam.Dunk.2022.2160p.UHD.BluRay.TrueHD.Atmos.7.1.DoVi.x265-PuTao/The.First.Slam.Dunk.2022.2160p.UHD.BluRay.TrueHD.Atmos.7.1.DoVi.x265-PuTao.mkv
+
+--------------------------------------------------------------------------------
+文件名: The.Grand.Budapest.Hotel.2014.REPACK.1080p.BluRay.DTS.x264-FoRM.mkv
+大小: 10.77 GB
+glenwrt:      /Volumes/Media_Lib/Movies/布达佩斯大饭店/The.Grand.Budapest.Hotel.2014.REPACK.1080p.BluRay.DTS.x264-FoRM.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/The.Grand.Budapest.Hotel.2014.REPACK.1080p.BluRay.DTS.x264-FoRM.mkv
+
+--------------------------------------------------------------------------------
+文件名: The.Great.Gatsby.2013.2160p.UHD.BluRay.x265.10bit.HDR.DTS-HD.MA.5.1.2Audio-PTHome.mkv
+大小: 18.73 GB
+glenwrt:      /Volumes/Media_Lib/Movies/The.Great.Gatsby.2013.2160p.UHD.BluRay.x265.10bit.HDR.DTS-HD.MA.5.1.2Audio-PTHome/The.Great.Gatsby.2013.2160p.UHD.BluRay.x265.10bit.HDR.DTS-HD.MA.5.1.2Audio-PTHome.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/The.Great.Gatsby.2013.2160p.UHD.BluRay.x265.10bit.HDR.DTS-HD.MA.5.1.2Audio-PTHome/The.Great.Gatsby.2013.2160p.UHD.BluRay.x265.10bit.HDR.DTS-HD.MA.5.1.2Audio-PTHome.mkv
+
+--------------------------------------------------------------------------------
+文件名: The.Greatest.Showman.2017.UHD.BluRay.2160p.10bit.HDR.2Audio.TrueHD(Atmos).7.1.x265-beAst.mkv
+大小: 20.05 GB
+glenwrt:      /Volumes/Media_Lib/Movies/The.Greatest.Showman.2017.UHD.BluRay.2160p.10bit.HDR.2Audio.TrueHD(Atmos).7.1.x265-beAst/The.Greatest.Showman.2017.UHD.BluRay.2160p.10bit.HDR.2Audio.TrueHD(Atmos).7.1.x265-beAst.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/The.Greatest.Showman.2017.UHD.BluRay.2160p.10bit.HDR.2Audio.TrueHD(Atmos).7.1.x265-beAst/The.Greatest.Showman.2017.UHD.BluRay.2160p.10bit.HDR.2Audio.TrueHD(Atmos).7.1.x265-beAst.mkv
+
+--------------------------------------------------------------------------------
+文件名: The.Hobbit.An.Unexpected.Journey.2012.BluRay.2160p.x265.DoVi.mUHD-FRDS.m2ts
+大小: 32.75 GB
+glenwrt:      /Volumes/Media_Lib/Movies/0-指环王系列/霍比特人1：意外之旅.The.Hobbit.An.Unexpected.Journey.2012.BluRay.2160p.x265.DoVi.mUHD-FRDS/The.Hobbit.An.Unexpected.Journey.2012.BluRay.2160p.x265.DoVi.mUHD-FRDS.m2ts
+glenhouse-pc: /Volumes/Media_Lib-1/霍比特人1：意外之旅.The.Hobbit.An.Unexpected.Journey.2012.BluRay.2160p.x265.DoVi.mUHD-FRDS/The.Hobbit.An.Unexpected.Journey.2012.BluRay.2160p.x265.DoVi.mUHD-FRDS.m2ts
+
+--------------------------------------------------------------------------------
+文件名: The.Hobbit.The.Battle.of.the.Five.Armies.2014.BluRay.2160p.x265.DoVi.mUHD-FRDS.m2ts
+大小: 28.30 GB
+glenwrt:      /Volumes/Media_Lib/Movies/0-指环王系列/霍比特人3：五军之战.The.Hobbit.The.Battle.of.the.Five.Armies.2014.BluRay.2160p.x265.DoVi.mUHD-FRDS/The.Hobbit.The.Battle.of.the.Five.Armies.2014.BluRay.2160p.x265.DoVi.mUHD-FRDS.m2ts
+glenhouse-pc: /Volumes/Media_Lib-1/霍比特人3：五军之战.The.Hobbit.The.Battle.of.the.Five.Armies.2014.BluRay.2160p.x265.DoVi.mUHD-FRDS/The.Hobbit.The.Battle.of.the.Five.Armies.2014.BluRay.2160p.x265.DoVi.mUHD-FRDS.m2ts
+
+--------------------------------------------------------------------------------
+文件名: The.Hobbit.The.Desolation.of.Smaug.2013.BluRay.2160p.x265.DoVi.mUHD-FRDS.m2ts
+大小: 34.23 GB
+glenwrt:      /Volumes/Media_Lib/Movies/0-指环王系列/霍比特人2：史矛革之战.The.Hobbit.The.Desolation.of.Smaug.2013.BluRay.2160p.x265.DoVi.mUHD-FRDS/The.Hobbit.The.Desolation.of.Smaug.2013.BluRay.2160p.x265.DoVi.mUHD-FRDS.m2ts
+glenhouse-pc: /Volumes/Media_Lib-1/霍比特人2：史矛革之战.The.Hobbit.The.Desolation.of.Smaug.2013.BluRay.2160p.x265.DoVi.mUHD-FRDS/The.Hobbit.The.Desolation.of.Smaug.2013.BluRay.2160p.x265.DoVi.mUHD-FRDS.m2ts
+
+--------------------------------------------------------------------------------
+文件名: The.Imitation.Game.2014.BluRay.1080p.DTS-HD.MA.5.1.x265.10bit-BeiTai.mkv
+大小: 9.62 GB
+glenwrt:      /Volumes/Media_Lib/Movies/The.Imitation.Game.2014.BluRay.1080p.DTS-HD.MA.5.1.x265.10bit-BeiTai/The.Imitation.Game.2014.BluRay.1080p.DTS-HD.MA.5.1.x265.10bit-BeiTai.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/The.Imitation.Game.2014.BluRay.1080p.DTS-HD.MA.5.1.x265.10bit-BeiTai/The.Imitation.Game.2014.BluRay.1080p.DTS-HD.MA.5.1.x265.10bit-BeiTai.mkv
+
+--------------------------------------------------------------------------------
+文件名: The.Next.Three.Days.2010.1080p.JPN.Blu-ray.x265.10bit.DTS-HD.MA.7.1-Iceyumao@Dream.mkv
+大小: 10.77 GB
+glenwrt:      /Volumes/Media_Lib/Movies/The.Next.Three.Days.2010.1080p.JPN.Blu-ray.x265.10bit.DTS-HD.MA.7.1-Iceyumao@Dream/The.Next.Three.Days.2010.1080p.JPN.Blu-ray.x265.10bit.DTS-HD.MA.7.1-Iceyumao@Dream.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/The.Next.Three.Days.2010.1080p.JPN.Blu-ray.x265.10bit.DTS-HD.MA.7.1-Iceyumao@Dream/The.Next.Three.Days.2010.1080p.JPN.Blu-ray.x265.10bit.DTS-HD.MA.7.1-Iceyumao@Dream.mkv
+
+--------------------------------------------------------------------------------
+文件名: The.Pacific.E01.2010.1080p.Blu-ray.x265.10bit.AC3￡cXcY@FRDS.mkv
+大小: 3.67 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/太平洋战争.The.Pacific.E01-E10+SP.201.1080p.Blu-ray.x265.AC3￡cXcY@FRDS/The.Pacific.E01.2010.1080p.Blu-ray.x265.10bit.AC3￡cXcY@FRDS.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/太平洋战争.The.Pacific.E01-E10+SP.201.1080p.Blu-ray.x265.AC3￡cXcY@FRDS/The.Pacific.E01.2010.1080p.Blu-ray.x265.10bit.AC3￡cXcY@FRDS.mkv
+
+--------------------------------------------------------------------------------
+文件名: The.Pacific.E02.2010.1080p.Blu-ray.x265.10bit.AC3￡cXcY@FRDS.mkv
+大小: 3.54 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/太平洋战争.The.Pacific.E01-E10+SP.201.1080p.Blu-ray.x265.AC3￡cXcY@FRDS/The.Pacific.E02.2010.1080p.Blu-ray.x265.10bit.AC3￡cXcY@FRDS.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/太平洋战争.The.Pacific.E01-E10+SP.201.1080p.Blu-ray.x265.AC3￡cXcY@FRDS/The.Pacific.E02.2010.1080p.Blu-ray.x265.10bit.AC3￡cXcY@FRDS.mkv
+
+--------------------------------------------------------------------------------
+文件名: The.Pacific.E03.2010.1080p.Blu-ray.x265.10bit.AC3￡cXcY@FRDS.mkv
+大小: 3.91 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/太平洋战争.The.Pacific.E01-E10+SP.201.1080p.Blu-ray.x265.AC3￡cXcY@FRDS/The.Pacific.E03.2010.1080p.Blu-ray.x265.10bit.AC3￡cXcY@FRDS.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/太平洋战争.The.Pacific.E01-E10+SP.201.1080p.Blu-ray.x265.AC3￡cXcY@FRDS/The.Pacific.E03.2010.1080p.Blu-ray.x265.10bit.AC3￡cXcY@FRDS.mkv
+
+--------------------------------------------------------------------------------
+文件名: The.Pacific.E04.2010.1080p.Blu-ray.x265.10bit.AC3￡cXcY@FRDS.mkv
+大小: 3.54 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/太平洋战争.The.Pacific.E01-E10+SP.201.1080p.Blu-ray.x265.AC3￡cXcY@FRDS/The.Pacific.E04.2010.1080p.Blu-ray.x265.10bit.AC3￡cXcY@FRDS.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/太平洋战争.The.Pacific.E01-E10+SP.201.1080p.Blu-ray.x265.AC3￡cXcY@FRDS/The.Pacific.E04.2010.1080p.Blu-ray.x265.10bit.AC3￡cXcY@FRDS.mkv
+
+--------------------------------------------------------------------------------
+文件名: The.Pacific.E05.2010.1080p.Blu-ray.x265.10bit.AC3￡cXcY@FRDS.mkv
+大小: 3.48 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/太平洋战争.The.Pacific.E01-E10+SP.201.1080p.Blu-ray.x265.AC3￡cXcY@FRDS/The.Pacific.E05.2010.1080p.Blu-ray.x265.10bit.AC3￡cXcY@FRDS.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/太平洋战争.The.Pacific.E01-E10+SP.201.1080p.Blu-ray.x265.AC3￡cXcY@FRDS/The.Pacific.E05.2010.1080p.Blu-ray.x265.10bit.AC3￡cXcY@FRDS.mkv
+
+--------------------------------------------------------------------------------
+文件名: The.Pacific.E06.2010.1080p.Blu-ray.x265.10bit.AC3￡cXcY@FRDS.mkv
+大小: 3.50 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/太平洋战争.The.Pacific.E01-E10+SP.201.1080p.Blu-ray.x265.AC3￡cXcY@FRDS/The.Pacific.E06.2010.1080p.Blu-ray.x265.10bit.AC3￡cXcY@FRDS.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/太平洋战争.The.Pacific.E01-E10+SP.201.1080p.Blu-ray.x265.AC3￡cXcY@FRDS/The.Pacific.E06.2010.1080p.Blu-ray.x265.10bit.AC3￡cXcY@FRDS.mkv
+
+--------------------------------------------------------------------------------
+文件名: The.Pacific.E07.2010.1080p.Blu-ray.x265.10bit.AC3￡cXcY@FRDS.mkv
+大小: 3.54 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/太平洋战争.The.Pacific.E01-E10+SP.201.1080p.Blu-ray.x265.AC3￡cXcY@FRDS/The.Pacific.E07.2010.1080p.Blu-ray.x265.10bit.AC3￡cXcY@FRDS.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/太平洋战争.The.Pacific.E01-E10+SP.201.1080p.Blu-ray.x265.AC3￡cXcY@FRDS/The.Pacific.E07.2010.1080p.Blu-ray.x265.10bit.AC3￡cXcY@FRDS.mkv
+
+--------------------------------------------------------------------------------
+文件名: The.Pacific.E08.2010.1080p.Blu-ray.x265.10bit.AC3￡cXcY@FRDS.mkv
+大小: 3.94 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/太平洋战争.The.Pacific.E01-E10+SP.201.1080p.Blu-ray.x265.AC3￡cXcY@FRDS/The.Pacific.E08.2010.1080p.Blu-ray.x265.10bit.AC3￡cXcY@FRDS.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/太平洋战争.The.Pacific.E01-E10+SP.201.1080p.Blu-ray.x265.AC3￡cXcY@FRDS/The.Pacific.E08.2010.1080p.Blu-ray.x265.10bit.AC3￡cXcY@FRDS.mkv
+
+--------------------------------------------------------------------------------
+文件名: The.Pacific.E09.2010.1080p.Blu-ray.x265.10bit.AC3￡cXcY@FRDS.mkv
+大小: 4.00 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/太平洋战争.The.Pacific.E01-E10+SP.201.1080p.Blu-ray.x265.AC3￡cXcY@FRDS/The.Pacific.E09.2010.1080p.Blu-ray.x265.10bit.AC3￡cXcY@FRDS.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/太平洋战争.The.Pacific.E01-E10+SP.201.1080p.Blu-ray.x265.AC3￡cXcY@FRDS/The.Pacific.E09.2010.1080p.Blu-ray.x265.10bit.AC3￡cXcY@FRDS.mkv
+
+--------------------------------------------------------------------------------
+文件名: The.Pacific.E10.2010.1080p.Blu-ray.x265.10bit.AC3￡cXcY@FRDS.mkv
+大小: 4.23 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/太平洋战争.The.Pacific.E01-E10+SP.201.1080p.Blu-ray.x265.AC3￡cXcY@FRDS/The.Pacific.E10.2010.1080p.Blu-ray.x265.10bit.AC3￡cXcY@FRDS.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/太平洋战争.The.Pacific.E01-E10+SP.201.1080p.Blu-ray.x265.AC3￡cXcY@FRDS/The.Pacific.E10.2010.1080p.Blu-ray.x265.10bit.AC3￡cXcY@FRDS.mkv
+
+--------------------------------------------------------------------------------
+文件名: The.Pacific.SP1.Making.2010.1080p.Blu-ray.x265.10bit.AC3￡cXcY@FRDS.mkv
+大小: 1.05 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/太平洋战争.The.Pacific.E01-E10+SP.201.1080p.Blu-ray.x265.AC3￡cXcY@FRDS/The.Pacific.SP1.Making.2010.1080p.Blu-ray.x265.10bit.AC3￡cXcY@FRDS.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/太平洋战争.The.Pacific.E01-E10+SP.201.1080p.Blu-ray.x265.AC3￡cXcY@FRDS/The.Pacific.SP1.Making.2010.1080p.Blu-ray.x265.10bit.AC3￡cXcY@FRDS.mkv
+
+--------------------------------------------------------------------------------
+文件名: The.Pig.the.Snake.and.the.Pigeon.2023.1080p.NF.DDP5.1.H264-TZFILE.mkv
+大小: 7.24 GB
+glenwrt:      /Volumes/Media_Lib/Movies/0-Latest Movies/The.Pig.the.Snake.and.the.Pigeon.2023.1080p.NF.DDP5.1.H264-TZFILE.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/The.Pig.the.Snake.and.the.Pigeon.2023.1080p.NF.DDP5.1.H264-TZFILE.mkv
+
+--------------------------------------------------------------------------------
+文件名: The.Prestige.2006.UHD.BluRay.2160p.10bit.HDR.2Audio.DTS-HD.MA.5.1.x265-beAst.mkv
+大小: 26.72 GB
+glenwrt:      /Volumes/Media_Lib/Movies/0-克里斯托弗·诺兰导演合集/The.Prestige.2006.UHD.BluRay.2160p.10bit.HDR.2Audio.DTS-HD.MA.5.1.x265-beAst/The.Prestige.2006.UHD.BluRay.2160p.10bit.HDR.2Audio.DTS-HD.MA.5.1.x265-beAst.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/克里斯托弗·罗兰导演合集/The.Prestige.2006.UHD.BluRay.2160p.10bit.HDR.2Audio.DTS-HD.MA.5.1.x265-beAst/The.Prestige.2006.UHD.BluRay.2160p.10bit.HDR.2Audio.DTS-HD.MA.5.1.x265-beAst.mkv
+
+--------------------------------------------------------------------------------
+文件名: The.Revenant.2015.BluRay.2160p.x265.10bit.HDR.2Audio.mUHD-FRDS.mkv
+大小: 26.51 GB
+glenwrt:      /Volumes/Media_Lib/Movies/The.Revenant.2015.BluRay.2160p.x265.10bit.HDR.2Audio.mUHD-FRDS/The.Revenant.2015.BluRay.2160p.x265.10bit.HDR.2Audio.mUHD-FRDS.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/荒野猎人.The.Revenant.2015.BluRay.2160p.x265.10bit.HDR.2Audio.mUHD-FRDS/The.Revenant.2015.BluRay.2160p.x265.10bit.HDR.2Audio.mUHD-FRDS.mkv
+
+--------------------------------------------------------------------------------
+文件名: The.Sinking.of.the.Lisbon.Maru.2023.2160p.HQ.WEB-DL.H265.60fps.DTS5.1-CHDWEB.mkv
+大小: 22.18 GB
+glenwrt:      /Volumes/Media_Lib/Documentary/里斯本丸沉没.The.Sinking.of.the.Lisbon.Maru.2023.2160p.HQ.WEB-DL.H265.60fps.DTS5.1-CHDWEB/The.Sinking.of.the.Lisbon.Maru.2023.2160p.HQ.WEB-DL.H265.60fps.DTS5.1-CHDWEB.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/里斯本丸沉没.The.Sinking.of.the.Lisbon.Maru.2023.2160p.HQ.WEB-DL.H265.60fps.DTS5.1-CHDWEB/The.Sinking.of.the.Lisbon.Maru.2023.2160p.HQ.WEB-DL.H265.60fps.DTS5.1-CHDWEB.mkv
+
+--------------------------------------------------------------------------------
+文件名: The.Two.Popes.2019.1080p.NF.WEB-DL.DDP5.1.x264-NTG.mkv
+大小: 6.55 GB
+glenwrt:      /Volumes/Media_Lib/Movies/0-Latest Movies/The.Two.Popes.2019.1080p.NF.WEB-DL.DDP5.1.x264-NTG.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/The.Two.Popes.2019.1080p.NF.WEB-DL.DDP5.1.x264-NTG.mkv
+
+--------------------------------------------------------------------------------
+文件名: The.Wandering.Earth.2019.WEB-DL.4K.HEVC.HDR.10bit.DD+5.1-LeagueWEB.mkv
+大小: 14.81 GB
+glenwrt:      /Volumes/Media_Lib/Movies/0-Latest Movies/The.Wandering.Earth.2019.WEB-DL.4K.HEVC.HDR.10bit.DD+5.1-LeagueWEB.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/The.Wandering.Earth.2019.WEB-DL.4K.HEVC.HDR.10bit.DD+5.1-LeagueWEB.mkv
+
+--------------------------------------------------------------------------------
+文件名: The.Wandering.Earth.Ⅱ.2023.V2.WEB-DL.4K.HEVC.DV.DDP-Enichi.mp4
+大小: 20.30 GB
+glenwrt:      /Volumes/Media_Lib/Movies/0-Latest Movies/The.Wandering.Earth.Ⅱ.2023.V2.WEB-DL.4K.HEVC.DV.DDP-Enichi.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/The.Wandering.Earth.Ⅱ.2023.V2.WEB-DL.4K.HEVC.DV.DDP-Enichi.mp4
+
+--------------------------------------------------------------------------------
+文件名: The.Wolverine.2013.BluRay.1080p.x265.10bit.2Audio.MNHD-FRDS.mkv
+大小: 4.63 GB
+glenwrt:      /Volumes/Media_Lib/Movies/0-X战警合集/金刚狼2.The.Wolverine.2013.BluRay.1080p.x265.10bit.2Audio.MNHD-FRDS/The.Wolverine.2013.BluRay.1080p.x265.10bit.2Audio.MNHD-FRDS.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/金刚狼2.The.Wolverine.2013.BluRay.1080p.x265.10bit.2Audio.MNHD-FRDS/The.Wolverine.2013.BluRay.1080p.x265.10bit.2Audio.MNHD-FRDS.mkv
+
+--------------------------------------------------------------------------------
+文件名: Three.Billboards.Outside.Ebbing.Missouri.2017.1080p.BluRay.DTS.x264-Geek.mkv
+大小: 13.75 GB
+glenwrt:      /Volumes/Media_Lib/Movies/三个广告牌/Three.Billboards.Outside.Ebbing.Missouri.2017.1080p.BluRay.DTS.x264-Geek.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/Three.Billboards.Outside.Ebbing.Missouri.2017.1080p.BluRay.DTS.x264-Geek.mkv
+
+--------------------------------------------------------------------------------
+文件名: To.Kill.a.Mockingbird.1962.2160p.UHD.Blu-ray.REMUX.HDR.HEVC.DTS-HD.MA.5.1-HDH.mkv
+大小: 63.96 GB
+glenwrt:      /Volumes/Media_Lib/Movies/To.Kill.a.Mockingbird.1962.2160p.UHD.Blu-ray.REMUX.HDR.HEVC.DTS-HD.MA.5.1-HDH/To.Kill.a.Mockingbird.1962.2160p.UHD.Blu-ray.REMUX.HDR.HEVC.DTS-HD.MA.5.1-HDH.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/To.Kill.a.Mockingbird.1962.2160p.UHD.Blu-ray.REMUX.HDR.HEVC.DTS-HD.MA.5.1-HDH/To.Kill.a.Mockingbird.1962.2160p.UHD.Blu-ray.REMUX.HDR.HEVC.DTS-HD.MA.5.1-HDH.mkv
+
+--------------------------------------------------------------------------------
+文件名: Top.Gun.1986.USA.BluRay.1080p.x264.Atmos.TrueHD.7.1-BtsHD.mkv
+大小: 10.37 GB
+glenwrt:      /Volumes/Media_Lib/Movies/Top Gun 壮志凌云/Top.Gun.1986.USA.BluRay.1080p.x264.Atmos.TrueHD.7.1-BtsHD.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/壮志凌云.Top.Gun.合集/Top.Gun.1986.USA.BluRay.1080p.x264.Atmos.TrueHD.7.1-BtsHD.mkv
+
+--------------------------------------------------------------------------------
+文件名: Top.Gun.Maverick.2022.2160p.WEB-DL.DDP5.1.Atmos.HDR.HEVC-BLUTONiUM.mkv
+大小: 20.70 GB
+glenwrt:      /Volumes/Media_Lib/Movies/Top Gun 壮志凌云/Top.Gun.Maverick.2022.2160p.WEB-DL.DDP5.1.Atmos.HDR.HEVC-BLUTONiUM.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/壮志凌云.Top.Gun.合集/Top.Gun.Maverick.2022.2160p.WEB-DL.DDP5.1.Atmos.HDR.HEVC-BLUTONiUM.mkv
+
+--------------------------------------------------------------------------------
+文件名: Training.Day.2001.2160p.BluRay.REMUX.HEVC.DV.DTS-HD.MA.TrueHD.7.1.Atmos.mkv
+大小: 54.95 GB
+glenwrt:      /Volumes/Media_Lib/Movies/Training.Day.2001.2160p.BluRay.REMUX.HEVC.DV.DTS-HD.MA.TrueHD.7.1.Atmos/Training.Day.2001.2160p.BluRay.REMUX.HEVC.DV.DTS-HD.MA.TrueHD.7.1.Atmos.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/Training.Day.2001.2160p.BluRay.REMUX.HEVC.DV.DTS-HD.MA.TrueHD.7.1.Atmos.mkv
+
+--------------------------------------------------------------------------------
+文件名: Twelve.Monkeys.1995.PROPER.2160p.UHD.Blu-ray.REMUX.DV.HEVC.DTS-HD.MA.5.1-HDH.mkv
+大小: 81.85 GB
+glenwrt:      /Volumes/Media_Lib/Movies/Twelve.Monkeys.1995.PROPER.2160p.UHD.Blu-ray.REMUX.DV.HEVC.DTS-HD.MA.5.1-HDH/Twelve.Monkeys.1995.PROPER.2160p.UHD.Blu-ray.REMUX.DV.HEVC.DTS-HD.MA.5.1-HDH.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/Twelve.Monkeys.1995.PROPER.2160p.UHD.Blu-ray.REMUX.DV.HEVC.DTS-HD.MA.5.1-HDH/Twelve.Monkeys.1995.PROPER.2160p.UHD.Blu-ray.REMUX.DV.HEVC.DTS-HD.MA.5.1-HDH.mkv
+
+--------------------------------------------------------------------------------
+文件名: X-Men.2000.BluRay.2160p.x265.10bit.HDR.2Audios.mUHD-FRDS.mkv
+大小: 25.53 GB
+glenwrt:      /Volumes/Media_Lib/Movies/0-X战警合集/X战警1.X-Men.2000.BluRay.2160p.x265.10bit.HDR.2Audios.mUHD-FRDS/X-Men.2000.BluRay.2160p.x265.10bit.HDR.2Audios.mUHD-FRDS.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/X战警.X-Men.2000.BluRay.2160p.x265.10bit.HDR.2Audios.mUHD-FRDS/X-Men.2000.BluRay.2160p.x265.10bit.HDR.2Audios.mUHD-FRDS.mkv
+
+--------------------------------------------------------------------------------
+文件名: X-Men.Apocalypse.2016.BluRay.2160p.x265.10bit.HDR.4Audio.mUHD-FRDS.mkv
+大小: 29.14 GB
+glenwrt:      /Volumes/Media_Lib/Movies/0-X战警合集/X战警：天启.X-Men.Apocalypse.2016.BluRay.2160p.x265.10bit.HDR.4Audio.mUHD-FRDS/X-Men.Apocalypse.2016.BluRay.2160p.x265.10bit.HDR.4Audio.mUHD-FRDS.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/X战警：天启.X-Men.Apocalypse.2016.BluRay.2160p.x265.10bit.HDR.4Audio.mUHD-FRDS/X-Men.Apocalypse.2016.BluRay.2160p.x265.10bit.HDR.4Audio.mUHD-FRDS.mkv
+
+--------------------------------------------------------------------------------
+文件名: X-Men.Days.of.Future.Past.2014.BluRay.2160p.x265.10bit.2Audio.mUHD-FRDS.mkv
+大小: 23.61 GB
+glenwrt:      /Volumes/Media_Lib/Movies/0-X战警合集/X战警：逆转未来.X-Men.Days.of.Future.Past.2014.BluRay.2160p.x265.10bit.2Audio.mUHD-FRDS/X-Men.Days.of.Future.Past.2014.BluRay.2160p.x265.10bit.2Audio.mUHD-FRDS.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/X战警：逆转未来.X-Men.Days.of.Future.Past.2014.BluRay.2160p.x265.10bit.2Audio.mUHD-FRDS/X-Men.Days.of.Future.Past.2014.BluRay.2160p.x265.10bit.2Audio.mUHD-FRDS.mkv
+
+--------------------------------------------------------------------------------
+文件名: X-Men.Origins.Wolverine.2009.BluRay.1080p.x265.10bit.2Audio.MNHD-FRDS.mkv
+大小: 6.51 GB
+glenwrt:      /Volumes/Media_Lib/Movies/0-X战警合集/金刚狼1.X-Men.Origins.Wolverine.2009.BluRay.1080p.x265.10bit.2Audio.MNHD-FRDS/X-Men.Origins.Wolverine.2009.BluRay.1080p.x265.10bit.2Audio.MNHD-FRDS.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/X战警前传金刚狼.X-Men.Origins.Wolverine.2009.BluRay.1080p.x265.10bit.2Audio.MNHD-FRDS/X-Men.Origins.Wolverine.2009.BluRay.1080p.x265.10bit.2Audio.MNHD-FRDS.mkv
+
+--------------------------------------------------------------------------------
+文件名: X-Men.The.Last.Stand.2006.BluRay.2160p.x265.10bit.HDR.2Audio.mUHD-FRDS.mkv
+大小: 22.27 GB
+glenwrt:      /Volumes/Media_Lib/Movies/0-X战警合集/X战警3：背水一战.X-Men.The.Last.Stand.2006.BluRay.2160p.x265.10bit.HDR.2Audio.mUHD-FRDS/X-Men.The.Last.Stand.2006.BluRay.2160p.x265.10bit.HDR.2Audio.mUHD-FRDS.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/X战警3：背水一战.X-Men.The.Last.Stand.2006.BluRay.2160p.x265.10bit.HDR.2Audio.mUHD-FRDS/X-Men.The.Last.Stand.2006.BluRay.2160p.x265.10bit.HDR.2Audio.mUHD-FRDS.mkv
+
+--------------------------------------------------------------------------------
+文件名: X2.2003.BluRay.2160p.x265.10bit.HDR.2Audio.mUHD-FRDS.mkv
+大小: 24.44 GB
+glenwrt:      /Volumes/Media_Lib/Movies/0-X战警合集/X战警2.X2.2003.BluRay.2160p.x265.10bit.HDR.2Audios.mUHD-FRDS/X2.2003.BluRay.2160p.x265.10bit.HDR.2Audio.mUHD-FRDS.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/X战警2.X2.2003.BluRay.2160p.x265.10bit.HDR.2Audios.mUHD-FRDS/X2.2003.BluRay.2160p.x265.10bit.HDR.2Audio.mUHD-FRDS.mkv
+
+--------------------------------------------------------------------------------
+文件名: [1987逆权公民]1987.When.the.Day.Comes.2017.HKG.Blu-ray.1080p.x264.TrueHD-BtsHD.mkv
+大小: 10.17 GB
+glenwrt:      /Volumes/Media_Lib/Movies/[1987逆权公民]1987.When.the.Day.Comes.2017.HKG.Blu-ray.1080p.x264.TrueHD-BtsHD.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/[1987逆权公民]1987.When.the.Day.Comes.2017.HKG.Blu-ray.1080p.x264.TrueHD-BtsHD.mkv
+
+--------------------------------------------------------------------------------
+文件名: [无名].Hidden.Blade.2023.2160p.V2.60fps.WEB-DL.HEVC.10bit.DDP5.1.2Audios-QHstudIo.mp4
+大小: 22.90 GB
+glenwrt:      /Volumes/Media_Lib/Movies/[无名].Hidden.Blade.2023.2160p.V2.60fps.WEB-DL.HEVC.10bit.DDP5.1.2Audios-QHstudIo/[无名].Hidden.Blade.2023.2160p.V2.60fps.WEB-DL.HEVC.10bit.DDP5.1.2Audios-QHstudIo.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/[无名].Hidden.Blade.2023.2160p.V2.60fps.WEB-DL.HEVC.10bit.DDP5.1.2Audios-QHstudIo/[无名].Hidden.Blade.2023.2160p.V2.60fps.WEB-DL.HEVC.10bit.DDP5.1.2Audios-QHstudIo.mp4
+
+--------------------------------------------------------------------------------
+文件名: [金爆行动]Operation.Fortune.Ruse.de.guerre.2023.Blu-ray.1080p.x264.DTS-HD.MA.5.1-BtsHD.mkv
+大小: 10.59 GB
+glenwrt:      /Volumes/Media_Lib/Movies/[金爆行动]Operation.Fortune.Ruse.de.guerre.2023.Blu-ray.1080p.x264.DTS-HD.MA.5.1-BtsHD.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/[金爆行动]Operation.Fortune.Ruse.de.guerre.2023.Blu-ray.1080p.x264.DTS-HD.MA.5.1-BtsHD.mkv
+
+--------------------------------------------------------------------------------
+文件名: messis.world.cup.the.rise.of.a.legend.s01e01.dv.2160p.web.h265-successfulcrab.mkv
+大小: 7.90 GB
+glenwrt:      /Volumes/Media_Lib/Documentary/Messis.World.Cup.The.Rise.of.a.Legend.S01.DV.2160p.WEB.H265-SuccessfulCrab/messis.world.cup.the.rise.of.a.legend.s01e01.dv.2160p.web.h265-successfulcrab.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/Messis.World.Cup.The.Rise.of.a.Legend.S01.DV.2160p.WEB.H265-SuccessfulCrab/messis.world.cup.the.rise.of.a.legend.s01e01.dv.2160p.web.h265-successfulcrab.mkv
+
+--------------------------------------------------------------------------------
+文件名: messis.world.cup.the.rise.of.a.legend.s01e02.dv.2160p.web.h265-successfulcrab.mkv
+大小: 7.73 GB
+glenwrt:      /Volumes/Media_Lib/Documentary/Messis.World.Cup.The.Rise.of.a.Legend.S01.DV.2160p.WEB.H265-SuccessfulCrab/messis.world.cup.the.rise.of.a.legend.s01e02.dv.2160p.web.h265-successfulcrab.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/Messis.World.Cup.The.Rise.of.a.Legend.S01.DV.2160p.WEB.H265-SuccessfulCrab/messis.world.cup.the.rise.of.a.legend.s01e02.dv.2160p.web.h265-successfulcrab.mkv
+
+--------------------------------------------------------------------------------
+文件名: messis.world.cup.the.rise.of.a.legend.s01e03.dv.2160p.web.h265-successfulcrab.mkv
+大小: 8.60 GB
+glenwrt:      /Volumes/Media_Lib/Documentary/Messis.World.Cup.The.Rise.of.a.Legend.S01.DV.2160p.WEB.H265-SuccessfulCrab/messis.world.cup.the.rise.of.a.legend.s01e03.dv.2160p.web.h265-successfulcrab.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/Messis.World.Cup.The.Rise.of.a.Legend.S01.DV.2160p.WEB.H265-SuccessfulCrab/messis.world.cup.the.rise.of.a.legend.s01e03.dv.2160p.web.h265-successfulcrab.mkv
+
+--------------------------------------------------------------------------------
+文件名: messis.world.cup.the.rise.of.a.legend.s01e04.dv.2160p.web.h265-successfulcrab.mkv
+大小: 7.62 GB
+glenwrt:      /Volumes/Media_Lib/Documentary/Messis.World.Cup.The.Rise.of.a.Legend.S01.DV.2160p.WEB.H265-SuccessfulCrab/messis.world.cup.the.rise.of.a.legend.s01e04.dv.2160p.web.h265-successfulcrab.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/Messis.World.Cup.The.Rise.of.a.Legend.S01.DV.2160p.WEB.H265-SuccessfulCrab/messis.world.cup.the.rise.of.a.legend.s01e04.dv.2160p.web.h265-successfulcrab.mkv
+
+--------------------------------------------------------------------------------
+文件名: the.lord.of.the.rings.the.rings.of.power.s02e06.hdr.2160p.web.h265.mkv
+大小: 8.39 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/指环王：力量之戒/S02/the.lord.of.the.rings.the.rings.of.power.s02e06.hdr.2160p.web.h265.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/the.lord.of.the.rings.the.rings.of.power.s02e06.hdr.2160p.web.h265.mkv
+
+--------------------------------------------------------------------------------
+文件名: the.lord.of.the.rings.the.rings.of.power.s02e07.hdr.2160p.web.h265.mkv
+大小: 9.71 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/指环王：力量之戒/S02/the.lord.of.the.rings.the.rings.of.power.s02e07.hdr.2160p.web.h265.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/the.lord.of.the.rings.the.rings.of.power.s02e07.hdr.2160p.web.h265.mkv
+
+--------------------------------------------------------------------------------
+文件名: the.lord.of.the.rings.the.rings.of.power.s02e08.hdr.2160p.web.h265.mkv
+大小: 9.82 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/指环王：力量之戒/S02/the.lord.of.the.rings.the.rings.of.power.s02e08.hdr.2160p.web.h265.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/the.lord.of.the.rings.the.rings.of.power.s02e08.hdr.2160p.web.h265.mkv
+
+--------------------------------------------------------------------------------
+文件名: 人民的名义 01.mp4
+大小: 2.34 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/2017.人民的名义.55集全.1080p/人民的名义 01.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/2017.人民的名义.55集全.1080p/人民的名义 01.mp4
+
+--------------------------------------------------------------------------------
+文件名: 人民的名义 02.mp4
+大小: 2.19 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/2017.人民的名义.55集全.1080p/人民的名义 02.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/2017.人民的名义.55集全.1080p/人民的名义 02.mp4
+
+--------------------------------------------------------------------------------
+文件名: 人民的名义 03.mp4
+大小: 2.14 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/2017.人民的名义.55集全.1080p/人民的名义 03.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/2017.人民的名义.55集全.1080p/人民的名义 03.mp4
+
+--------------------------------------------------------------------------------
+文件名: 人民的名义 04.mp4
+大小: 2.49 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/2017.人民的名义.55集全.1080p/人民的名义 04.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/2017.人民的名义.55集全.1080p/人民的名义 04.mp4
+
+--------------------------------------------------------------------------------
+文件名: 人民的名义 05.mp4
+大小: 2.73 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/2017.人民的名义.55集全.1080p/人民的名义 05.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/2017.人民的名义.55集全.1080p/人民的名义 05.mp4
+
+--------------------------------------------------------------------------------
+文件名: 人民的名义 06.mp4
+大小: 2.43 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/2017.人民的名义.55集全.1080p/人民的名义 06.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/2017.人民的名义.55集全.1080p/人民的名义 06.mp4
+
+--------------------------------------------------------------------------------
+文件名: 人民的名义 07.mp4
+大小: 2.06 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/2017.人民的名义.55集全.1080p/人民的名义 07.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/2017.人民的名义.55集全.1080p/人民的名义 07.mp4
+
+--------------------------------------------------------------------------------
+文件名: 人民的名义 08.mp4
+大小: 2.41 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/2017.人民的名义.55集全.1080p/人民的名义 08.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/2017.人民的名义.55集全.1080p/人民的名义 08.mp4
+
+--------------------------------------------------------------------------------
+文件名: 人民的名义 09.mp4
+大小: 1.89 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/2017.人民的名义.55集全.1080p/人民的名义 09.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/2017.人民的名义.55集全.1080p/人民的名义 09.mp4
+
+--------------------------------------------------------------------------------
+文件名: 人民的名义 10.mp4
+大小: 2.66 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/2017.人民的名义.55集全.1080p/人民的名义 10.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/2017.人民的名义.55集全.1080p/人民的名义 10.mp4
+
+--------------------------------------------------------------------------------
+文件名: 人民的名义 11.mp4
+大小: 2.04 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/2017.人民的名义.55集全.1080p/人民的名义 11.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/2017.人民的名义.55集全.1080p/人民的名义 11.mp4
+
+--------------------------------------------------------------------------------
+文件名: 人民的名义 12.mp4
+大小: 1.89 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/2017.人民的名义.55集全.1080p/人民的名义 12.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/2017.人民的名义.55集全.1080p/人民的名义 12.mp4
+
+--------------------------------------------------------------------------------
+文件名: 人民的名义 13.mp4
+大小: 2.14 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/2017.人民的名义.55集全.1080p/人民的名义 13.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/2017.人民的名义.55集全.1080p/人民的名义 13.mp4
+
+--------------------------------------------------------------------------------
+文件名: 人民的名义 14.mp4
+大小: 2.13 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/2017.人民的名义.55集全.1080p/人民的名义 14.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/2017.人民的名义.55集全.1080p/人民的名义 14.mp4
+
+--------------------------------------------------------------------------------
+文件名: 人民的名义 15.mp4
+大小: 1.82 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/2017.人民的名义.55集全.1080p/人民的名义 15.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/2017.人民的名义.55集全.1080p/人民的名义 15.mp4
+
+--------------------------------------------------------------------------------
+文件名: 人民的名义 16.mp4
+大小: 1.89 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/2017.人民的名义.55集全.1080p/人民的名义 16.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/2017.人民的名义.55集全.1080p/人民的名义 16.mp4
+
+--------------------------------------------------------------------------------
+文件名: 人民的名义 17.mp4
+大小: 2.31 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/2017.人民的名义.55集全.1080p/人民的名义 17.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/2017.人民的名义.55集全.1080p/人民的名义 17.mp4
+
+--------------------------------------------------------------------------------
+文件名: 人民的名义 18.mp4
+大小: 2.71 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/2017.人民的名义.55集全.1080p/人民的名义 18.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/2017.人民的名义.55集全.1080p/人民的名义 18.mp4
+
+--------------------------------------------------------------------------------
+文件名: 人民的名义 19.mp4
+大小: 1.94 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/2017.人民的名义.55集全.1080p/人民的名义 19.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/2017.人民的名义.55集全.1080p/人民的名义 19.mp4
+
+--------------------------------------------------------------------------------
+文件名: 人民的名义 20.mp4
+大小: 2.18 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/2017.人民的名义.55集全.1080p/人民的名义 20.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/2017.人民的名义.55集全.1080p/人民的名义 20.mp4
+
+--------------------------------------------------------------------------------
+文件名: 人民的名义 21.mp4
+大小: 2.11 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/2017.人民的名义.55集全.1080p/人民的名义 21.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/2017.人民的名义.55集全.1080p/人民的名义 21.mp4
+
+--------------------------------------------------------------------------------
+文件名: 人民的名义 22.mp4
+大小: 2.02 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/2017.人民的名义.55集全.1080p/人民的名义 22.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/2017.人民的名义.55集全.1080p/人民的名义 22.mp4
+
+--------------------------------------------------------------------------------
+文件名: 人民的名义 23.mp4
+大小: 2.43 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/2017.人民的名义.55集全.1080p/人民的名义 23.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/2017.人民的名义.55集全.1080p/人民的名义 23.mp4
+
+--------------------------------------------------------------------------------
+文件名: 人民的名义 24.mp4
+大小: 2.12 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/2017.人民的名义.55集全.1080p/人民的名义 24.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/2017.人民的名义.55集全.1080p/人民的名义 24.mp4
+
+--------------------------------------------------------------------------------
+文件名: 人民的名义 25.mp4
+大小: 2.15 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/2017.人民的名义.55集全.1080p/人民的名义 25.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/2017.人民的名义.55集全.1080p/人民的名义 25.mp4
+
+--------------------------------------------------------------------------------
+文件名: 人民的名义 26.mp4
+大小: 2.14 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/2017.人民的名义.55集全.1080p/人民的名义 26.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/2017.人民的名义.55集全.1080p/人民的名义 26.mp4
+
+--------------------------------------------------------------------------------
+文件名: 人民的名义 27.mp4
+大小: 2.08 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/2017.人民的名义.55集全.1080p/人民的名义 27.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/2017.人民的名义.55集全.1080p/人民的名义 27.mp4
+
+--------------------------------------------------------------------------------
+文件名: 人民的名义 28.mp4
+大小: 2.70 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/2017.人民的名义.55集全.1080p/人民的名义 28.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/2017.人民的名义.55集全.1080p/人民的名义 28.mp4
+
+--------------------------------------------------------------------------------
+文件名: 人民的名义 29.mp4
+大小: 2.29 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/2017.人民的名义.55集全.1080p/人民的名义 29.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/2017.人民的名义.55集全.1080p/人民的名义 29.mp4
+
+--------------------------------------------------------------------------------
+文件名: 人民的名义 30.mp4
+大小: 2.27 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/2017.人民的名义.55集全.1080p/人民的名义 30.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/2017.人民的名义.55集全.1080p/人民的名义 30.mp4
+
+--------------------------------------------------------------------------------
+文件名: 人民的名义 31.mp4
+大小: 1.93 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/2017.人民的名义.55集全.1080p/人民的名义 31.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/2017.人民的名义.55集全.1080p/人民的名义 31.mp4
+
+--------------------------------------------------------------------------------
+文件名: 人民的名义 32.mp4
+大小: 1.93 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/2017.人民的名义.55集全.1080p/人民的名义 32.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/2017.人民的名义.55集全.1080p/人民的名义 32.mp4
+
+--------------------------------------------------------------------------------
+文件名: 人民的名义 33.mp4
+大小: 1.80 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/2017.人民的名义.55集全.1080p/人民的名义 33.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/2017.人民的名义.55集全.1080p/人民的名义 33.mp4
+
+--------------------------------------------------------------------------------
+文件名: 人民的名义 34.mp4
+大小: 2.12 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/2017.人民的名义.55集全.1080p/人民的名义 34.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/2017.人民的名义.55集全.1080p/人民的名义 34.mp4
+
+--------------------------------------------------------------------------------
+文件名: 人民的名义 35.mp4
+大小: 2.13 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/2017.人民的名义.55集全.1080p/人民的名义 35.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/2017.人民的名义.55集全.1080p/人民的名义 35.mp4
+
+--------------------------------------------------------------------------------
+文件名: 人民的名义 36.mp4
+大小: 2.22 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/2017.人民的名义.55集全.1080p/人民的名义 36.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/2017.人民的名义.55集全.1080p/人民的名义 36.mp4
+
+--------------------------------------------------------------------------------
+文件名: 人民的名义 37.mp4
+大小: 1.99 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/2017.人民的名义.55集全.1080p/人民的名义 37.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/2017.人民的名义.55集全.1080p/人民的名义 37.mp4
+
+--------------------------------------------------------------------------------
+文件名: 人民的名义 38.mp4
+大小: 2.07 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/2017.人民的名义.55集全.1080p/人民的名义 38.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/2017.人民的名义.55集全.1080p/人民的名义 38.mp4
+
+--------------------------------------------------------------------------------
+文件名: 人民的名义 39.mp4
+大小: 2.12 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/2017.人民的名义.55集全.1080p/人民的名义 39.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/2017.人民的名义.55集全.1080p/人民的名义 39.mp4
+
+--------------------------------------------------------------------------------
+文件名: 人民的名义 40.mp4
+大小: 2.24 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/2017.人民的名义.55集全.1080p/人民的名义 40.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/2017.人民的名义.55集全.1080p/人民的名义 40.mp4
+
+--------------------------------------------------------------------------------
+文件名: 人民的名义 41.mp4
+大小: 1.96 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/2017.人民的名义.55集全.1080p/人民的名义 41.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/2017.人民的名义.55集全.1080p/人民的名义 41.mp4
+
+--------------------------------------------------------------------------------
+文件名: 人民的名义 42.mp4
+大小: 1.75 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/2017.人民的名义.55集全.1080p/人民的名义 42.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/2017.人民的名义.55集全.1080p/人民的名义 42.mp4
+
+--------------------------------------------------------------------------------
+文件名: 人民的名义 43.mp4
+大小: 1.87 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/2017.人民的名义.55集全.1080p/人民的名义 43.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/2017.人民的名义.55集全.1080p/人民的名义 43.mp4
+
+--------------------------------------------------------------------------------
+文件名: 人民的名义 44.mp4
+大小: 2.43 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/2017.人民的名义.55集全.1080p/人民的名义 44.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/2017.人民的名义.55集全.1080p/人民的名义 44.mp4
+
+--------------------------------------------------------------------------------
+文件名: 人民的名义 45.mp4
+大小: 1.98 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/2017.人民的名义.55集全.1080p/人民的名义 45.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/2017.人民的名义.55集全.1080p/人民的名义 45.mp4
+
+--------------------------------------------------------------------------------
+文件名: 人民的名义 46.mp4
+大小: 2.11 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/2017.人民的名义.55集全.1080p/人民的名义 46.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/2017.人民的名义.55集全.1080p/人民的名义 46.mp4
+
+--------------------------------------------------------------------------------
+文件名: 人民的名义 47.mp4
+大小: 2.00 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/2017.人民的名义.55集全.1080p/人民的名义 47.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/2017.人民的名义.55集全.1080p/人民的名义 47.mp4
+
+--------------------------------------------------------------------------------
+文件名: 人民的名义 48.mp4
+大小: 2.32 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/2017.人民的名义.55集全.1080p/人民的名义 48.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/2017.人民的名义.55集全.1080p/人民的名义 48.mp4
+
+--------------------------------------------------------------------------------
+文件名: 人民的名义 49.mp4
+大小: 2.83 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/2017.人民的名义.55集全.1080p/人民的名义 49.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/2017.人民的名义.55集全.1080p/人民的名义 49.mp4
+
+--------------------------------------------------------------------------------
+文件名: 人民的名义 50.mp4
+大小: 2.20 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/2017.人民的名义.55集全.1080p/人民的名义 50.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/2017.人民的名义.55集全.1080p/人民的名义 50.mp4
+
+--------------------------------------------------------------------------------
+文件名: 人民的名义 51.mp4
+大小: 2.04 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/2017.人民的名义.55集全.1080p/人民的名义 51.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/2017.人民的名义.55集全.1080p/人民的名义 51.mp4
+
+--------------------------------------------------------------------------------
+文件名: 人民的名义 52.mp4
+大小: 2.10 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/2017.人民的名义.55集全.1080p/人民的名义 52.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/2017.人民的名义.55集全.1080p/人民的名义 52.mp4
+
+--------------------------------------------------------------------------------
+文件名: 人民的名义 53.mp4
+大小: 2.58 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/2017.人民的名义.55集全.1080p/人民的名义 53.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/2017.人民的名义.55集全.1080p/人民的名义 53.mp4
+
+--------------------------------------------------------------------------------
+文件名: 人民的名义 54.mp4
+大小: 1.94 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/2017.人民的名义.55集全.1080p/人民的名义 54.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/2017.人民的名义.55集全.1080p/人民的名义 54.mp4
+
+--------------------------------------------------------------------------------
+文件名: 人民的名义 55.mp4
+大小: 1.46 GB
+glenwrt:      /Volumes/Media_Lib/TV-Series/2017.人民的名义.55集全.1080p/人民的名义 55.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/2017.人民的名义.55集全.1080p/人民的名义 55.mp4
+
+--------------------------------------------------------------------------------
+文件名: 八角笼中.Never.Say.Never.2023.60FPS.2160p.WEB-DL.H265.10bit.DDP5.1-OurTV.mp4
+大小: 20.96 GB
+glenwrt:      /Volumes/Media_Lib/Movies/0-Latest Movies/八角笼中.Never.Say.Never.2023.60FPS.2160p.WEB-DL.H265.10bit.DDP5.1-OurTV/八角笼中.Never.Say.Never.2023.60FPS.2160p.WEB-DL.H265.10bit.DDP5.1-OurTV.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/八角笼中.Never.Say.Never.2023.60FPS.2160p.WEB-DL.H265.10bit.DDP5.1-OurTV/八角笼中.Never.Say.Never.2023.60FPS.2160p.WEB-DL.H265.10bit.DDP5.1-OurTV.mp4
+
+--------------------------------------------------------------------------------
+文件名: 忠犬八公.Hachiko.2023.2160p.WEB-DL.H265.10bit.DDP2.0-OurTV.mp4
+大小: 17.80 GB
+glenwrt:      /Volumes/Media_Lib/Movies/0-Latest Movies/忠犬八公.Hachiko.2023.2160p.WEB-DL.H265.10bit.DDP2.0-OurTV/忠犬八公.Hachiko.2023.2160p.WEB-DL.H265.10bit.DDP2.0-OurTV.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/忠犬八公.Hachiko.2023.2160p.WEB-DL.H265.10bit.DDP2.0-OurTV/忠犬八公.Hachiko.2023.2160p.WEB-DL.H265.10bit.DDP2.0-OurTV.mp4
+
+--------------------------------------------------------------------------------
+文件名: 悬崖之上.Cliff.Walkers.2021.1080p.WEB-DL.H264.AAC-SharkWEB.mp4
+大小: 1.53 GB
+glenwrt:      /Volumes/Media_Lib/Movies/0-Latest Movies/悬崖之上.Cliff.Walkers.2021.1080p.WEB-DL.H264.AAC-SharkWEB/悬崖之上.Cliff.Walkers.2021.1080p.WEB-DL.H264.AAC-SharkWEB.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/悬崖之上.Cliff.Walkers.2021.1080p.WEB-DL.H264.AAC-SharkWEB/悬崖之上.Cliff.Walkers.2021.1080p.WEB-DL.H264.AAC-SharkWEB.mp4
+
+--------------------------------------------------------------------------------
+文件名: 沙丘2024.Dune.Part.Two.2024.REPACK.2160p.UPSCALE.WEB.HEVC.10Bit.AAC.2.0-R&H[DiY@DB].mkv
+大小: 21.71 GB
+glenwrt:      /Volumes/Media_Lib/Movies/0-Latest Movies/Dune.Part.Two.2024.REPACK.2160p.UPSCALE.WEB.HEVC.10Bit.AAC.2.0-R&H/沙丘2024.Dune.Part.Two.2024.REPACK.2160p.UPSCALE.WEB.HEVC.10Bit.AAC.2.0-R&H[DiY@DB].mkv
+glenhouse-pc: /Volumes/Media_Lib-1/Dune.Part.Two.2024.REPACK.2160p.UPSCALE.WEB.HEVC.10Bit.AAC.2.0-R&H/沙丘2024.Dune.Part.Two.2024.REPACK.2160p.UPSCALE.WEB.HEVC.10Bit.AAC.2.0-R&H[DiY@DB].mkv
+
+--------------------------------------------------------------------------------
+文件名: 网络迷踪2.2023.1080p.H264.mp4
+大小: 3.77 GB
+glenwrt:      /Volumes/Media_Lib/Movies/0-Latest Movies/网络迷踪2.2023.1080p.H264.mp4
+glenhouse-pc: /Volumes/Media_Lib-1/网络迷踪2.2023.1080p.H264.mp4
+
+--------------------------------------------------------------------------------
+文件名: 长安三万里.Chang.An.2023.2160p.HQ.WEB-DL.DDP.AAC.H.265-HDSWEB.mkv
+大小: 23.84 GB
+glenwrt:      /Volumes/Media_Lib/Movies/0-Latest Movies/长安三万里.Chang.An.2023.2160p.HQ.WEB-DL.DDP.AAC.H.265-HDSWEB.mkv
+glenhouse-pc: /Volumes/Media_Lib-1/长安三万里.Chang.An.2023.2160p.HQ.WEB-DL.DDP.AAC.H.265-HDSWEB.mkv
+
+================================================================================
+文件名相同但大小不同的文件 (1 个)
+================================================================================
+
+--------------------------------------------------------------------------------
+文件名: Zero.Dark.Thirty.2012.2160p.BluRay.HEVC.TrueHD.7.1.Atmos.mkv
+glenwrt:      73.23 GB - /Volumes/Media_Lib/Movies/Zero.Dark.Thirty.2012.2160p.BluRay.HEVC.TrueHD.7.1.Atmos/Zero.Dark.Thirty.2012.2160p.BluRay.HEVC.TrueHD.7.1.Atmos.mkv
+glenhouse-pc: 22.29 GB - /Volumes/Media_Lib-1/Zero.Dark.Thirty.2012.2160p.BluRay.HEVC.TrueHD.7.1.Atmos/Zero.Dark.Thirty.2012.2160p.BluRay.HEVC.TrueHD.7.1.Atmos.mkv
+

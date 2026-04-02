@@ -1,0 +1,99 @@
+{
+  "match_info": {
+    "match_id": "",
+    "date": "YYYY-MM-DD",
+    "time": "HH:MM",
+    "competition": {
+      "name": "",
+      "season": "",
+      "round": ""
+    },
+    "venue": {
+      "name": "",
+      "city": "",
+      "capacity": 0,
+      "attendance": 0
+    },
+    "referee": {
+      "name": "",
+      "country": ""
+    }
+  },
+  "teams": {
+    "home": {
+      "name": "",
+      "full_name": "",
+      "score": 0,
+      "score_ht": 0,
+      "formation": "",
+      "coach": "",
+      "lineup": [],
+      "substitutes": [],
+      "substitutions": []
+    },
+    "away": {
+      "name": "",
+      "full_name": "",
+      "score": 0,
+      "score_ht": 0,
+      "formation": "",
+      "coach": "",
+      "lineup": [],
+      "substitutes": [],
+      "substitutions": []
+    }
+  },
+  "events": [],
+  "statistics": {
+    "possession": {
+      "home": 0,
+      "away": 0
+    },
+    "shots": {
+      "home": 0,
+      "away": 0
+    },
+    "shots_on_target": {
+      "home": 0,
+      "away": 0
+    },
+    "corners": {
+      "home": 0,
+      "away": 0
+    },
+    "fouls": {
+      "home": 0,
+      "away": 0
+    },
+    "yellow_cards": {
+      "home": 0,
+      "away": 0
+    },
+    "red_cards": {
+      "home": 0,
+      "away": 0
+    },
+    "offsides": {
+      "home": 0,
+      "away": 0
+    },
+    "passes": {
+      "home": 0,
+      "away": 0
+    },
+    "pass_accuracy": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  "player_stats": {
+    "home": [],
+    "away": []
+  },
+  "metadata": {
+    "source": "FBref",
+    "url": "",
+    "scraped_at": "2026-03-23T19:12:21.373420",
+    "version": "1.0"
+  }
+}

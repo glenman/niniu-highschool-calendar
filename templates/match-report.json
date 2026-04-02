@@ -1,0 +1,398 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "足球比赛报告",
+  "description": "足球比赛数据的标准化格式",
+  "type": "object",
+  "required": ["match_info", "teams", "events", "statistics"],
+  "properties": {
+    "match_info": {
+      "type": "object",
+      "required": ["date", "time", "competition", "venue"],
+      "properties": {
+        "match_id": {
+          "type": "string",
+          "description": "比赛唯一标识符",
+          "example": "08602b83"
+        },
+        "date": {
+          "type": "string",
+          "format": "date",
+          "description": "比赛日期 (YYYY-MM-DD)",
+          "example": "2024-03-01"
+        },
+        "time": {
+          "type": "string",
+          "description": "比赛时间 (HH:MM)",
+          "example": "19:35"
+        },
+        "competition": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string",
+              "description": "赛事名称",
+              "example": "Chinese Super League"
+            },
+            "season": {
+              "type": "string",
+              "description": "赛季",
+              "example": "2024"
+            },
+            "round": {
+              "type": "string",
+              "description": "轮次",
+              "example": "Round 1"
+            }
+          }
+        },
+        "venue": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string",
+              "description": "球场名称",
+              "example": "Pudong Football Stadium"
+            },
+            "city": {
+              "type": "string",
+              "description": "城市",
+              "example": "Shanghai"
+            },
+            "capacity": {
+              "type": "integer",
+              "description": "球场容量"
+            },
+            "attendance": {
+              "type": "integer",
+              "description": "实际观众人数"
+            }
+          }
+        },
+        "referee": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string",
+              "description": "主裁判姓名"
+            },
+            "country": {
+              "type": "string",
+              "description": "裁判国籍"
+            }
+          }
+        },
+        "weather": {
+          "type": "object",
+          "properties": {
+            "condition": {
+              "type": "string",
+              "description": "天气状况"
+            },
+            "temperature": {
+              "type": "number",
+              "description": "温度（摄氏度）"
+            }
+          }
+        }
+      }
+    },
+    "teams": {
+      "type": "object",
+      "required": ["home", "away"],
+      "properties": {
+        "home": {
+          "type": "object",
+          "required": ["name", "score"],
+          "properties": {
+            "name": {
+              "type": "string",
+              "description": "球队名称",
+              "example": "Shanghai Port"
+            },
+            "full_name": {
+              "type": "string",
+              "description": "球队全称"
+            },
+            "score": {
+              "type": "integer",
+              "description": "全场比分",
+              "example": 3
+            },
+            "score_ht": {
+              "type": "integer",
+              "description": "半场比分"
+            },
+            "formation": {
+              "type": "string",
+              "description": "阵型",
+              "example": "4-3-3"
+            },
+            "coach": {
+              "type": "string",
+              "description": "主教练"
+            },
+            "lineup": {
+              "type": "array",
+              "description": "首发阵容",
+              "items": {
+                "type": "object",
+                "required": ["position", "number", "name"],
+                "properties": {
+                  "position": {
+                    "type": "string",
+                    "description": "位置 (GK, DF, MF, FW)"
+                  },
+                  "number": {
+                    "type": "integer",
+                    "description": "球衣号码"
+                  },
+                  "name": {
+                    "type": "string",
+                    "description": "球员姓名"
+                  },
+                  "country": {
+                    "type": "string",
+                    "description": "国籍"
+                  },
+                  "age": {
+                    "type": "integer",
+                    "description": "年龄"
+                  },
+                  "minutes": {
+                    "type": "integer",
+                    "description": "上场时间"
+                  },
+                  "stats": {
+                    "type": "object",
+                    "description": "球员统计数据",
+                    "properties": {
+                      "goals": {"type": "integer", "default": 0},
+                      "assists": {"type": "integer", "default": 0},
+                      "shots": {"type": "integer", "default": 0},
+                      "shots_on_target": {"type": "integer", "default": 0},
+                      "passes": {"type": "integer", "default": 0},
+                      "passes_completed": {"type": "integer", "default": 0},
+                      "fouls": {"type": "integer", "default": 0},
+                      "cards_yellow": {"type": "integer", "default": 0},
+                      "cards_red": {"type": "integer", "default": 0}
+                    }
+                  }
+                }
+              }
+            },
+            "substitutes": {
+              "type": "array",
+              "description": "替补席",
+              "items": {
+                "$ref": "#/properties/teams/properties/home/properties/lineup/items"
+              }
+            },
+            "substitutions": {
+              "type": "array",
+              "description": "换人记录",
+              "items": {
+                "type": "object",
+                "required": ["minute", "player_out", "player_in"],
+                "properties": {
+                  "minute": {
+                    "type": "integer",
+                    "description": "换人时间"
+                  },
+                  "player_out": {
+                    "type": "string",
+                    "description": "下场球员"
+                  },
+                  "player_in": {
+                    "type": "string",
+                    "description": "上场球员"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "away": {
+          "$ref": "#/properties/teams/properties/home"
+        }
+      }
+    },
+    "events": {
+      "type": "array",
+      "description": "比赛事件时间线",
+      "items": {
+        "type": "object",
+        "required": ["minute", "type", "team"],
+        "properties": {
+          "minute": {
+            "type": "integer",
+            "description": "事件发生时间（分钟）"
+          },
+          "minute_extra": {
+            "type": "integer",
+            "description": "补时分钟数"
+          },
+          "type": {
+            "type": "string",
+            "enum": ["goal", "penalty", "own_goal", "yellow_card", "red_card", "substitution", "var", "injury"],
+            "description": "事件类型"
+          },
+          "team": {
+            "type": "string",
+            "enum": ["home", "away"],
+            "description": "事件所属球队"
+          },
+          "player": {
+            "type": "string",
+            "description": "相关球员"
+          },
+          "player2": {
+            "type": "string",
+            "description": "辅助球员（助攻等）"
+          },
+          "description": {
+            "type": "string",
+            "description": "事件描述"
+          }
+        }
+      }
+    },
+    "statistics": {
+      "type": "object",
+      "description": "比赛统计数据",
+      "properties": {
+        "possession": {
+          "type": "object",
+          "properties": {
+            "home": {"type": "number", "description": "主队控球率（百分比）"},
+            "away": {"type": "number", "description": "客队控球率（百分比）"}
+          }
+        },
+        "shots": {
+          "type": "object",
+          "properties": {
+            "home": {"type": "integer"},
+            "away": {"type": "integer"}
+          }
+        },
+        "shots_on_target": {
+          "type": "object",
+          "properties": {
+            "home": {"type": "integer"},
+            "away": {"type": "integer"}
+          }
+        },
+        "corners": {
+          "type": "object",
+          "properties": {
+            "home": {"type": "integer"},
+            "away": {"type": "integer"}
+          }
+        },
+        "fouls": {
+          "type": "object",
+          "properties": {
+            "home": {"type": "integer"},
+            "away": {"type": "integer"}
+          }
+        },
+        "yellow_cards": {
+          "type": "object",
+          "properties": {
+            "home": {"type": "integer"},
+            "away": {"type": "integer"}
+          }
+        },
+        "red_cards": {
+          "type": "object",
+          "properties": {
+            "home": {"type": "integer"},
+            "away": {"type": "integer"}
+          }
+        },
+        "offsides": {
+          "type": "object",
+          "properties": {
+            "home": {"type": "integer"},
+            "away": {"type": "integer"}
+          }
+        },
+        "passes": {
+          "type": "object",
+          "properties": {
+            "home": {"type": "integer"},
+            "away": {"type": "integer"}
+          }
+        },
+        "pass_accuracy": {
+          "type": "object",
+          "properties": {
+            "home": {"type": "number", "description": "传球成功率（百分比）"},
+            "away": {"type": "number"}
+          }
+        }
+      }
+    },
+    "player_stats": {
+      "type": "object",
+      "description": "详细球员统计",
+      "properties": {
+        "home": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {"type": "string"},
+              "number": {"type": "integer"},
+              "position": {"type": "string"},
+              "minutes": {"type": "integer"},
+              "goals": {"type": "integer", "default": 0},
+              "assists": {"type": "integer", "default": 0},
+              "shots": {"type": "integer", "default": 0},
+              "shots_on_target": {"type": "integer", "default": 0},
+              "passes_completed": {"type": "integer", "default": 0},
+              "passes_attempted": {"type": "integer", "default": 0},
+              "pass_accuracy": {"type": "number", "default": 0},
+              "touches": {"type": "integer", "default": 0},
+              "tackles_won": {"type": "integer", "default": 0},
+              "interceptions": {"type": "integer", "default": 0},
+              "blocks": {"type": "integer", "default": 0},
+              "aerials_won": {"type": "integer", "default": 0},
+              "aerials_lost": {"type": "integer", "default": 0},
+              "fouls_committed": {"type": "integer", "default": 0},
+              "fouls_drawn": {"type": "integer", "default": 0},
+              "yellow_cards": {"type": "integer", "default": 0},
+              "red_cards": {"type": "integer", "default": 0}
+            }
+          }
+        },
+        "away": {
+          "$ref": "#/properties/player_stats/properties/home"
+        }
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "source": {
+          "type": "string",
+          "description": "数据来源",
+          "example": "FBref"
+        },
+        "url": {
+          "type": "string",
+          "description": "原始数据链接"
+        },
+        "scraped_at": {
+          "type": "string",
+          "format": "date-time",
+          "description": "抓取时间"
+        },
+        "version": {
+          "type": "string",
+          "description": "数据格式版本",
+          "default": "1.0"
+        }
+      }
+    }
+  }
+}

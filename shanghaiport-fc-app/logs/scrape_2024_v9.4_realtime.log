@@ -1,0 +1,23 @@
+======================================================================
+上海海港2024赛季完整数据抓取器 v9.4
+修复：点球进球正确识别为 penalty_goal
+======================================================================
+
+📋 共 30 场比赛
+
+[1/30] 2024-03-01
+      ❌ 错误: '<' not supported between instances of 'NoneType' and 'int'
+      ❌ 失败
+[2/30] 2024-03-09
+      ❌ 错误: '<' not supported between instances of 'NoneType' and 'int'
+      ❌ 失败
+[3/30] 2024-03-30
+      ❌ 错误: '<' not supported between instances of 'NoneType' and 'int'
+      ❌ 失败
+[4/30] 2024-04-05
+      ❌ 错误: '<' not supported between instances of 'NoneType' and 'int'
+      ❌ 失败
+[5/30] 2024-04-09
+      ❌ 错误: '<' not supported between instances of 'NoneType' and 'int'
+      ❌ 失败
+[6/30] 2024-04-14

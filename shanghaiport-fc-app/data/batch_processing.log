@@ -1,0 +1,21 @@
+node:fs:436
+    return binding.readFileUtf8(path, stringToFlags(options.flag));
+                   ^
+
+Error: ENOENT: no such file or directory, open './templates/full_match_report.json'
+    at Object.readFileSync (node:fs:436:20)
+    at Object.<anonymous> (/Users/glenman/.openclaw/workspace/shanghaiport-fc-app/scripts/batch_process_all.js:36:32)
+    at Module._compile (node:internal/modules/cjs/loader:1829:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1969:10)
+    at Module.load (node:internal/modules/cjs/loader:1552:32)
+    at Module._load (node:internal/modules/cjs/loader:1354:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+    at node:internal/main/run_main_module:33:47 {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: './templates/full_match_report.json'
+}
+
+Node.js v25.8.1

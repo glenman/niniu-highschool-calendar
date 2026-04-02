@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>简化版 - 旅行险投保平台</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <span class="logo-icon">✈️</span>
+                <h1>全球旅行险投保平台</h1>
+            </div>
+            <p class="subtitle">简化测试版本</p>
+        </header>
+
+        <main class="main-content">
+            <!-- 步骤指示器 -->
+            <div style="margin-bottom: 2rem; padding: 1rem; background: var(--background); border-radius: 8px;">
+                <div style="font-size: 1.25rem; font-weight: 600; margin-bottom: 1rem;">当前步骤: <span id="currentStepDisplay">准备就绪</span></div>
+            </div>
+
+            <!-- 测试区域 -->
+            <div id="testArea">
+                <button class="btn-primary" onclick="startTest()" style="width: 100%; margin-bottom: 1rem;">
+                    🚀 开始完整测试
+                </button>
+                
+                <div id="logArea" style="background: #1e1e1e; color: #d4d4d4; padding: 1rem; border-radius: 8px; font-family: monospace; font-size: 12px; min-height: 200px; max-height: 400px; overflow-y: auto;">
+                    <div style="color: #4ec9b0;">=== 测试日志 ===</div>
+                </div>
+            </div>
+
+            <!-- 方案显示区域 -->
+            <div id="plansArea" style="margin-top: 2rem; display: none;">
+                <h2>选择保障方案</h2>
+                <div id="plansGrid" class="plans-grid"></div>
+                <button id="nextBtn" class="btn-primary" disabled style="width: 100%; margin-top: 1rem;">
+                    下一步：计算保费 →
+                </button>
+            </div>
+
+            <!-- 结果显示区域 -->
+            <div id="resultArea" style="margin-top: 2rem; display: none;">
+                <h2>测试结果</h2>
+                <div id="resultContent" class="quotation-summary"></div>
+            </div>
+        </main>
+    </div>
+
+    <script src="config.js"></script>
+    <script>
+        let selectedPlan = null;
+        let formData = {};
+
+        function log(message, type = 'info') {
+            const logArea = document.getElementById('logArea');
+            const timestamp = new Date().toLocaleTimeString();
+            const colors = {
+                info: '#d4d4d4',
+                success: '#4ec9b0',
+                error: '#f48771'
+            };
+            
+            const line = document.createElement('div');
+            line.style.color = colors[type];
+            line.textContent = `[${timestamp}] ${message}`;
+            logArea.appendChild(line);
+            logArea.scrollTop = logArea.scrollHeight;
+        }
+
+        async function startTest() {
+            log('🚀 开始测试...', 'info');
+            
+            try {
+                // 步骤1: 准备数据
+                document.getElementById('currentStepDisplay').textContent = '准备测试数据';
+                log('📝 准备测试数据', 'info');
+                
+                formData = {
+                    EffectiveDate: '2026-03-26',
+                    ExpiryDate: '2026-04-05',
+                    TravelType: 2,
+                    TripType: 2,
+                    TravelPolicyType: 'INDI',
+                    Customer: {
+                        Name: 'Test User',
+                        Gender: 'M',
+                        DateOfBirth: '1990-01-01',
+                        Email: 'test@example.com',
+                        Mobile: '+1234567890'
+                    },
+                    Travelers: [
+                        {
+                            Name: 'Test User',
+                            InsuredAge: 30,
+                            Gender: 'M'
+                        }
+                    ]
+                };
+                
+                log('✅ 测试数据准备完成', 'success');
+                
+                // 步骤2: 加载方案
+                document.getElementById('currentStepDisplay').textContent = '加载保障方案';
+                log('📡 加载保障方案...', 'info');
+                
+                const url = `${CONFIG.BASE_URL}/v1/flow/EUDemoPlanList?productId=${CONFIG.PRODUCT.ID}`;
+                log(`请求: ${url}`, 'info');
+                
+                const response = await fetch(url, {
+                    method: 'GET',
+                    headers: {
+                        'Authorization': `Bearer ${CONFIG.AUTH_TOKEN}`,
+                        'Content-Type': 'application/json'
+                    }
+                });
+                
+                log(`响应状态: ${response.status}`, response.ok ? 'success' : 'error');
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}`);
+                }
+                
+                const result = await response.json();
+                log(`✅ 成功获取 ${result.Data.Plans.length} 个方案`, 'success');
+                
+                // 显示方案
+                showPlans(result.Data.Plans);
+                
+            } catch (error) {
+                log(`❌ 测试失败: ${error.message}`, 'error');
+                console.error(error);
+            }
+        }
+
+        function showPlans(plans) {
+            log('🎨 显示方案列表', 'info');
+            
+            document.getElementById('testArea').style.display = 'none';
+            document.getElementById('plansArea').style.display = 'block';
+            document.getElementById('currentStepDisplay').textContent = '选择保障方案';
+            
+            const grid = document.getElementById('plansGrid');
+            grid.innerHTML = '';
+            
+            plans.forEach((plan, index) => {
+                const card = document.createElement('div');
+                card.className = 'plan-card';
+                card.innerHTML = `
+                    <div class="plan-name">${plan.PlanName}</div>
+                    <div class="plan-description">${plan.PlanDescription || '全面旅行保障'}</div>
+                    <div class="coverages">
+                        <h4>保障内容 (${plan.Coverages?.length || 0}项)</h4>
+                        ${plan.Coverages ? plan.Coverages.slice(0, 3).map(cov => `
+                            <div class="coverage-item">
+                                <span class="coverage-name">${cov.ElementName || cov.Code}</span>
+                                <span class="coverage-amount">${new Intl.NumberFormat('zh-CN', {style: 'currency', currency: 'EUR'}).format(cov.SumInsured)}</span>
+                            </div>
+                        `).join('') : '<p>暂无详细信息</p>'}
+                    </div>
+                `;
+                
+                card.addEventListener('click', () => {
+                    document.querySelectorAll('.plan-card').forEach(c => c.classList.remove('selected'));
+                    card.classList.add('selected');
+                    selectedPlan = plan;
+                    document.getElementById('nextBtn').disabled = false;
+                    log(`✅ 已选择方案: ${plan.PlanName}`, 'success');
+                });
+                
+                grid.appendChild(card);
+            });
+            
+            log('✅ 方案列表显示完成', 'success');
+        }
+
+        // 绑定下一步按钮
+        document.getElementById('nextBtn').addEventListener('click', async () => {
+            if (!selectedPlan) {
+                alert('请先选择一个方案');
+                return;
+            }
+            
+            log('💰 开始计算保费...', 'info');
+            document.getElementById('currentStepDisplay').textContent = '计算保费';
+            
+            try {
+                const payload = {
+                    ...formData,
+                    PlanCode: selectedPlan.PlanCode
+                };
+                
+                const response = await fetch(`${CONFIG.BASE_URL}/v1/flow/EUDemoTRVL01Calculate`, {
+                    method: 'POST',
+                    headers: {
+                        'Authorization': `Bearer ${CONFIG.AUTH_TOKEN}`,
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(payload)
+                });
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}`);
+                }
+                
+                const result = await response.json();
+                log(`✅ 保费计算成功`, 'success');
+                log(`💰 总保费: ${result.Data.TotalPremium} ${result.Data.Currency}`, 'success');
+                
+                showResult(result.Data);
+                
+            } catch (error) {
+                log(`❌ 保费计算失败: ${error.message}`, 'error');
+            }
+        });
+
+        function showResult(data) {
+            document.getElementById('plansArea').style.display = 'none';
+            document.getElementById('resultArea').style.display = 'block';
+            document.getElementById('currentStepDisplay').textContent = '测试完成';
+            
+            const content = document.getElementById('resultContent');
+            content.innerHTML = `
+                <h3>✅ 测试成功</h3>
+                <div class="summary-row">
+                    <span class="summary-label">方案名称</span>
+                    <span class="summary-value">${data.PlanName}</span>
+                </div>
+                <div class="summary-row">
+                    <span class="summary-label">保障期间</span>
+                    <span class="summary-value">${data.EffectiveDate} 至 ${data.ExpiryDate}</span>
+                </div>
+                <div class="summary-row">
+                    <span class="summary-label">保费</span>
+                    <span class="summary-value">${data.Premium} ${data.Currency}</span>
+                </div>
+                <div class="summary-row total">
+                    <span class="summary-label">总保费</span>
+                    <span class="summary-value">${data.TotalPremium} ${data.Currency}</span>
+                </div>
+                <div class="coverages" style="margin-top: 1.5rem;">
+                    <h4>保障内容 (${data.Coverages.length}项)</h4>
+                    ${data.Coverages.map(cov => `
+                        <div class="coverage-item">
+                            <span class="coverage-name">${cov.Name}</span>
+                            <span class="coverage-amount">${new Intl.NumberFormat('zh-CN', {style: 'currency', currency: data.Currency}).format(cov.SumInsured)}</span>
+                        </div>
+                    `).join('')}
+                </div>
+            `;
+            
+            log('🎉 测试流程完成！', 'success');
+        }
+
+        log('✅ 页面加载完成，点击按钮开始测试', 'success');
+    </script>
+</body>
+</html>

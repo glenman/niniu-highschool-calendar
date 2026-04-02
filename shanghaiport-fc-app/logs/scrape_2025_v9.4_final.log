@@ -1,0 +1,108 @@
+======================================================================
+上海海港2025赛季完整数据抓取器 v9.4
+修复：点球进球正确识别为 penalty_goal
+======================================================================
+
+📋 共 30 场比赛
+
+[1/30] 2025-02-23
+      ✅ Wuhan Three Towns 0-2 Shanghai Port
+         ⏰19:35 | 👨‍💼Pedro Morilla | 🎯Zhang Lei
+[2/30] 2025-02-28
+      ✅ Shanghai Port 3-2 Shenzhen
+         ⏰15:30 | 👨‍💼Javier Pereira | 🎯Yige Dai
+[3/30] 2025-03-28
+      ✅ Cangzhou Lions 0-1 Shanghai Port
+         ⏰17:30 | 👨‍💼Zhao Junzhe | 🎯Jansen Mehmetja..
+[4/30] 2025-04-02
+      ✅ Shanghai Port 1-1 Shanghai Shen
+         ⏰19:35 | 👨‍💼Javier Pereira | 🎯Li Haixin
+[5/30] 2025-04-06
+      ✅ Jinmen Tiger 0-0 Shanghai Port
+         ⏰19:35 | 👨‍💼Yu Genwei | 🎯Zhang Long
+[6/30] 2025-04-16
+      ✅ Shanghai Port 2-1 Qingdao Hainiu
+         ⏰19:35 | 👨‍💼Javier Pereira | 🎯Niu Minghui
+[7/30] 2025-04-20
+      ✅ Qingdao Hainiu 0-5 Shanghai Port
+         ⏰18:00 | 👨‍💼Yasen Petrov | 🎯
+[8/30] 2025-04-25
+      ✅ Shenzhen Peng City 0-6 Shanghai Port
+         ⏰20:00 | 👨‍💼Jesús Tato | 🎯
+[9/30] 2025-05-01
+      ✅ Shanghai Port 5-2 Changchun Yatai
+         ⏰20:00 | 👨‍💼Kevin Muscat | 🎯
+[10/30] 2025-05-05
+      ✅ Qingdao West Coast 3-5 Shanghai Port
+         ⏰19:35 | 👨‍💼Hisashi Kurosak.. | 🎯Ma Ning
+[11/30] 2025-05-09
+      ✅ Shanghai Port 2-0 Chengdu Rongcheng
+         ⏰20:00 | 👨‍💼Kevin Muscat | 🎯
+[12/30] 2025-05-17
+      ✅ Shanghai Port 4-1 Cangzhou Lions
+         ⏰20:00 | 👨‍💼Kevin Muscat | 🎯
+[13/30] 2025-06-14
+      ✅ Jinmen Tiger 0-3 Shanghai Port
+         ⏰20:00 | 👨‍💼Yu Genwei | 🎯
+[14/30] 2025-06-18
+      ✅ Meizhou Hakka 1-2 Shanghai Port
+         ⏰19:35 | 👨‍💼Milan Ristić | 🎯
+[15/30] 2025-06-26
+      ✅ Wuhan Three Towns 0-2 Shanghai Port
+         ⏰20:00 | 👨‍💼Ricardo Rodrígu.. | 🎯
+[16/30] 2025-06-30
+      ✅ Shanghai Port 3-1 Zhejiang
+         ⏰19:35 | 👨‍💼Kevin Muscat | 🎯Guan Xing
+[17/30] 2025-07-18
+      ✅ Henan 0-1 Shanghai Port
+         ⏰19:35 | 👨‍💼Nam Kiil | 🎯Qi Xing
+[18/30] 2025-07-26
+      ✅ Shanghai Port 5-1 Beijing Guoan
+         ⏰19:35 | 👨‍💼Kevin Muscat | 🎯Shunqi Tang
+[19/30] 2025-08-02
+      ✅ Shanghai Port 5-0 Qingdao Hainiu
+         ⏰19:35 | 👨‍💼Kevin Muscat | 🎯
+[20/30] 2025-08-09
+      ✅ Shanghai Port 8-1 Nantong Zhiyun
+         ⏰19:35 | 👨‍💼Kevin Muscat | 🎯
+[21/30] 2025-08-15
+      ✅ Shandong Taishan 0-1 Shanghai Port
+         ⏰19:35 | 👨‍💼Choi Kanghee | 🎯
+[22/30] 2025-08-24
+      ✅ Shanghai Port 7-2 Meizhou Hakka
+         ⏰19:35 | 👨‍💼Kevin Muscat | 🎯
+[23/30] 2025-08-30
+      ✅ Shanghai Shen 3-1 Shanghai Port
+         ⏰19:35 | 👨‍💼Leonid Slutskii | 🎯
+[24/30] 2025-09-12
+      ✅ Shanghai Port 2-0 Shenzhen Peng City
+         ⏰19:00 | 👨‍💼Kevin Muscat | 🎯Wenbin Zhu
+[25/30] 2025-09-21
+      ✅ Changchun Yatai 3-4 Shanghai Port
+         ⏰18:00 | 👨‍💼Xie Hui | 🎯Jia Zhiliang
+[26/30] 2025-09-26
+      ✅ Shanghai Port 2-1 Qingdao West Coast
+         ⏰18:00 | 👨‍💼Kevin Muscat | 🎯Niu Minghui
+[27/30] 2025-10-17
+      ✅ Chengdu Rongcheng 3-1 Shanghai Port
+         ⏰20:00 | 👨‍💼Seo Jung-won | 🎯Jansen Mehmetja..
+[28/30] 2025-10-26
+      ✅ Cangzhou Lions 0-1 Shanghai Port
+         ⏰15:30 | 👨‍💼Li Xiaopeng | 🎯Ma Ning
+[29/30] 2025-10-31
+      ✅ Shanghai Port 5-0 Jinmen Tiger
+         ⏰15:30 | 👨‍💼Kevin Muscat | 🎯Fu Ming
+[30/30] 2025-11-22
+      ✅ Dalian Professional 2-3 Shanghai Port
+         ⏰15:30 | 👨‍💼Xie Hui | 🎯Shi Zhenlu
+
+======================================================================
+✅ 批量处理完成
+======================================================================
+✓ 成功: 30 / 30
+✓ 事件总数: 497个
+
+📁 保存位置: data/match-reports-2025/
+
+======================================================================
+

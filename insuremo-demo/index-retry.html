@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>全球旅行险投保平台 - 增强版</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 16px;
+            padding: 30px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            text-align: center;
+            color: #333;
+        }
+        .status-bar {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            border-left: 4px solid #007bff;
+        }
+        .form-section {
+            margin-bottom: 20px;
+        }
+        .form-row {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 15px;
+        }
+        .form-group {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            font-weight: 500;
+            margin-bottom: 5px;
+            color: #333;
+        }
+        input, select {
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 14px;
+        }
+        input:focus, select:focus {
+            outline: none;
+            border-color: #007bff;
+            box-shadow: 0 0 0 3px rgba(0,123,255,0.1);
+        }
+        .required {
+            color: #dc3545;
+        }
+        .btn {
+            padding: 12px 24px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .btn-primary {
+            background: #007bff;
+            color: white;
+        }
+        .btn-primary:hover:not(:disabled) {
+            background: #0056b3;
+            transform: translateY(-1px);
+        }
+        .btn-primary:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+        .plans-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .plan-card {
+            border: 2px solid #e0e0e0;
+            border-radius: 12px;
+            padding: 20px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .plan-card:hover {
+            border-color: #007bff;
+            transform: translateY(-2px);
+        }
+        .plan-card.selected {
+            border-color: #007bff;
+            background: #f0f7ff;
+        }
+        .retry-info {
+            background: #fff3cd;
+            border: 1px solid #ffc107;
+            padding: 12px;
+            border-radius: 8px;
+            margin: 15px 0;
+            color: #856404;
+        }
+        .retry-progress {
+            margin-top: 10px;
+            font-size: 14px;
+        }
+        .loading {
+            text-align: center;
+            padding: 40px;
+        }
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #007bff;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        .result {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .result-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        .result-row:last-child {
+            border-bottom: none;
+            font-weight: 600;
+            color: #007bff;
+            font-size: 1.2rem;
+        }
+        .error {
+            background: #f8d7da;
+            color: #721c24;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
+        .success {
+            background: #d4edda;
+            color: #155724;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>✈️ 全球旅行险投保平台</h1>
+
+        <div id="app">
+            <!-- 步骤1：填写信息 -->
+            <div id="step1">
+                <div class="status-bar">
+                    <strong>📋 第1步：填写投保信息</strong>
+                </div>
+
+                <form id="insuranceForm">
+                    <div class="form-section">
+                        <h3>保障期间</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>生效日期 <span class="required">*</span></label>
+                                <input type="date" id="effectiveDate" required>
+                            </div>
+                            <div class="form-group">
+                                <label>失效日期 <span class="required">*</span></label>
+                                <input type="date" id="expiryDate" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>旅行类型 <span class="required">*</span></label>
+                                <select id="travelType" required>
+                                    <option value="">请选择</option>
+                                    <option value="1">单次旅行</option>
+                                    <option value="2" selected>多次旅行</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>行程类型 <span class="required">*</span></label>
+                                <select id="tripType" required>
+                                    <option value="">请选择</option>
+                                    <option value="1">商务</option>
+                                    <option value="2" selected>休闲</option>
+                                    <option value="3">留学</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-section">
+                        <h3>投保人信息</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>姓名 <span class="required">*</span></label>
+                                <input type="text" id="customerName" placeholder="请输入姓名" value="Test User" required>
+                            </div>
+                            <div class="form-group">
+                                <label>性别 <span class="required">*</span></label>
+                                <select id="gender" required>
+                                    <option value="">请选择</option>
+                                    <option value="M" selected>男</option>
+                                    <option value="F">女</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>出生日期 <span class="required">*</span></label>
+                                <input type="date" id="dateOfBirth" value="1990-01-01" required>
+                            </div>
+                            <div class="form-group">
+                                <label>年龄 <span class="required">*</span></label>
+                                <input type="number" id="insuredAge" value="30" min="0" max="100" required>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">
+                        下一步：选择保障方案 →
+                    </button>
+                </form>
+            </div>
+
+            <!-- 步骤2：加载方案 -->
+            <div id="step2" style="display: none;">
+                <div class="status-bar">
+                    <strong>🎯 第2步：选择保障方案</strong>
+                </div>
+
+                <div id="loadingDiv" class="loading" style="display: none;">
+                    <div class="spinner"></div>
+                    <p id="loadingText">正在加载方案...</p>
+                    <div id="retryInfo" class="retry-info" style="display: none;">
+                        <div class="retry-progress" id="retryProgress"></div>
+                    </div>
+                </div>
+
+                <div id="errorDiv" class="error" style="display: none;">
+                    <div id="errorMessage"></div>
+                    <button class="btn btn-primary" onclick="loadPlansWithRetry()" style="margin-top: 10px; width: 100%;">
+                        🔄 重新加载
+                    </button>
+                </div>
+
+                <div id="plansDiv" style="display: none;">
+                    <div id="plansContainer" class="plans-grid"></div>
+                    <button id="nextBtn" class="btn btn-primary" disabled style="width: 100%; margin-top: 20px;">
+                        下一步：计算保费 →
+                    </button>
+                </div>
+            </div>
+
+            <!-- 步骤3：报价 -->
+            <div id="step3" style="display: none;">
+                <div class="status-bar">
+                    <strong>💰 第3步：报价确认</strong>
+                </div>
+                <div id="quotationResult" class="result"></div>
+                <button class="btn btn-primary" onclick="confirmQuotation()" style="width: 100%;">
+                    确认报价并投保 →
+                </button>
+            </div>
+
+            <!-- 步骤4：完成 -->
+            <div id="step4" style="display: none;">
+                <div class="status-bar">
+                    <strong>🎉 第4步：投保成功</strong>
+                </div>
+                <div id="successMessage" class="success" style="text-align: center; padding: 30px;">
+                    <div style="font-size: 4rem; margin-bottom: 15px;">✅</div>
+                    <h2 style="margin-bottom: 10px;">投保成功！</h2>
+                    <p>您的保单已成功签发</p>
+                </div>
+                <div id="policyResult" class="result"></div>
+                <button class="btn btn-primary" onclick="location.reload()" style="width: 100%;">
+                    开始新的投保
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const CONFIG = {
+            BASE_URL: 'https://portal-gw.insuremo.com/platform/api-orchestration-test',
+            AUTH_TOKEN: 'MOATbWg4aRISAep86MorzeBulKla18sq',
+            PRODUCT_ID: 375604942,
+            MAX_RETRIES: 3,
+            RETRY_DELAY: 1000
+        };
+
+        let appState = {
+            formData: {},
+            selectedPlan: null,
+            calculationResult: null
+        };
+
+        // 初始化
+        document.addEventListener('DOMContentLoaded', () => {
+            setDefaultDates();
+            document.getElementById('insuranceForm').addEventListener('submit', handleSubmit);
+        });
+
+        function setDefaultDates() {
+            const tomorrow = new Date();
+            tomorrow.setDate(tomorrow.getDate() + 1);
+            const nextWeek = new Date(tomorrow);
+            nextWeek.setDate(nextWeek.getDate() + 7);
+
+            document.getElementById('effectiveDate').value = tomorrow.toISOString().split('T')[0];
+            document.getElementById('expiryDate').value = nextWeek.toISOString().split('T')[0];
+        }
+
+        async function handleSubmit(e) {
+            e.preventDefault();
+
+            appState.formData = {
+                EffectiveDate: document.getElementById('effectiveDate').value,
+                ExpiryDate: document.getElementById('expiryDate').value,
+                TravelType: parseInt(document.getElementById('travelType').value),
+                TripType: parseInt(document.getElementById('tripType').value),
+                TravelPolicyType: 'INDI',
+                Customer: {
+                    Name: document.getElementById('customerName').value,
+                    Gender: document.getElementById('gender').value,
+                    DateOfBirth: document.getElementById('dateOfBirth').value
+                },
+                Travelers: [{
+                    Name: document.getElementById('customerName').value,
+                    InsuredAge: parseInt(document.getElementById('insuredAge').value),
+                    Gender: document.getElementById('gender').value
+                }]
+            };
+
+            showStep(2);
+            await loadPlansWithRetry();
+        }
+
+        // 带重试机制的API调用
+        async function fetchWithRetry(url, options, retries = CONFIG.MAX_RETRIES) {
+            for (let i = 0; i < retries; i++) {
+                try {
+                    console.log(`📡 尝试 ${i + 1}/${retries}: ${url}`);
+
+                    if (i > 0) {
+                        const delay = CONFIG.RETRY_DELAY * Math.pow(2, i - 1);
+                        console.log(`⏳ 等待 ${delay}ms 后重试...`);
+                        await sleep(delay);
+                        showRetryProgress(i, retries);
+                    }
+
+                    const response = await fetch(url, options);
+
+                    if (!response.ok) {
+                        const errorText = await response.text();
+                        throw new Error(`HTTP ${response.status}: ${errorText}`);
+                    }
+
+                    const result = await response.json();
+
+                    if (!result.Success) {
+                        throw new Error(result.Error?.Message || 'API返回失败');
+                    }
+
+                    console.log(`✅ 成功 (${i + 1}/${retries})`);
+                    return result.Data;
+
+                } catch (error) {
+                    console.error(`❌ 失败 (${i + 1}/${retries}):`, error.message);
+
+                    if (i === retries - 1) {
+                        throw error;
+                    }
+                }
+            }
+        }
+
+        function showRetryProgress(current, total) {
+            const retryInfo = document.getElementById('retryInfo');
+            const retryProgress = document.getElementById('retryProgress');
+
+            retryInfo.style.display = 'block';
+            retryProgress.textContent = `自动重试中... 第 ${current + 1} 次 / 共 ${total} 次`;
+        }
+
+        function sleep(ms) {
+            return new Promise(resolve => setTimeout(resolve, ms));
+        }
+
+        async function loadPlansWithRetry() {
+            const loadingDiv = document.getElementById('loadingDiv');
+            const errorDiv = document.getElementById('errorDiv');
+            const plansDiv = document.getElementById('plansDiv');
+
+            loadingDiv.style.display = 'block';
+            errorDiv.style.display = 'none';
+            plansDiv.style.display = 'none';
+            document.getElementById('loadingText').textContent = '正在加载保障方案...';
+            document.getElementById('retryInfo').style.display = 'none';
+
+            try {
+                const url = `${CONFIG.BASE_URL}/v1/flow/EUDemoPlanList?productId=${CONFIG.PRODUCT_ID}`;
+
+                const data = await fetchWithRetry(url, {
+                    method: 'GET',
+                    headers: {
+                        'Authorization': `Bearer ${CONFIG.AUTH_TOKEN}`,
+                        'Content-Type': 'application/json'
+                    }
+                });
+
+                console.log('📦 方案数据:', data);
+
+                loadingDiv.style.display = 'none';
+                plansDiv.style.display = 'block';
+                renderPlans(data.Plans);
+
+            } catch (error) {
+                console.error('❌ 加载失败:', error);
+
+                loadingDiv.style.display = 'none';
+                errorDiv.style.display = 'block';
+                document.getElementById('errorMessage').innerHTML = `
+                    <strong>❌ 加载失败</strong><br>
+                    ${error.message}<br>
+                    <small style="color: #666;">已自动重试 ${CONFIG.MAX_RETRIES} 次，请检查网络连接后手动重试</small>
+                `;
+            }
+        }
+
+        function renderPlans(plans) {
+            const container = document.getElementById('plansContainer');
+            container.innerHTML = '';
+
+            plans.forEach(plan => {
+                const card = document.createElement('div');
+                card.className = 'plan-card';
+                card.innerHTML = `
+                    <h3 style="margin-bottom: 10px;">${plan.PlanName}</h3>
+                    <p style="color: #666; margin-bottom: 10px;">${plan.PlanDescription || '全面旅行保障'}</p>
+                    <p style="color: #007bff; font-weight: 600;">保障项目: ${plan.Coverages?.length || 0} 项</p>
+                `;
+
+                card.addEventListener('click', () => {
+                    document.querySelectorAll('.plan-card').forEach(c => c.classList.remove('selected'));
+                    card.classList.add('selected');
+                    appState.selectedPlan = plan;
+                    document.getElementById('nextBtn').disabled = false;
+                });
+
+                container.appendChild(card);
+            });
+        }
+
+        document.getElementById('nextBtn').addEventListener('click', async () => {
+            if (!appState.selectedPlan) {
+                alert('请选择一个保障方案');
+                return;
+            }
+
+            const btn = document.getElementById('nextBtn');
+            btn.disabled = true;
+            btn.textContent = '⏳ 计算中...';
+
+            try {
+                const payload = {
+                    ...appState.formData,
+                    PlanCode: appState.selectedPlan.PlanCode
+                };
+
+                const data = await fetchWithRetry(`${CONFIG.BASE_URL}/v1/flow/EUDemoTRVL01Calculate`, {
+                    method: 'POST',
+                    headers: {
+                        'Authorization': `Bearer ${CONFIG.AUTH_TOKEN}`,
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(payload)
+                });
+
+                appState.calculationResult = data;
+                showStep(3);
+                renderQuotation(data);
+
+            } catch (error) {
+                alert('保费计算失败: ' + error.message);
+                btn.disabled = false;
+                btn.textContent = '下一步：计算保费 →';
+            }
+        });
+
+        function renderQuotation(data) {
+            const container = document.getElementById('quotationResult');
+            container.innerHTML = `
+                <div class="result-row">
+                    <span>方案名称</span>
+                    <span>${data.PlanName}</span>
+                </div>
+                <div class="result-row">
+                    <span>保障期间</span>
+                    <span>${data.EffectiveDate} 至 ${data.ExpiryDate}</span>
+                </div>
+                <div class="result-row">
+                    <span>投保人</span>
+                    <span>${data.Customer.Name}</span>
+                </div>
+                <div class="result-row">
+                    <span>保费</span>
+                    <span>€${data.Premium}</span>
+                </div>
+                <div class="result-row">
+                    <span>总保费</span>
+                    <span>€${data.TotalPremium}</span>
+                </div>
+            `;
+        }
+
+        async function confirmQuotation() {
+            const btn = event.target;
+            btn.disabled = true;
+            btn.textContent = '⏳ 处理中...';
+
+            try {
+                // 保存提案
+                const saveData = await fetchWithRetry(`${CONFIG.BASE_URL}/v1/flow/EUDemoTRVL01SaveProposal`, {
+                    method: 'POST',
+                    headers: {
+                        'Authorization': `Bearer ${CONFIG.AUTH_TOKEN}`,
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(appState.calculationResult)
+                });
+
+                // 绑定提案
+                await fetchWithRetry(`${CONFIG.BASE_URL}/v1/flow/EUDemoTRVL01BindProposal`, {
+                    method: 'POST',
+                    headers: {
+                        'Authorization': `Bearer ${CONFIG.AUTH_TOKEN}`,
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ ProposalNo: saveData.ProposalNo })
+                });
+
+                // 支付回调
+                const paymentData = await fetchWithRetry(`${CONFIG.BASE_URL}/v1/flow/EUDemoTRVL01PaymentCallback`, {
+                    method: 'POST',
+                    headers: {
+                        'Authorization': `Bearer ${CONFIG.AUTH_TOKEN}`,
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        ProposalNo: saveData.ProposalNo,
+                        PaymentStatus: 'SUCCESS',
+                        PaymentReference: `PAY${Date.now()}`
+                    })
+                });
+
+                showStep(4);
+                renderPolicy(paymentData);
+
+            } catch (error) {
+                alert('投保失败: ' + error.message);
+                btn.disabled = false;
+                btn.textContent = '确认报价并投保 →';
+            }
+        }
+
+        function renderPolicy(data) {
+            const container = document.getElementById('policyResult');
+            container.innerHTML = `
+                <div class="result-row">
+                    <span>保单号码</span>
+                    <span>${data.PolicyNo}</span>
+                </div>
+                <div class="result-row">
+                    <span>方案名称</span>
+                    <span>${data.PlanName}</span>
+                </div>
+                <div class="result-row">
+                    <span>保障期间</span>
+                    <span>${data.EffectiveDate} 至 ${data.ExpiryDate}</span>
+                </div>
+                <div class="result-row">
+                    <span>总保费</span>
+                    <span>€${data.TotalPremium}</span>
+                </div>
+            `;
+        }
+
+        function showStep(step) {
+            for (let i = 1; i <= 4; i++) {
+                document.getElementById(`step${i}`).style.display = i === step ? 'block' : 'none';
+            }
+        }
+    </script>
+</body>
+</html>

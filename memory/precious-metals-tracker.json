@@ -1,0 +1,145 @@
+{
+  "lastCheck": "2026-03-28T18:07:00+08:00",
+  "currentPrices": {
+    "gold": {
+      "price": 4493.00,
+      "change": 115.80,
+      "changePercent": 2.65,
+      "dayRange": "4375.60 - 4554.80",
+      "bid": 4493.00,
+      "ask": 4495.00,
+      "previousCheck": 4429.30,
+      "changeSinceLastCheck": 63.70,
+      "changePercentSinceLastCheck": 1.44,
+      "keyLevelStatus": "非常接近$4,500阻力位（仅差$7）"
+    },
+    "silver": {
+      "price": 69.62,
+      "change": 1.73,
+      "changePercent": 2.55,
+      "dayRange": "67.33 - 71.72",
+      "bid": 69.62,
+      "ask": 69.87,
+      "previousCheck": 69.085,
+      "changeSinceLastCheck": 0.535,
+      "changePercentSinceLastCheck": 0.77,
+      "keyLevelStatus": "在$68-$70区间，接近$70阻力位"
+    }
+  },
+  "alerts": [
+    {
+      "date": "2026-03-28T17:27:00+08:00",
+      "type": "key_level_approach",
+      "metal": "gold",
+      "message": "黄金大涨2.65%至$4,493，非常接近$4,500关键阻力位（仅差$7）。日内测试$4,554高点。",
+      "severity": "warning"
+    },
+    {
+      "date": "2026-03-28T17:27:00+08:00",
+      "type": "strong_rally",
+      "metal": "both",
+      "message": "贵金属集体大涨：黄金+2.65%，白银+2.55%。避险需求强劲。",
+      "severity": "info"
+    },
+    {
+      "date": "2026-03-27T00:00:00+08:00",
+      "type": "volatility_alert",
+      "metal": "silver",
+      "message": "白银暴跌3.96%至$68.32，测试$68支撑位。日内区间：$66.83-$72.33",
+      "severity": "warning"
+    },
+    {
+      "date": "2026-03-26T18:19:00+08:00",
+      "type": "key_level_breach",
+      "metal": "gold",
+      "message": "黄金跌破$4,500关键支撑，当前$4,437.50（-1.50%）",
+      "severity": "warning"
+    },
+    {
+      "date": "2026-03-27T12:32:00+08:00",
+      "type": "recovery_signal",
+      "metal": "silver",
+      "message": "白银从$68支撑反弹至$69.24（+1.35%），重回支撑上方。短期压力缓解。",
+      "severity": "info"
+    }
+  ],
+  "keyLevels": {
+    "gold": {
+      "strong_resistance": 4500,
+      "deep_pullback": 4300,
+      "critical_support": 4200,
+      "current_status": "报$4,493（+2.65%），非常接近$4,500阻力位，日内测试$4,554。关注能否突破$4,500。"
+    },
+    "silver": {
+      "resistance": 70,
+      "support": 68,
+      "strong_support": 65,
+      "deep_pullback": 60,
+      "current_status": "报$69.62（+2.55%），在$68-$70区间。日内测试$71.72高点。"
+    }
+  },
+  "analysis": {
+    "gold": "黄金强势反弹2.65%至$4,493，距离$4,500关键阻力仅一步之遥。日内最高测试$4,554，显示上攻动能强劲。Trump延长伊朗谈判期限，但地缘政治紧张持续，避险需求支撑金价。建议密切关注$4,500突破情况。",
+    "silver": "白银上涨2.55%至$69.62，在$68-$70关键区间。日内测试$71.72高点，显示强劲反弹。工业需求和避险需求双重支撑。如突破$70，可能进一步上探。"
+  },
+  "marketContext": {
+    "iranWar": "Trump延长伊朗谈判期限至4月6日，但紧张局势持续",
+    "oilPrice": "需更新",
+    "fedPolicy": "美联储政策不确定性，市场观望",
+    "geopolitics": "地缘政治紧张支撑贵金属价格",
+    "dataSource": "Kitco.com - 2026-03-28 17:27"
+  },
+  "nextScheduledCheck": "2026-04-02T00:00:00+08:00",
+  "lastAttempt": {
+    "time": "2026-04-01T18:03:00+08:00",
+    "status": "failed",
+    "error": "网络访问受限 - 所有数据源无法访问 (curl无输出, web_fetch失败)",
+    "attemptedSources": [
+      "metals.live API (curl) - no output (timeout/SSL error)",
+      "metals.live API (web_fetch) - fetch failed"
+    ],
+    "recommendation": "需要：(1)启动SOCKS5代理服务 (2)使用国内可访问的贵金属API (3)配置网络环境",
+    "consecutiveFailures": 6
+  },
+  "config": {
+    "checkFrequency": "every_6_hours",
+    "checkpoints": [0, 6, 12, 18],
+    "dataSources": {
+      "primary": "metals.live API",
+      "backup": ["goldapi.io", "kitco.com"],
+      "current_issue": "网络访问受限,所有外部API无法访问"
+    },
+    "alerts": {
+      "priceChangeThreshold": 3.0,
+      "keyLevels": {
+        "gold": {
+          "strong_resistance": 4500,
+          "resistance": 4800,
+          "psychological": 5000,
+          "deep_pullback": 4300,
+          "critical_support": 4200
+        },
+        "silver": {
+          "resistance": 70,
+          "strong_resistance": 75,
+          "psychological": 80,
+          "support": 68,
+          "strong_support": 65,
+          "deep_pullback": 60
+        }
+      }
+    },
+    "networkIssue": {
+      "detected": "2026-03-28",
+      "status": "持续存在",
+      "affected_services": ["web_search", "metals.live", "kitco.com", "investing.com"],
+      "recommended_solution": "配置SOCKS5代理(127.0.0.1:28310)或使用国内贵金属价格API"
+    }
+  },
+  "systemStatus": {
+    "trackingEnabled": true,
+    "lastEnabledAt": "2026-03-31T10:35:00+08:00",
+    "enabledBy": "小龙虾",
+    "note": "已重新启用跟踪系统,待解决网络问题后可获取实时价格"
+  }
+}

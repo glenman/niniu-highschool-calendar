@@ -1,0 +1,160 @@
+{
+  "team": "Shanghai Port FC",
+  "season": 2025,
+  "competition": "Chinese Super League",
+  "data_source": "fbref.com",
+  "last_updated": "2026-03-28",
+  "total_matches": 30,
+  "match_urls": [
+    {
+      "date": "2025-02-23",
+      "teams": "Shanghai-Port-Shenzhen-Peng-City",
+      "match_report_url": "https://fbref.com/en/matches/a67ccb3a/Shanghai-Port-Shenzhen-Peng-City-February-23-2025-Chinese-Super-League"
+    },
+    {
+      "date": "2025-02-28",
+      "teams": "Shanghai-Port-Changchun-Yatai",
+      "match_report_url": "https://fbref.com/en/matches/3b73c88e/Shanghai-Port-Changchun-Yatai-February-28-2025-Chinese-Super-League"
+    },
+    {
+      "date": "2025-03-28",
+      "teams": "Qingdao-West-Coast-Shanghai-Port",
+      "match_report_url": "https://fbref.com/en/matches/2f370b43/Qingdao-West-Coast-Shanghai-Port-March-28-2025-Chinese-Super-League"
+    },
+    {
+      "date": "2025-04-02",
+      "teams": "Shanghai-Port-Meizhou-Hakka",
+      "match_report_url": "https://fbref.com/en/matches/c68a6901/Shanghai-Port-Meizhou-Hakka-April-2-2025-Chinese-Super-League"
+    },
+    {
+      "date": "2025-04-06",
+      "teams": "Shanghai-Port-Shanghai-Shenhua",
+      "match_report_url": "https://fbref.com/en/matches/803b999f/Shanghai-Port-Shanghai-Shenhua-April-6-2025-Chinese-Super-League"
+    },
+    {
+      "date": "2025-04-16",
+      "teams": "Tianjin-Jinmen-Tiger-Shanghai-Port",
+      "match_report_url": "https://fbref.com/en/matches/c6873008/Tianjin-Jinmen-Tiger-Shanghai-Port-April-16-2025-Chinese-Super-League"
+    },
+    {
+      "date": "2025-04-20",
+      "teams": "Shanghai-Port-Chengdu-Rongcheng",
+      "match_report_url": "https://fbref.com/en/matches/0ba10b52/Shanghai-Port-Chengdu-Rongcheng-April-20-2025-Chinese-Super-League"
+    },
+    {
+      "date": "2025-04-25",
+      "teams": "Yunnan-Yukun-Shanghai-Port",
+      "match_report_url": "https://fbref.com/en/matches/17986854/Yunnan-Yukun-Shanghai-Port-April-25-2025-Chinese-Super-League"
+    },
+    {
+      "date": "2025-05-01",
+      "teams": "Shanghai-Port-Beijing-Guoan",
+      "match_report_url": "https://fbref.com/en/matches/8566c2e7/Shanghai-Port-Beijing-Guoan-May-1-2025-Chinese-Super-League"
+    },
+    {
+      "date": "2025-05-05",
+      "teams": "Wuhan-Three-Towns-Shanghai-Port",
+      "match_report_url": "https://fbref.com/en/matches/0335ec07/Wuhan-Three-Towns-Shanghai-Port-May-5-2025-Chinese-Super-League"
+    },
+    {
+      "date": "2025-05-09",
+      "teams": "Shanghai-Port-Qingdao-Hainiu",
+      "match_report_url": "https://fbref.com/en/matches/353e5683/Shanghai-Port-Qingdao-Hainiu-May-9-2025-Chinese-Super-League"
+    },
+    {
+      "date": "2025-05-17",
+      "teams": "Shanghai-Port-Shandong-Taishan",
+      "match_report_url": "https://fbref.com/en/matches/568d7618/Shanghai-Port-Shandong-Taishan-May-17-2025-Chinese-Super-League"
+    },
+    {
+      "date": "2025-06-14",
+      "teams": "Zhejiang-Professional-Shanghai-Port",
+      "match_report_url": "https://fbref.com/en/matches/fbeb6358/Zhejiang-Professional-Shanghai-Port-June-14-2025-Chinese-Super-League"
+    },
+    {
+      "date": "2025-06-18",
+      "teams": "Henan-Shanghai-Port",
+      "match_report_url": "https://fbref.com/en/matches/b5329d01/Henan-Shanghai-Port-June-18-2025-Chinese-Super-League"
+    },
+    {
+      "date": "2025-06-26",
+      "teams": "Shanghai-Port-Dalian-Yingbo",
+      "match_report_url": "https://fbref.com/en/matches/4a677b43/Shanghai-Port-Dalian-Yingbo-June-26-2025-Chinese-Super-League"
+    },
+    {
+      "date": "2025-06-30",
+      "teams": "Shenzhen-Peng-City-Shanghai-Port",
+      "match_report_url": "https://fbref.com/en/matches/7cd535f9/Shenzhen-Peng-City-Shanghai-Port-June-30-2025-Chinese-Super-League"
+    },
+    {
+      "date": "2025-07-18",
+      "teams": "Changchun-Yatai-Shanghai-Port",
+      "match_report_url": "https://fbref.com/en/matches/255615e4/Changchun-Yatai-Shanghai-Port-July-18-2025-Chinese-Super-League"
+    },
+    {
+      "date": "2025-07-26",
+      "teams": "Shanghai-Port-Qingdao-West-Coast",
+      "match_report_url": "https://fbref.com/en/matches/060cb1c5/Shanghai-Port-Qingdao-West-Coast-July-26-2025-Chinese-Super-League"
+    },
+    {
+      "date": "2025-08-02",
+      "teams": "Meizhou-Hakka-Shanghai-Port",
+      "match_report_url": "https://fbref.com/en/matches/368deade/Meizhou-Hakka-Shanghai-Port-August-2-2025-Chinese-Super-League"
+    },
+    {
+      "date": "2025-08-09",
+      "teams": "Shanghai-Shenhua-Shanghai-Port",
+      "match_report_url": "https://fbref.com/en/matches/7432a7ba/Shanghai-Shenhua-Shanghai-Port-August-9-2025-Chinese-Super-League"
+    },
+    {
+      "date": "2025-08-15",
+      "teams": "Shanghai-Port-Henan",
+      "match_report_url": "https://fbref.com/en/matches/29084c32/Shanghai-Port-Henan-August-15-2025-Chinese-Super-League"
+    },
+    {
+      "date": "2025-08-24",
+      "teams": "Shanghai-Port-Tianjin-Jinmen-Tiger",
+      "match_report_url": "https://fbref.com/en/matches/ca6210fb/Shanghai-Port-Tianjin-Jinmen-Tiger-August-24-2025-Chinese-Super-League"
+    },
+    {
+      "date": "2025-08-30",
+      "teams": "Chengdu-Rongcheng-Shanghai-Port",
+      "match_report_url": "https://fbref.com/en/matches/8a9a13cd/Chengdu-Rongcheng-Shanghai-Port-August-30-2025-Chinese-Super-League"
+    },
+    {
+      "date": "2025-09-12",
+      "teams": "Shanghai-Port-Yunnan-Yukun",
+      "match_report_url": "https://fbref.com/en/matches/69db674c/Shanghai-Port-Yunnan-Yukun-September-12-2025-Chinese-Super-League"
+    },
+    {
+      "date": "2025-09-21",
+      "teams": "Beijing-Guoan-Shanghai-Port",
+      "match_report_url": "https://fbref.com/en/matches/22415967/Beijing-Guoan-Shanghai-Port-September-21-2025-Chinese-Super-League"
+    },
+    {
+      "date": "2025-09-26",
+      "teams": "Shanghai-Port-Wuhan-Three-Towns",
+      "match_report_url": "https://fbref.com/en/matches/d89a6df4/Shanghai-Port-Wuhan-Three-Towns-September-26-2025-Chinese-Super-League"
+    },
+    {
+      "date": "2025-10-17",
+      "teams": "Qingdao-Hainiu-Shanghai-Port",
+      "match_report_url": "https://fbref.com/en/matches/ec35cbb7/Qingdao-Hainiu-Shanghai-Port-October-17-2025-Chinese-Super-League"
+    },
+    {
+      "date": "2025-10-26",
+      "teams": "Shandong-Taishan-Shanghai-Port",
+      "match_report_url": "https://fbref.com/en/matches/f9c8d5c7/Shandong-Taishan-Shanghai-Port-October-26-2025-Chinese-Super-League"
+    },
+    {
+      "date": "2025-10-31",
+      "teams": "Shanghai-Port-Zhejiang-Professional",
+      "match_report_url": "https://fbref.com/en/matches/cd0da27e/Shanghai-Port-Zhejiang-Professional-October-31-2025-Chinese-Super-League"
+    },
+    {
+      "date": "2025-11-22",
+      "teams": "Dalian-Yingbo-Shanghai-Port",
+      "match_report_url": "https://fbref.com/en/matches/e94b4d3f/Dalian-Yingbo-Shanghai-Port-November-22-2025-Chinese-Super-League"
+    }
+  ]
+}

@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>全球旅行险投保平台 - 独立版本</title>
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --secondary-color: #64748b;
+            --success-color: #10b981;
+            --error-color: #ef4444;
+            --background: #f8fafc;
+            --card-bg: #ffffff;
+            --text-primary: #1e293b;
+            --text-secondary: #64748b;
+            --border-color: #e2e8f0;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--background);
+            color: var(--text-primary);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .logo-icon { font-size: 3rem; }
+
+        .header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+
+        .subtitle {
+            font-size: 1.125rem;
+            color: var(--text-secondary);
+        }
+
+        .main-content {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 2rem;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+
+        .plans-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .plan-card {
+            border: 2px solid var(--border-color);
+            border-radius: 12px;
+            padding: 1.5rem;
+            background: white;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .plan-card:hover {
+            border-color: var(--primary-color);
+            transform: translateY(-2px);
+        }
+
+        .plan-card.selected {
+            border-color: var(--primary-color);
+            background: rgba(37, 99, 235, 0.05);
+        }
+
+        .plan-name {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .plan-description {
+            color: var(--text-secondary);
+            margin-bottom: 1rem;
+        }
+
+        .btn-primary, .btn-secondary {
+            padding: 0.875rem 2rem;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            border: none;
+            min-width: 150px;
+        }
+
+        .btn-primary {
+            background: var(--primary-color);
+            color: white;
+        }
+
+        .btn-primary:hover:not(:disabled) {
+            background: #1d4ed8;
+        }
+
+        .btn-primary:disabled {
+            background: var(--secondary-color);
+            cursor: not-allowed;
+            opacity: 0.6;
+        }
+
+        .btn-secondary {
+            background: white;
+            color: var(--text-primary);
+            border: 1px solid var(--border-color);
+        }
+
+        .coverages {
+            margin-top: 1rem;
+        }
+
+        .coverages h4 {
+            font-size: 1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .coverage-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 0.5rem 0;
+            border-bottom: 1px solid var(--border-color);
+            font-size: 0.875rem;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 3rem;
+        }
+
+        .error {
+            text-align: center;
+            padding: 3rem;
+            color: var(--error-color);
+        }
+
+        .status-bar {
+            background: var(--background);
+            padding: 1rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+        }
+
+        .status-item {
+            margin: 0.5rem 0;
+            font-size: 0.875rem;
+        }
+
+        .status-item.success { color: var(--success-color); }
+        .status-item.error { color: var(--error-color); }
+
+        .quotation-summary {
+            background: var(--background);
+            border-radius: 12px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .summary-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 0.75rem 0;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .summary-row.total {
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 2px solid var(--border-color);
+            font-size: 1.25rem;
+            font-weight: 600;
+        }
+
+        .summary-row.total .summary-value {
+            color: var(--primary-color);
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <span class="logo-icon">✈️</span>
+                <h1>全球旅行险投保平台</h1>
+            </div>
+            <p class="subtitle">独立版本 - 无需外部依赖</p>
+        </header>
+
+        <main class="main-content">
+            <div class="status-bar">
+                <div><strong>当前状态：</strong><span id="currentStatus">准备就绪</span></div>
+                <div id="statusLog"></div>
+            </div>
+
+            <div id="mainContent">
+                <!-- 步骤1：测试 -->
+                <div id="step1" style="text-align: center; padding: 2rem;">
+                    <h2 style="margin-bottom: 2rem;">🚀 开始测试</h2>
+                    <button class="btn-primary" onclick="loadPlans()" style="width: 100%; max-width: 400px;">
+                        加载保障方案
+                    </button>
+                </div>
+
+                <!-- 步骤2：选择方案 -->
+                <div id="step2" style="display: none;">
+                    <h2 style="margin-bottom: 2rem;">选择保障方案</h2>
+                    <div id="plansContainer" class="plans-grid"></div>
+                    <div style="text-align: center; margin-top: 2rem;">
+                        <button id="nextBtn" class="btn-primary" disabled onclick="calculatePremium()">
+                            下一步：计算保费 →
+                        </button>
+                    </div>
+                </div>
+
+                <!-- 步骤3：显示结果 -->
+                <div id="step3" style="display: none;">
+                    <h2 style="margin-bottom: 2rem;">报价确认</h2>
+                    <div id="quotationSummary" class="quotation-summary"></div>
+                    <div style="text-align: center;">
+                        <button class="btn-primary" onclick="startOver()" style="margin-right: 1rem;">
+                            重新开始
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        // 配置
+        const CONFIG = {
+            BASE_URL: 'https://portal-gw.insuremo.com/platform/api-orchestration-test',
+            AUTH_TOKEN: 'MOATbWg4aRISAep86MorzeBulKla18sq',
+            PRODUCT_ID: 375604942
+        };
+
+        let selectedPlan = null;
+        let formData = {
+            EffectiveDate: '2026-03-26',
+            ExpiryDate: '2026-04-05',
+            TravelType: 2,
+            TripType: 2,
+            TravelPolicyType: 'INDI',
+            Customer: {
+                Name: 'Test User',
+                Gender: 'M',
+                DateOfBirth: '1990-01-01'
+            },
+            Travelers: [{
+                Name: 'Test User',
+                InsuredAge: 30,
+                Gender: 'M'
+            }]
+        };
+
+        function updateStatus(message, type = 'info') {
+            const statusEl = document.getElementById('currentStatus');
+            const logEl = document.getElementById('statusLog');
+            
+            statusEl.textContent = message;
+            
+            const item = document.createElement('div');
+            item.className = `status-item ${type}`;
+            item.textContent = `${new Date().toLocaleTimeString()} - ${message}`;
+            logEl.insertBefore(item, logEl.firstChild);
+            
+            console.log(message);
+        }
+
+        async function loadPlans() {
+            document.getElementById('step1').style.display = 'none';
+            document.getElementById('step2').style.display = 'block';
+            
+            const container = document.getElementById('plansContainer');
+            container.innerHTML = '<div class="loading">⏳ 正在加载方案...</div>';
+            
+            updateStatus('正在加载保障方案...', 'info');
+
+            try {
+                const url = `${CONFIG.BASE_URL}/v1/flow/EUDemoPlanList?productId=${CONFIG.PRODUCT_ID}`;
+                
+                const response = await fetch(url, {
+                    method: 'GET',
+                    headers: {
+                        'Authorization': `Bearer ${CONFIG.AUTH_TOKEN}`,
+                        'Content-Type': 'application/json'
+                    }
+                });
+
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}`);
+                }
+
+                const result = await response.json();
+                
+                if (!result.Success) {
+                    throw new Error(result.Error?.Message || 'API返回失败');
+                }
+
+                updateStatus(`成功加载 ${result.Data.Plans.length} 个方案`, 'success');
+                
+                displayPlans(result.Data.Plans);
+
+            } catch (error) {
+                updateStatus(`加载失败: ${error.message}`, 'error');
+                container.innerHTML = `
+                    <div class="error">
+                        <div style="font-size: 3rem; margin-bottom: 1rem;">❌</div>
+                        <h3>加载失败</h3>
+                        <p style="margin: 1rem 0;">${error.message}</p>
+                        <button class="btn-secondary" onclick="location.reload()">刷新页面</button>
+                    </div>
+                `;
+                console.error('Error:', error);
+            }
+        }
+
+        function displayPlans(plans) {
+            const container = document.getElementById('plansContainer');
+            container.innerHTML = '';
+
+            plans.forEach((plan, index) => {
+                const card = document.createElement('div');
+                card.className = 'plan-card';
+                
+                card.innerHTML = `
+                    <div class="plan-name">${plan.PlanName}</div>
+                    <div class="plan-description">${plan.PlanDescription || '全面旅行保障'}</div>
+                    <div class="coverages">
+                        <h4>保障内容 (${plan.Coverages?.length || 0}项)</h4>
+                        ${plan.Coverages ? plan.Coverages.slice(0, 3).map(cov => `
+                            <div class="coverage-item">
+                                <span>${cov.ElementName || cov.Code}</span>
+                                <span>€${cov.SumInsured.toLocaleString()}</span>
+                            </div>
+                        `).join('') : '<p>暂无详细信息</p>'}
+                    </div>
+                `;
+
+                card.addEventListener('click', () => {
+                    document.querySelectorAll('.plan-card').forEach(c => c.classList.remove('selected'));
+                    card.classList.add('selected');
+                    selectedPlan = plan;
+                    document.getElementById('nextBtn').disabled = false;
+                    updateStatus(`已选择: ${plan.PlanName}`, 'success');
+                });
+
+                container.appendChild(card);
+            });
+
+            updateStatus('请选择一个保障方案', 'info');
+        }
+
+        async function calculatePremium() {
+            if (!selectedPlan) {
+                alert('请先选择一个方案');
+                return;
+            }
+
+            updateStatus('正在计算保费...', 'info');
+            document.getElementById('nextBtn').disabled = true;
+
+            try {
+                const payload = {
+                    ...formData,
+                    PlanCode: selectedPlan.PlanCode
+                };
+
+                const response = await fetch(`${CONFIG.BASE_URL}/v1/flow/EUDemoTRVL01Calculate`, {
+                    method: 'POST',
+                    headers: {
+                        'Authorization': `Bearer ${CONFIG.AUTH_TOKEN}`,
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(payload)
+                });
+
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}`);
+                }
+
+                const result = await response.json();
+                
+                if (!result.Success) {
+                    throw new Error(result.Error?.Message || '计算失败');
+                }
+
+                updateStatus(`保费计算成功: €${result.Data.TotalPremium}`, 'success');
+                
+                displayQuotation(result.Data);
+
+            } catch (error) {
+                updateStatus(`计算失败: ${error.message}`, 'error');
+                document.getElementById('nextBtn').disabled = false;
+                alert('保费计算失败: ' + error.message);
+                console.error('Error:', error);
+            }
+        }
+
+        function displayQuotation(data) {
+            document.getElementById('step2').style.display = 'none';
+            document.getElementById('step3').style.display = 'block';
+
+            const summary = document.getElementById('quotationSummary');
+            summary.innerHTML = `
+                <div class="summary-row">
+                    <span>方案名称</span>
+                    <span>${data.PlanName}</span>
+                </div>
+                <div class="summary-row">
+                    <span>保障期间</span>
+                    <span>${data.EffectiveDate} 至 ${data.ExpiryDate}</span>
+                </div>
+                <div class="summary-row">
+                    <span>投保人</span>
+                    <span>${data.Customer.Name}</span>
+                </div>
+                <div class="summary-row">
+                    <span>保费</span>
+                    <span>€${data.Premium}</span>
+                </div>
+                <div class="summary-row total">
+                    <span>总保费</span>
+                    <span>€${data.TotalPremium}</span>
+                </div>
+                <div class="coverages" style="margin-top: 1.5rem;">
+                    <h4>保障内容 (${data.Coverages.length}项)</h4>
+                    ${data.Coverages.map(cov => `
+                        <div class="coverage-item">
+                            <span>${cov.Name}</span>
+                            <span>€${cov.SumInsured.toLocaleString()}</span>
+                        </div>
+                    `).join('')}
+                </div>
+            `;
+
+            updateStatus('测试完成！', 'success');
+        }
+
+        function startOver() {
+            selectedPlan = null;
+            document.getElementById('step3').style.display = 'none';
+            document.getElementById('step1').style.display = 'block';
+            document.getElementById('statusLog').innerHTML = '';
+            updateStatus('准备就绪', 'info');
+        }
+
+        // 页面加载完成
+        window.addEventListener('load', () => {
+            updateStatus('页面加载完成，点击按钮开始', 'success');
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,136 @@
+{
+  "match_info": {
+    "match_id": "08602b83",
+    "date": "2024-03-01",
+    "time": "19:35",
+    "competition": {
+      "name": "Chinese Super League",
+      "season": "2024",
+      "round": "Round 1"
+    },
+    "venue": {
+      "name": "Pudong Football Stadium",
+      "city": "Shanghai",
+      "capacity": 37000,
+      "attendance": 28500
+    },
+    "referee": {
+      "name": "Ma Ning",
+      "country": "China"
+    }
+  },
+  "teams": {
+    "home": {
+      "name": "Shanghai Port",
+      "full_name": "上海海港足球俱乐部",
+      "score": 3,
+      "score_ht": 1,
+      "formation": "4-3-3",
+      "coach": "Kevin Muscat",
+      "lineup": [
+        {"position": "GK", "number": 1, "name": "Yan Junling", "country": "China", "age": 32, "minutes": 90},
+        {"position": "DF", "number": 4, "name": "Wang Shenchao", "country": "China", "age": 34, "minutes": 90},
+        {"position": "DF", "number": 5, "name": "Zhang Linpeng", "country": "China", "age": 34, "minutes": 90},
+        {"position": "DF", "number": 23, "name": "Fu Huan", "country": "China", "age": 30, "minutes": 90},
+        {"position": "DF", "number": 3, "name": "Jiang Guangtai", "country": "China", "age": 29, "minutes": 90},
+        {"position": "MF", "number": 8, "name": "Oscar", "country": "Brazil", "age": 32, "minutes": 90},
+        {"position": "MF", "number": 16, "name": "Xu Xin", "country": "China", "age": 29, "minutes": 90},
+        {"position": "MF", "number": 25, "name": "Mai Tilanjiang", "country": "China", "age": 25, "minutes": 75},
+        {"position": "FW", "number": 7, "name": "Wu Lei", "country": "China", "age": 32, "minutes": 90},
+        {"position": "FW", "number": 9, "name": "Matheus Jussa", "country": "Brazil", "age": 26, "minutes": 82},
+        {"position": "FW", "number": 10, "name": "Cai Huakang", "country": "China", "age": 28, "minutes": 90}
+      ],
+      "substitutes": [
+        {"position": "GK", "number": 12, "name": "Chen Wei", "country": "China", "age": 26},
+        {"position": "DF", "number": 2, "name": "Li Ang", "country": "China", "age": 29},
+        {"position": "MF", "number": 11, "name": "Lü Wenjun", "country": "China", "age": 33},
+        {"position": "MF", "number": 20, "name": "Yang Shiyuan", "country": "China", "age": 27},
+        {"position": "FW", "number": 14, "name": "Li Shenglong", "country": "China", "age": 31},
+        {"position": "MF", "number": 28, "name": "He Guan", "country": "China", "age": 27},
+        {"position": "FW", "number": 45, "name": "Liu Zhurun", "country": "China", "age": 22}
+      ],
+      "substitutions": [
+        {"minute": 75, "player_out": "Mai Tilanjiang", "player_in": "Lü Wenjun"},
+        {"minute": 82, "player_out": "Matheus Jussa", "player_in": "Li Shenglong"}
+      ]
+    },
+    "away": {
+      "name": "Wuhan Three Towns",
+      "full_name": "武汉三镇足球俱乐部",
+      "score": 1,
+      "score_ht": 0,
+      "formation": "4-2-3-1",
+      "coach": "Moroyasu Ryo",
+      "lineup": [
+        {"position": "GK", "number": 22, "name": "Liu Dianzuo", "country": "China", "age": 34, "minutes": 90},
+        {"position": "DF", "number": 25, "name": "Deng Hanwen", "country": "China", "age": 29, "minutes": 90},
+        {"position": "DF", "number": 3, "name": "Hu Rui", "country": "China", "age": 26, "minutes": 90},
+        {"position": "DF", "number": 19, "name": "Liu Yiming", "country": "China", "age": 28, "minutes": 90},
+        {"position": "DF", "number": 23, "name": "Ren Hang", "country": "China", "age": 33, "minutes": 90},
+        {"position": "MF", "number": 8, "name": "Yan Junhao", "country": "China", "age": 27, "minutes": 90},
+        {"position": "MF", "number": 43, "name": "Yi Deng", "country": "China", "age": 21, "minutes": 62},
+        {"position": "MF", "number": 7, "name": "Wei Shihao", "country": "China", "age": 29, "minutes": 90},
+        {"position": "MF", "number": 10, "name": "Stanley", "country": "Brazil", "age": 30, "minutes": 90},
+        {"position": "MF", "number": 11, "name": "Zhang Xiaobin", "country": "China", "age": 31, "minutes": 78},
+        {"position": "FW", "number": 9, "name": "Pedro", "country": "Brazil", "age": 26, "minutes": 90}
+      ],
+      "substitutes": [
+        {"position": "GK", "number": 1, "name": "Wu Fei", "country": "China", "age": 30},
+        {"position": "DF", "number": 4, "name": "Li Yang", "country": "China", "age": 27},
+        {"position": "MF", "number": 6, "name": "Zhang Xiaorui", "country": "China", "age": 24},
+        {"position": "MF", "number": 14, "name": "He Chao", "country": "China", "age": 28},
+        {"position": "FW", "number": 17, "name": "Tao Qianglong", "country": "China", "age": 23},
+        {"position": "MF", "number": 29, "name": "Zhong Jiahao", "country": "China", "age": 24},
+        {"position": "FW", "number": 30, "name": "Ma Tongtong", "country": "China", "age": 25}
+      ],
+      "substitutions": [
+        {"minute": 62, "player_out": "Yi Deng", "player_in": "He Chao"},
+        {"minute": 78, "player_out": "Zhang Xiaobin", "player_in": "Tao Qianglong"}
+      ]
+    }
+  },
+  "events": [
+    {"minute": 23, "type": "goal", "team": "home", "player": "Wu Lei", "player2": "Oscar", "description": "Wu Lei scores with header"},
+    {"minute": 45, "minute_extra": 2, "type": "goal", "team": "home", "player": "Matheus Jussa", "player2": "Oscar", "description": "Jussa extends lead before halftime"},
+    {"minute": 56, "type": "yellow_card", "team": "away", "player": "Wei Shihao", "description": "Foul on Wu Lei"},
+    {"minute": 62, "type": "substitution", "team": "away", "player_out": "Yi Deng", "player_in": "He Chao", "description": "Tactical change"},
+    {"minute": 67, "type": "goal", "team": "away", "player": "Pedro", "description": "Pedro pulls one back"},
+    {"minute": 75, "type": "substitution", "team": "home", "player_out": "Mai Tilanjiang", "player_in": "Lü Wenjun", "description": "Fresh legs in midfield"},
+    {"minute": 78, "type": "substitution", "team": "away", "player_out": "Zhang Xiaobin", "player_in": "Tao Qianglong", "description": "Attacking change"},
+    {"minute": 82, "type": "substitution", "team": "home", "player_out": "Matheus Jussa", "player_in": "Li Shenglong", "description": "Striker replacement"},
+    {"minute": 88, "type": "goal", "team": "home", "player": "Wu Lei", "player2": "Li Shenglong", "description": "Wu Lei completes brace"},
+    {"minute": 90, "type": "yellow_card", "team": "home", "player": "Xu Xin", "description": "Time wasting"}
+  ],
+  "statistics": {
+    "possession": {"home": 58.5, "away": 41.5},
+    "shots": {"home": 15, "away": 8},
+    "shots_on_target": {"home": 7, "away": 3},
+    "corners": {"home": 6, "away": 4},
+    "fouls": {"home": 12, "away": 15},
+    "yellow_cards": {"home": 1, "away": 1},
+    "red_cards": {"home": 0, "away": 0},
+    "offsides": {"home": 2, "away": 1},
+    "passes": {"home": 485, "away": 320},
+    "pass_accuracy": {"home": 85.2, "away": 78.4}
+  },
+  "player_stats": {
+    "home": [
+      {"name": "Yan Junling", "number": 1, "position": "GK", "minutes": 90, "goals": 0, "assists": 0, "shots": 0, "shots_on_target": 0, "passes_completed": 18, "passes_attempted": 22, "pass_accuracy": 81.8, "saves": 2},
+      {"name": "Wu Lei", "number": 7, "position": "FW", "minutes": 90, "goals": 2, "assists": 0, "shots": 5, "shots_on_target": 3, "passes_completed": 28, "passes_attempted": 35, "pass_accuracy": 80.0},
+      {"name": "Oscar", "number": 8, "position": "MF", "minutes": 90, "goals": 0, "assists": 2, "shots": 2, "shots_on_target": 1, "passes_completed": 65, "passes_attempted": 72, "pass_accuracy": 90.3},
+      {"name": "Matheus Jussa", "number": 9, "position": "FW", "minutes": 82, "goals": 1, "assists": 0, "shots": 3, "shots_on_target": 2, "passes_completed": 22, "passes_attempted": 28, "pass_accuracy": 78.6}
+    ],
+    "away": [
+      {"name": "Liu Dianzuo", "number": 22, "position": "GK", "minutes": 90, "goals": 0, "assists": 0, "shots": 0, "shots_on_target": 0, "passes_completed": 15, "passes_attempted": 20, "pass_accuracy": 75.0, "saves": 4},
+      {"name": "Pedro", "number": 9, "position": "FW", "minutes": 90, "goals": 1, "assists": 0, "shots": 3, "shots_on_target": 2, "passes_completed": 18, "passes_attempted": 24, "pass_accuracy": 75.0},
+      {"name": "Wei Shihao", "number": 7, "position": "MF", "minutes": 90, "goals": 0, "assists": 0, "shots": 2, "shots_on_target": 1, "passes_completed": 25, "passes_attempted": 32, "pass_accuracy": 78.1, "yellow_cards": 1},
+      {"name": "Stanley", "number": 10, "position": "MF", "minutes": 90, "goals": 0, "assists": 0, "shots": 1, "shots_on_target": 0, "passes_completed": 42, "passes_attempted": 50, "pass_accuracy": 84.0}
+    ]
+  },
+  "metadata": {
+    "source": "FBref",
+    "url": "https://fbref.com/en/matches/08602b83/Shanghai-Port-Wuhan-Three-Towns-March-1-2024-Chinese-Super-League",
+    "scraped_at": "2026-03-23T19:45:00",
+    "version": "1.0"
+  }
+}

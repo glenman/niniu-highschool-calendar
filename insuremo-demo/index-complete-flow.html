@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>全球旅行险投保平台 - 完整流程</title>
+    <style>
+        * { margin: 0; padding:0; box-sizing:border-box; }
+        body {
+            font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background:linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height:100vh;
+            padding:20px;
+        }
+        .container {
+            max-width:1000px;
+            margin:0 auto;
+            background:white;
+            border-radius:16px;
+            padding:30px;
+            box-shadow:0 20px 60px rgba(0,0,0,0.3);
+        }
+        
+        /* 进度条 */
+        .progress-bar {
+            display:flex;
+            justify-content:space-between;
+            margin-bottom:30px;
+            position:relative;
+        }
+        .progress-bar::before {
+            content:'';
+            position:absolute;
+            top:20px;
+            left:0;
+            right:0;
+            height:2px;
+            background:#e0e0e0;
+            z-index:1;
+        }
+        .step-item {
+            text-align:center;
+            position:relative;
+            z-index:2;
+            flex:1;
+        }
+        .step-circle {
+            width:40px;
+            height:40px;
+            border-radius:50%;
+            background:#e0e0e0;
+            color:#999;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            margin:0 auto 8px;
+            font-weight:600;
+            transition:all 0.3s;
+        }
+        .step-item.active .step-circle {
+            background:#007bff;
+            color:white;
+        }
+        .step-item.completed .step-circle {
+            background:#28a745;
+            color:white;
+        }
+        .step-label {
+            font-size:12px;
+            color:#666;
+        }
+        .step-item.active .step-label {
+            color:#007bff;
+            font-weight:600;
+        }
+        
+        h1 {
+            font-size:1.8rem;
+            margin-bottom:20px;
+            text-align:center;
+        }
+        
+        .form-section {
+            margin-bottom:20px;
+            padding:20px;
+            background:#f8f9fa;
+            border-radius:8px;
+        }
+        .form-section h3 {
+            font-size:1.2rem;
+            margin-bottom:15px;
+            color:#333;
+        }
+        .form-row {
+            display:grid;
+            grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));
+            gap:15px;
+            margin-bottom:15px;
+        }
+        .form-group {
+            display:flex;
+            flex-direction:column;
+        }
+        label {
+            font-weight:500;
+            margin-bottom:5px;
+            color:#333;
+            font-size:14px;
+        }
+        input, select {
+            padding:10px;
+            border:1px solid #ddd;
+            border-radius:6px;
+            font-size:14px;
+        }
+        input:focus, select:focus {
+            outline:none;
+            border-color:#007bff;
+            box-shadow:0 0 0 3px rgba(0,123,255,0.1);
+        }
+        .required {
+            color:#dc3545;
+        }
+        
+        .btn {
+            padding:12px 24px;
+            border:none;
+            border-radius:8px;
+            font-size:16px;
+            font-weight:600;
+            cursor:pointer;
+            transition:all 0.2s;
+            width:100%;
+        }
+        .btn-primary {
+            background:#007bff;
+            color:white;
+        }
+        .btn-primary:hover:not(:disabled) {
+            background:#0056b3;
+        }
+        .btn-primary:disabled {
+            background:#ccc;
+            cursor:not-allowed;
+        }
+        .btn-secondary {
+            background:#6c757d;
+            color:white;
+            margin-top:10px;
+        }
+        
+        .plan-grid {
+            display:grid;
+            grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
+            gap:15px;
+            margin:20px 0;
+        }
+        .plan-card {
+            border:2px solid #e0e0e0;
+            border-radius:12px;
+            padding:20px;
+            cursor:pointer;
+            transition:all 0.2s;
+        }
+        .plan-card:hover {
+            border-color:#007bff;
+            transform:translateY(-2px);
+        }
+        .plan-card.selected {
+            border-color:#007bff;
+            background:#f0f7ff;
+        }
+        
+        .quotation-summary {
+            background:#f8f9fa;
+            padding:20px;
+            border-radius:12px;
+            margin:20px 0;
+        }
+        .summary-row {
+            display:flex;
+            justify-content:space-between;
+            padding:10px 0;
+            border-bottom:1px solid #e0e0e0;
+        }
+        .summary-row:last-child {
+            border-bottom:none;
+        }
+        .summary-row.total {
+            font-size:1.3rem;
+            font-weight:600;
+            color:#007bff;
+            margin-top:10px;
+            padding-top:10px;
+            border-top:2px solid #007bff;
+        }
+        
+        .payment-methods {
+            display:grid;
+            grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));
+            gap:15px;
+            margin:20px 0;
+        }
+        .payment-method {
+            border:2px solid #e0e0e0;
+            border-radius:8px;
+            padding:20px;
+            text-align:center;
+            cursor:pointer;
+            transition:all 0.2s;
+        }
+        .payment-method:hover {
+            border-color:#007bff;
+        }
+        .payment-method.selected {
+            border-color:#007bff;
+            background:#f0f7ff;
+        }
+        .payment-method-icon {
+            font-size:2rem;
+            margin-bottom:10px;
+        }
+        
+        .success-box {
+            text-align:center;
+            padding:40px 20px;
+        }
+        .success-icon {
+            font-size:5rem;
+            margin-bottom:20px;
+        }
+        
+        .loading {
+            text-align:center;
+            padding:40px;
+        }
+        .spinner {
+            border:4px solid #f3f3f3;
+            border-top:4px solid #007bff;
+            border-radius:50%;
+            width:40px;
+            height:40px;
+            animation:spin 1s linear infinite;
+            margin:0 auto 20px;
+        }
+        @keyframes spin {
+            0% { transform:rotate(0deg); }
+            100% { transform:rotate(360deg); }
+        }
+        
+        .step-content {
+            display:none;
+        }
+        .step-content.active {
+            display:block;
+        }
+        
+        .api-log {
+            background:#1e1e1e;
+            color:#d4d4d4;
+            padding:15px;
+            border-radius:8px;
+            font-family:'Courier New', monospace;
+            font-size:12px;
+            margin-top:20px;
+            max-height:300px;
+            overflow-y:auto;
+        }
+        .log-entry {
+            margin:5px 0;
+        }
+        .log-success { color:#4ec9b0; }
+        .log-error { color:#f48771; }
+        .log-info { color:#dcdcaa; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>✈️ 全球旅行险投保平台</h1>
+        
+        <!-- 进度条 -->
+        <div class="progress-bar" id="progressBar">
+            <div class="step-item active" data-step="1">
+                <div class="step-circle">1</div>
+                <div class="step-label">填写信息</div>
+            </div>
+            <div class="step-item" data-step="2">
+                <div class="step-circle">2</div>
+                <div class="step-label">选择方案</div>
+            </div>
+            <div class="step-item" data-step="3">
+                <div class="step-circle">3</div>
+                <div class="step-label">计算保费</div>
+            </div>
+            <div class="step-item" data-step="4">
+                <div class="step-circle">4</div>
+                <div class="step-label">报价确认</div>
+            </div>
+            <div class="step-item" data-step="5">
+                <div class="step-circle">5</div>
+                <div class="step-label">支付投保</div>
+            </div>
+            <div class="step-item" data-step="6">
+                <div class="step-circle">6</div>
+                <div class="step-label">保单签发</div>
+            </div>
+        </div>
+        
+        <!-- Step 1: 填写信息 -->
+        <div class="step-content active" id="step1">
+            <div class="form-section">
+                <h3>选择保险产品</h3>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>保险产品 <span class="required">*</span></label>
+                        <select id="productSelect" required style="background:#e7f3ff; border:2px solid #007bff; font-weight:600;">
+                            <option value="">请选择产品</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="form-section">
+                <h3>保障期间</h3>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>生效日期 <span class="required">*</span></label>
+                        <input type="date" id="effectiveDate" required>
+                    </div>
+                    <div class="form-group">
+                        <label>失效日期 <span class="required">*</span></label>
+                        <input type="date" id="expiryDate" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>旅行类型 <span class="required">*</span></label>
+                        <select id="travelType" required>
+                            <option value="">请选择</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>行程类型 <span class="required">*</span></label>
+                        <select id="tripType" required>
+                            <option value="">请选择</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="form-section">
+                <h3>投保人信息</h3>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>姓名 <span class="required">*</span></label>
+                        <input type="text" id="customerName" placeholder="请输入投保人姓名" required>
+                    </div>
+                    <div class="form-group">
+                        <label>性别 <span class="required">*</span></label>
+                        <select id="gender" required>
+                            <option value="">请选择</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>出生日期 <span class="required">*</span></label>
+                        <input type="date" id="dateOfBirth" required>
+                    </div>
+                    <div class="form-group">
+                        <label>证件号码 <span class="required">*</span></label>
+                        <input type="text" id="idNo" placeholder="护照或身份证号码" required>
+                    </div>
+                </div>
+            </div>
+            
+            <button class="btn btn-primary" onclick="submitStep1()">下一步：选择方案 →</button>
+        </div>
+        
+        <!-- Step 2: 选择方案 -->
+        <div class="step-content" id="step2">
+            <h2>选择保障方案</h2>
+            <div id="plansContainer" class="plan-grid"></div>
+            <button class="btn btn-primary" id="btnStep2" onclick="submitStep2()" disabled>下一步：计算保费 →</button>
+        </div>
+        
+        <!-- Step 3: 计算保费 -->
+        <div class="step-content" id="step3">
+            <div class="loading">
+                <div class="spinner"></div>
+                <p>正在计算保费...</p>
+            </div>
+        </div>
+        
+        <!-- Step 4: 报价确认 -->
+        <div class="step-content" id="step4">
+            <h2>报价确认</h2>
+            <div id="quotationSummary" class="quotation-summary"></div>
+            <button class="btn btn-primary" onclick="submitStep4()">确认报价并投保 →</button>
+        </div>
+        
+        <!-- Step 5: 支付投保 -->
+        <div class="step-content" id="step5">
+            <h2>支付投保</h2>
+            <div class="quotation-summary">
+                <div class="summary-row total">
+                    <span>应付总额</span>
+                    <span id="paymentAmount">€0</span>
+                </div>
+            </div>
+            
+            <h3 style="margin:20px 0 15px;">选择支付方式</h3>
+            <div class="payment-methods" id="paymentMethods">
+                <div class="payment-method" onclick="selectPaymentMethod('credit_card', this)">
+                    <div class="payment-method-icon">💳</div>
+                    <div>信用卡支付</div>
+                </div>
+                <div class="payment-method" onclick="selectPaymentMethod('alipay', this)">
+                    <div class="payment-method-icon">📱</div>
+                    <div>支付宝</div>
+                </div>
+                <div class="payment-method" onclick="selectPaymentMethod('wechat', this)">
+                    <div class="payment-method-icon">💬</div>
+                    <div>微信支付</div>
+                </div>
+            </div>
+            
+            <button class="btn btn-primary" id="btnPay" onclick="processPayment()" disabled>
+                确认支付
+            </button>
+        </div>
+        
+        <!-- Step 6: 保单签发 -->
+        <div class="step-content" id="step6">
+            <div class="success-box">
+                <div class="success-icon">✅</div>
+                <h2>🎉 投保成功！</h2>
+                <p>您的保单已成功签发</p>
+            </div>
+            <div id="policyDetails" class="quotation-summary"></div>
+            <button class="btn btn-primary" onclick="location.reload()">开始新的投保</button>
+        </div>
+        
+        <!-- API日志 -->
+        <div class="api-log" id="apiLog" style="display:none;"></div>
+    </div>
+
+    <script>
+        // 配置
+        const CONFIG = {
+            BASE_URL: 'https://portal-gw.insuremo.com/platform/api-orchestration-test',
+            AUTH_TOKEN: 'MOATbWg4aRISAep86MorzeBulKla18sq'
+        };
+        
+        // 全局状态
+        let appState = {
+            currentStep: 1,
+            productId: null,
+            formData: {},
+            selectedPlan: null,
+            calculationResult: null,
+            proposalNo: null,
+            policyNo: null,
+            paymentMethod: null
+        };
+        
+        // 日志函数
+        function log(message, type = 'info') {
+            const logDiv = document.getElementById('apiLog');
+            logDiv.style.display = 'block';
+            
+            const entry = document.createElement('div');
+            entry.className = `log-entry log-${type}`;
+            const time = new Date().toLocaleTimeString();
+            entry.textContent = `[${time}] ${message}`;
+            logDiv.appendChild(entry);
+            logDiv.scrollTop = logDiv.scrollHeight;
+            
+            console.log(message);
+        }
+        
+        // API调用
+        async function callAPI(endpoint, method = 'GET', data = null) {
+            const url = `${CONFIG.BASE_URL}${endpoint}`;
+            
+            log(`📡 ${method} ${endpoint}`, 'info');
+            
+            const options = {
+                method: method,
+                headers: {
+                    'Authorization': `Bearer ${CONFIG.AUTH_TOKEN}`,
+                    'Content-Type': 'application/json'
+                }
+            };
+            
+            if (data && method === 'POST') {
+                options.body = JSON.stringify(data);
+            }
+            
+            const response = await fetch(url, options);
+            const result = await response.json();
+            
+            if (!result.Success) {
+                log(`❌ 失败: ${result.Error?.Message || 'Unknown error'}`, 'error');
+                throw new Error(result.Error?.Message || 'API call failed');
+            }
+            
+            log(`✅ 成功`, 'success');
+            return result.Data;
+        }
+        
+        // 页面初始化
+        async function init() {
+            try {
+                log('=== 页面初始化 ===', 'info');
+                
+                // Step 1: 获取产品列表
+                log('Step 1: 获取产品列表', 'info');
+                const products = await callAPI('/v1/flow/EUDemoProductList');
+                
+                // 填充产品选择框
+                const productSelect = document.getElementById('productSelect');
+                products.Products.forEach(product => {
+                    const option = document.createElement('option');
+                    option.value = product.ProductId;
+                    option.textContent = `${product.ProductName} (ID: ${product.ProductId})`;
+                    productSelect.appendChild(option);
+                });
+                
+                // 默认选择旅行险
+                const travelProduct = products.Products.find(p => p.ProductCode === 'TRVL01');
+                if (travelProduct) {
+                    productSelect.value = travelProduct.ProductId;
+                    appState.productId = travelProduct.ProductId;
+                    log(`✅ 已选择产品: ${travelProduct.ProductName} (ID: ${travelProduct.ProductId})`, 'success');
+                }
+                
+                // Step 2: 获取表单Schema
+                log('Step 2: 获取表单Schema', 'info');
+                const schema = await callAPI(`/v1/flow/EUDemoPolicySchema?productId=${appState.productId}`);
+                log(`✅ 获取到 ${schema.Fields.length} 个表单字段`, 'success');
+                
+                // Step 3: 获取代码表
+                log('Step 3: 获取代码表', 'info');
+                try {
+                    const codeTables = await callAPI(`/v1/flow/EUDemoCodeTableList?productId=${appState.productId}`);
+                    
+                    // 填充下拉选项
+                    if (codeTables.Tables) {
+                        // 旅行类型
+                        if (codeTables.Tables.TravelType) {
+                            fillSelect('travelType', codeTables.Tables.TravelType);
+                        }
+                        // 行程类型
+                        if (codeTables.Tables.TripType) {
+                            fillSelect('tripType', codeTables.Tables.TripType);
+                        }
+                        // 性别
+                        if (codeTables.Tables.Gender) {
+                            fillSelect('gender', codeTables.Tables.Gender);
+                        }
+                    }
+                    log(`✅ 代码表加载成功`, 'success');
+                } catch (error) {
+                    log(`⚠️ 代码表加载失败，使用默认数据`, 'info');
+                    // 使用默认数据
+                    fillSelect('travelType', [
+                        {Code: '1', Name: '单次旅行'},
+                        {Code: '2', Name: '多次旅行'}
+                    ]);
+                    fillSelect('tripType', [
+                        {Code: '1', Name: '商务'},
+                        {Code: '2', Name: '休闲'},
+                        {Code: '3', Name: '留学'}
+                    ]);
+                    fillSelect('gender', [
+                        {Code: 'M', Name: '男'},
+                        {Code: 'F', Name: '女'}
+                    ]);
+                }
+                
+                // 设置默认日期
+                const tomorrow = new Date();
+                tomorrow.setDate(tomorrow.getDate() + 1);
+                const nextWeek = new Date(tomorrow);
+                nextWeek.setDate(nextWeek.getDate() + 7);
+                
+                document.getElementById('effectiveDate').value = tomorrow.toISOString().split('T')[0];
+                document.getElementById('expiryDate').value = nextWeek.toISOString().split('T')[0];
+                
+                log('✅ 页面初始化完成', 'success');
+                
+            } catch (error) {
+                log(`❌ 初始化失败: ${error.message}`, 'error');
+                alert('页面初始化失败: ' + error.message);
+            }
+        }
+        
+        // 填充下拉框
+        function fillSelect(selectId, options) {
+            const select = document.getElementById(selectId);
+            options.forEach(opt => {
+                const option = document.createElement('option');
+                option.value = opt.Code;
+                option.textContent = opt.Name;
+                select.appendChild(option);
+            });
+        }
+        
+        // 切换步骤
+        function goToStep(step) {
+            // 隐藏所有步骤
+            document.querySelectorAll('.step-content').forEach(el => {
+                el.classList.remove('active');
+            });
+            
+            // 显示目标步骤
+            document.getElementById(`step${step}`).classList.add('active');
+            
+            // 更新进度条
+            document.querySelectorAll('.step-item').forEach((item, index) => {
+                const stepNum = index + 1;
+                if (stepNum < step) {
+                    item.classList.add('completed');
+                    item.classList.remove('active');
+                } else if (stepNum === step) {
+                    item.classList.add('active');
+                    item.classList.remove('completed');
+                } else {
+                    item.classList.remove('active', 'completed');
+                }
+            });
+            
+            appState.currentStep = step;
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+        
+        // Step 1: 提交表单
+        async function submitStep1() {
+            try {
+                // 收集表单数据
+                const selectedProductId = parseInt(document.getElementById('productSelect').value);
+                
+                if (!selectedProductId || isNaN(selectedProductId)) {
+                    alert('请选择一个有效的产品');
+                    return;
+                }
+
+                appState.productId = selectedProductId;
+                appState.formData = {
+                    ProductId: selectedProductId,
+                    EffectiveDate: document.getElementById('effectiveDate').value,
+                    ExpiryDate: document.getElementById('expiryDate').value,
+                    TravelType: parseInt(document.getElementById('travelType').value),
+                    TripType: parseInt(document.getElementById('tripType').value),
+                    TravelPolicyType: 'INDI',
+                    Customer: {
+                        Name: document.getElementById('customerName').value,
+                        Gender: document.getElementById('gender').value,
+                        DateOfBirth: document.getElementById('dateOfBirth').value,
+                        IdNo: document.getElementById('idNo').value
+                    },
+                    Travelers: [{
+                        Name: document.getElementById('customerName').value,
+                        InsuredAge: calculateAge(document.getElementById('dateOfBirth').value),
+                        Gender: document.getElementById('gender').value
+                    }]
+                };
+
+                log('📝 表单数据已收集', 'info');
+                log(`ProductId: ${appState.productId} (type: ${typeof appState.productId})`, 'info');
+                
+                // Step 4: 获取方案列表
+                goToStep(2);
+                log('Step 4: 获取保险方案', 'info');
+                
+                const plans = await callAPI(`/v1/flow/EUDemoPlanList?productId=${appState.productId}`);
+                
+                // 显示方案
+                const container = document.getElementById('plansContainer');
+                container.innerHTML = '';
+                
+                plans.Plans.forEach(plan => {
+                    const card = document.createElement('div');
+                    card.className = 'plan-card';
+                    card.innerHTML = `
+                        <h3 style="margin-bottom:10px;">${plan.PlanName}</h3>
+                        <p style="color:#666; margin-bottom:10px;">${plan.PlanDescription || '全面旅行保障'}</p>
+                        <p style="color:#007bff; font-weight:600;">
+                            保障项目: ${plan.Coverages?.length || 0} 项
+                        </p>
+                    `;
+                    
+                    card.addEventListener('click', () => {
+                        document.querySelectorAll('.plan-card').forEach(c => c.classList.remove('selected'));
+                        card.classList.add('selected');
+                        appState.selectedPlan = plan;
+                        document.getElementById('btnStep2').disabled = false;
+                        log(`✅ 已选择方案: ${plan.PlanName}`, 'success');
+                    });
+                    
+                    container.appendChild(card);
+                });
+                
+            } catch (error) {
+                log(`❌ 失败: ${error.message}`, 'error');
+                alert('操作失败: ' + error.message);
+            }
+        }
+        
+        // 计算年龄
+        function calculateAge(birthDate) {
+            const today = new Date();
+            const birth = new Date(birthDate);
+            let age = today.getFullYear() - birth.getFullYear();
+            const monthDiff = today.getMonth() - birth.getMonth();
+            if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birth.getDate())) {
+                age--;
+            }
+            return age;
+        }
+        
+        // Step 2: 提交选择方案
+        async function submitStep2() {
+            if (!appState.selectedPlan) {
+                alert('请选择一个保障方案');
+                return;
+            }
+
+            // 确保 ProductId 有效
+            if (!appState.productId || isNaN(appState.productId)) {
+                log('⚠️ ProductId无效，重新读取', 'warn');
+                appState.productId = parseInt(document.getElementById('productSelect').value);
+                if (!appState.productId || isNaN(appState.productId)) {
+                    alert('产品ID无效，请返回第1步重新选择产品');
+                    goToStep(1);
+                    return;
+                }
+            }
+
+            goToStep(3);
+
+            try {
+                // Step 5: 计算保费
+                log('Step 5: 计算保费', 'info');
+
+                const payload = {
+                    ...appState.formData,
+                    ProductId: parseInt(appState.productId),
+                    ProductCode: 'TRVL01',
+                    PlanCode: appState.selectedPlan.PlanCode
+                };
+
+                // 最终验证
+                if (!payload.ProductId || isNaN(payload.ProductId)) {
+                    throw new Error('ProductId is invalid: ' + payload.ProductId);
+                }
+
+                log(`📤 Payload: ProductId=${payload.ProductId} (type: ${typeof payload.ProductId}), PlanCode=${payload.PlanCode}`, 'info');
+                console.log('完整Payload:', payload);
+                
+                appState.calculationResult = await callAPI('/v1/flow/EUDemoTRVL01Calculate', 'POST', payload);
+                
+                log(`✅ 保费: ${appState.calculationResult.TotalPremium} ${appState.calculationResult.Currency}`, 'success');
+                
+                // 显示报价
+                goToStep(4);
+                renderQuotation();
+                
+            } catch (error) {
+                log(`❌ 计算失败: ${error.message}`, 'error');
+                alert('保费计算失败: ' + error.message);
+                goToStep(2);
+            }
+        }
+        
+        // 渲染报价
+        function renderQuotation() {
+            const data = appState.calculationResult;
+            const container = document.getElementById('quotationSummary');
+            
+            container.innerHTML = `
+                <div class="summary-row">
+                    <span>方案名称</span>
+                    <span>${data.PlanName}</span>
+                </div>
+                <div class="summary-row">
+                    <span>保障期间</span>
+                    <span>${data.EffectiveDate} 至 ${data.ExpiryDate}</span>
+                </div>
+                <div class="summary-row">
+                    <span>投保人</span>
+                    <span>${data.Customer.Name}</span>
+                </div>
+                <div class="summary-row">
+                    <span>保费</span>
+                    <span>${data.Premium} ${data.Currency}</span>
+                </div>
+                <div class="summary-row">
+                    <span>税费</span>
+                    <span>${data.Tax || 0} ${data.Currency}</span>
+                </div>
+                <div class="summary-row total">
+                    <span>应付总额</span>
+                    <span>${data.TotalPremium} ${data.Currency}</span>
+                </div>
+            `;
+        }
+        
+        // Step 4: 确认报价
+        async function submitStep4() {
+            try {
+                // Step 6: 保存投保单
+                log('Step 6: 保存投保单', 'info');
+                
+                const savePayload = {
+                    ...appState.calculationResult,
+                    ProductId: appState.productId
+                };
+                
+                const saveResult = await callAPI('/v1/flow/EUDemoTRVL01SaveProposal', 'POST', savePayload);
+                appState.proposalNo = saveResult.ProposalNo;
+                
+                log(`✅ 投保单号: ${appState.proposalNo}`, 'success');
+                
+                // Step 7: 绑定投保单
+                log('Step 7: 绑定投保单', 'info');
+                
+                await callAPI('/v1/flow/EUDemoTRVL01BindProposal', 'POST', {
+                    ProposalNo: appState.proposalNo
+                });
+                
+                log(`✅ 投保单已绑定`, 'success');
+                
+                // 进入支付页面
+                goToStep(5);
+                document.getElementById('paymentAmount').textContent = 
+                    `${appState.calculationResult.TotalPremium} ${appState.calculationResult.Currency}`;
+                
+            } catch (error) {
+                log(`❌ 失败: ${error.message}`, 'error');
+                alert('操作失败: ' + error.message);
+            }
+        }
+        
+        // 选择支付方式
+        function selectPaymentMethod(method, element) {
+            document.querySelectorAll('.payment-method').forEach(el => {
+                el.classList.remove('selected');
+            });
+            element.classList.add('selected');
+            appState.paymentMethod = method;
+            document.getElementById('btnPay').disabled = false;
+            log(`✅ 已选择支付方式: ${method}`, 'success');
+        }
+        
+        // 处理支付
+        async function processPayment() {
+            if (!appState.paymentMethod) {
+                alert('请选择支付方式');
+                return;
+            }
+            
+            try {
+                log('💳 模拟支付处理...', 'info');
+                
+                // 模拟支付过程
+                await new Promise(resolve => setTimeout(resolve, 1500));
+                
+                log(`✅ 支付成功 (${appState.paymentMethod})`, 'success');
+                
+                // Step 8: 支付回调
+                log('Step 8: 支付回调', 'info');
+                
+                const paymentResult = await callAPI('/v1/flow/EUDemoTRVL01PaymentCallback', 'POST', {
+                    ProposalNo: appState.proposalNo,
+                    PaymentStatus: 'SUCCESS',
+                    PaymentReference: `PAY${Date.now()}`
+                });
+                
+                appState.policyNo = paymentResult.PolicyNo;
+                
+                log(`✅ 保单号: ${appState.policyNo}`, 'success');
+                
+                // 显示保单
+                goToStep(6);
+                renderPolicy(paymentResult);
+                
+            } catch (error) {
+                log(`❌ 支付失败: ${error.message}`, 'error');
+                alert('支付失败: ' + error.message);
+            }
+        }
+        
+        // 渲染保单
+        function renderPolicy(data) {
+            const container = document.getElementById('policyDetails');
+            
+            container.innerHTML = `
+                <div class="summary-row">
+                    <span>保单号码</span>
+                    <span style="color:#007bff; font-weight:600;">${data.PolicyNo}</span>
+                </div>
+                <div class="summary-row">
+                    <span>投保单号</span>
+                    <span>${data.ProposalNo}</span>
+                </div>
+                <div class="summary-row">
+                    <span>产品名称</span>
+                    <span>${data.PlanName}</span>
+                </div>
+                <div class="summary-row">
+                    <span>保障期间</span>
+                    <span>${data.EffectiveDate} 至 ${data.ExpiryDate}</span>
+                </div>
+                <div class="summary-row">
+                    <span>投保人</span>
+                    <span>${data.Customer.Name}</span>
+                </div>
+                <div class="summary-row">
+                    <span>保费</span>
+                    <span>${data.TotalPremium} ${data.Currency}</span>
+                </div>
+                <div class="summary-row">
+                    <span>保单状态</span>
+                    <span style="color:#28a745; font-weight:600;">已生效</span>
+                </div>
+            `;
+        }
+        
+        // 页面加载
+        window.addEventListener('load', init);
+    </script>
+</body>
+</html>

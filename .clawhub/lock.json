@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "skills": {
+    "summarize": {
+      "version": "1.0.0",
+      "installedAt": 1773931321302
+    },
+    "agent-browser": {
+      "version": "0.2.0",
+      "installedAt": 1773931381309
+    },
+    "frontend-design-3": {
+      "version": "0.1.0",
+      "installedAt": 1774926614554
+    },
+    "pptx-generator": {
+      "version": "1.0.2",
+      "installedAt": 1774926782078
+    }
+  }
+}

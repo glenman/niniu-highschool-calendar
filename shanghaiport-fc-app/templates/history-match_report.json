@@ -1,0 +1,126 @@
+{
+  "match_info": {
+    "match_id": "08602b83",
+    "date": "2024-03-01",
+    "time": "20:00",
+    "competition": {
+      "name": "Chinese Football Association Super League",
+      "season": "2024",
+      "round": "Matchweek 1"
+    },
+    "venue": {
+      "name": "SAIC Motor Pudong Arena",
+      "city": "Shanghai",
+      "attendance": 21713
+    },
+    "referee": {
+      "name": "待补充",
+      "country": "China"
+    }
+  },
+  "teams": {
+    "home": {
+      "name": "Shanghai Port",
+      "full_name": "上海海港足球俱乐部",
+      "score": 3,
+      "score_ht": 0,
+      "formation": "4-3-3",
+      "coach": "Kevin Muscat",
+      "captain": "Oscar",
+      "lineup": [
+        {"position": "GK", "number": 1, "name": "Yan Junling", "country": "China"},
+        {"position": "DF", "number": 4, "name": "Wang Shenchao", "country": "China"},
+        {"position": "DF", "number": 5, "name": "Zhang Linpeng", "country": "China"},
+        {"position": "DF", "number": 3, "name": "Jiang Guangtai", "country": "China"},
+        {"position": "DF", "number": 23, "name": "Fu Huan", "country": "China"},
+        {"position": "MF", "number": 8, "name": "Oscar", "country": "Brazil"},
+        {"position": "MF", "number": 16, "name": "Xu Xin", "country": "China"},
+        {"position": "MF", "number": 25, "name": "Mai Tilanjiang", "country": "China"},
+        {"position": "FW", "number": 7, "name": "Wu Lei", "country": "China"},
+        {"position": "FW", "number": 10, "name": "Lü Wenjun", "country": "China"},
+        {"position": "FW", "number": 9, "name": "Matías Vargas", "country": "Argentina"}
+      ],
+      "substitutes": [
+        {"position": "GK", "number": 12, "name": "Chen Wei", "country": "China"},
+        {"position": "DF", "number": 2, "name": "Li Ang", "country": "China"},
+        {"position": "DF", "number": 17, "name": "Tyias Browning", "country": "China"},
+        {"position": "MF", "number": 20, "name": "Yang Shiyuan", "country": "China"},
+        {"position": "MF", "number": 22, "name": "Léo Cittadini", "country": "Brazil"},
+        {"position": "MF", "number": 31, "name": "Wang Zhen'ao", "country": "China"},
+        {"position": "FW", "number": 45, "name": "Liu Zhurun", "country": "China"}
+      ],
+      "substitutions": [
+        {"minute": 30, "player_out": "Zhang Linpeng", "player_in": "Tyias Browning"},
+        {"minute": 42, "player_out": "Lü Wenjun", "player_in": "Feng Jing"},
+        {"minute": 79, "player_out": "Wang Zhen'ao", "player_in": "Wang Shenchao"},
+        {"minute": 79, "player_out": "Xu Xin", "player_in": "Léo Cittadini"},
+        {"minute": 79, "player_out": "Matías Vargas", "player_in": "Liu Zhurun"}
+      ]
+    },
+    "away": {
+      "name": "Wuhan Three Towns",
+      "full_name": "武汉三镇足球俱乐部",
+      "score": 1,
+      "score_ht": 0,
+      "formation": "4-2-3-1",
+      "coach": "Ricardo Rodríguez",
+      "captain": "Liu Dianzuo",
+      "lineup": [
+        {"position": "GK", "number": 22, "name": "Liu Dianzuo", "country": "China"},
+        {"position": "DF", "number": 25, "name": "Deng Hanwen", "country": "China"},
+        {"position": "DF", "number": 3, "name": "Hu Rui", "country": "China"},
+        {"position": "DF", "number": 19, "name": "Liu Yiming", "country": "China"},
+        {"position": "DF", "number": 23, "name": "Ren Hang", "country": "China"},
+        {"position": "MF", "number": 8, "name": "Yan Junhao", "country": "China"},
+        {"position": "MF", "number": 43, "name": "Wang Yi Denny", "country": "China"},
+        {"position": "MF", "number": 7, "name": "Wei Shihao", "country": "China"},
+        {"position": "MF", "number": 10, "name": "Stanley", "country": "Brazil"},
+        {"position": "MF", "number": 11, "name": "He Chao", "country": "China"},
+        {"position": "FW", "number": 9, "name": "Pedro", "country": "Brazil"}
+      ],
+      "substitutes": [
+        {"position": "GK", "number": 1, "name": "Wu Fei", "country": "China"},
+        {"position": "DF", "number": 4, "name": "Li Yang", "country": "China"},
+        {"position": "MF", "number": 6, "name": "Zhang Xiaorui", "country": "China"},
+        {"position": "MF", "number": 14, "name": "Chen Yuhao", "country": "China"},
+        {"position": "MF", "number": 15, "name": "Darlan Mendes", "country": "Brazil"},
+        {"position": "FW", "number": 17, "name": "Tao Qianglong", "country": "China"},
+        {"position": "FW", "number": 30, "name": "Liu Ruofan", "country": "China"}
+      ],
+      "substitutions": [
+        {"minute": 69, "player_out": "Deng Hanwen", "player_in": "Chen Yuhao"},
+        {"minute": 80, "player_out": "Wang Yi Denny", "player_in": "Liu Ruofan"},
+        {"minute": 85, "player_out": "Darlan Mendes", "player_in": "Feierding Aisikaer"}
+      ]
+    }
+  },
+  "events": [
+    {"minute": 20, "type": "goal", "team": "away", "player": "Wang Yi Denny", "description": "Wuhan Three Towns scores"},
+    {"minute": 33, "type": "goal", "team": "home", "player": "Wu Lei", "player2": "Lü Wenjun", "description": "Shanghai Port equalizes"},
+    {"minute": 75, "type": "goal", "team": "home", "player": "Wu Lei", "player2": "Oscar", "description": "Shanghai Port takes the lead"},
+    {"minute": 90, "minute_extra": 2, "type": "goal", "team": "home", "player": "Wang Shenchao", "description": "Shanghai Port seals the win"}
+  ],
+  "statistics": {
+    "possession": {"home": 67, "away": 33},
+    "shots": {"home": 21, "away": 9},
+    "shots_on_target": {"home": 8, "away": 5},
+    "saves": {"home": 4, "away": 5},
+    "fouls": {"home": 11, "away": 13},
+    "corners": {"home": 9, "away": 2},
+    "crosses": {"home": 45, "away": 11},
+    "interceptions": {"home": 5, "away": 15},
+    "offsides": {"home": 1, "away": 3},
+    "yellow_cards": {"home": 1, "away": 1},
+    "red_cards": {"home": 0, "away": 0}
+  },
+  "player_stats": {
+    "home": [],
+    "away": []
+  },
+  "metadata": {
+    "source": "FBref",
+    "url": "https://fbref.com/en/matches/08602b83/Shanghai-Port-Wuhan-Three-Towns-March-1-2024-Chinese-Super-League",
+    "scraped_at": "2026-03-23T22:00:00",
+    "version": "1.0"
+  }
+}

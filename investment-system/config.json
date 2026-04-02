@@ -1,0 +1,73 @@
+{
+  "system_name": "A股投资分析专家",
+  "version": "1.0.0",
+  "daily_schedule": {
+    "market_analysis_time": "09:00",
+    "news_collection_time": "08:00",
+    "report_time": "09:30"
+  },
+  "data_sources": {
+    "news": [
+      {
+        "name": "东方财富",
+        "url": "https://www.eastmoney.com",
+        "priority": 1,
+        "enabled": true
+      },
+      {
+        "name": "新浪财经",
+        "url": "https://finance.sina.com.cn",
+        "priority": 2,
+        "enabled": true
+      },
+      {
+        "name": "同花顺",
+        "url": "https://stockpage.10jqka.com.cn",
+        "priority": 3,
+        "enabled": true
+      }
+    ],
+    "stock_data": {
+      "primary": "akshare",
+      "fallback": "eastmoney"
+    }
+  },
+  "analysis_models": {
+    "stock_screening": {
+      "factors": [
+        "pe_ratio",
+        "pb_ratio", 
+        "roe",
+        "profit_growth",
+        "revenue_growth",
+        "fund_flow",
+        "volume_ratio"
+      ],
+      "thresholds": {
+        "pe_max": 50,
+        "pb_max": 5,
+        "roe_min": 10,
+        "profit_growth_min": 10
+      }
+    },
+    "risk_assessment": {
+      "risk_factors": [
+        "high_valuation",
+        "declining_profit",
+        "heavy_debt",
+        "frequent_executive_changes",
+        "lawsuit"
+      ]
+    }
+  },
+  "output_channels": {
+    "feishu_group": "oc_fd5620a894e87e1a5a767cbabd5e8172",
+    "local_files": true
+  },
+  "knowledge_base": {
+    "daily_records": "memory/investment/daily/",
+    "sector_analysis": "memory/investment/sectors/",
+    "stock_research": "memory/investment/stocks/",
+    "strategy_notes": "memory/investment/strategies/"
+  }
+}

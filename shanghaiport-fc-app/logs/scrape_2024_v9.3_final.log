@@ -1,0 +1,18 @@
+======================================================================
+上海海港2025赛季完整数据抓取器 v9.3 Final
+======================================================================
+
+📋 共 30 场比赛
+
+🗑️  清空旧文件: 30个
+
+
+❌ 错误: [Errno 2] No such file or directory: 'data/match-reports-2025/2025-05-05-中超-第11轮.json'
+Traceback (most recent call last):
+  File "/Users/glenman/.openclaw/workspace/shanghaiport-fc-app/scripts/batch_scrape_2025_v9.3_final.py", line 456, in <module>
+    main()
+    ~~~~^^
+  File "/Users/glenman/.openclaw/workspace/shanghaiport-fc-app/scripts/batch_scrape_2025_v9.3_final.py", line 391, in main
+    os.remove(os.path.join(output_dir, f))
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/match-reports-2025/2025-05-05-中超-第11轮.json'

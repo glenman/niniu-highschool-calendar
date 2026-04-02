@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeTable 测试</title>
+</head>
+<body>
+    <h1>CodeTable 测试</h1>
+    <button onclick="loadCodeTables()">加载代码表</button>
+    <div id="result"></div>
+
+    <script>
+        const CONFIG = {
+            BASE_URL: 'https://portal-gw.insuremo.com/platform/api-orchestration-test',
+            AUTH_TOKEN: 'MOATbWg4aRISAep86MorzeBulKla18sq'
+        };
+
+        async function loadCodeTables() {
+            const resultDiv = document.getElementById('result');
+            resultDiv.innerHTML = '<p>正在加载...</p>';
+
+            try {
+                // 1. 获取 Product Schema
+                const schemaUrl = `${CONFIG.BASE_URL}/v1/flow/EUDemoPolicySchema?productId=375604942`;
+                const schemaResponse = await fetch(schemaUrl, {
+                    headers: {
+                        'Authorization': `Bearer ${CONFIG.AUTH_TOKEN}`
+                    }
+                });
+                const schemaData = await schemaResponse.json();
+                
+                console.log('Schema:', schemaData);
+                resultDiv.innerHTML = '<h2>Schema CodeTableNames:</h2>';
+                resultDiv.innerHTML += `<pre>${JSON.stringify(schemaData.Data.CodeTableNames, null, 2)}</pre>`;
+
+                // 2. 尝试加载代码表
+                const codeTableUrl = `${CONFIG.BASE_URL}/v1/flow/EUDemoCodeTableList`;
+                const codeTableResponse = await fetch(codeTableUrl, {
+                    method: 'POST',
+                    headers: {
+                        'Authorization': `Bearer ${CONFIG.AUTH_TOKEN}`,
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        TableNames: schemaData.Data.CodeTableNames
+                    })
+                });
+                const codeTableData = await codeTableResponse.json();
+                
+                console.log('CodeTables:', codeTableData);
+                resultDiv.innerHTML += '<h2>CodeTable 数据:</h2>';
+                resultDiv.innerHTML += `<pre>${JSON.stringify(codeTableData, null, 2)}</pre>`;
+
+            } catch (error) {
+                console.error('Error:', error);
+                resultDiv.innerHTML = `<p style="color: red;">错误: ${error.message}</p>`;
+            }
+        }
+    </script>
+</body>
+</html>

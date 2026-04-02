@@ -1,0 +1,546 @@
+{
+  "match_info": {
+    "match_id": "7cd535f9",
+    "date": "2025-06-30",
+    "time": "20:00",
+    "competition": {
+      "name": "Chinese Football Association Super League",
+      "season": "2025",
+      "round": "Matchweek 16"
+    },
+    "venue": {
+      "name": "Shenzhen City Stadium",
+      "attendance": 22196
+    },
+    "referee": {
+      "main": "Jansen Mehmetjan",
+      "ar1": "He Long",
+      "ar2": "Zhou Xu",
+      "fourth": "Mu Yuchen",
+      "var": "Yi Huang",
+      "country": "China"
+    }
+  },
+  "teams": {
+    "home": {
+      "name": "Shenzhen Peng City",
+      "full_name": "",
+      "score": 1,
+      "score_ht": 0,
+      "formation": "5-3-2",
+      "coach": "Christian Lattanzio",
+      "captain": "Rade Dugalić",
+      "lineup": [
+        {
+          "number": "1",
+          "name": "Ji Jiabao",
+          "country": "Unknown"
+        },
+        {
+          "number": "2",
+          "name": "Zhang Wei",
+          "country": "Unknown"
+        },
+        {
+          "number": "5",
+          "name": "Hu Ruibao",
+          "country": "Unknown"
+        },
+        {
+          "number": "11",
+          "name": "Edu Garcia",
+          "country": "Unknown"
+        },
+        {
+          "number": "12",
+          "name": "Zhang Xiaobin",
+          "country": "Unknown"
+        },
+        {
+          "number": "16",
+          "name": "Li Zhi",
+          "country": "Unknown"
+        },
+        {
+          "number": "17",
+          "name": "Ning Li",
+          "country": "Unknown"
+        },
+        {
+          "number": "19",
+          "name": "Matthew Orr",
+          "country": "Unknown"
+        },
+        {
+          "number": "20",
+          "name": "Rade Dugalić",
+          "country": "Unknown"
+        },
+        {
+          "number": "29",
+          "name": "Wang Jiao",
+          "country": "Unknown"
+        },
+        {
+          "number": "36",
+          "name": "Eden Karzev",
+          "country": "Unknown"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": "13",
+          "name": "Peng Peng",
+          "country": "Unknown"
+        },
+        {
+          "number": "14",
+          "name": "Zhao Shi",
+          "country": "Unknown"
+        },
+        {
+          "number": "4",
+          "name": "Jiang Zhipeng",
+          "country": "Unknown"
+        },
+        {
+          "number": "8",
+          "name": "Zhou Dadi",
+          "country": "Unknown"
+        },
+        {
+          "number": "9",
+          "name": "Tiago",
+          "country": "Unknown"
+        },
+        {
+          "number": "21",
+          "name": "Nan Song",
+          "country": "Unknown"
+        },
+        {
+          "number": "23",
+          "name": "Yang Yiming",
+          "country": "Unknown"
+        },
+        {
+          "number": "28",
+          "name": "Zhang Yudong",
+          "country": "Unknown"
+        },
+        {
+          "number": "34",
+          "name": "Shahsat Hujahmat",
+          "country": "Unknown"
+        },
+        {
+          "number": "46",
+          "name": "Shen Huanming",
+          "country": "Unknown"
+        },
+        {
+          "number": "56",
+          "name": "Jiang Weiyi",
+          "country": "Unknown"
+        }
+      ],
+      "substitutions": []
+    },
+    "away": {
+      "name": "Shanghai Port",
+      "full_name": "",
+      "score": 2,
+      "score_ht": 0,
+      "formation": "4-2-3-1",
+      "coach": "Kevin Muscat",
+      "captain": "Yan Junling",
+      "lineup": [
+        {
+          "number": "1",
+          "name": "Yan Junling",
+          "country": "Unknown"
+        },
+        {
+          "number": "3",
+          "name": "Tyias Browning",
+          "country": "Unknown"
+        },
+        {
+          "number": "9",
+          "name": "Gustavo",
+          "country": "Unknown"
+        },
+        {
+          "number": "10",
+          "name": "Mateus Vital",
+          "country": "Unknown"
+        },
+        {
+          "number": "15",
+          "name": "Ming Tian",
+          "country": "Unknown"
+        },
+        {
+          "number": "22",
+          "name": "Jussa",
+          "country": "Unknown"
+        },
+        {
+          "number": "23",
+          "name": "Fu Huan",
+          "country": "Unknown"
+        },
+        {
+          "number": "27",
+          "name": "Feng Jing",
+          "country": "Unknown"
+        },
+        {
+          "number": "30",
+          "name": "Gabriel Airton de Souza",
+          "country": "Unknown"
+        },
+        {
+          "number": "40",
+          "name": "Wumitijiang Yusupu",
+          "country": "Unknown"
+        },
+        {
+          "number": "47",
+          "name": "Kuai Jiwen",
+          "country": "Unknown"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": "12",
+          "name": "Chen Wei",
+          "country": "Unknown"
+        },
+        {
+          "number": "2",
+          "name": "Li Ang",
+          "country": "Unknown"
+        },
+        {
+          "number": "4",
+          "name": "Wang Shenchao",
+          "country": "Unknown"
+        },
+        {
+          "number": "5",
+          "name": "Zhang Linpeng",
+          "country": "Unknown"
+        },
+        {
+          "number": "6",
+          "name": "Xu Xin",
+          "country": "Unknown"
+        },
+        {
+          "number": "11",
+          "name": "Lü Wenjun",
+          "country": "Unknown"
+        },
+        {
+          "number": "13",
+          "name": "Wei Zhen",
+          "country": "Unknown"
+        },
+        {
+          "number": "14",
+          "name": "Li Shenglong",
+          "country": "Unknown"
+        },
+        {
+          "number": "26",
+          "name": "Liu Ruofan",
+          "country": "Unknown"
+        },
+        {
+          "number": "45",
+          "name": "Leo",
+          "country": "Unknown"
+        },
+        {
+          "number": "49",
+          "name": "Li Xinxiang",
+          "country": "Unknown"
+        },
+        {
+          "number": "52",
+          "name": "Meng Jingchao",
+          "country": "Unknown"
+        }
+      ],
+      "substitutions": []
+    }
+  },
+  "events": [
+    {
+      "minute": 9,
+      "minute_extra": 0,
+      "type": "goal",
+      "team": "home",
+      "player": "Ning Li",
+      "player2": "Edu Garcia",
+      "goal_type": "goal",
+      "player_out": "",
+      "description": "GOAL"
+    },
+    {
+      "minute": 46,
+      "minute_extra": 0,
+      "type": "substitution",
+      "team": "away",
+      "player": "Wang Shenchao",
+      "player2": "",
+      "goal_type": "",
+      "player_out": "Ming Tian",
+      "description": "SUBSTITUTION"
+    },
+    {
+      "minute": 46,
+      "minute_extra": 0,
+      "type": "substitution",
+      "team": "away",
+      "player": "Li Xinxiang",
+      "player2": "",
+      "goal_type": "",
+      "player_out": "Feng Jing",
+      "description": "SUBSTITUTION"
+    },
+    {
+      "minute": 52,
+      "minute_extra": 0,
+      "type": "yellow_card",
+      "team": "away",
+      "player": "Jussa",
+      "player2": "",
+      "goal_type": "",
+      "player_out": "",
+      "description": "YELLOW CARD"
+    },
+    {
+      "minute": 62,
+      "minute_extra": 0,
+      "type": "substitution",
+      "team": "home",
+      "player": "Jiang Zhipeng",
+      "player2": "",
+      "goal_type": "",
+      "player_out": "Ning Li",
+      "description": "SUBSTITUTION"
+    },
+    {
+      "minute": 62,
+      "minute_extra": 0,
+      "type": "substitution",
+      "team": "away",
+      "player": "Liu Ruofan",
+      "player2": "",
+      "goal_type": "",
+      "player_out": "Kuai Jiwen",
+      "description": "SUBSTITUTION"
+    },
+    {
+      "minute": 62,
+      "minute_extra": 0,
+      "type": "substitution",
+      "team": "away",
+      "player": "Leo",
+      "player2": "",
+      "goal_type": "",
+      "player_out": "Gustavo",
+      "description": "SUBSTITUTION"
+    },
+    {
+      "minute": 63,
+      "minute_extra": 0,
+      "type": "goal",
+      "team": "away",
+      "player": "Li Xinxiang",
+      "player2": "Leo",
+      "goal_type": "goal",
+      "player_out": "",
+      "description": "GOAL"
+    },
+    {
+      "minute": 68,
+      "minute_extra": 0,
+      "type": "substitution",
+      "team": "home",
+      "player": "Yang Yiming",
+      "player2": "",
+      "goal_type": "",
+      "player_out": "Zhang Wei",
+      "description": "SUBSTITUTION"
+    },
+    {
+      "minute": 68,
+      "minute_extra": 0,
+      "type": "substitution",
+      "team": "home",
+      "player": "Shahsat Hujahmat",
+      "player2": "",
+      "goal_type": "",
+      "player_out": "Edu Garcia",
+      "description": "SUBSTITUTION"
+    },
+    {
+      "minute": 68,
+      "minute_extra": 0,
+      "type": "yellow_card",
+      "team": "home",
+      "player": "Matthew Orr",
+      "player2": "",
+      "goal_type": "",
+      "player_out": "",
+      "description": "YELLOW CARD"
+    },
+    {
+      "minute": 73,
+      "minute_extra": 0,
+      "type": "substitution",
+      "team": "home",
+      "player": "Tiago",
+      "player2": "",
+      "goal_type": "",
+      "player_out": "Matthew Orr",
+      "description": "SUBSTITUTION"
+    },
+    {
+      "minute": 73,
+      "minute_extra": 0,
+      "type": "substitution",
+      "team": "home",
+      "player": "Zhang Yudong",
+      "player2": "",
+      "goal_type": "",
+      "player_out": "Zhang Xiaobin",
+      "description": "SUBSTITUTION"
+    },
+    {
+      "minute": 77,
+      "minute_extra": 0,
+      "type": "goal",
+      "team": "away",
+      "player": "Leo",
+      "player2": "Mateus Vital",
+      "goal_type": "goal",
+      "player_out": "",
+      "description": "GOAL"
+    },
+    {
+      "minute": 79,
+      "minute_extra": 0,
+      "type": "yellow_card",
+      "team": "home",
+      "player": "Ji Jiabao",
+      "player2": "",
+      "goal_type": "",
+      "player_out": "",
+      "description": "YELLOW CARD"
+    },
+    {
+      "minute": 85,
+      "minute_extra": 0,
+      "type": "yellow_card",
+      "team": "away",
+      "player": "Wumitijiang Yusupu",
+      "player2": "",
+      "goal_type": "",
+      "player_out": "",
+      "description": "YELLOW CARD"
+    },
+    {
+      "minute": 87,
+      "minute_extra": 0,
+      "type": "substitution",
+      "team": "away",
+      "player": "Zhang Linpeng",
+      "player2": "",
+      "goal_type": "",
+      "player_out": "Tyias Browning",
+      "description": "SUBSTITUTION"
+    },
+    {
+      "minute": 90,
+      "minute_extra": 1,
+      "type": "yellow_card",
+      "team": "home",
+      "player": "Li Zhi",
+      "player2": "",
+      "goal_type": "",
+      "player_out": "",
+      "description": "YELLOW CARD"
+    },
+    {
+      "minute": 90,
+      "minute_extra": 2,
+      "type": "yellow_card",
+      "team": "away",
+      "player": "Leo",
+      "player2": "",
+      "goal_type": "",
+      "player_out": "",
+      "description": "YELLOW CARD"
+    }
+  ],
+  "statistics": {
+    "possession": {
+      "home": "28%",
+      "away": "72%"
+    },
+    "shots_on_target": {
+      "home": "3",
+      "away": "6"
+    },
+    "shots": {
+      "home": "11",
+      "away": "19"
+    },
+    "shots_accuracy": {
+      "home": "27%",
+      "away": "32%"
+    },
+    "saves": {
+      "home": "5 of 6-83%",
+      "away": "2 of 3-66%"
+    },
+    "fouls": {
+      "home": "14",
+      "away": "13"
+    },
+    "corners": {
+      "home": "2",
+      "away": "7"
+    },
+    "crosses": {
+      "home": "6",
+      "away": "30"
+    },
+    "interceptions": {
+      "home": "9",
+      "away": "5"
+    },
+    "offsides": {
+      "home": "0",
+      "away": "4"
+    },
+    "yellow_cards": {
+      "home": 3,
+      "away": 3
+    },
+    "red_cards": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  "metadata": {
+    "source": "FBref",
+    "url": "https://fbref.com/en/matches/7cd535f9/Shenzhen-Peng-City-Shanghai-Port-June-30-2025-Chinese-Super-League",
+    "scraped_at": "2026-03-29T22:28:21",
+    "version": "9.3-final"
+  }
+}

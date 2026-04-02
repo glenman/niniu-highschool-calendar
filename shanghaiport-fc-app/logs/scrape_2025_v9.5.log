@@ -1,0 +1,110 @@
+======================================================================
+上海海港2025赛季完整数据抓取器 v9.5
+基于v9.3成功版本 + 点球识别优化
+======================================================================
+
+📋 共 30 场比赛
+
+🗑️  清空旧文件: 30个
+
+[1/30] 2025-02-23
+      ✅ Shanghai Port 3-1 Shenzhen Peng City
+         ⏰19:35 | 👨‍💼Kevin Muscat | 🎯Ai Kun
+[2/30] 2025-02-28
+      ✅ Shanghai Port 2-0 Changchun Yatai
+         ⏰19:35 | 👨‍💼Kevin Muscat | 🎯Jin Jingyuan
+[3/30] 2025-03-28
+      ✅ Beijing Guoan 2-2 Shanghai Port
+         ⏰19:35 | 👨‍💼Ricardo Soares | 🎯
+[4/30] 2025-04-02
+      ✅ Nantong Zhiyun 0-3 Shanghai Port
+         ⏰18:00 | 👨‍💼Mihajlo Jurasov.. | 🎯
+[5/30] 2025-04-06
+      ✅ Shanghai Port 2-1 Qingdao Hainiu
+         ⏰19:35 | 👨‍💼Javier Pereira | 🎯Niu Minghui
+[6/30] 2025-04-16
+      ✅ Zhejiang 1-2 Shanghai Port
+         ⏰19:35 | 👨‍💼Jordi Vinyals | 🎯Gao Peng
+[7/30] 2025-04-20
+      ✅ Meizhou Hakka 0-2 Shanghai Port
+         ⏰19:35 | 👨‍💼Milan Ristić | 🎯Yige Dai
+[8/30] 2025-04-25
+      ✅ Shanghai Port 3-2 Henan
+         ⏰19:35 | 👨‍💼Javier Pereira | 🎯Du Jianxin
+[9/30] 2025-05-01
+      ✅ Changchun Yatai 0-3 Shanghai Port
+         ⏰19:35 | 👨‍💼Chen Yang | 🎯Jing Wang
+[10/30] 2025-05-05
+      ✅ Shanghai Port 0-1 Chengdu Rongcheng
+         ⏰17:30 | 👨‍💼Javier Pereira | 🎯Fu Ming
+[11/30] 2025-05-09
+      ✅ Shanghai Port 2-1 Nantong Zhiyun
+         ⏰19:35 | 👨‍💼Javier Pereira | 🎯Li Haixin
+[12/30] 2025-05-17
+      ✅ Beijing Guoan 1-2 Shanghai Port
+         ⏰19:35 | 👨‍💼Ricardo Soares | 🎯Ma Ning
+[13/30] 2025-06-14
+      ✅ Shandong Taishan 1-1 Shanghai Port
+         ⏰19:35 | 👨‍💼Choi Kanghee | 🎯Wang Zhe
+[14/30] 2025-06-18
+      ✅ Shanghai Port 1-1 Dalian Professional
+         ⏰19:35 | 👨‍💼Javier Pereira | 🎯Du Jianxin
+[15/30] 2025-06-26
+      ✅ Shanghai Port 3-1 Wuhan Three Towns
+         ⏰19:35 | 👨‍💼Javier Pereira | 🎯Ma Ning
+[16/30] 2025-06-30
+      ✅ Shenzhen 1-4 Shanghai Port
+         ⏰19:35 | 👨‍💼Jun Xiang | 🎯Jing Wang
+[17/30] 2025-07-18
+      ✅ Shanghai Port 3-0 Cangzhou Lions
+         ⏰19:35 | 👨‍💼Javier Pereira | 🎯Yige Dai
+[18/30] 2025-07-26
+      ✅ Shanghai Shen 0-5 Shanghai Port
+         ⏰19:35 | 👨‍💼Wu Jingui | 🎯Jansen Mehmetja..
+[19/30] 2025-08-02
+      ✅ Shanghai Port 2-1 Jinmen Tiger
+         ⏰19:35 | 👨‍💼Javier Pereira | 🎯Du Jianxin
+[20/30] 2025-08-09
+      ✅ Qingdao Hainiu 0-5 Shanghai Port
+         ⏰19:35 | 👨‍💼Antonio Gómez-C.. | 🎯Ma Li
+[21/30] 2025-08-15
+      ✅ Shanghai Port 3-4 Zhejiang
+         ⏰19:35 | 👨‍💼Javier Pereira | 🎯Zhang Long
+[22/30] 2025-08-24
+      ✅ Shanghai Port 1-1 Meizhou Hakka
+         ⏰19:35 | 👨‍💼Javier Pereira | 🎯Shunqi Tang
+[23/30] 2025-08-30
+      ✅ Henan 3-1 Shanghai Port
+         ⏰19:35 | 👨‍💼Sergio Diaz | 🎯Ma Li
+[24/30] 2025-09-12
+      ✅ Shanghai Port 2-0 Changchun Yatai
+         ⏰19:35 | 👨‍💼Javier Pereira | 🎯Zhang Lei
+[25/30] 2025-09-21
+      ✅ Chengdu Rongcheng 2-1 Shanghai Port
+         ⏰19:35 | 👨‍💼Seo Jung-won | 🎯Jansen Mehmetja..
+[26/30] 2025-09-26
+      ✅ Nantong Zhiyun 0-1 Shanghai Port
+         ⏰19:35 | 👨‍💼David Patrício | 🎯Chunqi Tang
+[27/30] 2025-10-17
+      ✅ Shanghai Port 1-2 Beijing Guoan
+         ⏰19:35 | 👨‍💼Javier Pereira | 🎯Zhang Lei
+[28/30] 2025-10-26
+      ✅ Shanghai Port 1-1 Shandong Taishan
+         ⏰15:30 | 👨‍💼Javier Pereira | 🎯Jansen Mehmetja..
+[29/30] 2025-10-31
+      ✅ Dalian Professional 2-3 Shanghai Port
+         ⏰15:30 | 👨‍💼Xie Hui | 🎯Shi Zhenlu
+[30/30] 2025-11-22
+      ✅ Dalian Yingbo 0-1 Shanghai Port
+         ⏰15:30 | 👨‍💼Li Guoxu | 🎯Kim Heegon
+
+======================================================================
+✅ 批量处理完成
+======================================================================
+✓ 成功: 30 / 30
+✓ 事件总数: 494个
+
+📁 保存位置: data/match-reports-2025/
+
+======================================================================
+

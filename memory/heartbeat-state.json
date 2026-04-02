@@ -1,0 +1,23 @@
+{
+  "lastChecks": {
+    "stock_analysis": "2026-04-02T08:51:00+08:00"
+  },
+  "lastAttemptStatus": {
+    "stock_analysis": "success"
+  },
+  "nextScheduled": {
+    "stock_analysis": "2026-04-03T08:30:00+08:00"
+  },
+  "status": "active",
+  "daemonProcessId": 29688,
+  "tasks": {
+    "stock_analysis": {
+      "description": "A股投资分析（每日）",
+      "frequency": "daily",
+      "scheduledTime": "08:30-09:00",
+      "enabled": true,
+      "executionMode": "daemon",
+      "script": "scripts/heartbeat_daemon.py"
+    }
+  }
+}
