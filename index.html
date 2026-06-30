@@ -97,14 +97,13 @@
             padding: 6px 0;
         }
         .cal-day {
-            aspect-ratio: 1;
+            min-height: 55px;
             border: 1.5px solid #e8e8e8;
             border-radius: 8px;
             padding: 3px;
             display: flex;
             flex-direction: column;
             gap: 2px;
-            min-height: 0;
         }
         .cal-day.empty { border: none; background: transparent; }
         .cal-day .day-label {
@@ -115,17 +114,18 @@
         }
         .cal-day .day-label.saturday { color: #e74c3c; }
         .cal-day .ev {
-            flex: 1;
             display: flex;
             align-items: center;
             justify-content: center;
             font-size: 9px;
             color: white;
             border-radius: 3px;
-            padding: 1px 2px;
+            padding: 1px 3px;
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
+            flex-shrink: 0;
+            min-height: 14px;
         }
         .ev.math { background: #e74c3c; }
         .ev.chinese { background: #3498db; }
@@ -900,7 +900,9 @@
             html += '<div class="day-label' + (isSaturday ? ' saturday' : '') + '">' + d.getDate() + '</div>';
 
             if (dayInfo) {
-                dayInfo.events.forEach(ev => {
+                // Sort events by start_time ascending (earlier time first)
+                const sorted = [...dayInfo.events].sort((a, b) => a.start_time.localeCompare(b.start_time));
+                sorted.forEach(ev => {
                     const cls = ev.subject === '数学' ? 'math' : ev.subject === '语文' ? 'chinese' : ev.subject === '物理' ? 'physics' : 'chemistry';
                     html += '<div class="ev ' + cls + '" title="' + ev.description + '">' + ev.emoji + ' ' + ev.time + '</div>';
                 });
