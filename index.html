@@ -902,7 +902,7 @@
                 html += '<div class="cal-day empty"></div>';
                 continue;
             }
-            const ds = d.toISOString().slice(0, 10);
+            const ds = d.getFullYear() + '-' + String(d.getMonth()+1).padStart(2,'0') + '-' + String(d.getDate()).padStart(2,'0');
             const dayInfo = dayMap[ds];
             const isWeekend = d.getDay() === 0 || d.getDay() === 6;
 
