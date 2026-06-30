@@ -6,13 +6,12 @@
     <title>妞妞高中衔接补课日程</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        html { overflow-x: hidden; }
+        html, body { overflow-x: hidden; }
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             min-height: 100vh;
             padding: 10px;
-            -webkit-text-size-adjust: 100%;
         }
         .container {
             max-width: 1100px;
@@ -21,80 +20,91 @@
             border-radius: 20px;
             padding: 20px;
             box-shadow: 0 20px 60px rgba(0,0,0,0.3);
-            overflow-x: hidden;
         }
-        .header { text-align: center; margin-bottom: 20px; }
-        .logo { font-size: 40px; margin-bottom: 8px; }
-        h1 { color: #2c3e50; font-size: 24px; margin-bottom: 4px; }
-        .subtitle { color: #7f8c8d; font-size: 14px; margin-bottom: 12px; }
+        .header { text-align: center; margin-bottom: 15px; }
+        .logo { font-size: 36px; margin-bottom: 4px; }
+        h1 { color: #2c3e50; font-size: 22px; margin-bottom: 4px; }
+        .subtitle { color: #7f8c8d; font-size: 13px; margin-bottom: 10px; }
         .stats {
-            display: flex; justify-content: center; gap: 12px; flex-wrap: wrap;
-            background: #f8f9fa; padding: 10px 15px; border-radius: 10px;
+            display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;
+            background: #f8f9fa; padding: 8px 12px; border-radius: 8px;
         }
-        .stats span { font-size: 13px; white-space: nowrap; }
-        .stats strong { font-size: 16px; }
-
-        /* Legend */
-        .legend {
-            background: #f8f9fa; padding: 12px 15px; border-radius: 10px; margin-bottom: 20px;
-        }
-        .legend h3 { margin-bottom: 8px; color: #2c3e50; font-size: 14px; }
-        .legend-items { display: flex; flex-wrap: wrap; gap: 6px; }
-        .legend-item {
-            flex: 1; min-width: 140px; padding: 6px 10px; border-radius: 6px;
-            border-left: 4px solid #ccc; background: white; font-size: 12px;
-        }
+        .stats span { font-size: 12px; white-space: nowrap; }
+        .stats strong { font-size: 15px; }
 
         /* Tabs */
         .tabs { display: flex; gap: 4px; margin-bottom: 15px; }
         .tab-btn {
-            flex: 1; padding: 10px 8px; border: none; background: #ecf0f1;
-            border-radius: 8px; font-size: 14px; cursor: pointer; font-weight: bold;
+            flex: 1; padding: 8px 6px; border: none; background: #ecf0f1;
+            border-radius: 8px; font-size: 13px; cursor: pointer; font-weight: bold;
             color: #7f8c8d; transition: all 0.2s;
         }
         .tab-btn.active { background: #667eea; color: white; }
 
-        /* Calendar Grid */
-        .calendar-wrapper { margin-bottom: 20px; }
-        .calendar-header {
-            display: grid; grid-template-columns: repeat(7, 1fr); gap: 2px;
-            margin-bottom: 2px;
+        /* ====== Monthly Calendar ====== */
+        .cal-grid {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 3px;
         }
-        .calendar-header div {
-            text-align: center; padding: 6px 2px; font-weight: bold; color: #7f8c8d; font-size: 12px;
-        }
-        .calendar-body {
-            display: grid; grid-template-columns: repeat(7, 1fr); gap: 2px;
+        .cal-grid .col-header {
+            text-align: center;
+            font-size: 12px;
+            font-weight: bold;
+            color: #7f8c8d;
+            padding: 6px 0;
         }
         .cal-day {
-            min-height: 60px; border: 1px solid #ecf0f1; border-radius: 4px;
-            padding: 2px; font-size: 10px;
+            aspect-ratio: 1;
+            border: 1.5px solid #e8e8e8;
+            border-radius: 8px;
+            padding: 3px;
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+            min-height: 0;
         }
         .cal-day.empty { border: none; background: transparent; }
-        .cal-day .day-num {
-            font-weight: bold; color: #2c3e50; font-size: 11px; margin-bottom: 2px;
+        .cal-day .day-label {
+            font-size: 11px;
+            font-weight: bold;
+            color: #2c3e50;
+            line-height: 1;
         }
-        .cal-day .day-num.weekend { color: #e74c3c; }
-        .cal-day .event-tag {
-            display: block; padding: 1px 3px; border-radius: 2px; margin-bottom: 1px;
-            font-size: 9px; color: white; white-space: nowrap; overflow: hidden;
+        .cal-day .day-label.weekend { color: #e74c3c; }
+        .cal-day .day-label.today {
+            background: #667eea;
+            color: white;
+            border-radius: 50%;
+            width: 22px;
+            height: 22px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .cal-day .ev {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 9px;
+            color: white;
+            border-radius: 3px;
+            padding: 1px 2px;
+            white-space: nowrap;
+            overflow: hidden;
             text-overflow: ellipsis;
         }
-        .cal-day .event-tag.math { background: #e74c3c; }
-        .cal-day .event-tag.chinese { background: #3498db; }
-        .cal-day .event-tag.physics { background: #f39c12; }
-        .cal-day .event-tag.chemistry { background: #9b59b6; }
+        .ev.math { background: #e74c3c; }
+        .ev.chinese { background: #3498db; }
+        .ev.physics { background: #f39c12; }
+        .ev.chemistry { background: #9b59b6; }
 
-        /* Weekly View */
-        .weekly-section { margin-top: 15px; }
-        .weekly-section h2 { color: #2c3e50; font-size: 18px; margin-bottom: 12px; text-align: center; }
-
-        .time-block {
-            margin-bottom: 16px;
-        }
+        /* ====== Weekly Timetable ====== */
+        .time-block { margin-bottom: 14px; }
         .time-block-title {
-            font-size: 15px; font-weight: bold; margin-bottom: 8px;
-            padding: 6px 12px; border-radius: 6px; display: inline-block;
+            font-size: 14px; font-weight: bold; margin-bottom: 6px; padding: 4px 10px;
+            border-radius: 6px; display: inline-block;
         }
         .time-block-title.morning { background: #fff3cd; color: #856404; }
         .time-block-title.afternoon { background: #d4edda; color: #155724; }
@@ -104,51 +114,49 @@
             background: #f8f9fa; border-radius: 10px; padding: 10px 12px; margin-bottom: 10px;
         }
         .week-title {
-            font-weight: bold; color: #2c3e50; font-size: 13px; margin-bottom: 8px;
+            font-weight: bold; color: #2c3e50; font-size: 13px; margin-bottom: 6px;
             padding-bottom: 4px; border-bottom: 2px solid #ddd;
         }
-        .week-table { width: 100%; border-collapse: collapse; }
-        .week-table th {
-            background: #2c3e50; color: white; padding: 5px 3px; font-size: 11px; text-align: center;
+        .tt { width: 100%; border-collapse: collapse; table-layout: fixed; }
+        .tt th {
+            background: #2c3e50; color: white; padding: 5px 2px; font-size: 11px; text-align: center;
         }
-        .week-table td {
-            padding: 4px 3px; font-size: 10px; text-align: center; border-bottom: 1px solid #eee;
-            vertical-align: top;
+        .tt td {
+            padding: 4px 2px; font-size: 10px; text-align: center; border-bottom: 1px solid #eee;
         }
-        .week-table tr:last-child td { border-bottom: none; }
-        .week-table .time-col { width: 50px; background: #ecf0f1; font-weight: bold; color: #555; font-size: 10px; }
-        .event-cell {
-            display: inline-block; padding: 2px 5px; border-radius: 3px; color: white;
-            font-size: 10px; margin: 1px; white-space: nowrap;
+        .tt tr:last-child td { border-bottom: none; }
+        .tt .tcol { width: 55px; background: #ecf0f1; font-weight: bold; color: #555; font-size: 10px; }
+        .tt .tcol-subj { width: 55px; background: #ecf0f1; font-weight: bold; color: #555; font-size: 10px; }
+        .evt {
+            display: inline-block; padding: 2px 4px; border-radius: 3px; color: white;
+            font-size: 9px; white-space: nowrap;
         }
-        .event-cell.math { background: #e74c3c; }
-        .event-cell.chinese { background: #3498db; }
-        .event-cell.physics { background: #f39c12; }
-        .event-cell.chemistry { background: #9b59b6; }
+        .evt.math { background: #e74c3c; }
+        .evt.chinese { background: #3498db; }
+        .evt.physics { background: #f39c12; }
+        .evt.chemistry { background: #9b59b6; }
 
         .tab-content { display: none; }
         .tab-content.active { display: block; }
 
         .footer {
-            text-align: center; margin-top: 20px; padding-top: 12px;
-            border-top: 1px solid #ecf0f1; color: #95a5a6; font-size: 12px;
+            text-align: center; margin-top: 15px; padding-top: 10px;
+            border-top: 1px solid #ecf0f1; color: #95a5a6; font-size: 11px;
         }
-        .footer p:first-child { font-size: 14px; color: #2c3e50; margin-bottom: 4px; }
+        .footer p:first-child { font-size: 13px; color: #2c3e50; margin-bottom: 3px; }
 
         @media print {
             body { background: white; padding: 0; }
             .container { box-shadow: none; padding: 10px; }
         }
         @media (max-width: 480px) {
-            .container { padding: 10px; border-radius: 12px; }
-            h1 { font-size: 20px; }
-            .stats span { font-size: 11px; }
-            .stats strong { font-size: 14px; }
-            .cal-day { min-height: 50px; }
-            .cal-day .event-tag { font-size: 8px; }
-            .week-table th, .week-table td { padding: 3px 1px; font-size: 9px; }
-            .week-table .time-col { width: 40px; }
-            .legend-item { min-width: 120px; font-size: 11px; }
+            .container { padding: 10px; }
+            h1 { font-size: 18px; }
+            .stats span { font-size: 10px; }
+            .stats strong { font-size: 13px; }
+            .cal-day .day-label { font-size: 10px; }
+            .cal-day .ev { font-size: 7px; }
+            .tt th, .tt td { padding: 3px 1px; font-size: 9px; }
         }
     </style>
 </head>
@@ -166,43 +174,19 @@
             </div>
         </div>
 
-        <div class="legend">
-            <h3>📋 课程安排</h3>
-            <div class="legend-items">
-                <div class="legend-item" style="border-left-color:#e74c3c;">
-                    <strong>📐 数学</strong> 周一/三/五 13:00-15:00
-                </div>
-                <div class="legend-item" style="border-left-color:#3498db;">
-                    <strong>📖 语文</strong> 周三/五 09:00-11:00
-                </div>
-                <div class="legend-item" style="border-left-color:#f39c12;">
-                    <strong>⚡ 物理</strong> 周二/四/六 16:00-18:00
-                </div>
-                <div class="legend-item" style="border-left-color:#9b59b6;">
-                    <strong>🧪 化学</strong> 周二/四/六 19:15-21:15
-                </div>
-            </div>
-        </div>
-
         <div class="tabs">
             <button class="tab-btn active" onclick="switchTab('calendar')">📅 月度日历</button>
             <button class="tab-btn" onclick="switchTab('weekly')">📋 每周课表</button>
         </div>
 
+        <!-- Monthly Calendar -->
         <div id="tab-calendar" class="tab-content active">
-            <div class="calendar-wrapper">
-                <div class="calendar-header">
-                    <div>周一</div><div>周二</div><div>周三</div>
-                    <div>周四</div><div>周五</div><div>周六</div><div>周日</div>
-                </div>
-                <div class="calendar-body" id="calendar-grid"></div>
-            </div>
+            <div class="cal-grid" id="calendar-grid"></div>
         </div>
 
+        <!-- Weekly Timetable -->
         <div id="tab-weekly" class="tab-content">
-            <div class="weekly-section">
-                <div id="weekly-container"></div>
-            </div>
+            <div class="weekly-section" id="weekly-container"></div>
         </div>
 
         <div class="footer">
@@ -859,6 +843,15 @@
         DATA.schedule.forEach(d => { dayMap[d.date] = d; });
 
         let html = '';
+        // Column headers (no weekday names, just numbers)
+        html += '<div class="col-header">一</div>';
+        html += '<div class="col-header">二</div>';
+        html += '<div class="col-header">三</div>';
+        html += '<div class="col-header">四</div>';
+        html += '<div class="col-header">五</div>';
+        html += '<div class="col-header">六</div>';
+        html += '<div class="col-header">日</div>';
+
         for (let i = 0; i < 6 * 7; i++) {
             const d = new Date(startDate);
             d.setDate(d.getDate() + i);
@@ -869,12 +862,14 @@
             const ds = d.toISOString().slice(0, 10);
             const dayInfo = dayMap[ds];
             const isWeekend = d.getDay() === 0 || d.getDay() === 6;
+
             html += '<div class="cal-day">';
-            html += `<div class="day-num${isWeekend ? ' weekend' : ''}">${d.getDate()}日 ${['周日','周一','周二','周三','周四','周五','周六'][d.getDay()]}</div>`;
+            html += `<div class="day-label${isWeekend ? ' weekend' : ''}">${d.getDate()}</div>`;
+
             if (dayInfo) {
                 dayInfo.events.forEach(ev => {
                     const cls = ev.subject === '数学' ? 'math' : ev.subject === '语文' ? 'chinese' : ev.subject === '物理' ? 'physics' : 'chemistry';
-                    html += `<span class="event-tag ${cls}">${ev.emoji} ${ev.time}</span>`;
+                    html += `<div class="ev ${cls}" title="${ev.description}">${ev.emoji} ${ev.time}</div>`;
                 });
             }
             html += '</div>';
@@ -891,8 +886,6 @@
 
     function renderWeekly() {
         const container = document.getElementById('weekly-container');
-
-        // Organize by week -> time period -> day
         const weekMap = {};
         DATA.schedule.forEach(d => {
             const dt = new Date(d.date);
@@ -904,9 +897,9 @@
         });
 
         const periods = [
-            { key: 'morning', label: '☀️ 上午', cls: 'morning', hours: [9, 10, 11] },
-            { key: 'afternoon', label: '🌤️ 下午', cls: 'afternoon', hours: [12, 13, 14, 15, 16, 17] },
-            { key: 'evening', label: '🌙 晚上', cls: 'evening', hours: [18, 19, 20, 21] },
+            { key: 'morning', label: '☀️ 上午', cls: 'morning' },
+            { key: 'afternoon', label: '🌤️ 下午', cls: 'afternoon' },
+            { key: 'evening', label: '🌙 晚上', cls: 'evening' },
         ];
 
         const weekNums = Object.keys(weekMap).sort((a,b) => a - b);
@@ -920,57 +913,56 @@
             html += `<div class="week-group"><div class="week-title">第 ${wk} 周 (${firstDate}日 - ${lastDate}日)</div>`;
 
             periods.forEach(period => {
-                // Find which subjects belong to this period
+                // Collect unique subjects in this period
                 const periodSubjects = [];
                 DATA.schedule.forEach(d => {
                     d.events.forEach(ev => {
-                        const p = getTimePeriod(ev.start_time);
-                        if (p === period.key && !periodSubjects.includes(ev.subject)) {
+                        if (getTimePeriod(ev.start_time) === period.key && !periodSubjects.includes(ev.subject)) {
                             periodSubjects.push(ev.subject);
                         }
                     });
                 });
 
-                if (periodSubjects.length > 0) {
-                    html += `<div class="time-block"><div class="time-block-title ${period.cls}">${period.label}</div>`;
-                    html += '<table class="week-table"><thead><tr><th class="time-col">时间</th>';
+                if (periodSubjects.length === 0) return;
+
+                // Sort by start time
+                periodSubjects.sort((a, b) => {
+                    const evA = DATA.schedule.flatMap(d => d.events).find(e => e.subject === a);
+                    const evB = DATA.schedule.flatMap(d => d.events).find(e => e.subject === b);
+                    return evA.start_time.localeCompare(evB.start_time);
+                });
+
+                html += `<div class="time-block"><div class="time-block-title ${period.cls}">${period.label}</div>`;
+                html += '<table class="tt"><thead><tr><th class="tcol">时间</th>';
+                for (let d = 1; d <= 7; d++) {
+                    const names = ['','一','二','三','四','五','六','日'];
+                    html += `<th>${names[d]}${d>=6?'⭐':''}</th>`;
+                }
+                html += '</tr></thead><tbody>';
+
+                periodSubjects.forEach(subject => {
+                    const ev = DATA.schedule.flatMap(d => d.events).find(e => e.subject === subject);
+                    if (!ev) return;
+                    const timeLabel = ev.time.split('-')[0];
+                    const cls = subject === '数学' ? 'math' : subject === '语文' ? 'chinese' : subject === '物理' ? 'physics' : 'chemistry';
+                    html += `<tr><td class="tcol-subj">${ev.emoji} ${subject}</td>`;
                     for (let d = 1; d <= 7; d++) {
-                        const names = ['','一','二','三','四','五','六','日'];
-                        html += `<th>${names[d]}${d >= 6 ? ' ⭐' : ''}</th>`;
-                    }
-                    html += '</tr></thead><tbody>';
-
-                    // Sort subjects by start time within this period
-                    periodSubjects.sort((a, b) => {
-                        const evA = DATA.schedule.flatMap(d => d.events).find(e => e.subject === a);
-                        const evB = DATA.schedule.flatMap(d => d.events).find(e => e.subject === b);
-                        return evA.start_time.localeCompare(evB.start_time);
-                    });
-
-                    periodSubjects.forEach(subject => {
-                        const ev = DATA.schedule.flatMap(d => d.events).find(e => e.subject === subject);
-                        if (!ev) return;
-                        const timeLabel = ev.time.split('-')[0];
-                        const cls = subject === '数学' ? 'math' : subject === '语文' ? 'chinese' : subject === '物理' ? 'physics' : 'chemistry';
-                        html += `<tr><td class="time-col">${timeLabel}</td>`;
-                        for (let d = 1; d <= 7; d++) {
-                            const dayData = info.days[d];
-                            if (dayData) {
-                                const dayEv = dayData.events.find(e => e.subject === subject);
-                                if (dayEv) {
-                                    html += `<td><span class="event-cell ${cls}">${dayEv.emoji} ${dayEv.time}</span></td>`;
-                                } else {
-                                    html += '<td></td>';
-                                }
+                        const dayData = info.days[d];
+                        if (dayData) {
+                            const dayEv = dayData.events.find(e => e.subject === subject);
+                            if (dayEv) {
+                                html += `<td><span class="evt ${cls}">${dayEv.time}</span></td>`;
                             } else {
                                 html += '<td></td>';
                             }
+                        } else {
+                            html += '<td></td>';
                         }
-                        html += '</tr>';
-                    });
+                    }
+                    html += '</tr>';
+                });
 
-                    html += '</tbody></table></div>';
-                }
+                html += '</tbody></table></div>';
             });
 
             html += '</div>';
