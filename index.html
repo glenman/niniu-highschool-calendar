@@ -9,224 +9,163 @@
         html, body { overflow-x: hidden; }
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: #f0f2f5;
             min-height: 100vh;
-            padding: 10px;
+            padding: 12px;
         }
         .container {
-            max-width: 1100px;
+            max-width: 800px;
             margin: 0 auto;
-            background: white;
-            border-radius: 20px;
+        }
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 16px;
             padding: 20px;
-            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
-        }
-        .header { text-align: center; margin-bottom: 15px; }
-        .logo { font-size: 36px; margin-bottom: 4px; }
-        h1 { color: #2c3e50; font-size: 22px; margin-bottom: 4px; }
-        .subtitle { color: #7f8c8d; font-size: 13px; margin-bottom: 10px; }
-        .stats {
-            display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;
-            background: #f8f9fa; padding: 8px 12px; border-radius: 8px;
-            margin-bottom: 10px;
-        }
-        .stats span { font-size: 12px; white-space: nowrap; }
-        .stats strong { font-size: 15px; }
-
-        /* Course Statistics */
-        .course-stats {
-            background: #f8f9fa; border-radius: 10px; padding: 12px 15px; margin-bottom: 15px;
-        }
-        .course-stats h3 {
-            font-size: 13px; color: #2c3e50; margin-bottom: 10px; text-align: center;
-        }
-        .cs-row {
-            display: flex; align-items: center; margin-bottom: 8px; gap: 8px;
-        }
-        .cs-row:last-child { margin-bottom: 0; }
-        .cs-icon { font-size: 16px; width: 24px; text-align: center; flex-shrink: 0; }
-        .cs-name { font-size: 12px; font-weight: bold; color: #2c3e50; width: 36px; flex-shrink: 0; }
-        .cs-bar-bg {
-            flex: 1; height: 18px; background: #e9ecef; border-radius: 4px; overflow: hidden;
-            position: relative;
-        }
-        .cs-bar {
-            height: 100%; border-radius: 4px; display: flex; align-items: center;
-            justify-content: flex-end; padding-right: 5px; font-size: 10px; color: white; font-weight: bold;
-            transition: width 0.5s ease;
-        }
-        .cs-bar.math { background: #e74c3c; }
-        .cs-bar.chinese { background: #3498db; }
-        .cs-bar.physics { background: #f39c12; }
-        .cs-bar.chemistry { background: #9b59b6; }
-        .cs-detail { font-size: 11px; color: #7f8c8d; width: 120px; flex-shrink: 0; text-align: right; }
-        .cs-weekly {
-            display: flex; gap: 2px; margin-top: 4px;
-        }
-        .cs-weekly-dot {
-            width: 14px; height: 14px; border-radius: 3px; font-size: 8px;
-            display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;
-        }
-        .cs-weekly-dot.off { background: #e9ecef; color: #bbb; }
-        .cs-total {
-            text-align: center; margin-top: 8px; padding-top: 6px; border-top: 1px solid #ddd;
-            font-size: 12px; color: #7f8c8d;
-        }
-        .cs-total strong { color: #2c3e50; }
-
-        /* Tabs */
-        .tabs { display: flex; gap: 4px; margin-bottom: 15px; }
-        .tab-btn {
-            flex: 1; padding: 8px 6px; border: none; background: #ecf0f1;
-            border-radius: 8px; font-size: 13px; cursor: pointer; font-weight: bold;
-            color: #7f8c8d; transition: all 0.2s;
-        }
-        .tab-btn.active { background: #667eea; color: white; }
-
-        /* ====== Monthly Calendar ====== */
-        .cal-grid {
-            display: grid;
-            grid-template-columns: repeat(7, 1fr);
-            gap: 1px;
-        }
-        .cal-grid .col-header {
+            margin-bottom: 16px;
+            color: white;
             text-align: center;
-            font-size: 10px;
-            font-weight: bold;
-            color: #7f8c8d;
-            padding: 4px 0;
         }
-        .cal-day {
-            min-height: 40px;
-            border: 1px solid #e8e8e8;
-            border-radius: 4px;
-            padding: 2px;
-            display: flex;
-            flex-direction: column;
-            gap: 1px;
+        .header h1 { font-size: 22px; margin-bottom: 4px; }
+        .header p { font-size: 13px; opacity: 0.85; }
+        .header .stats {
+            display: flex; justify-content: center; gap: 16px; margin-top: 12px; flex-wrap: wrap;
         }
-        .cal-day.empty { border: none; background: transparent; }
-        .cal-day.sun-empty { border: 1px dashed #eee; background: #fafafa; min-height: 40px; }
-        .cal-day .day-label {
-            font-size: 9px;
-            font-weight: bold;
-            color: #2c3e50;
-            line-height: 1;
+        .header .stat { font-size: 12px; }
+        .header .stat strong { font-size: 16px; display: block; }
+
+        /* Day Card */
+        .day-card {
+            background: white;
+            border-radius: 12px;
+            margin-bottom: 12px;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+            overflow: hidden;
         }
-        .cal-day .day-label.saturday { color: #e74c3c; }
-        .cal-day .day-label.sunday { color: #bbb; }
-        .cal-day .ev {
+        .day-card.no-class {
+            opacity: 0.4;
+        }
+        .day-header {
             display: flex;
             align-items: center;
-            justify-content: center;
-            font-size: 7px;
-            color: white;
-            border-radius: 2px;
-            padding: 1px 2px;
+            padding: 10px 14px;
+            background: #fafbfc;
+            border-bottom: 1px solid #eee;
+        }
+        .day-date {
+            font-size: 16px;
+            font-weight: bold;
+            color: #2c3e50;
+            min-width: 60px;
+        }
+        .day-weekday {
+            font-size: 12px;
+            color: #7f8c8d;
+            margin-left: 8px;
+        }
+        .day-badge {
+            font-size: 11px;
+            padding: 2px 8px;
+            border-radius: 10px;
+            margin-left: auto;
+            font-weight: bold;
+        }
+        .day-badge.has-class { background: #e8f5e9; color: #2e7d32; }
+        .day-badge.no-class { background: #f5f5f5; color: #bbb; }
+
+        /* Period Section */
+        .period {
+            padding: 10px 14px;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        .period:last-child { border-bottom: none; }
+        .period-label {
+            font-size: 12px;
+            font-weight: bold;
+            margin-bottom: 6px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .period-label.morning { color: #e65100; }
+        .period-label.afternoon { color: #1565c0; }
+        .period-label.evening { color: #4a148c; }
+        .period-label .dot {
+            width: 8px; height: 8px; border-radius: 50%; display: inline-block;
+        }
+        .period-label.morning .dot { background: #ff9800; }
+        .period-label.afternoon .dot { background: #2196f3; }
+        .period-label.evening .dot { background: #9c27b0; }
+
+        /* Class Item */
+        .class-item {
+            display: flex;
+            align-items: center;
+            padding: 6px 10px;
+            border-radius: 8px;
+            margin-bottom: 4px;
+            gap: 8px;
+        }
+        .class-item:last-child { margin-bottom: 0; }
+        .class-item.math { background: #ffebee; }
+        .class-item.chinese { background: #e3f2fd; }
+        .class-item.physics { background: #fff3e0; }
+        .class-item.chemistry { background: #f3e5f5; }
+
+        .class-emoji { font-size: 18px; }
+        .class-info { flex: 1; }
+        .class-name { font-size: 13px; font-weight: bold; color: #2c3e50; }
+        .class-desc { font-size: 11px; color: #7f8c8d; }
+        .class-time {
+            font-size: 12px;
+            font-weight: bold;
+            color: #555;
             white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-            flex-shrink: 0;
-            min-height: 10px;
         }
-        .ev.math { background: #e74c3c; }
-        .ev.chinese { background: #3498db; }
-        .ev.physics { background: #f39c12; }
-        .ev.chemistry { background: #9b59b6; }
 
-        /* ====== Weekly Timetable ====== */
-        .time-block { margin-bottom: 14px; }
-        .time-block-title {
-            font-size: 14px; font-weight: bold; margin-bottom: 6px; padding: 4px 10px;
-            border-radius: 6px; display: inline-block;
+        /* No class day */
+        .no-class-msg {
+            padding: 8px 14px;
+            color: #bbb;
+            font-size: 12px;
+            text-align: center;
         }
-        .time-block-title.morning { background: #fff3cd; color: #856404; }
-        .time-block-title.afternoon { background: #d4edda; color: #155724; }
-        .time-block-title.evening { background: #d1ecf1; color: #0c5460; }
 
-        .week-group {
-            background: #f8f9fa; border-radius: 10px; padding: 10px 12px; margin-bottom: 10px;
-        }
-        .week-title {
-            font-weight: bold; color: #2c3e50; font-size: 13px; margin-bottom: 6px;
-            padding-bottom: 4px; border-bottom: 2px solid #ddd;
-        }
-        .tt { width: 100%; border-collapse: collapse; table-layout: fixed; }
-        .tt th {
-            background: #2c3e50; color: white; padding: 5px 2px; font-size: 11px; text-align: center;
-        }
-        .tt td {
-            padding: 4px 2px; font-size: 10px; text-align: center; border-bottom: 1px solid #eee;
-        }
-        .tt tr:last-child td { border-bottom: none; }
-        .tt .tcol { width: 55px; background: #ecf0f1; font-weight: bold; color: #555; font-size: 10px; }
-        .tt .tcol-subj { width: 55px; background: #ecf0f1; font-weight: bold; color: #555; font-size: 10px; }
-        .evt {
-            display: inline-block; padding: 2px 4px; border-radius: 3px; color: white;
-            font-size: 9px; white-space: nowrap;
-        }
-        .evt.math { background: #e74c3c; }
-        .evt.chinese { background: #3498db; }
-        .evt.physics { background: #f39c12; }
-        .evt.chemistry { background: #9b59b6; }
-
-        .tab-content { display: none; }
-        .tab-content.active { display: block; }
-
+        /* Footer */
         .footer {
-            text-align: center; margin-top: 15px; padding-top: 10px;
-            border-top: 1px solid #ecf0f1; color: #95a5a6; font-size: 11px;
+            text-align: center;
+            padding: 16px;
+            color: #95a5a6;
+            font-size: 12px;
         }
-        .footer p:first-child { font-size: 13px; color: #2c3e50; margin-bottom: 3px; }
 
-        @media print {
-            body { background: white; padding: 0; }
-            .container { box-shadow: none; padding: 10px; }
-        }
         @media (max-width: 480px) {
-            .container { padding: 10px; }
-            h1 { font-size: 18px; }
-            .stats span { font-size: 10px; }
-            .stats strong { font-size: 13px; }
-            .cal-day .day-label { font-size: 10px; }
-            .cal-day .ev { font-size: 7px; }
-            .tt th, .tt td { padding: 3px 1px; font-size: 9px; }
+            body { padding: 8px; }
+            .header { padding: 16px; border-radius: 12px; }
+            .header h1 { font-size: 18px; }
+            .day-header { padding: 8px 10px; }
+            .day-date { font-size: 14px; }
+            .period { padding: 8px 10px; }
+            .class-item { padding: 5px 8px; }
+            .class-name { font-size: 12px; }
+            .class-time { font-size: 11px; }
         }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="header">
-            <div class="logo">📚</div>
-            <h1>妞妞高中衔接补课日程</h1>
-            <p class="subtitle">2026年7月1日 - 7月31日 · 共 <span id="total-days">0</span> 天课程</p>
+            <h1>📚 妞妞高中衔接补课日程</h1>
+            <p>2026年7月1日 - 7月31日</p>
             <div class="stats">
-                <span>📐 <strong id="math-count">0</strong> 次数学</span>
-                <span>📖 <strong id="chinese-count">0</strong> 次数语文</span>
-                <span>⚡ <strong id="physics-count">0</strong> 次物理</span>
-                <span>🧪 <strong id="chem-count">0</strong> 次化学</span>
+                <div class="stat"><strong id="total-days">0</strong>天有课</div>
+                <div class="stat"><strong id="total-sessions">0</strong>次课程</div>
+                <div class="stat"><strong id="total-hours">0</strong>小时</div>
             </div>
-            <div class="course-stats" id="course-stats"></div>
         </div>
-
-        <div class="tabs">
-            <button class="tab-btn active" onclick="switchTab('calendar')">📅 月度日历</button>
-            <button class="tab-btn" onclick="switchTab('weekly')">📋 每周课表</button>
-        </div>
-
-        <!-- Monthly Calendar -->
-        <div id="tab-calendar" class="tab-content active">
-            <div class="cal-grid" id="calendar-grid"></div>
-        </div>
-
-        <!-- Weekly Timetable -->
-        <div id="tab-weekly" class="tab-content">
-            <div class="weekly-section" id="weekly-container"></div>
-        </div>
-
+        <div id="schedule-list"></div>
         <div class="footer">
-            <p>🏫 祝妞妞高中衔接顺利！加油！💪</p>
-            <p>最后更新: 2026-06-30 | Made with ❤️ by 小龙虾 🦞</p>
+            🏫 祝妞妞高中衔接顺利！加油！💪<br>
+            最后更新: 2026-06-30 | Made with ❤️ by 小龙虾 🦞
         </div>
     </div>
 
@@ -857,236 +796,103 @@
   ]
 };
 
-    function switchTab(tab) {
-        document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
-        document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
-        if (tab === 'calendar') {
-            document.querySelectorAll('.tab-btn')[0].classList.add('active');
-            document.getElementById('tab-calendar').classList.add('active');
-        } else {
-            document.querySelectorAll('.tab-btn')[1].classList.add('active');
-            document.getElementById('tab-weekly').classList.add('active');
-        }
-    }
+    const PERIODS = [
+        { key: 'morning', label: '☀️ 上午', cls: 'morning', range: '09:00-11:59' },
+        { key: 'afternoon', label: '🌤️ 下午', cls: 'afternoon', range: '12:00-18:00' },
+        { key: 'evening', label: '🌙 晚上', cls: 'evening', range: '18:00-22:00' },
+    ];
 
-    function renderCalendar() {
-        const grid = document.getElementById('calendar-grid');
-        // July 2026: July 1 = Wednesday, July 31 = Friday
-        // Monday of first week = June 29
-        // Sunday of last week = Aug 2
-        // We only show Mon-Sat (6 columns)
-        const mondayStart = new Date(2026, 5, 29); // June 29
-        const dayMap = {};
-        DATA.schedule.forEach(d => { dayMap[d.date] = d; });
-
-        let html = '';
-        // Column headers: 一 二 三 四 五 六 日
-        ['一','二','三','四','五','六','日'].forEach(h => {
-            html += '<div class="col-header">' + h + '</div>';
-        });
-
-        // 6 weeks x 7 days = 42 cells (covers June 29 to Aug 2)
-        for (let i = 0; i < 6 * 7; i++) {
-            const d = new Date(mondayStart);
-            d.setDate(d.getDate() + i);
-            const ds = d.getFullYear() + '-' + String(d.getMonth()+1).padStart(2,'0') + '-' + String(d.getDate()).padStart(2,'0');
-            const dayInfo = dayMap[ds];
-            const isSunday = d.getDay() === 0;
-            const isSaturday = d.getDay() === 6;
-            const inJuly = d.getMonth() === 6 && d.getFullYear() === 2026;
-
-            if (!inJuly) {
-                html += '<div class="cal-day empty"></div>';
-                continue;
-            }
-
-            if (isSunday) {
-                // Sunday: show date only, no courses, dimmed style
-                html += '<div class="cal-day sun-empty">';
-                html += '<div class="day-label sunday">' + d.getDate() + '</div>';
-                html += '</div>';
-                continue;
-            }
-
-            html += '<div class="cal-day">';
-            html += '<div class="day-label' + (isSaturday ? ' saturday' : '') + '">' + d.getDate() + '</div>';
-
-            if (dayInfo) {
-                // Sort events by start_time ascending (earlier time first)
-                const sorted = [...dayInfo.events].sort((a, b) => a.start_time.localeCompare(b.start_time));
-                sorted.forEach(ev => {
-                    const cls = ev.subject === '数学' ? 'math' : ev.subject === '语文' ? 'chinese' : ev.subject === '物理' ? 'physics' : 'chemistry';
-                    html += '<div class="ev ' + cls + '" title="' + ev.description + '">' + ev.emoji + ' ' + ev.time + '</div>';
-                });
-            }
-            html += '</div>';
-        }
-        grid.innerHTML = html;
-    }
-
-    function getTimePeriod(timeStr) {
-        const hour = parseInt(timeStr.split(':')[0]);
-        if (hour < 12) return 'morning';
-        if (hour < 18) return 'afternoon';
+    function getPeriod(timeStr) {
+        const h = parseInt(timeStr.split(':')[0]);
+        if (h < 12) return 'morning';
+        if (h < 18) return 'afternoon';
         return 'evening';
     }
 
-    function renderWeekly() {
-        const container = document.getElementById('weekly-container');
-        const weekMap = {};
-        DATA.schedule.forEach(d => {
-            const dt = new Date(d.date);
-            const dow = dt.getDay() === 0 ? 7 : dt.getDay();
-            const weekNum = Math.ceil((dt.getDate() - dow + 1) / 7);
-            if (!weekMap[weekNum]) weekMap[weekNum] = { dates: [], days: {} };
-            weekMap[weekNum].dates.push(d.date);
-            weekMap[weekNum].days[dow] = d;
-        });
-
-        const periods = [
-            { key: 'morning', label: '☀️ 上午', cls: 'morning' },
-            { key: 'afternoon', label: '🌤️ 下午', cls: 'afternoon' },
-            { key: 'evening', label: '🌙 晚上', cls: 'evening' },
-        ];
-
-        const weekNums = Object.keys(weekMap).sort((a,b) => a - b);
+    function render() {
+        const container = document.getElementById('schedule-list');
         let html = '';
+        let totalSessions = 0;
+        let totalHours = 0;
 
-        weekNums.forEach(wk => {
-            const info = weekMap[wk];
-            const firstDate = info.dates[0].split('-')[2];
-            const lastDate = info.dates[info.dates.length - 1].split('-')[2];
+        // Build day map
+        const dayMap = {};
+        DATA.schedule.forEach(d => { dayMap[d.date] = d; });
 
-            html += `<div class="week-group"><div class="week-title">第 ${wk} 周 (${firstDate}日 - ${lastDate}日)</div>`;
+        // Iterate all 31 days of July
+        for (let day = 1; day <= 31; day++) {
+            const dt = new Date(2026, 6, day);
+            const dow = dt.getDay(); // 0=Sun, 1=Mon, ..., 6=Sat
+            const ds = dt.getFullYear() + '-' + String(dt.getMonth()+1).padStart(2,'0') + '-' + String(day).padStart(2,'0');
+            const dayNames = ['周日','周一','周二','周三','周四','周五','周六'];
+            const dayInfo = dayMap[ds];
 
-            periods.forEach(period => {
-                // Collect unique subjects in this period
-                const periodSubjects = [];
-                DATA.schedule.forEach(d => {
-                    d.events.forEach(ev => {
-                        if (getTimePeriod(ev.start_time) === period.key && !periodSubjects.includes(ev.subject)) {
-                            periodSubjects.push(ev.subject);
-                        }
+            const hasClass = dayInfo && dayInfo.events.length > 0;
+            totalSessions += hasClass ? dayInfo.events.length : 0;
+
+            html += '<div class="day-card' + (hasClass ? '' : ' no-class') + '">';
+
+            // Header
+            html += '<div class="day-header">';
+            html += '<div class="day-date">7月' + day + '日</div>';
+            html += '<div class="day-weekday">' + dayNames[dow] + '</div>';
+            if (hasClass) {
+                html += '<div class="day-badge has-class">有课</div>';
+            } else {
+                html += '<div class="day-badge no-class">休息</div>';
+            }
+            html += '</div>';
+
+            if (hasClass) {
+                // Group events by period
+                const grouped = {};
+                PERIODS.forEach(p => { grouped[p.key] = []; });
+                dayInfo.events.forEach(ev => {
+                    const p = getPeriod(ev.start_time);
+                    if (grouped[p]) grouped[p].push(ev);
+                });
+                // Sort within each period by start time
+                PERIODS.forEach(p => {
+                    grouped[p.key].sort((a, b) => a.start_time.localeCompare(b.start_time));
+                });
+
+                PERIODS.forEach(p => {
+                    if (grouped[p.key].length === 0) return;
+
+                    html += '<div class="period">';
+                    html += '<div class="period-label ' + p.cls + '">';
+                    html += '<span class="dot"></span>' + p.label + ' <span style="color:#aaa;font-weight:normal;font-size:11px;">(' + p.range + ')</span>';
+                    html += '</div>';
+
+                    grouped[p.key].forEach(ev => {
+                        const cls = ev.subject === '数学' ? 'math' : ev.subject === '语文' ? 'chinese' : ev.subject === '物理' ? 'physics' : 'chemistry';
+                        totalHours += Math.round((parseInt(ev.end_time.split(':')[0])*60 + parseInt(ev.end_time.split(':')[1]) - parseInt(ev.start_time.split(':')[0])*60 - parseInt(ev.start_time.split(':')[1])) / 60 * 10) / 10;
+                        html += '<div class="class-item ' + cls + '">';
+                        html += '<div class="class-emoji">' + ev.emoji + '</div>';
+                        html += '<div class="class-info">';
+                        html += '<div class="class-name">' + ev.subject + '</div>';
+                        html += '<div class="class-desc">' + ev.description + '</div>';
+                        html += '</div>';
+                        html += '<div class="class-time">' + ev.time + '</div>';
+                        html += '</div>';
                     });
+
+                    html += '</div>';
                 });
-
-                if (periodSubjects.length === 0) return;
-
-                // Sort by start time
-                periodSubjects.sort((a, b) => {
-                    const evA = DATA.schedule.flatMap(d => d.events).find(e => e.subject === a);
-                    const evB = DATA.schedule.flatMap(d => d.events).find(e => e.subject === b);
-                    return evA.start_time.localeCompare(evB.start_time);
-                });
-
-                html += `<div class="time-block"><div class="time-block-title ${period.cls}">${period.label}</div>`;
-                html += '<table class="tt"><thead><tr><th class="tcol">时间</th>';
-                for (let d = 1; d <= 7; d++) {
-                    const names = ['','一','二','三','四','五','六','日'];
-                    html += `<th>${names[d]}${d>=6?'⭐':''}</th>`;
-                }
-                html += '</tr></thead><tbody>';
-
-                periodSubjects.forEach(subject => {
-                    const ev = DATA.schedule.flatMap(d => d.events).find(e => e.subject === subject);
-                    if (!ev) return;
-                    const timeLabel = ev.time.split('-')[0];
-                    const cls = subject === '数学' ? 'math' : subject === '语文' ? 'chinese' : subject === '物理' ? 'physics' : 'chemistry';
-                    html += `<tr><td class="tcol-subj">${ev.emoji} ${subject}</td>`;
-                    for (let d = 1; d <= 7; d++) {
-                        const dayData = info.days[d];
-                        if (dayData) {
-                            const dayEv = dayData.events.find(e => e.subject === subject);
-                            if (dayEv) {
-                                html += `<td><span class="evt ${cls}">${dayEv.time}</span></td>`;
-                            } else {
-                                html += '<td></td>';
-                            }
-                        } else {
-                            html += '<td></td>';
-                        }
-                    }
-                    html += '</tr>';
-                });
-
-                html += '</tbody></table></div>';
-            });
+            } else {
+                html += '<div class="no-class-msg">🎉 今天休息，没有课程安排</div>';
+            }
 
             html += '</div>';
-        });
+        }
 
         container.innerHTML = html;
-    }
-
-    function updateStats() {
-        const counts = { math: 0, chinese: 0, physics: 0, chemistry: 0 };
-        const weeklyCounts = { math: {}, chinese: {}, physics: {}, chemistry: {} };
-        const allEvents = DATA.schedule.flatMap(d => d.events);
-        const maxCount = Math.max(counts.math, counts.chinese, counts.physics, counts.chemistry);
-
-        DATA.schedule.forEach(d => {
-            const dt = new Date(d.date);
-            const dow = dt.getDay() === 0 ? 7 : dt.getDay();
-            d.events.forEach(e => {
-                if (e.subject === '数学') { counts.math++; if (!weeklyCounts.math[dow]) weeklyCounts.math[dow]=0; weeklyCounts.math[dow]++; }
-                else if (e.subject === '语文') { counts.chinese++; if (!weeklyCounts.chinese[dow]) weeklyCounts.chinese[dow]=0; weeklyCounts.chinese[dow]++; }
-                else if (e.subject === '物理') { counts.physics++; if (!weeklyCounts.physics[dow]) weeklyCounts.physics[dow]=0; weeklyCounts.physics[dow]++; }
-                else if (e.subject === '化学') { counts.chemistry++; if (!weeklyCounts.chemistry[dow]) weeklyCounts.chemistry[dow]=0; weeklyCounts.chemistry[dow]++; }
-            });
-        });
-
-        document.getElementById('math-count').textContent = counts.math;
-        document.getElementById('chinese-count').textContent = counts.chinese;
-        document.getElementById('physics-count').textContent = counts.physics;
-        document.getElementById('chem-count').textContent = counts.chemistry;
         document.getElementById('total-days').textContent = DATA.total_days;
-
-        // Render course stats with weekly frequency
-        const courses = [
-            { key: 'math', name: '数学', icon: '📐', color: 'math', freq: '周一/三/五' },
-            { key: 'chinese', name: '语文', icon: '📖', color: 'chinese', freq: '周三/五' },
-            { key: 'physics', name: '物理', icon: '⚡', color: 'physics', freq: '周二/四/六' },
-            { key: 'chemistry', name: '化学', icon: '🧪', color: 'chemistry', freq: '周二/四/六' },
-        ];
-
-        const daysOfWeek = ['一','二','三','四','五','六','日'];
-        let statsHtml = '<h3>📊 课程统计</h3>';
-
-        courses.forEach(c => {
-            const cnt = counts[c.key];
-            const pct = maxCount > 0 ? Math.round(cnt / maxCount * 100) : 0;
-            const wc = weeklyCounts[c.key];
-            const totalWeekly = Object.values(wc).reduce((a,b) => a+b, 0);
-            const weeks = Math.ceil(DATA.total_days / 7);
-            const perWeek = (cnt / weeks).toFixed(1);
-
-            statsHtml += `
-                <div class="cs-row">
-                    <div class="cs-icon">${c.icon}</div>
-                    <div class="cs-name">${c.name}</div>
-                    <div class="cs-bar-bg">
-                        <div class="cs-bar ${c.color}" style="width:${pct}%">${cnt}</div>
-                    </div>
-                    <div class="cs-detail">${c.freq}<br>每周约${perWeek}次</div>
-                </div>
-                <div class="cs-weekly">
-                    ${daysOfWeek.map((d, i) => {
-                        const hasClass = wc[i+1] ? wc[i+1] > 0 : false;
-                        return `<div class="cs-weekly-dot ${hasClass ? c.color : 'off'}" title="周${d}: ${wc[i+1]||0}次">${hasClass ? '✓' : ''}</div>`;
-                    }).join('')}
-                </div>
-            `;
-        });
-
-        const totalSessions = counts.math + counts.chinese + counts.physics + counts.chemistry;
-        statsHtml += `<div class="cs-total">📚 总计 <strong>${totalSessions}</strong> 次课程 · ${DATA.total_days} 天有课 · 平均每天 <strong>${(totalSessions / DATA.total_days).toFixed(1)}</strong> 节</div>`;
-
-        document.getElementById('course-stats').innerHTML = statsHtml;
+        document.getElementById('total-sessions').textContent = totalSessions;
+        document.getElementById('total-hours').textContent = totalHours.toFixed(1);
     }
 
-    renderCalendar();
-    renderWeekly();
-    updateStats();
+    render();
     </script>
 </body>
 </html>
