@@ -135,9 +135,45 @@
             background: white;
             border-radius: 12px;
             padding: 12px;
-            margin-bottom: 16px;
+            margin-bottom: 12px;
             box-shadow: 0 1px 4px rgba(0,0,0,0.08);
         }
+        .summary-card {
+            background: white;
+            border-radius: 12px;
+            padding: 14px 16px;
+            margin-bottom: 12px;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+        }
+        .summary-card h3 {
+            font-size: 14px;
+            color: #2c3e50;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        .summary-row {
+            display: flex;
+            align-items: center;
+            padding: 8px 0;
+            border-bottom: 1px solid #f0f0f0;
+            gap: 10px;
+        }
+        .summary-row:last-child { border-bottom: none; }
+        .summary-emoji { font-size: 20px; width: 28px; text-align: center; }
+        .summary-info { flex: 1; }
+        .summary-name { font-size: 14px; font-weight: bold; color: #2c3e50; }
+        .summary-detail { font-size: 12px; color: #7f8c8d; margin-top: 2px; }
+        .summary-badge {
+            font-size: 12px;
+            font-weight: bold;
+            padding: 3px 10px;
+            border-radius: 12px;
+            white-space: nowrap;
+        }
+        .summary-badge.math { background: #ffebee; color: #c62828; }
+        .summary-badge.chinese { background: #e3f2fd; color: #1565c0; }
+        .summary-badge.physics { background: #fff3e0; color: #e65100; }
+        .summary-badge.chemistry { background: #f3e5f5; color: #6a1b9a; }
         .month-cal-title {
             font-size: 14px;
             font-weight: bold;
@@ -224,6 +260,43 @@
                 <div class="stat"><strong id="total-days">0</strong>天有课</div>
                 <div class="stat"><strong id="total-sessions">0</strong>次课程</div>
                 <div class="stat"><strong id="total-hours">0</strong>小时</div>
+            </div>
+        </div>
+
+        <!-- Course Summary -->
+        <div class="summary-card">
+            <h3>📋 课程汇总</h3>
+            <div class="summary-row">
+                <div class="summary-emoji">📐</div>
+                <div class="summary-info">
+                    <div class="summary-name">数学</div>
+                    <div class="summary-detail">周一/三/五 13:00-15:00</div>
+                </div>
+                <div class="summary-badge math">14次</div>
+            </div>
+            <div class="summary-row">
+                <div class="summary-emoji">📖</div>
+                <div class="summary-info">
+                    <div class="summary-name">语文</div>
+                    <div class="summary-detail">周三/五 09:00-11:00</div>
+                </div>
+                <div class="summary-badge chinese">10次</div>
+            </div>
+            <div class="summary-row">
+                <div class="summary-emoji">⚡</div>
+                <div class="summary-info">
+                    <div class="summary-name">物理</div>
+                    <div class="summary-detail">周二/四/六 16:00-18:00</div>
+                </div>
+                <div class="summary-badge physics">13次</div>
+            </div>
+            <div class="summary-row">
+                <div class="summary-emoji">🧪</div>
+                <div class="summary-info">
+                    <div class="summary-name">化学</div>
+                    <div class="summary-detail">周二/四/六 19:15-21:15</div>
+                </div>
+                <div class="summary-badge chemistry">13次</div>
             </div>
         </div>
 
