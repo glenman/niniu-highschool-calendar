@@ -86,8 +86,8 @@
         /* ====== Monthly Calendar ====== */
         .cal-grid {
             display: grid;
-            grid-template-columns: repeat(6, 1fr);
-            gap: 3px;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 2px;
         }
         .cal-grid .col-header {
             text-align: center;
@@ -97,35 +97,37 @@
             padding: 6px 0;
         }
         .cal-day {
-            min-height: 55px;
-            border: 1.5px solid #e8e8e8;
-            border-radius: 8px;
-            padding: 3px;
+            min-height: 45px;
+            border: 1px solid #e8e8e8;
+            border-radius: 6px;
+            padding: 2px;
             display: flex;
             flex-direction: column;
-            gap: 2px;
+            gap: 1px;
         }
         .cal-day.empty { border: none; background: transparent; }
+        .cal-day.sun-empty { border: 1px dashed #eee; background: #fafafa; }
         .cal-day .day-label {
-            font-size: 11px;
+            font-size: 10px;
             font-weight: bold;
             color: #2c3e50;
             line-height: 1;
         }
         .cal-day .day-label.saturday { color: #e74c3c; }
+        .cal-day .day-label.sunday { color: #bbb; }
         .cal-day .ev {
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 9px;
+            font-size: 8px;
             color: white;
-            border-radius: 3px;
-            padding: 1px 3px;
+            border-radius: 2px;
+            padding: 1px 2px;
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
             flex-shrink: 0;
-            min-height: 14px;
+            min-height: 12px;
         }
         .ev.math { background: #e74c3c; }
         .ev.chinese { background: #3498db; }
@@ -878,23 +880,33 @@
         DATA.schedule.forEach(d => { dayMap[d.date] = d; });
 
         let html = '';
-        // Column headers: 一 二 三 四 五 六
-        ['一','二','三','四','五','六'].forEach(h => {
+        // Column headers: 一 二 三 四 五 六 日
+        ['一','二','三','四','五','六','日'].forEach(h => {
             html += '<div class="col-header">' + h + '</div>';
         });
 
-        // 6 weeks x 6 days = 36 cells (covers June 29 to July 31)
-        for (let i = 0; i < 6 * 6; i++) {
+        // 6 weeks x 7 days = 42 cells (covers June 29 to Aug 2)
+        for (let i = 0; i < 6 * 7; i++) {
             const d = new Date(mondayStart);
             d.setDate(d.getDate() + i);
-            // Only show July days
-            if (d.getMonth() !== 6 || d.getFullYear() !== 2026) {
+            const ds = d.getFullYear() + '-' + String(d.getMonth()+1).padStart(2,'0') + '-' + String(d.getDate()).padStart(2,'0');
+            const dayInfo = dayMap[ds];
+            const isSunday = d.getDay() === 0;
+            const isSaturday = d.getDay() === 6;
+            const inJuly = d.getMonth() === 6 && d.getFullYear() === 2026;
+
+            if (!inJuly) {
                 html += '<div class="cal-day empty"></div>';
                 continue;
             }
-            const ds = d.getFullYear() + '-' + String(d.getMonth()+1).padStart(2,'0') + '-' + String(d.getDate()).padStart(2,'0');
-            const dayInfo = dayMap[ds];
-            const isSaturday = d.getDay() === 6;
+
+            if (isSunday) {
+                // Sunday: show date only, no courses, dimmed style
+                html += '<div class="cal-day sun-empty">';
+                html += '<div class="day-label sunday">' + d.getDate() + '</div>';
+                html += '</div>';
+                continue;
+            }
 
             html += '<div class="cal-day">';
             html += '<div class="day-label' + (isSaturday ? ' saturday' : '') + '">' + d.getDate() + '</div>';
