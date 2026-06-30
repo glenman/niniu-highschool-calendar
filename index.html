@@ -2,72 +2,82 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>妞妞高中衔接补课日程</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { overflow-x: hidden; }
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             min-height: 100vh;
-            padding: 20px;
+            padding: 10px;
+            -webkit-text-size-adjust: 100%;
         }
         .container {
             max-width: 1100px;
             margin: 0 auto;
             background: white;
             border-radius: 20px;
-            padding: 30px;
+            padding: 20px;
             box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow-x: hidden;
         }
-        .header { text-align: center; margin-bottom: 30px; }
-        .logo { font-size: 50px; margin-bottom: 10px; }
-        h1 { color: #2c3e50; font-size: 30px; margin-bottom: 5px; }
-        .subtitle { color: #7f8c8d; font-size: 16px; margin-bottom: 15px; }
+        .header { text-align: center; margin-bottom: 20px; }
+        .logo { font-size: 40px; margin-bottom: 8px; }
+        h1 { color: #2c3e50; font-size: 24px; margin-bottom: 4px; }
+        .subtitle { color: #7f8c8d; font-size: 14px; margin-bottom: 12px; }
         .stats {
-            display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;
-            background: #f8f9fa; padding: 12px 20px; border-radius: 10px;
+            display: flex; justify-content: center; gap: 12px; flex-wrap: wrap;
+            background: #f8f9fa; padding: 10px 15px; border-radius: 10px;
         }
-        .stats span { font-size: 15px; }
-        .stats strong { font-size: 18px; }
+        .stats span { font-size: 13px; white-space: nowrap; }
+        .stats strong { font-size: 16px; }
 
         /* Legend */
         .legend {
-            background: #f8f9fa; padding: 15px 20px; border-radius: 10px; margin-bottom: 25px;
+            background: #f8f9fa; padding: 12px 15px; border-radius: 10px; margin-bottom: 20px;
         }
-        .legend h3 { margin-bottom: 10px; color: #2c3e50; font-size: 16px; }
-        .legend-items { display: flex; flex-wrap: wrap; gap: 8px; }
+        .legend h3 { margin-bottom: 8px; color: #2c3e50; font-size: 14px; }
+        .legend-items { display: flex; flex-wrap: wrap; gap: 6px; }
         .legend-item {
-            flex: 1; min-width: 200px; padding: 8px 12px; border-radius: 6px;
-            border-left: 4px solid #ccc; background: white; font-size: 14px;
+            flex: 1; min-width: 140px; padding: 6px 10px; border-radius: 6px;
+            border-left: 4px solid #ccc; background: white; font-size: 12px;
         }
 
+        /* Tabs */
+        .tabs { display: flex; gap: 4px; margin-bottom: 15px; }
+        .tab-btn {
+            flex: 1; padding: 10px 8px; border: none; background: #ecf0f1;
+            border-radius: 8px; font-size: 14px; cursor: pointer; font-weight: bold;
+            color: #7f8c8d; transition: all 0.2s;
+        }
+        .tab-btn.active { background: #667eea; color: white; }
+
         /* Calendar Grid */
-        .calendar-wrapper { margin-bottom: 30px; }
+        .calendar-wrapper { margin-bottom: 20px; }
         .calendar-header {
             display: grid; grid-template-columns: repeat(7, 1fr); gap: 2px;
             margin-bottom: 2px;
         }
         .calendar-header div {
-            text-align: center; padding: 8px; font-weight: bold; color: #7f8c8d; font-size: 14px;
+            text-align: center; padding: 6px 2px; font-weight: bold; color: #7f8c8d; font-size: 12px;
         }
         .calendar-body {
             display: grid; grid-template-columns: repeat(7, 1fr); gap: 2px;
         }
         .cal-day {
-            min-height: 100px; border: 1px solid #ecf0f1; border-radius: 6px;
-            padding: 4px; font-size: 12px; transition: all 0.2s;
+            min-height: 60px; border: 1px solid #ecf0f1; border-radius: 4px;
+            padding: 2px; font-size: 10px;
         }
         .cal-day.empty { border: none; background: transparent; }
-        .cal-day.has-events { cursor: default; }
-        .cal-day:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
         .cal-day .day-num {
-            font-weight: bold; color: #2c3e50; font-size: 13px; margin-bottom: 4px;
+            font-weight: bold; color: #2c3e50; font-size: 11px; margin-bottom: 2px;
         }
         .cal-day .day-num.weekend { color: #e74c3c; }
         .cal-day .event-tag {
-            display: block; padding: 2px 5px; border-radius: 3px; margin-bottom: 2px;
-            font-size: 11px; color: white; white-space: nowrap; overflow: hidden;
+            display: block; padding: 1px 3px; border-radius: 2px; margin-bottom: 1px;
+            font-size: 9px; color: white; white-space: nowrap; overflow: hidden;
             text-overflow: ellipsis;
         }
         .cal-day .event-tag.math { background: #e74c3c; }
@@ -76,51 +86,70 @@
         .cal-day .event-tag.chemistry { background: #9b59b6; }
 
         /* Weekly View */
-        .weekly-section { margin-top: 20px; }
-        .weekly-section h2 { color: #2c3e50; font-size: 22px; margin-bottom: 15px; text-align: center; }
+        .weekly-section { margin-top: 15px; }
+        .weekly-section h2 { color: #2c3e50; font-size: 18px; margin-bottom: 12px; text-align: center; }
+
+        .time-block {
+            margin-bottom: 16px;
+        }
+        .time-block-title {
+            font-size: 15px; font-weight: bold; margin-bottom: 8px;
+            padding: 6px 12px; border-radius: 6px; display: inline-block;
+        }
+        .time-block-title.morning { background: #fff3cd; color: #856404; }
+        .time-block-title.afternoon { background: #d4edda; color: #155724; }
+        .time-block-title.evening { background: #d1ecf1; color: #0c5460; }
+
         .week-group {
-            background: #f8f9fa; border-radius: 12px; padding: 15px 20px; margin-bottom: 12px;
+            background: #f8f9fa; border-radius: 10px; padding: 10px 12px; margin-bottom: 10px;
         }
         .week-title {
-            font-weight: bold; color: #2c3e50; font-size: 15px; margin-bottom: 10px;
-            padding-bottom: 5px; border-bottom: 2px solid #ddd;
+            font-weight: bold; color: #2c3e50; font-size: 13px; margin-bottom: 8px;
+            padding-bottom: 4px; border-bottom: 2px solid #ddd;
         }
         .week-table { width: 100%; border-collapse: collapse; }
         .week-table th {
-            background: #2c3e50; color: white; padding: 8px 6px; font-size: 13px; text-align: center;
+            background: #2c3e50; color: white; padding: 5px 3px; font-size: 11px; text-align: center;
         }
         .week-table td {
-            padding: 6px; font-size: 12px; text-align: center; border-bottom: 1px solid #eee;
+            padding: 4px 3px; font-size: 10px; text-align: center; border-bottom: 1px solid #eee;
             vertical-align: top;
         }
         .week-table tr:last-child td { border-bottom: none; }
-        .week-table .time-col { width: 80px; background: #ecf0f1; font-weight: bold; color: #555; }
+        .week-table .time-col { width: 50px; background: #ecf0f1; font-weight: bold; color: #555; font-size: 10px; }
         .event-cell {
-            display: inline-block; padding: 3px 8px; border-radius: 4px; color: white;
-            font-size: 11px; margin: 1px; white-space: nowrap;
+            display: inline-block; padding: 2px 5px; border-radius: 3px; color: white;
+            font-size: 10px; margin: 1px; white-space: nowrap;
         }
         .event-cell.math { background: #e74c3c; }
         .event-cell.chinese { background: #3498db; }
         .event-cell.physics { background: #f39c12; }
         .event-cell.chemistry { background: #9b59b6; }
 
-        /* Print */
+        .tab-content { display: none; }
+        .tab-content.active { display: block; }
+
+        .footer {
+            text-align: center; margin-top: 20px; padding-top: 12px;
+            border-top: 1px solid #ecf0f1; color: #95a5a6; font-size: 12px;
+        }
+        .footer p:first-child { font-size: 14px; color: #2c3e50; margin-bottom: 4px; }
+
         @media print {
             body { background: white; padding: 0; }
             .container { box-shadow: none; padding: 10px; }
         }
-        @media (max-width: 768px) {
-            .container { padding: 15px; }
-            .cal-day { min-height: 70px; }
-            .cal-day .event-tag { font-size: 9px; }
-            .week-table th, .week-table td { padding: 4px 2px; font-size: 10px; }
+        @media (max-width: 480px) {
+            .container { padding: 10px; border-radius: 12px; }
+            h1 { font-size: 20px; }
+            .stats span { font-size: 11px; }
+            .stats strong { font-size: 14px; }
+            .cal-day { min-height: 50px; }
+            .cal-day .event-tag { font-size: 8px; }
+            .week-table th, .week-table td { padding: 3px 1px; font-size: 9px; }
+            .week-table .time-col { width: 40px; }
+            .legend-item { min-width: 120px; font-size: 11px; }
         }
-
-        .footer {
-            text-align: center; margin-top: 30px; padding-top: 15px;
-            border-top: 1px solid #ecf0f1; color: #95a5a6; font-size: 13px;
-        }
-        .footer p:first-child { font-size: 16px; color: #2c3e50; margin-bottom: 5px; }
     </style>
 </head>
 <body>
@@ -155,17 +184,25 @@
             </div>
         </div>
 
-        <div class="calendar-wrapper">
-            <div class="calendar-header">
-                <div>周一</div><div>周二</div><div>周三</div>
-                <div>周四</div><div>周五</div><div>周六</div><div>周日</div>
-            </div>
-            <div class="calendar-body" id="calendar-grid"></div>
+        <div class="tabs">
+            <button class="tab-btn active" onclick="switchTab('calendar')">📅 月度日历</button>
+            <button class="tab-btn" onclick="switchTab('weekly')">📋 每周课表</button>
         </div>
 
-        <div class="weekly-section">
-            <h2>📅 每周详细课表</h2>
-            <div id="weekly-container"></div>
+        <div id="tab-calendar" class="tab-content active">
+            <div class="calendar-wrapper">
+                <div class="calendar-header">
+                    <div>周一</div><div>周二</div><div>周三</div>
+                    <div>周四</div><div>周五</div><div>周六</div><div>周日</div>
+                </div>
+                <div class="calendar-body" id="calendar-grid"></div>
+            </div>
+        </div>
+
+        <div id="tab-weekly" class="tab-content">
+            <div class="weekly-section">
+                <div id="weekly-container"></div>
+            </div>
         </div>
 
         <div class="footer">
@@ -175,7 +212,6 @@
     </div>
 
     <script>
-    // Embedded schedule data
     const DATA = {
   "title": "妞妞高中衔接补课日程",
   "period": "2026年7月1日 - 7月31日",
@@ -802,49 +838,39 @@
   ]
 };
 
+    function switchTab(tab) {
+        document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+        document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+        if (tab === 'calendar') {
+            document.querySelectorAll('.tab-btn')[0].classList.add('active');
+            document.getElementById('tab-calendar').classList.add('active');
+        } else {
+            document.querySelectorAll('.tab-btn')[1].classList.add('active');
+            document.getElementById('tab-weekly').classList.add('active');
+        }
+    }
+
     function renderCalendar() {
         const grid = document.getElementById('calendar-grid');
-        // July 2026 starts on Wednesday (day 2 in Mon=0 convention)
-        // So Monday = Jul 6, Tuesday = Jul 7, Wednesday = Jul 1
-        // Week 1: empty, empty, Jul1, Jul2, empty, empty, empty
-        // Actually let's compute properly
-        
-        const firstDay = new Date(2026, 6, 1); // July 1
-        const lastDay = new Date(2026, 6, 31); // July 31
-        
-        // JS getDay(): Sun=0, Mon=1, ..., Sat=6
-        // We want Mon=0, ..., Sun=6
-        const startDow = firstDay.getDay() === 0 ? 6 : firstDay.getDay() - 1; // Wednesday = 2
-        const totalDays = 31;
-        
-        // Build a map: date -> events
+        const firstDay = new Date(2026, 6, 1);
+        const startDow = firstDay.getDay() === 0 ? 6 : firstDay.getDay() - 1;
+        const startDate = new Date(2026, 6, 1 - startDow);
         const dayMap = {};
-        DATA.schedule.forEach(d => {
-            dayMap[d.date] = d;
-        });
-        
-        // Calculate grid: we need cells from the Monday before July 1 to the Sunday after July 31
-        const startDate = new Date(2026, 6, 1 - startDow); // Monday of the week containing July 1
-        
+        DATA.schedule.forEach(d => { dayMap[d.date] = d; });
+
         let html = '';
-        for (let i = 0; i < 6 * 7; i++) { // max 6 weeks
+        for (let i = 0; i < 6 * 7; i++) {
             const d = new Date(startDate);
             d.setDate(d.getDate() + i);
-            
             if (d.getMonth() !== 6 || d.getFullYear() !== 2026) {
                 html += '<div class="cal-day empty"></div>';
                 continue;
             }
-            
             const ds = d.toISOString().slice(0, 10);
             const dayInfo = dayMap[ds];
             const isWeekend = d.getDay() === 0 || d.getDay() === 6;
-            
-            html += '<div class="cal-day';
-            if (dayInfo) html += ' has-events';
-            html += '">';
+            html += '<div class="cal-day">';
             html += `<div class="day-num${isWeekend ? ' weekend' : ''}">${d.getDate()}日 ${['周日','周一','周二','周三','周四','周五','周六'][d.getDay()]}</div>`;
-            
             if (dayInfo) {
                 dayInfo.events.forEach(ev => {
                     const cls = ev.subject === '数学' ? 'math' : ev.subject === '语文' ? 'chinese' : ev.subject === '物理' ? 'physics' : 'chemistry';
@@ -856,65 +882,100 @@
         grid.innerHTML = html;
     }
 
+    function getTimePeriod(timeStr) {
+        const hour = parseInt(timeStr.split(':')[0]);
+        if (hour < 12) return 'morning';
+        if (hour < 18) return 'afternoon';
+        return 'evening';
+    }
+
     function renderWeekly() {
         const container = document.getElementById('weekly-container');
+
+        // Organize by week -> time period -> day
         const weekMap = {};
-        
         DATA.schedule.forEach(d => {
             const dt = new Date(d.date);
-            const dow = dt.getDay() === 0 ? 7 : dt.getDay(); // Mon=1..Sun=7
+            const dow = dt.getDay() === 0 ? 7 : dt.getDay();
             const weekNum = Math.ceil((dt.getDate() - dow + 1) / 7);
             if (!weekMap[weekNum]) weekMap[weekNum] = { dates: [], days: {} };
             weekMap[weekNum].dates.push(d.date);
             weekMap[weekNum].days[dow] = d;
         });
-        
-        let html = '';
+
+        const periods = [
+            { key: 'morning', label: '☀️ 上午', cls: 'morning', hours: [9, 10, 11] },
+            { key: 'afternoon', label: '🌤️ 下午', cls: 'afternoon', hours: [12, 13, 14, 15, 16, 17] },
+            { key: 'evening', label: '🌙 晚上', cls: 'evening', hours: [18, 19, 20, 21] },
+        ];
+
         const weekNums = Object.keys(weekMap).sort((a,b) => a - b);
-        
+        let html = '';
+
         weekNums.forEach(wk => {
             const info = weekMap[wk];
             const firstDate = info.dates[0].split('-')[2];
             const lastDate = info.dates[info.dates.length - 1].split('-')[2];
-            
+
             html += `<div class="week-group"><div class="week-title">第 ${wk} 周 (${firstDate}日 - ${lastDate}日)</div>`;
-            html += '<table class="week-table"><thead><tr><th class="time-col">时间</th>';
-            for (let d = 1; d <= 7; d++) {
-                const names = ['','一','二','三','四','五','六','日'];
-                html += `<th>${names[d]}${d >= 6 ? ' ⭐' : ''}</th>`;
-            }
-            html += '</tr></thead><tbody>';
-            
-            // Time slots
-            const timeSlots = [
-                { label: '09-11', subjects: ['语文'] },
-                { label: '13-15', subjects: ['数学'] },
-                { label: '16-18', subjects: ['物理'] },
-                { label: '19-21', subjects: ['化学'] },
-            ];
-            
-            timeSlots.forEach(slot => {
-                html += `<tr><td class="time-col">${slot.label}</td>`;
-                for (let d = 1; d <= 7; d++) {
-                    const dayData = info.days[d];
-                    if (dayData) {
-                        const ev = dayData.events.find(e => slot.subjects.includes(e.subject));
-                        if (ev) {
-                            const cls = ev.subject === '数学' ? 'math' : ev.subject === '语文' ? 'chinese' : ev.subject === '物理' ? 'physics' : 'chemistry';
-                            html += `<td><span class="event-cell ${cls}">${ev.emoji} ${ev.subject}</span></td>`;
-                        } else {
-                            html += '<td></td>';
+
+            periods.forEach(period => {
+                // Find which subjects belong to this period
+                const periodSubjects = [];
+                DATA.schedule.forEach(d => {
+                    d.events.forEach(ev => {
+                        const p = getTimePeriod(ev.start_time);
+                        if (p === period.key && !periodSubjects.includes(ev.subject)) {
+                            periodSubjects.push(ev.subject);
                         }
-                    } else {
-                        html += '<td></td>';
+                    });
+                });
+
+                if (periodSubjects.length > 0) {
+                    html += `<div class="time-block"><div class="time-block-title ${period.cls}">${period.label}</div>`;
+                    html += '<table class="week-table"><thead><tr><th class="time-col">时间</th>';
+                    for (let d = 1; d <= 7; d++) {
+                        const names = ['','一','二','三','四','五','六','日'];
+                        html += `<th>${names[d]}${d >= 6 ? ' ⭐' : ''}</th>`;
                     }
+                    html += '</tr></thead><tbody>';
+
+                    // Sort subjects by start time within this period
+                    periodSubjects.sort((a, b) => {
+                        const evA = DATA.schedule.flatMap(d => d.events).find(e => e.subject === a);
+                        const evB = DATA.schedule.flatMap(d => d.events).find(e => e.subject === b);
+                        return evA.start_time.localeCompare(evB.start_time);
+                    });
+
+                    periodSubjects.forEach(subject => {
+                        const ev = DATA.schedule.flatMap(d => d.events).find(e => e.subject === subject);
+                        if (!ev) return;
+                        const timeLabel = ev.time.split('-')[0];
+                        const cls = subject === '数学' ? 'math' : subject === '语文' ? 'chinese' : subject === '物理' ? 'physics' : 'chemistry';
+                        html += `<tr><td class="time-col">${timeLabel}</td>`;
+                        for (let d = 1; d <= 7; d++) {
+                            const dayData = info.days[d];
+                            if (dayData) {
+                                const dayEv = dayData.events.find(e => e.subject === subject);
+                                if (dayEv) {
+                                    html += `<td><span class="event-cell ${cls}">${dayEv.emoji} ${dayEv.time}</span></td>`;
+                                } else {
+                                    html += '<td></td>';
+                                }
+                            } else {
+                                html += '<td></td>';
+                            }
+                        }
+                        html += '</tr>';
+                    });
+
+                    html += '</tbody></table></div>';
                 }
-                html += '</tr>';
             });
-            
-            html += '</tbody></table></div>';
+
+            html += '</div>';
         });
-        
+
         container.innerHTML = html;
     }
 
