@@ -28,9 +28,51 @@
         .stats {
             display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;
             background: #f8f9fa; padding: 8px 12px; border-radius: 8px;
+            margin-bottom: 10px;
         }
         .stats span { font-size: 12px; white-space: nowrap; }
         .stats strong { font-size: 15px; }
+
+        /* Course Statistics */
+        .course-stats {
+            background: #f8f9fa; border-radius: 10px; padding: 12px 15px; margin-bottom: 15px;
+        }
+        .course-stats h3 {
+            font-size: 13px; color: #2c3e50; margin-bottom: 10px; text-align: center;
+        }
+        .cs-row {
+            display: flex; align-items: center; margin-bottom: 8px; gap: 8px;
+        }
+        .cs-row:last-child { margin-bottom: 0; }
+        .cs-icon { font-size: 16px; width: 24px; text-align: center; flex-shrink: 0; }
+        .cs-name { font-size: 12px; font-weight: bold; color: #2c3e50; width: 36px; flex-shrink: 0; }
+        .cs-bar-bg {
+            flex: 1; height: 18px; background: #e9ecef; border-radius: 4px; overflow: hidden;
+            position: relative;
+        }
+        .cs-bar {
+            height: 100%; border-radius: 4px; display: flex; align-items: center;
+            justify-content: flex-end; padding-right: 5px; font-size: 10px; color: white; font-weight: bold;
+            transition: width 0.5s ease;
+        }
+        .cs-bar.math { background: #e74c3c; }
+        .cs-bar.chinese { background: #3498db; }
+        .cs-bar.physics { background: #f39c12; }
+        .cs-bar.chemistry { background: #9b59b6; }
+        .cs-detail { font-size: 11px; color: #7f8c8d; width: 120px; flex-shrink: 0; text-align: right; }
+        .cs-weekly {
+            display: flex; gap: 2px; margin-top: 4px;
+        }
+        .cs-weekly-dot {
+            width: 14px; height: 14px; border-radius: 3px; font-size: 8px;
+            display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;
+        }
+        .cs-weekly-dot.off { background: #e9ecef; color: #bbb; }
+        .cs-total {
+            text-align: center; margin-top: 8px; padding-top: 6px; border-top: 1px solid #ddd;
+            font-size: 12px; color: #7f8c8d;
+        }
+        .cs-total strong { color: #2c3e50; }
 
         /* Tabs */
         .tabs { display: flex; gap: 4px; margin-bottom: 15px; }
@@ -172,6 +214,7 @@
                 <span>⚡ <strong id="physics-count">0</strong> 次物理</span>
                 <span>🧪 <strong id="chem-count">0</strong> 次化学</span>
             </div>
+            <div class="course-stats" id="course-stats"></div>
         </div>
 
         <div class="tabs">
@@ -973,19 +1016,68 @@
 
     function updateStats() {
         const counts = { math: 0, chinese: 0, physics: 0, chemistry: 0 };
+        const weeklyCounts = { math: {}, chinese: {}, physics: {}, chemistry: {} };
+        const allEvents = DATA.schedule.flatMap(d => d.events);
+        const maxCount = Math.max(counts.math, counts.chinese, counts.physics, counts.chemistry);
+
         DATA.schedule.forEach(d => {
+            const dt = new Date(d.date);
+            const dow = dt.getDay() === 0 ? 7 : dt.getDay();
             d.events.forEach(e => {
-                if (e.subject === '数学') counts.math++;
-                else if (e.subject === '语文') counts.chinese++;
-                else if (e.subject === '物理') counts.physics++;
-                else if (e.subject === '化学') counts.chemistry++;
+                if (e.subject === '数学') { counts.math++; if (!weeklyCounts.math[dow]) weeklyCounts.math[dow]=0; weeklyCounts.math[dow]++; }
+                else if (e.subject === '语文') { counts.chinese++; if (!weeklyCounts.chinese[dow]) weeklyCounts.chinese[dow]=0; weeklyCounts.chinese[dow]++; }
+                else if (e.subject === '物理') { counts.physics++; if (!weeklyCounts.physics[dow]) weeklyCounts.physics[dow]=0; weeklyCounts.physics[dow]++; }
+                else if (e.subject === '化学') { counts.chemistry++; if (!weeklyCounts.chemistry[dow]) weeklyCounts.chemistry[dow]=0; weeklyCounts.chemistry[dow]++; }
             });
         });
+
         document.getElementById('math-count').textContent = counts.math;
         document.getElementById('chinese-count').textContent = counts.chinese;
         document.getElementById('physics-count').textContent = counts.physics;
         document.getElementById('chem-count').textContent = counts.chemistry;
         document.getElementById('total-days').textContent = DATA.total_days;
+
+        // Render course stats with weekly frequency
+        const courses = [
+            { key: 'math', name: '数学', icon: '📐', color: 'math', freq: '周一/三/五' },
+            { key: 'chinese', name: '语文', icon: '📖', color: 'chinese', freq: '周三/五' },
+            { key: 'physics', name: '物理', icon: '⚡', color: 'physics', freq: '周二/四/六' },
+            { key: 'chemistry', name: '化学', icon: '🧪', color: 'chemistry', freq: '周二/四/六' },
+        ];
+
+        const daysOfWeek = ['一','二','三','四','五','六','日'];
+        let statsHtml = '<h3>📊 课程统计</h3>';
+
+        courses.forEach(c => {
+            const cnt = counts[c.key];
+            const pct = maxCount > 0 ? Math.round(cnt / maxCount * 100) : 0;
+            const wc = weeklyCounts[c.key];
+            const totalWeekly = Object.values(wc).reduce((a,b) => a+b, 0);
+            const weeks = Math.ceil(DATA.total_days / 7);
+            const perWeek = (cnt / weeks).toFixed(1);
+
+            statsHtml += `
+                <div class="cs-row">
+                    <div class="cs-icon">${c.icon}</div>
+                    <div class="cs-name">${c.name}</div>
+                    <div class="cs-bar-bg">
+                        <div class="cs-bar ${c.color}" style="width:${pct}%">${cnt}</div>
+                    </div>
+                    <div class="cs-detail">${c.freq}<br>每周约${perWeek}次</div>
+                </div>
+                <div class="cs-weekly">
+                    ${daysOfWeek.map((d, i) => {
+                        const hasClass = wc[i+1] ? wc[i+1] > 0 : false;
+                        return `<div class="cs-weekly-dot ${hasClass ? c.color : 'off'}" title="周${d}: ${wc[i+1]||0}次">${hasClass ? '✓' : ''}</div>`;
+                    }).join('')}
+                </div>
+            `;
+        });
+
+        const totalSessions = counts.math + counts.chinese + counts.physics + counts.chemistry;
+        statsHtml += `<div class="cs-total">📚 总计 <strong>${totalSessions}</strong> 次课程 · ${DATA.total_days} 天有课 · 平均每天 <strong>${(totalSessions / DATA.total_days).toFixed(1)}</strong> 节</div>`;
+
+        document.getElementById('course-stats').innerHTML = statsHtml;
     }
 
     renderCalendar();
