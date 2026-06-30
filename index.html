@@ -87,28 +87,28 @@
         .cal-grid {
             display: grid;
             grid-template-columns: repeat(7, 1fr);
-            gap: 2px;
+            gap: 1px;
         }
         .cal-grid .col-header {
             text-align: center;
-            font-size: 12px;
+            font-size: 10px;
             font-weight: bold;
             color: #7f8c8d;
-            padding: 6px 0;
+            padding: 4px 0;
         }
         .cal-day {
-            min-height: 45px;
+            min-height: 40px;
             border: 1px solid #e8e8e8;
-            border-radius: 6px;
+            border-radius: 4px;
             padding: 2px;
             display: flex;
             flex-direction: column;
             gap: 1px;
         }
         .cal-day.empty { border: none; background: transparent; }
-        .cal-day.sun-empty { border: 1px dashed #eee; background: #fafafa; }
+        .cal-day.sun-empty { border: 1px dashed #eee; background: #fafafa; min-height: 40px; }
         .cal-day .day-label {
-            font-size: 10px;
+            font-size: 9px;
             font-weight: bold;
             color: #2c3e50;
             line-height: 1;
@@ -119,7 +119,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 8px;
+            font-size: 7px;
             color: white;
             border-radius: 2px;
             padding: 1px 2px;
@@ -127,7 +127,7 @@
             overflow: hidden;
             text-overflow: ellipsis;
             flex-shrink: 0;
-            min-height: 12px;
+            min-height: 10px;
         }
         .ev.math { background: #e74c3c; }
         .ev.chinese { background: #3498db; }
