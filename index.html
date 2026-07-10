@@ -273,7 +273,7 @@
                     <div class="summary-name">数学</div>
                     <div class="summary-detail">周一/三/五 08:00-10:00</div>
                 </div>
-                <div class="summary-badge math">0次</div>
+                <div class="summary-badge math" id="badge-math">0次</div>
             </div>
             <div class="summary-row">
                 <div class="summary-emoji">📖</div>
@@ -281,7 +281,7 @@
                     <div class="summary-name">语文</div>
                     <div class="summary-detail">周二/四/六 10:15-12:15</div>
                 </div>
-                <div class="summary-badge chinese">0次</div>
+                <div class="summary-badge chinese" id="badge-chinese">0次</div>
             </div>
             <div class="summary-row">
                 <div class="summary-emoji">⚡</div>
@@ -289,7 +289,7 @@
                     <div class="summary-name">物理</div>
                     <div class="summary-detail">周二/四/六 13:00-15:00</div>
                 </div>
-                <div class="summary-badge physics">0次</div>
+                <div class="summary-badge physics" id="badge-physics">0次</div>
             </div>
             <div class="summary-row">
                 <div class="summary-emoji">🧪</div>
@@ -297,7 +297,7 @@
                     <div class="summary-name">化学</div>
                     <div class="summary-detail">周二/四/六 15:15-17:15</div>
                 </div>
-                <div class="summary-badge chemistry">0次</div>
+                <div class="summary-badge chemistry" id="badge-chemistry">0次</div>
             </div>
         </div>
 
@@ -922,6 +922,7 @@
         let html = '';
         let totalSessions = 0;
         let totalHours = 0;
+        const subjectCounts = { '数学': 0, '语文': 0, '物理': 0, '化学': 0 };
 
         // Build day map
         const dayMap = {};
@@ -975,6 +976,9 @@
                     grouped[p.key].forEach(ev => {
                         const cls = ev.subject === '数学' ? 'math' : ev.subject === '语文' ? 'chinese' : ev.subject === '物理' ? 'physics' : 'chemistry';
                         totalHours += Math.round((parseInt(ev.end_time.split(':')[0])*60 + parseInt(ev.end_time.split(':')[1]) - parseInt(ev.start_time.split(':')[0])*60 - parseInt(ev.start_time.split(':')[1])) / 60 * 10) / 10;
+                        if (subjectCounts.hasOwnProperty(ev.subject)) {
+                            subjectCounts[ev.subject]++;
+                        }
                         html += '<div class="class-item ' + cls + '">';
                         html += '<div class="class-emoji">' + ev.emoji + '</div>';
                         html += '<div class="class-info">';
@@ -998,6 +1002,12 @@
         document.getElementById('total-days').textContent = DATA.total_days;
         document.getElementById('total-sessions').textContent = totalSessions;
         document.getElementById('total-hours').textContent = totalHours.toFixed(1);
+        // Update subject counts in summary card
+        const badgeMap = { '数学': 'badge-math', '语文': 'badge-chinese', '物理': 'badge-physics', '化学': 'badge-chemistry' };
+        for (const [subj, id] of Object.entries(badgeMap)) {
+            const el = document.getElementById(id);
+            if (el) el.textContent = subjectCounts[subj] + '次';
+        }
     }
 
     renderMonthly();
